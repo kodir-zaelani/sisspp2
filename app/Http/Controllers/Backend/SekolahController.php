@@ -66,7 +66,7 @@ class SekolahController extends Controller
             'datajenjangpendidikan' => Jenjangpendidikan::orderBy('jenjang_pendidikan_id', 'asc')->get(),
             'datakepemilikan' => Statuskepemilikan::orderBy('status_kepemilikan_id', 'asc')->get(),
             'dataprovinsi' => Province::orderBy('code', 'asc')->get(),
-            'bank' => Bank::orderBy('bank_id', 'asc')->get(),
+            'bank' => Bank::orderBy('bankid', 'asc')->get(),
             'title' => 'Tambah Satuan Pendidikan'
         ]);
     }
