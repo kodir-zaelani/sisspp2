@@ -1,0 +1,74 @@
+[
+{
+"id":"-1",
+"nm_cita":"(belum diisi)",
+"create_date":"2015\/7\/30 01:47:22",
+"last_update":"2019\/2\/25 05:53:20",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:20"
+},
+{
+"id":"1",
+"nm_cita":"PNS",
+"create_date":"2015\/7\/30 13:32:00",
+"last_update":"2019\/2\/25 05:53:20",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:20"
+},
+{
+"id":"2",
+"nm_cita":"TNI\/Polri",
+"create_date":"2015\/7\/30 13:32:00",
+"last_update":"2019\/2\/25 05:53:20",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:20"
+},
+{
+"id":"3",
+"nm_cita":"Guru\/Dosen",
+"create_date":"2015\/7\/30 13:32:00",
+"last_update":"2019\/2\/25 05:53:20",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:20"
+},
+{
+"id":"4",
+"nm_cita":"Dokter",
+"create_date":"2015\/7\/30 13:32:00",
+"last_update":"2019\/2\/25 05:53:20",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:20"
+},
+{
+"id":"5",
+"nm_cita":"Politikus",
+"create_date":"2015\/7\/30 13:32:00",
+"last_update":"2019\/2\/25 05:53:20",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:20"
+},
+{
+"id":"6",
+"nm_cita":"Wiraswasta",
+"create_date":"2015\/7\/30 13:32:00",
+"last_update":"2019\/2\/25 05:53:20",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:20"
+},
+{
+"id":"7",
+"nm_cita":"Seni\/Lukis\/Artis\/Sejenis",
+"create_date":"2015\/7\/30 13:32:00",
+"last_update":"2019\/2\/25 05:53:20",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:20"
+},
+{
+"id":"8",
+"nm_cita":"Lainnya",
+"create_date":"2015\/7\/30 13:32:00",
+"last_update":"2019\/2\/25 05:53:20",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:20"
+}
+]

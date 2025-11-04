@@ -1,0 +1,50 @@
+[
+{
+"id":1,
+"nama":"Asuransi Kesejahteraan",
+"create_date":"2013\/5\/13 00:00:00",
+"last_update":"2016\/7\/22 06:00:00",
+"expired_date":null,
+"last_sync":"1901\/1\/1 00:00:00"
+},
+{
+"id":2,
+"nama":"Dana Pensiun",
+"create_date":"2013\/5\/13 00:00:00",
+"last_update":"2016\/7\/22 06:00:00",
+"expired_date":null,
+"last_sync":"1901\/1\/1 00:00:00"
+},
+{
+"id":3,
+"nama":"Jamkesmas",
+"create_date":"2013\/5\/13 00:00:00",
+"last_update":"2016\/7\/22 06:00:00",
+"expired_date":null,
+"last_sync":"1901\/1\/1 00:00:00"
+},
+{
+"id":4,
+"nama":"Jamsostek",
+"create_date":"2013\/5\/13 00:00:00",
+"last_update":"2016\/7\/22 06:00:00",
+"expired_date":null,
+"last_sync":"1901\/1\/1 00:00:00"
+},
+{
+"id":5,
+"nama":"BPJS",
+"create_date":"2014\/2\/13 00:00:00",
+"last_update":"2016\/7\/22 06:00:00",
+"expired_date":null,
+"last_sync":"1901\/1\/1 00:00:00"
+},
+{
+"id":9,
+"nama":"Lainnya",
+"create_date":"2013\/5\/14 00:00:00",
+"last_update":"2016\/7\/22 06:00:00",
+"expired_date":null,
+"last_sync":"1901\/1\/1 00:00:00"
+}
+]

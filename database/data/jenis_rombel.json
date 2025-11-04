@@ -1,0 +1,114 @@
+[
+{
+"id":"1",
+"nama":"Kelas",
+"create_date":"2017\/7\/21 00:00:00",
+"last_update":"2019\/2\/25 05:52:48",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:52:48"
+},
+{
+"id":"2",
+"nama":"Teori",
+"create_date":"2017\/7\/21 00:00:00",
+"last_update":"2019\/2\/25 05:52:48",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:52:48"
+},
+{
+"id":"3",
+"nama":"Praktek dalam sekolah",
+"create_date":"2017\/7\/21 00:00:00",
+"last_update":"2019\/2\/25 05:52:48",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:52:48"
+},
+{
+"id":"4",
+"nama":"Praktek luar sekolah",
+"create_date":"2017\/7\/21 00:00:00",
+"last_update":"2019\/2\/25 05:52:48",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:52:48"
+},
+{
+"id":"5",
+"nama":"Pilihan 1 - Agama",
+"create_date":"2017\/7\/21 00:00:00",
+"last_update":"2019\/2\/25 05:52:48",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:52:48"
+},
+{
+"id":"6",
+"nama":"Pilihan 2 - Seni Budaya",
+"create_date":"2017\/7\/21 00:00:00",
+"last_update":"2019\/2\/25 05:52:48",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:52:48"
+},
+{
+"id":"7",
+"nama":"Pilihan 3 - Prakarya",
+"create_date":"2017\/7\/21 00:00:00",
+"last_update":"2019\/2\/25 05:52:48",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:52:48"
+},
+{
+"id":"8",
+"nama":"Kelas Jauh\/Kecil",
+"create_date":"2017\/7\/31 13:03:31",
+"last_update":"2019\/2\/25 05:52:48",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:52:48"
+},
+{
+"id":"9",
+"nama":"Kelas Terbuka",
+"create_date":"2017\/7\/31 13:03:32",
+"last_update":"2019\/2\/25 05:52:48",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:52:48"
+},
+{
+"id":"10",
+"nama":"Kelas Akselerasi",
+"create_date":"2017\/7\/31 13:03:32",
+"last_update":"2019\/2\/25 05:52:48",
+"expired_date":"2018\/1\/27 01:00:00",
+"last_sync":"2019\/2\/25 05:52:48"
+},
+{
+"id":"11",
+"nama":"SKS 4 Semester",
+"create_date":"2018\/11\/17 10:00:00",
+"last_update":"2019\/3\/14 14:26:36",
+"expired_date":null,
+"last_sync":"2019\/3\/14 14:26:36"
+},
+{
+"id":"12",
+"nama":"SKS 6 Semester",
+"create_date":"2018\/11\/17 10:00:00",
+"last_update":"2019\/3\/14 14:26:36",
+"expired_date":null,
+"last_sync":"2019\/3\/14 14:26:36"
+},
+{
+"id":"13",
+"nama":"SKS 8 Semester",
+"create_date":"2018\/11\/17 10:00:00",
+"last_update":"2019\/3\/14 14:26:36",
+"expired_date":null,
+"last_sync":"2019\/3\/14 14:26:36"
+},
+{
+"id":"51",
+"nama":"Ekstrakurikuler",
+"create_date":"2017\/7\/21 00:00:00",
+"last_update":"2019\/2\/25 05:52:48",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:52:48"
+}
+]

@@ -1,0 +1,29 @@
+[
+{
+"id":"1",
+"nama":"Prakerin Siswa SMK",
+"keterangan":null,
+"create_date":"2016\/7\/28 13:45:50",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"id":"2",
+"nama":"Prakerin Guru SMK",
+"keterangan":null,
+"create_date":"2016\/7\/28 13:45:50",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"id":"3",
+"nama":"Pengembangan Teaching Factory",
+"keterangan":null,
+"create_date":"2016\/7\/28 13:45:50",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+}
+]

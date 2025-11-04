@@ -1,0 +1,306 @@
+[
+{
+"id":1,
+"nama":"Administrator",
+"create_date":"2013\/4\/30 00:00:00",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":2,
+"nama":"Operator Sekretariat Pendataan",
+"create_date":"2013\/4\/30 00:00:00",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":3,
+"nama":"Operator Kementerian",
+"create_date":"2013\/4\/30 00:00:00",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":4,
+"nama":"Operator Direktorat Jenderal",
+"create_date":"2013\/4\/30 00:00:00",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":5,
+"nama":"Operator Direktorat",
+"create_date":"2013\/4\/30 00:00:00",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":6,
+"nama":"Operator Dinas Pendidikan Propinsi",
+"create_date":"2013\/4\/30 00:00:00",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":7,
+"nama":"Operator Pokja Pendataan Propinsi",
+"create_date":"2013\/4\/30 00:00:00",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":8,
+"nama":"Operator Dinas Pendidikan Kabupaten\/Kota",
+"create_date":"2013\/4\/30 00:00:00",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":9,
+"nama":"Operator Pokja Simpul Pendataan Kab\/Kota",
+"create_date":"2013\/4\/30 00:00:00",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":10,
+"nama":"Operator Sekolah",
+"create_date":"2013\/4\/30 00:00:00",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":11,
+"nama":"Petugas Survey",
+"create_date":"2013\/4\/30 00:00:00",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":12,
+"nama":"Operator PIP Pusat",
+"create_date":"2015\/3\/3 23:00:34",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":13,
+"nama":"Operator PIP Propinsi",
+"create_date":"2015\/3\/3 23:00:34",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":14,
+"nama":"Operator PIP Kab\/Kota",
+"create_date":"2015\/3\/3 23:00:34",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":40,
+"nama":"Sekretariat Ditjen Dikmen",
+"create_date":"2013\/4\/30 00:00:00",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":41,
+"nama":"Direktorat PSMA",
+"create_date":"2013\/4\/30 00:00:00",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":42,
+"nama":"Direktorat PSMK",
+"create_date":"2013\/4\/30 00:00:00",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":43,
+"nama":"Direktorat PTK",
+"create_date":"2013\/4\/30 00:00:00",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":44,
+"nama":"Direktorat PKLK",
+"create_date":"2013\/4\/30 00:00:00",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":45,
+"nama":"Operator Dinas Pendidikan Propinsi SMA",
+"create_date":"2013\/4\/30 00:00:00",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":46,
+"nama":"Operator Dinas Pendidikan Propinsi SMK",
+"create_date":"2013\/4\/30 00:00:00",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":47,
+"nama":"Operator Pokja Pendataan Propinsi SMA",
+"create_date":"2013\/4\/30 00:00:00",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":48,
+"nama":"Operator Pokja Pendataan Propinsi SMK",
+"create_date":"2013\/4\/30 00:00:00",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":49,
+"nama":"Operator Dinas Pendidikan Kabupaten\/Kota SMA",
+"create_date":"2013\/4\/30 00:00:00",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":50,
+"nama":"Operator Dinas Pendidikan Kabupaten\/Kota SMK",
+"create_date":"2013\/4\/30 00:00:00",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":51,
+"nama":"Operator Pokja Simpul Pendataan Kab\/Kota SMA",
+"create_date":"2013\/4\/30 00:00:00",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":52,
+"nama":"Operator Pokja Simpul Pendataan Kab\/Kota SMK",
+"create_date":"2013\/4\/30 00:00:00",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":53,
+"nama":"PTK",
+"create_date":"2015\/3\/11 06:15:03",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":54,
+"nama":"Operator LPMP",
+"create_date":"2015\/6\/25 16:11:47",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":55,
+"nama":"Operator BOS Provinsi",
+"create_date":"2015\/7\/9 17:36:04",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":56,
+"nama":"Operator BOS Kabupaten Kota",
+"create_date":"2015\/7\/9 17:36:04",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":57,
+"nama":"UPTD",
+"create_date":"2015\/7\/9 17:36:04",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":58,
+"nama":"Itjend",
+"create_date":"2015\/7\/9 17:36:04",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":59,
+"nama":"Individu PTK",
+"create_date":"2015\/7\/9 17:36:04",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":60,
+"nama":"Pemangku Kepentingan",
+"create_date":"2016\/7\/14 15:33:58",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":61,
+"nama":"Bidang Kepegawaian",
+"create_date":"2016\/7\/14 15:33:58",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":62,
+"nama":"Bidang Teknis",
+"create_date":"2018\/4\/5 13:00:00",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":90,
+"nama":"Peserta Didik",
+"create_date":"2017\/1\/30 10:00:00",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+}
+]

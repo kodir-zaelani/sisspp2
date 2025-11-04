@@ -1,0 +1,52 @@
+[
+{
+"id":"1",
+"ket_hapus_buku":"Bencana",
+"u_prasarana":"1",
+"u_sarana":"0",
+"create_date":"2016\/1\/7 00:00:00",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"2",
+"ket_hapus_buku":"Dibongkar",
+"u_prasarana":"1",
+"u_sarana":"0",
+"create_date":"2016\/1\/7 00:00:00",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"3",
+"ket_hapus_buku":"Dipindahtangankan",
+"u_prasarana":"1",
+"u_sarana":"0",
+"create_date":"2016\/1\/7 00:00:00",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"4",
+"ket_hapus_buku":"Disita",
+"u_prasarana":"1",
+"u_sarana":"0",
+"create_date":"2016\/1\/7 00:00:00",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"9",
+"ket_hapus_buku":"Koreksi Data",
+"u_prasarana":"1",
+"u_sarana":"0",
+"create_date":"2016\/2\/2 20:48:13",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+}
+]

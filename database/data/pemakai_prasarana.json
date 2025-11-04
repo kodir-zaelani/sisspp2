@@ -1,0 +1,3266 @@
+[
+{
+"refprasarana_id":1,
+"jurusan_id":"SD000000",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":1,
+"jurusan_id":"SD000001",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":1,
+"jurusan_id":"SD000002",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":1,
+"jurusan_id":"SD000003",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":1,
+"jurusan_id":"SMP0000",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":1,
+"jurusan_id":"SMP0001",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":1,
+"jurusan_id":"SMP0002",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":1,
+"jurusan_id":"SMP0003",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":2,
+"jurusan_id":"SD000000",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":2,
+"jurusan_id":"SD000001",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":2,
+"jurusan_id":"SD000002",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":2,
+"jurusan_id":"SD000003",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":2,
+"jurusan_id":"SMP0000",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":2,
+"jurusan_id":"SMP0001",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":2,
+"jurusan_id":"SMP0002",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":2,
+"jurusan_id":"SMP0003",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":3,
+"jurusan_id":"SD000000",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":3,
+"jurusan_id":"SD000001",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":3,
+"jurusan_id":"SD000002",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":3,
+"jurusan_id":"SD000003",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":3,
+"jurusan_id":"SMP0000",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":3,
+"jurusan_id":"SMP0001",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":3,
+"jurusan_id":"SMP0002",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":3,
+"jurusan_id":"SMP0003",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":4,
+"jurusan_id":"SD000000",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":4,
+"jurusan_id":"SD000001",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":4,
+"jurusan_id":"SD000002",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":4,
+"jurusan_id":"SD000003",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":4,
+"jurusan_id":"SMP0000",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":4,
+"jurusan_id":"SMP0001",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":4,
+"jurusan_id":"SMP0002",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":4,
+"jurusan_id":"SMP0003",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":5,
+"jurusan_id":"SD000000",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":5,
+"jurusan_id":"SD000001",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":5,
+"jurusan_id":"SD000002",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":5,
+"jurusan_id":"SD000003",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":5,
+"jurusan_id":"SMP0000",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":5,
+"jurusan_id":"SMP0001",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":5,
+"jurusan_id":"SMP0002",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":5,
+"jurusan_id":"SMP0003",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":6,
+"jurusan_id":"SD000000",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":6,
+"jurusan_id":"SD000001",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":6,
+"jurusan_id":"SD000002",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":6,
+"jurusan_id":"SD000003",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":6,
+"jurusan_id":"SMP0000",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":6,
+"jurusan_id":"SMP0001",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":6,
+"jurusan_id":"SMP0002",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":6,
+"jurusan_id":"SMP0003",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":7,
+"jurusan_id":"SD000000",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":7,
+"jurusan_id":"SD000001",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":7,
+"jurusan_id":"SD000002",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":7,
+"jurusan_id":"SD000003",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":7,
+"jurusan_id":"SMP0000",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":7,
+"jurusan_id":"SMP0001",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":7,
+"jurusan_id":"SMP0002",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":7,
+"jurusan_id":"SMP0003",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":8,
+"jurusan_id":"SD000000",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":8,
+"jurusan_id":"SD000001",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":8,
+"jurusan_id":"SD000002",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":8,
+"jurusan_id":"SD000003",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":8,
+"jurusan_id":"SMP0000",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":8,
+"jurusan_id":"SMP0001",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":8,
+"jurusan_id":"SMP0002",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":8,
+"jurusan_id":"SMP0003",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":9,
+"jurusan_id":"SD000000",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":9,
+"jurusan_id":"SD000001",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":9,
+"jurusan_id":"SD000002",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":9,
+"jurusan_id":"SD000003",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":9,
+"jurusan_id":"SMP0000",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":9,
+"jurusan_id":"SMP0001",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":9,
+"jurusan_id":"SMP0002",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":9,
+"jurusan_id":"SMP0003",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":10,
+"jurusan_id":"SD000000",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":10,
+"jurusan_id":"SD000001",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":10,
+"jurusan_id":"SD000002",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":10,
+"jurusan_id":"SD000003",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":10,
+"jurusan_id":"SMP0000",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":10,
+"jurusan_id":"SMP0001",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":10,
+"jurusan_id":"SMP0002",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":10,
+"jurusan_id":"SMP0003",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":11,
+"jurusan_id":"SD000000",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":11,
+"jurusan_id":"SD000001",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":11,
+"jurusan_id":"SD000002",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":11,
+"jurusan_id":"SD000003",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":11,
+"jurusan_id":"SMP0000",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":11,
+"jurusan_id":"SMP0001",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":11,
+"jurusan_id":"SMP0002",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":11,
+"jurusan_id":"SMP0003",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":12,
+"jurusan_id":"SD000000",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":12,
+"jurusan_id":"SD000001",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":12,
+"jurusan_id":"SD000002",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":12,
+"jurusan_id":"SD000003",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":12,
+"jurusan_id":"SMP0000",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":12,
+"jurusan_id":"SMP0001",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":12,
+"jurusan_id":"SMP0002",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":12,
+"jurusan_id":"SMP0003",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":13,
+"jurusan_id":"SD000000",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":13,
+"jurusan_id":"SD000001",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":13,
+"jurusan_id":"SD000002",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":13,
+"jurusan_id":"SD000003",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":13,
+"jurusan_id":"SMP0000",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":13,
+"jurusan_id":"SMP0001",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":13,
+"jurusan_id":"SMP0002",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":13,
+"jurusan_id":"SMP0003",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":14,
+"jurusan_id":"SD000000",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":14,
+"jurusan_id":"SD000001",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":14,
+"jurusan_id":"SD000002",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":14,
+"jurusan_id":"SD000003",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":14,
+"jurusan_id":"SMP0000",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":14,
+"jurusan_id":"SMP0001",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":14,
+"jurusan_id":"SMP0002",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":14,
+"jurusan_id":"SMP0003",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":15,
+"jurusan_id":"SD000000",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":15,
+"jurusan_id":"SD000001",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":15,
+"jurusan_id":"SD000002",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":15,
+"jurusan_id":"SD000003",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":15,
+"jurusan_id":"SMP0000",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":15,
+"jurusan_id":"SMP0001",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":15,
+"jurusan_id":"SMP0002",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":15,
+"jurusan_id":"SMP0003",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":16,
+"jurusan_id":"SD000000",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":16,
+"jurusan_id":"SD000001",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":16,
+"jurusan_id":"SD000002",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":16,
+"jurusan_id":"SD000003",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":16,
+"jurusan_id":"SMP0000",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":16,
+"jurusan_id":"SMP0001",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":16,
+"jurusan_id":"SMP0002",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":16,
+"jurusan_id":"SMP0003",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":17,
+"jurusan_id":"SD000000",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":17,
+"jurusan_id":"SD000001",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":17,
+"jurusan_id":"SD000002",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":17,
+"jurusan_id":"SD000003",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":17,
+"jurusan_id":"SMP0000",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":17,
+"jurusan_id":"SMP0001",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":17,
+"jurusan_id":"SMP0002",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":17,
+"jurusan_id":"SMP0003",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":18,
+"jurusan_id":"SD000000",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":18,
+"jurusan_id":"SD000001",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":18,
+"jurusan_id":"SD000002",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":18,
+"jurusan_id":"SD000003",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":18,
+"jurusan_id":"SMP0000",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":18,
+"jurusan_id":"SMP0001",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":18,
+"jurusan_id":"SMP0002",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":18,
+"jurusan_id":"SMP0003",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":19,
+"jurusan_id":"SD000000",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":19,
+"jurusan_id":"SD000001",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":19,
+"jurusan_id":"SD000002",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":19,
+"jurusan_id":"SD000003",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":19,
+"jurusan_id":"SMP0000",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":19,
+"jurusan_id":"SMP0001",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":19,
+"jurusan_id":"SMP0002",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":19,
+"jurusan_id":"SMP0003",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":20,
+"jurusan_id":"SD000000",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":20,
+"jurusan_id":"SD000001",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":20,
+"jurusan_id":"SD000002",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":20,
+"jurusan_id":"SD000003",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":20,
+"jurusan_id":"SMP0000",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":20,
+"jurusan_id":"SMP0001",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":20,
+"jurusan_id":"SMP0002",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":20,
+"jurusan_id":"SMP0003",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":21,
+"jurusan_id":"SD000000",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":21,
+"jurusan_id":"SD000001",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":21,
+"jurusan_id":"SD000002",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":21,
+"jurusan_id":"SD000003",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":21,
+"jurusan_id":"SMP0000",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":21,
+"jurusan_id":"SMP0001",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":21,
+"jurusan_id":"SMP0002",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":21,
+"jurusan_id":"SMP0003",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":22,
+"jurusan_id":"SD000000",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":22,
+"jurusan_id":"SD000001",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":22,
+"jurusan_id":"SD000002",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":22,
+"jurusan_id":"SD000003",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":22,
+"jurusan_id":"SMP0000",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":22,
+"jurusan_id":"SMP0001",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":22,
+"jurusan_id":"SMP0002",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":22,
+"jurusan_id":"SMP0003",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":23,
+"jurusan_id":"SD000000",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":23,
+"jurusan_id":"SD000001",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":23,
+"jurusan_id":"SD000002",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":23,
+"jurusan_id":"SD000003",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":23,
+"jurusan_id":"SMP0000",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":23,
+"jurusan_id":"SMP0001",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":23,
+"jurusan_id":"SMP0002",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":23,
+"jurusan_id":"SMP0003",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":24,
+"jurusan_id":"SD000000",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":24,
+"jurusan_id":"SD000001",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":24,
+"jurusan_id":"SD000002",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":24,
+"jurusan_id":"SD000003",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":24,
+"jurusan_id":"SMP0000",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":24,
+"jurusan_id":"SMP0001",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":24,
+"jurusan_id":"SMP0002",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":24,
+"jurusan_id":"SMP0003",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":25,
+"jurusan_id":"SD000000",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":25,
+"jurusan_id":"SD000001",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":25,
+"jurusan_id":"SD000002",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":25,
+"jurusan_id":"SD000003",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":25,
+"jurusan_id":"SMP0000",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":25,
+"jurusan_id":"SMP0001",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":25,
+"jurusan_id":"SMP0002",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":25,
+"jurusan_id":"SMP0003",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":26,
+"jurusan_id":"SD000000",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":26,
+"jurusan_id":"SD000001",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":26,
+"jurusan_id":"SD000002",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":26,
+"jurusan_id":"SD000003",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":26,
+"jurusan_id":"SMP0000",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":26,
+"jurusan_id":"SMP0001",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":26,
+"jurusan_id":"SMP0002",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":26,
+"jurusan_id":"SMP0003",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":27,
+"jurusan_id":"SD000000",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":27,
+"jurusan_id":"SD000001",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":27,
+"jurusan_id":"SD000002",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":27,
+"jurusan_id":"SD000003",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":27,
+"jurusan_id":"SMP0000",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":27,
+"jurusan_id":"SMP0001",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":27,
+"jurusan_id":"SMP0002",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":27,
+"jurusan_id":"SMP0003",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":28,
+"jurusan_id":"SD000000",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":28,
+"jurusan_id":"SD000001",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":28,
+"jurusan_id":"SD000002",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":28,
+"jurusan_id":"SD000003",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":28,
+"jurusan_id":"SMP0000",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":28,
+"jurusan_id":"SMP0001",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":28,
+"jurusan_id":"SMP0002",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":28,
+"jurusan_id":"SMP0003",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":29,
+"jurusan_id":"SD000000",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":29,
+"jurusan_id":"SD000001",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":29,
+"jurusan_id":"SD000002",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":29,
+"jurusan_id":"SD000003",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":29,
+"jurusan_id":"SMP0000",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":29,
+"jurusan_id":"SMP0001",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":29,
+"jurusan_id":"SMP0002",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":29,
+"jurusan_id":"SMP0003",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":30,
+"jurusan_id":"SD000000",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":30,
+"jurusan_id":"SD000001",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":30,
+"jurusan_id":"SD000002",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":30,
+"jurusan_id":"SD000003",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":30,
+"jurusan_id":"SMP0000",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":30,
+"jurusan_id":"SMP0001",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":30,
+"jurusan_id":"SMP0002",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":30,
+"jurusan_id":"SMP0003",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":31,
+"jurusan_id":"SD000000",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":31,
+"jurusan_id":"SD000001",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":31,
+"jurusan_id":"SD000002",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":31,
+"jurusan_id":"SD000003",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":31,
+"jurusan_id":"SMP0000",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":31,
+"jurusan_id":"SMP0001",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":31,
+"jurusan_id":"SMP0002",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":31,
+"jurusan_id":"SMP0003",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":32,
+"jurusan_id":"SD000000",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":32,
+"jurusan_id":"SD000001",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":32,
+"jurusan_id":"SD000002",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":32,
+"jurusan_id":"SD000003",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":32,
+"jurusan_id":"SMP0000",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":32,
+"jurusan_id":"SMP0001",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":32,
+"jurusan_id":"SMP0002",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":32,
+"jurusan_id":"SMP0003",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":33,
+"jurusan_id":"SD000000",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":33,
+"jurusan_id":"SD000001",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":33,
+"jurusan_id":"SD000002",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":33,
+"jurusan_id":"SD000003",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":33,
+"jurusan_id":"SMP0000",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":33,
+"jurusan_id":"SMP0001",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":33,
+"jurusan_id":"SMP0002",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":33,
+"jurusan_id":"SMP0003",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":34,
+"jurusan_id":"SD000000",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":34,
+"jurusan_id":"SD000001",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":34,
+"jurusan_id":"SD000002",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":34,
+"jurusan_id":"SD000003",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":34,
+"jurusan_id":"SMP0000",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":34,
+"jurusan_id":"SMP0001",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":34,
+"jurusan_id":"SMP0002",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":34,
+"jurusan_id":"SMP0003",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":35,
+"jurusan_id":"SD000000",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":35,
+"jurusan_id":"SD000001",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":35,
+"jurusan_id":"SD000002",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":35,
+"jurusan_id":"SD000003",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":35,
+"jurusan_id":"SMP0000",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":35,
+"jurusan_id":"SMP0001",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":35,
+"jurusan_id":"SMP0002",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":35,
+"jurusan_id":"SMP0003",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":36,
+"jurusan_id":"SD000000",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":36,
+"jurusan_id":"SD000001",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":36,
+"jurusan_id":"SD000002",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":36,
+"jurusan_id":"SD000003",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":36,
+"jurusan_id":"SMP0000",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":36,
+"jurusan_id":"SMP0001",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":36,
+"jurusan_id":"SMP0002",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":36,
+"jurusan_id":"SMP0003",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":37,
+"jurusan_id":"SD000000",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":37,
+"jurusan_id":"SD000001",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":37,
+"jurusan_id":"SD000002",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":37,
+"jurusan_id":"SD000003",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":37,
+"jurusan_id":"SMP0000",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":37,
+"jurusan_id":"SMP0001",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":37,
+"jurusan_id":"SMP0002",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":37,
+"jurusan_id":"SMP0003",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":38,
+"jurusan_id":"SD000000",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":38,
+"jurusan_id":"SD000001",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":38,
+"jurusan_id":"SD000002",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":38,
+"jurusan_id":"SD000003",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":38,
+"jurusan_id":"SMP0000",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":38,
+"jurusan_id":"SMP0001",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":38,
+"jurusan_id":"SMP0002",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":38,
+"jurusan_id":"SMP0003",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":39,
+"jurusan_id":"SD000000",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":39,
+"jurusan_id":"SD000001",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":39,
+"jurusan_id":"SD000002",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":39,
+"jurusan_id":"SD000003",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":39,
+"jurusan_id":"SMP0000",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":39,
+"jurusan_id":"SMP0001",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":39,
+"jurusan_id":"SMP0002",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":39,
+"jurusan_id":"SMP0003",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":40,
+"jurusan_id":"SD000000",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":40,
+"jurusan_id":"SD000001",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":40,
+"jurusan_id":"SD000002",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":40,
+"jurusan_id":"SD000003",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":40,
+"jurusan_id":"SMP0000",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":40,
+"jurusan_id":"SMP0001",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":40,
+"jurusan_id":"SMP0002",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":40,
+"jurusan_id":"SMP0003",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":41,
+"jurusan_id":"SD000000",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":41,
+"jurusan_id":"SD000001",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":41,
+"jurusan_id":"SD000002",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":41,
+"jurusan_id":"SD000003",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":41,
+"jurusan_id":"SMP0000",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":41,
+"jurusan_id":"SMP0001",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":41,
+"jurusan_id":"SMP0002",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":41,
+"jurusan_id":"SMP0003",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":42,
+"jurusan_id":"SD000000",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":42,
+"jurusan_id":"SD000001",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":42,
+"jurusan_id":"SD000002",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":42,
+"jurusan_id":"SD000003",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":42,
+"jurusan_id":"SMP0000",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":42,
+"jurusan_id":"SMP0001",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":42,
+"jurusan_id":"SMP0002",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":42,
+"jurusan_id":"SMP0003",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":43,
+"jurusan_id":"SD000000",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":43,
+"jurusan_id":"SD000001",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":43,
+"jurusan_id":"SD000002",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":43,
+"jurusan_id":"SD000003",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":43,
+"jurusan_id":"SMP0000",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":43,
+"jurusan_id":"SMP0001",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":43,
+"jurusan_id":"SMP0002",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":43,
+"jurusan_id":"SMP0003",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":44,
+"jurusan_id":"SD000000",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":44,
+"jurusan_id":"SD000001",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":44,
+"jurusan_id":"SD000002",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":44,
+"jurusan_id":"SD000003",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":44,
+"jurusan_id":"SMP0000",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":44,
+"jurusan_id":"SMP0001",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":44,
+"jurusan_id":"SMP0002",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":44,
+"jurusan_id":"SMP0003",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":45,
+"jurusan_id":"SD000000",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":45,
+"jurusan_id":"SD000001",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":45,
+"jurusan_id":"SD000002",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":45,
+"jurusan_id":"SD000003",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":45,
+"jurusan_id":"SMP0000",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":45,
+"jurusan_id":"SMP0001",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":45,
+"jurusan_id":"SMP0002",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":45,
+"jurusan_id":"SMP0003",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":46,
+"jurusan_id":"SD000000",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":46,
+"jurusan_id":"SD000001",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":46,
+"jurusan_id":"SD000002",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":46,
+"jurusan_id":"SD000003",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":46,
+"jurusan_id":"SMP0000",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":46,
+"jurusan_id":"SMP0001",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":46,
+"jurusan_id":"SMP0002",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":46,
+"jurusan_id":"SMP0003",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":47,
+"jurusan_id":"SD000000",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":47,
+"jurusan_id":"SD000001",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":47,
+"jurusan_id":"SD000002",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":47,
+"jurusan_id":"SD000003",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":47,
+"jurusan_id":"SMP0000",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":47,
+"jurusan_id":"SMP0001",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":47,
+"jurusan_id":"SMP0002",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":47,
+"jurusan_id":"SMP0003",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":48,
+"jurusan_id":"SD000000",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":48,
+"jurusan_id":"SD000001",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":48,
+"jurusan_id":"SD000002",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":48,
+"jurusan_id":"SD000003",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":48,
+"jurusan_id":"SMP0000",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":48,
+"jurusan_id":"SMP0001",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":48,
+"jurusan_id":"SMP0002",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":48,
+"jurusan_id":"SMP0003",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":49,
+"jurusan_id":"SD000000",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":49,
+"jurusan_id":"SD000001",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":49,
+"jurusan_id":"SD000002",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":49,
+"jurusan_id":"SD000003",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":49,
+"jurusan_id":"SMP0000",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":49,
+"jurusan_id":"SMP0001",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":49,
+"jurusan_id":"SMP0002",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":49,
+"jurusan_id":"SMP0003",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":50,
+"jurusan_id":"SD000000",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":50,
+"jurusan_id":"SD000001",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":50,
+"jurusan_id":"SD000002",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":50,
+"jurusan_id":"SD000003",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":50,
+"jurusan_id":"SMP0000",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":50,
+"jurusan_id":"SMP0001",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":50,
+"jurusan_id":"SMP0002",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":50,
+"jurusan_id":"SMP0003",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":99,
+"jurusan_id":"SD000000",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":99,
+"jurusan_id":"SD000001",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":99,
+"jurusan_id":"SD000002",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":99,
+"jurusan_id":"SD000003",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":99,
+"jurusan_id":"SMP0000",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":99,
+"jurusan_id":"SMP0001",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":99,
+"jurusan_id":"SMP0002",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"refprasarana_id":99,
+"jurusan_id":"SMP0003",
+"create_date":"2015\/7\/29 20:54:26",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+}
+]

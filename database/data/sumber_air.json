@@ -1,0 +1,50 @@
+[
+{
+"id":"1",
+"nama":"Air kemasan"
+},
+{
+"id":"2",
+"nama":"Ledeng\/PAM"
+},
+{
+"id":"3",
+"nama":"Pompa"
+},
+{
+"id":"4",
+"nama":"Sumur"
+},
+{
+"id":"5",
+"nama":"Mata air"
+},
+{
+"id":"6",
+"nama":"Air sungai"
+},
+{
+"id":"7",
+"nama":"Air hujan"
+},
+{
+"id":"9",
+"nama":"Lainnya"
+},
+{
+"id":"10",
+"nama":"Sumur terlindungi"
+},
+{
+"id":"11",
+"nama":"Sumur tidak terlindungi"
+},
+{
+"id":"12",
+"nama":"Mata air terlindungi"
+},
+{
+"id":"13",
+"nama":"Mata air tdk terlindungi"
+}
+]

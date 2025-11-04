@@ -1,0 +1,522 @@
+[
+{
+"id":1,
+"nama":"Peningkatan Kapasitas",
+"untuk_sekolah":"1",
+"untuk_pd":"1",
+"create_date":"2013\/5\/13 00:00:00",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":2,
+"nama":"Peningkatan Fungsi",
+"untuk_sekolah":"1",
+"untuk_pd":"1",
+"create_date":"2013\/5\/13 00:00:00",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":3,
+"nama":"Peningkatan Mutu",
+"untuk_sekolah":"1",
+"untuk_pd":"1",
+"create_date":"2013\/5\/13 00:00:00",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":4,
+"nama":"Keterjangkauan",
+"untuk_sekolah":"1",
+"untuk_pd":"1",
+"create_date":"2013\/5\/13 00:00:00",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":5,
+"nama":"Operasional",
+"untuk_sekolah":"1",
+"untuk_pd":"1",
+"create_date":"2013\/5\/13 00:00:00",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":6,
+"nama":"Rehabilitasi",
+"untuk_sekolah":"1",
+"untuk_pd":"1",
+"create_date":"2013\/5\/13 00:00:00",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":7,
+"nama":"unknown",
+"untuk_sekolah":"1",
+"untuk_pd":"1",
+"create_date":"2013\/12\/31 05:20:27",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":"2013\/11\/7 00:00:00",
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":8,
+"nama":"unknown",
+"untuk_sekolah":"1",
+"untuk_pd":"1",
+"create_date":"2013\/12\/31 05:20:29",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":"2013\/11\/7 00:00:00",
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":9,
+"nama":"unknown",
+"untuk_sekolah":"1",
+"untuk_pd":"1",
+"create_date":"2013\/12\/31 05:20:29",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":"2013\/11\/7 00:00:00",
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":10,
+"nama":"unknown",
+"untuk_sekolah":"1",
+"untuk_pd":"1",
+"create_date":"2013\/12\/31 05:20:32",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":"2013\/11\/7 00:00:00",
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":11,
+"nama":"unknown",
+"untuk_sekolah":"1",
+"untuk_pd":"1",
+"create_date":"2013\/12\/31 05:20:33",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":"2013\/11\/7 00:00:00",
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":12,
+"nama":"unknown",
+"untuk_sekolah":"1",
+"untuk_pd":"1",
+"create_date":"2013\/12\/31 05:20:35",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":"2013\/11\/7 00:00:00",
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":13,
+"nama":"unknown",
+"untuk_sekolah":"1",
+"untuk_pd":"1",
+"create_date":"2013\/12\/31 05:20:35",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":"2013\/11\/7 00:00:00",
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":14,
+"nama":"unknown",
+"untuk_sekolah":"1",
+"untuk_pd":"1",
+"create_date":"2013\/12\/31 05:20:36",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":"2013\/11\/7 00:00:00",
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":15,
+"nama":"unknown",
+"untuk_sekolah":"1",
+"untuk_pd":"1",
+"create_date":"2013\/12\/31 05:20:37",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":"2013\/11\/7 00:00:00",
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":16,
+"nama":"unknown",
+"untuk_sekolah":"1",
+"untuk_pd":"1",
+"create_date":"2013\/12\/31 05:20:38",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":"2013\/11\/7 00:00:00",
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":17,
+"nama":"unknown",
+"untuk_sekolah":"1",
+"untuk_pd":"1",
+"create_date":"2013\/12\/31 05:20:39",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":"2013\/11\/7 00:00:00",
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":18,
+"nama":"unknown",
+"untuk_sekolah":"1",
+"untuk_pd":"1",
+"create_date":"2013\/12\/31 05:20:40",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":"2013\/11\/7 00:00:00",
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":19,
+"nama":"unknown",
+"untuk_sekolah":"1",
+"untuk_pd":"1",
+"create_date":"2013\/12\/31 05:20:41",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":"2013\/11\/7 00:00:00",
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":20,
+"nama":"unknown",
+"untuk_sekolah":"1",
+"untuk_pd":"1",
+"create_date":"2013\/12\/31 05:20:46",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":"2013\/11\/7 00:00:00",
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":21,
+"nama":"unknown",
+"untuk_sekolah":"1",
+"untuk_pd":"1",
+"create_date":"2013\/12\/31 05:20:47",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":"2013\/11\/7 00:00:00",
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":22,
+"nama":"unknown",
+"untuk_sekolah":"1",
+"untuk_pd":"1",
+"create_date":"2013\/12\/31 05:20:48",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":"2013\/11\/7 00:00:00",
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":23,
+"nama":"unknown",
+"untuk_sekolah":"1",
+"untuk_pd":"1",
+"create_date":"2013\/12\/31 05:20:48",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":"2013\/11\/7 00:00:00",
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":24,
+"nama":"unknown",
+"untuk_sekolah":"1",
+"untuk_pd":"1",
+"create_date":"2013\/12\/31 05:20:49",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":"2013\/11\/7 00:00:00",
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":25,
+"nama":"unknown",
+"untuk_sekolah":"1",
+"untuk_pd":"1",
+"create_date":"2013\/12\/31 05:20:51",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":"2013\/11\/7 00:00:00",
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":26,
+"nama":"unknown",
+"untuk_sekolah":"1",
+"untuk_pd":"1",
+"create_date":"2013\/12\/31 05:20:52",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":"2013\/11\/7 00:00:00",
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":27,
+"nama":"unknown",
+"untuk_sekolah":"1",
+"untuk_pd":"1",
+"create_date":"2013\/12\/31 05:20:53",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":"2013\/11\/7 00:00:00",
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":28,
+"nama":"unknown",
+"untuk_sekolah":"1",
+"untuk_pd":"1",
+"create_date":"2013\/12\/31 05:20:54",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":"2013\/11\/7 00:00:00",
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":29,
+"nama":"unknown",
+"untuk_sekolah":"1",
+"untuk_pd":"1",
+"create_date":"2013\/12\/31 05:20:57",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":"2013\/11\/7 00:00:00",
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":30,
+"nama":"unknown",
+"untuk_sekolah":"1",
+"untuk_pd":"1",
+"create_date":"2013\/12\/31 05:20:58",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":"2013\/11\/7 00:00:00",
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":31,
+"nama":"unknown",
+"untuk_sekolah":"1",
+"untuk_pd":"1",
+"create_date":"2013\/12\/31 05:21:01",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":"2013\/11\/7 00:00:00",
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":32,
+"nama":"unknown",
+"untuk_sekolah":"1",
+"untuk_pd":"1",
+"create_date":"2013\/12\/31 05:21:01",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":"2013\/11\/7 00:00:00",
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":33,
+"nama":"unknown",
+"untuk_sekolah":"1",
+"untuk_pd":"1",
+"create_date":"2013\/12\/31 05:21:02",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":"2013\/11\/7 00:00:00",
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":34,
+"nama":"unknown",
+"untuk_sekolah":"1",
+"untuk_pd":"1",
+"create_date":"2013\/12\/31 05:21:03",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":"2013\/11\/7 00:00:00",
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":35,
+"nama":"unknown",
+"untuk_sekolah":"1",
+"untuk_pd":"1",
+"create_date":"2013\/12\/31 05:21:04",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":"2013\/11\/7 00:00:00",
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":36,
+"nama":"unknown",
+"untuk_sekolah":"1",
+"untuk_pd":"1",
+"create_date":"2013\/12\/31 05:21:04",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":"2013\/11\/7 00:00:00",
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":37,
+"nama":"unknown",
+"untuk_sekolah":"1",
+"untuk_pd":"1",
+"create_date":"2013\/12\/31 05:21:05",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":"2013\/11\/7 00:00:00",
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":38,
+"nama":"unknown",
+"untuk_sekolah":"1",
+"untuk_pd":"1",
+"create_date":"2013\/12\/31 05:21:06",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":"2013\/11\/7 00:00:00",
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":39,
+"nama":"unknown",
+"untuk_sekolah":"1",
+"untuk_pd":"1",
+"create_date":"2013\/12\/31 05:21:08",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":"2013\/11\/7 00:00:00",
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":40,
+"nama":"unknown",
+"untuk_sekolah":"1",
+"untuk_pd":"1",
+"create_date":"2013\/12\/31 05:21:14",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":"2013\/11\/7 00:00:00",
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":41,
+"nama":"unknown",
+"untuk_sekolah":"1",
+"untuk_pd":"1",
+"create_date":"2013\/12\/31 05:21:16",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":"2013\/11\/7 00:00:00",
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":42,
+"nama":"unknown",
+"untuk_sekolah":"1",
+"untuk_pd":"1",
+"create_date":"2013\/12\/31 05:21:17",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":"2013\/11\/7 00:00:00",
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":43,
+"nama":"unknown",
+"untuk_sekolah":"1",
+"untuk_pd":"1",
+"create_date":"2013\/12\/31 06:25:59",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":"2013\/11\/7 00:00:00",
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":44,
+"nama":"unknown",
+"untuk_sekolah":"1",
+"untuk_pd":"1",
+"create_date":"2013\/12\/31 06:26:00",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":"2013\/11\/7 00:00:00",
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":45,
+"nama":"unknown",
+"untuk_sekolah":"1",
+"untuk_pd":"1",
+"create_date":"2013\/12\/31 06:26:02",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":"2013\/11\/7 00:00:00",
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":99,
+"nama":"unknown",
+"untuk_sekolah":"1",
+"untuk_pd":"1",
+"create_date":"2013\/12\/31 05:21:20",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":"2013\/11\/7 00:00:00",
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":101,
+"nama":"unknown",
+"untuk_sekolah":"1",
+"untuk_pd":"1",
+"create_date":"2013\/11\/6 23:44:43",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":"2013\/11\/6 23:44:43",
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":102,
+"nama":"unknown",
+"untuk_sekolah":"1",
+"untuk_pd":"1",
+"create_date":"2013\/11\/6 23:30:30",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":"2013\/11\/7 00:00:00",
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":103,
+"nama":"unknown",
+"untuk_sekolah":"1",
+"untuk_pd":"1",
+"create_date":"2013\/11\/6 23:30:32",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":"2013\/11\/7 00:00:00",
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":104,
+"nama":"unknown",
+"untuk_sekolah":"1",
+"untuk_pd":"1",
+"create_date":"2013\/11\/6 23:30:33",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":"2013\/11\/7 00:00:00",
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":105,
+"nama":"unknown",
+"untuk_sekolah":"1",
+"untuk_pd":"1",
+"create_date":"2013\/11\/6 23:30:38",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":"2013\/11\/7 00:00:00",
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":999,
+"nama":"Lainnya",
+"untuk_sekolah":"1",
+"untuk_pd":"1",
+"create_date":"2013\/5\/13 00:00:00",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+}
+]

@@ -1,0 +1,178 @@
+[
+{
+"id":"1",
+"nama":"Guru Pratama, ll\/a",
+"create_date":"2013\/10\/7 00:00:00",
+"last_update":"2019\/2\/25 05:53:31",
+"expired_date":"2013\/10\/7 00:00:00",
+"last_sync":"2019\/2\/25 05:53:31"
+},
+{
+"id":"2",
+"nama":"Guru Pratama TK I, ll\/b",
+"create_date":"2013\/10\/7 00:00:00",
+"last_update":"2019\/2\/25 05:53:31",
+"expired_date":"2013\/10\/7 00:00:00",
+"last_sync":"2019\/2\/25 05:53:31"
+},
+{
+"id":"3",
+"nama":"Guru Muda, ll\/c",
+"create_date":"2013\/10\/7 00:00:00",
+"last_update":"2019\/2\/25 05:53:31",
+"expired_date":"2013\/10\/7 00:00:00",
+"last_sync":"2019\/2\/25 05:53:31"
+},
+{
+"id":"4",
+"nama":"Guru Muda TK I, ll\/d",
+"create_date":"2013\/10\/7 00:00:00",
+"last_update":"2019\/2\/25 05:53:31",
+"expired_date":"2013\/10\/7 00:00:00",
+"last_sync":"2019\/2\/25 05:53:31"
+},
+{
+"id":"5",
+"nama":"Guru Madya, lll\/a",
+"create_date":"2013\/10\/7 00:00:00",
+"last_update":"2019\/2\/25 05:53:31",
+"expired_date":"2016\/2\/2 16:20:00",
+"last_sync":"2019\/2\/25 05:53:31"
+},
+{
+"id":"6",
+"nama":"Guru Madya TK I, II l\/b",
+"create_date":"2013\/10\/7 00:00:00",
+"last_update":"2019\/2\/25 05:53:31",
+"expired_date":"2016\/2\/2 16:20:00",
+"last_sync":"2019\/2\/25 05:53:31"
+},
+{
+"id":"7",
+"nama":"Guru Dewasa, lll\/c",
+"create_date":"2013\/10\/7 00:00:00",
+"last_update":"2019\/2\/25 05:53:31",
+"expired_date":"2016\/2\/2 16:20:00",
+"last_sync":"2019\/2\/25 05:53:31"
+},
+{
+"id":"8",
+"nama":"Guru Dewasa TK I, lll\/d",
+"create_date":"2013\/10\/7 00:00:00",
+"last_update":"2019\/2\/25 05:53:31",
+"expired_date":"2016\/2\/2 16:20:00",
+"last_sync":"2019\/2\/25 05:53:31"
+},
+{
+"id":"9",
+"nama":"Guru Pembina, IV\/a",
+"create_date":"2013\/10\/7 00:00:00",
+"last_update":"2019\/2\/25 05:53:31",
+"expired_date":"2016\/2\/2 16:20:00",
+"last_sync":"2019\/2\/25 05:53:31"
+},
+{
+"id":"10",
+"nama":"Guru Pembina TK I, IV\/b",
+"create_date":"2013\/10\/7 00:00:00",
+"last_update":"2019\/2\/25 05:53:31",
+"expired_date":"2016\/2\/2 16:20:00",
+"last_sync":"2019\/2\/25 05:53:31"
+},
+{
+"id":"11",
+"nama":"Guru Utama Muda, IV\/c",
+"create_date":"2013\/10\/7 00:00:00",
+"last_update":"2019\/2\/25 05:53:31",
+"expired_date":"2016\/2\/2 16:20:00",
+"last_sync":"2019\/2\/25 05:53:31"
+},
+{
+"id":"12",
+"nama":"Guru Utama Madya, IV\/d",
+"create_date":"2013\/10\/7 00:00:00",
+"last_update":"2019\/2\/25 05:53:31",
+"expired_date":"2016\/2\/2 16:20:00",
+"last_sync":"2019\/2\/25 05:53:31"
+},
+{
+"id":"13",
+"nama":"Guru Utama, IV\/e",
+"create_date":"2013\/10\/7 00:00:00",
+"last_update":"2019\/2\/25 05:53:31",
+"expired_date":"2016\/2\/2 16:20:00",
+"last_sync":"2019\/2\/25 05:53:31"
+},
+{
+"id":"14",
+"nama":"Guru Pertama, lll\/a",
+"create_date":"2013\/10\/7 00:00:00",
+"last_update":"2019\/2\/25 05:53:31",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:31"
+},
+{
+"id":"15",
+"nama":"Guru Pertama, lll\/b",
+"create_date":"2013\/10\/7 00:00:00",
+"last_update":"2019\/2\/25 05:53:31",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:31"
+},
+{
+"id":"16",
+"nama":"Guru Muda, lll\/c",
+"create_date":"2013\/10\/7 00:00:00",
+"last_update":"2019\/2\/25 05:53:31",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:31"
+},
+{
+"id":"17",
+"nama":"Guru Muda, lll\/d",
+"create_date":"2013\/10\/7 00:00:00",
+"last_update":"2019\/2\/25 05:53:31",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:31"
+},
+{
+"id":"18",
+"nama":"Guru Madya, IV\/a",
+"create_date":"2013\/10\/7 00:00:00",
+"last_update":"2019\/2\/25 05:53:31",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:31"
+},
+{
+"id":"19",
+"nama":"Guru Madya, IV\/b",
+"create_date":"2013\/10\/7 00:00:00",
+"last_update":"2019\/2\/25 05:53:31",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:31"
+},
+{
+"id":"20",
+"nama":"Guru Madya, IV\/c",
+"create_date":"2013\/10\/7 00:00:00",
+"last_update":"2019\/2\/25 05:53:31",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:31"
+},
+{
+"id":"21",
+"nama":"Guru Utama, IV\/d",
+"create_date":"2013\/10\/7 00:00:00",
+"last_update":"2019\/2\/25 05:53:31",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:31"
+},
+{
+"id":"22",
+"nama":"Guru Utama, IV\/e",
+"create_date":"2013\/10\/7 00:00:00",
+"last_update":"2019\/2\/25 05:53:31",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:31"
+}
+]

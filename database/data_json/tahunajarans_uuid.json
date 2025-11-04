@@ -1,0 +1,34 @@
+[
+{"type":"header","version":"5.2.1","comment":"Export to JSON plugin for PHPMyAdmin"},
+{"type":"database","name":"db_sis_spp2"},
+{"type":"table","name":"tahunajarans","database":"db_sis_spp2","data":
+[
+{"id":"019a400b-929e-7010-92c0-9f69c2e909e1","tahun_ajaran_id":"2000","nama":"2000\/2001","periode_aktif":"0","tanggal_mulai":"2000-07-15","tanggal_selesai":"2001-06-01","created_at":"2025-11-01 15:31:31","updated_at":"2025-11-01 15:31:31"},
+{"id":"019a400b-92b4-7144-9810-0c46ab2c8e06","tahun_ajaran_id":"2001","nama":"2001\/2002","periode_aktif":"0","tanggal_mulai":"2001-07-15","tanggal_selesai":"2002-06-01","created_at":"2025-11-01 15:31:31","updated_at":"2025-11-01 15:31:31"},
+{"id":"019a400b-92b9-7191-9117-e0dbd0ae44c3","tahun_ajaran_id":"2002","nama":"2002\/2003","periode_aktif":"0","tanggal_mulai":"2002-07-15","tanggal_selesai":"2003-06-01","created_at":"2025-11-01 15:31:31","updated_at":"2025-11-01 15:31:31"},
+{"id":"019a400b-92bd-7089-88bd-ce47b39357a6","tahun_ajaran_id":"2003","nama":"2003\/2004","periode_aktif":"0","tanggal_mulai":"2003-07-15","tanggal_selesai":"2004-06-01","created_at":"2025-11-01 15:31:31","updated_at":"2025-11-01 15:31:31"},
+{"id":"019a400b-92c0-7357-be19-9f0e38e96a59","tahun_ajaran_id":"2004","nama":"2004\/2005","periode_aktif":"0","tanggal_mulai":"2004-07-15","tanggal_selesai":"2005-06-01","created_at":"2025-11-01 15:31:31","updated_at":"2025-11-01 15:31:31"},
+{"id":"019a400b-92c6-7378-964a-00b37ae7ee0c","tahun_ajaran_id":"2005","nama":"2005\/2006","periode_aktif":"0","tanggal_mulai":"2005-07-15","tanggal_selesai":"2006-06-01","created_at":"2025-11-01 15:31:31","updated_at":"2025-11-01 15:31:31"},
+{"id":"019a400b-92cb-7374-9fb6-4085fd6092d6","tahun_ajaran_id":"2006","nama":"2006\/2007","periode_aktif":"0","tanggal_mulai":"2006-07-15","tanggal_selesai":"2007-06-01","created_at":"2025-11-01 15:31:31","updated_at":"2025-11-01 15:31:31"},
+{"id":"019a400b-92cf-7387-b39b-b5fa1d2c61e8","tahun_ajaran_id":"2007","nama":"2007\/2008","periode_aktif":"0","tanggal_mulai":"2007-07-15","tanggal_selesai":"2008-06-01","created_at":"2025-11-01 15:31:31","updated_at":"2025-11-01 15:31:31"},
+{"id":"019a400b-92d3-7365-a6b5-b12d1832ab76","tahun_ajaran_id":"2008","nama":"2008\/2009","periode_aktif":"0","tanggal_mulai":"2008-07-15","tanggal_selesai":"2009-06-01","created_at":"2025-11-01 15:31:31","updated_at":"2025-11-01 15:31:31"},
+{"id":"019a400b-92d6-7096-a896-56470418c1d0","tahun_ajaran_id":"2009","nama":"2009\/2010","periode_aktif":"0","tanggal_mulai":"2009-07-15","tanggal_selesai":"2010-06-01","created_at":"2025-11-01 15:31:31","updated_at":"2025-11-01 15:31:31"},
+{"id":"019a400b-92da-7238-ba3e-b77bbdec9103","tahun_ajaran_id":"2010","nama":"2010\/2011","periode_aktif":"0","tanggal_mulai":"2010-07-15","tanggal_selesai":"2011-06-01","created_at":"2025-11-01 15:31:31","updated_at":"2025-11-01 15:31:31"},
+{"id":"019a400b-92de-70cc-b1b0-6e9407294bfc","tahun_ajaran_id":"2011","nama":"2011\/2012","periode_aktif":"0","tanggal_mulai":"2011-07-15","tanggal_selesai":"2012-06-01","created_at":"2025-11-01 15:31:31","updated_at":"2025-11-01 15:31:31"},
+{"id":"019a400b-92e2-71b2-818c-1973a0175326","tahun_ajaran_id":"2012","nama":"2012\/2013","periode_aktif":"0","tanggal_mulai":"2012-07-15","tanggal_selesai":"2013-06-01","created_at":"2025-11-01 15:31:31","updated_at":"2025-11-01 15:31:31"},
+{"id":"019a400b-92e5-7171-9d40-6e47af04cf84","tahun_ajaran_id":"2013","nama":"2013\/2014","periode_aktif":"0","tanggal_mulai":"2013-07-15","tanggal_selesai":"2014-06-01","created_at":"2025-11-01 15:31:31","updated_at":"2025-11-01 15:31:31"},
+{"id":"019a400b-92e9-730b-b233-333f051cd027","tahun_ajaran_id":"2014","nama":"2014\/2015","periode_aktif":"0","tanggal_mulai":"2014-07-15","tanggal_selesai":"2015-06-01","created_at":"2025-11-01 15:31:31","updated_at":"2025-11-01 15:31:31"},
+{"id":"019a400b-92ed-70ab-8279-a9186e5324c2","tahun_ajaran_id":"2015","nama":"2015\/2016","periode_aktif":"0","tanggal_mulai":"2015-07-15","tanggal_selesai":"2016-06-01","created_at":"2025-11-01 15:31:31","updated_at":"2025-11-01 15:31:31"},
+{"id":"019a400b-92f0-709d-b3f4-030a298901ee","tahun_ajaran_id":"2016","nama":"2016\/2017","periode_aktif":"0","tanggal_mulai":"2016-07-15","tanggal_selesai":"2017-06-01","created_at":"2025-11-01 15:31:31","updated_at":"2025-11-01 15:31:31"},
+{"id":"019a400b-92f3-73fe-bbc7-53c72a1de17d","tahun_ajaran_id":"2017","nama":"2017\/2018","periode_aktif":"0","tanggal_mulai":"2017-07-25","tanggal_selesai":"2018-06-01","created_at":"2025-11-01 15:31:31","updated_at":"2025-11-01 15:31:31"},
+{"id":"019a400b-92f6-71df-a1e7-c2c63327df8d","tahun_ajaran_id":"2018","nama":"2018\/2019","periode_aktif":"0","tanggal_mulai":"2018-07-25","tanggal_selesai":"2019-06-01","created_at":"2025-11-01 15:31:31","updated_at":"2025-11-01 15:31:31"},
+{"id":"019a400b-92f9-7076-bb97-c2f22964fbb9","tahun_ajaran_id":"2019","nama":"2019\/2020","periode_aktif":"0","tanggal_mulai":"2019-07-25","tanggal_selesai":"2020-06-01","created_at":"2025-11-01 15:31:31","updated_at":"2025-11-01 15:31:31"},
+{"id":"019a400b-92fd-72ca-a0ec-f879af44f6cf","tahun_ajaran_id":"2020","nama":"2020\/2021","periode_aktif":"0","tanggal_mulai":"2020-07-25","tanggal_selesai":"2021-06-01","created_at":"2025-11-01 15:31:31","updated_at":"2025-11-01 15:31:31"},
+{"id":"019a400b-9300-726b-870e-adb2c99be3b0","tahun_ajaran_id":"2021","nama":"2021\/2022","periode_aktif":"0","tanggal_mulai":"2021-07-25","tanggal_selesai":"2022-06-01","created_at":"2025-11-01 15:31:31","updated_at":"2025-11-01 15:31:31"},
+{"id":"019a400b-9303-7114-a059-0839b1018dcc","tahun_ajaran_id":"2022","nama":"2022\/2023","periode_aktif":"0","tanggal_mulai":"2022-07-25","tanggal_selesai":"2023-06-01","created_at":"2025-11-01 15:31:31","updated_at":"2025-11-01 15:31:31"},
+{"id":"019a400b-9306-723b-9a6d-12c9eb600957","tahun_ajaran_id":"2023","nama":"2023\/2024","periode_aktif":"0","tanggal_mulai":"2023-07-25","tanggal_selesai":"2024-06-01","created_at":"2025-11-01 15:31:31","updated_at":"2025-11-01 15:31:31"},
+{"id":"019a400b-9309-707f-9485-156e70a852f8","tahun_ajaran_id":"2024","nama":"2024\/2025","periode_aktif":"0","tanggal_mulai":"2024-07-25","tanggal_selesai":"2025-06-01","created_at":"2025-11-01 15:31:31","updated_at":"2025-11-01 15:31:31"},
+{"id":"019a400b-930d-730f-9879-1a00488a5739","tahun_ajaran_id":"2025","nama":"2025\/2026","periode_aktif":"1","tanggal_mulai":"2025-07-25","tanggal_selesai":"0202-06-01","created_at":"2025-11-01 15:31:31","updated_at":"2025-11-01 15:31:31"}
+]
+}
+]

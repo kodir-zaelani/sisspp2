@@ -1,0 +1,42 @@
+[
+{
+"id":"1",
+"status_tugas":"Definitip",
+"create_date":"2015\/7\/30 13:32:00",
+"last_update":"2019\/2\/25 05:53:20",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:20"
+},
+{
+"id":"2",
+"status_tugas":"PLT",
+"create_date":"2015\/7\/30 13:32:00",
+"last_update":"2019\/2\/25 05:53:20",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:20"
+},
+{
+"id":"3",
+"status_tugas":"PLH",
+"create_date":"2015\/7\/30 13:32:00",
+"last_update":"2019\/2\/25 05:53:20",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:20"
+},
+{
+"id":"4",
+"status_tugas":"PJ",
+"create_date":"2015\/7\/30 13:32:00",
+"last_update":"2019\/2\/25 05:53:20",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:20"
+},
+{
+"id":"99",
+"status_tugas":"Lainnya",
+"create_date":"2015\/7\/30 13:32:00",
+"last_update":"2019\/2\/25 05:53:20",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:20"
+}
+]

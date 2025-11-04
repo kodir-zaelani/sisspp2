@@ -1,0 +1,130 @@
+[
+{
+"id":1,
+"nama":"Diklat Prajabatan",
+"create_date":"2013\/5\/13 00:00:00",
+"last_update":"2019\/2\/25 05:53:31",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:31"
+},
+{
+"id":2,
+"nama":"Diklat Pratugas",
+"create_date":"2013\/5\/13 00:00:00",
+"last_update":"2019\/2\/25 05:53:31",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:31"
+},
+{
+"id":3,
+"nama":"Diklat Penjenjangan",
+"create_date":"2013\/5\/13 00:00:00",
+"last_update":"2019\/2\/25 05:53:31",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:31"
+},
+{
+"id":4,
+"nama":"Diklat Manajemen",
+"create_date":"2013\/5\/13 00:00:00",
+"last_update":"2019\/2\/25 05:53:31",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:31"
+},
+{
+"id":5,
+"nama":"Diklat Teknis Profesi Kependidikan",
+"create_date":"2013\/5\/13 00:00:00",
+"last_update":"2019\/2\/25 05:53:31",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:31"
+},
+{
+"id":6,
+"nama":"Diklat Teknis Program Kependidikan",
+"create_date":"2013\/5\/13 00:00:00",
+"last_update":"2019\/2\/25 05:53:31",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:31"
+},
+{
+"id":7,
+"nama":"Diklat Teknis Umum\/Adm Dan Manajemen",
+"create_date":"2013\/5\/13 00:00:00",
+"last_update":"2019\/2\/25 05:53:31",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:31"
+},
+{
+"id":8,
+"nama":"Diklat Fungsional Kependidikan",
+"create_date":"2013\/5\/13 00:00:00",
+"last_update":"2019\/2\/25 05:53:31",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:31"
+},
+{
+"id":9,
+"nama":"Diklat Fungsional Non Kependidikan",
+"create_date":"2013\/5\/13 00:00:00",
+"last_update":"2019\/2\/25 05:53:31",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:31"
+},
+{
+"id":10,
+"nama":"Bimtek PTK SD satu atap",
+"create_date":"2013\/7\/13 00:00:00",
+"last_update":"2019\/2\/25 05:53:31",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:31"
+},
+{
+"id":11,
+"nama":"Bimtek PTK SMP satu atap",
+"create_date":"2013\/7\/13 00:00:00",
+"last_update":"2019\/2\/25 05:53:31",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:31"
+},
+{
+"id":12,
+"nama":"Bimtek PTK SMA satu atap",
+"create_date":"2013\/7\/13 00:00:00",
+"last_update":"2019\/2\/25 05:53:31",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:31"
+},
+{
+"id":13,
+"nama":"Kursus Mahir Dasar Kepramukaan",
+"create_date":"2014\/7\/23 14:33:43",
+"last_update":"2019\/2\/25 05:53:31",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:31"
+},
+{
+"id":14,
+"nama":"Kursus Mahir Lanjutan Kepramukaan",
+"create_date":"2014\/7\/23 14:33:44",
+"last_update":"2019\/2\/25 05:53:31",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:31"
+},
+{
+"id":15,
+"nama":"Diklat Instruktur Kurikulum",
+"create_date":"2016\/7\/22 06:00:00",
+"last_update":"2019\/2\/25 05:53:31",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:31"
+},
+{
+"id":99,
+"nama":"Lainnya",
+"create_date":"2013\/5\/13 00:00:00",
+"last_update":"2019\/2\/25 05:53:31",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:31"
+}
+]

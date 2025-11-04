@@ -1,0 +1,2882 @@
+[
+{
+"id":"1",
+"jenis_buku_alat":"Buku Pegangan",
+"spm_qty_min_per_siswa":"0.0",
+"spm_qty_min_per_sekolah":"0",
+"create_date":"2013\/5\/13 00:00:00",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"2",
+"jenis_buku_alat":"Buku Penunjang",
+"spm_qty_min_per_siswa":"0.0",
+"spm_qty_min_per_sekolah":"0",
+"create_date":"2013\/5\/13 00:00:00",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"3",
+"jenis_buku_alat":"Buku Referensi",
+"spm_qty_min_per_siswa":"0.0",
+"spm_qty_min_per_sekolah":"0",
+"create_date":"2013\/5\/13 00:00:00",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"4",
+"jenis_buku_alat":"Buku Bacaan",
+"spm_qty_min_per_siswa":"0.0",
+"spm_qty_min_per_sekolah":"0",
+"create_date":"2013\/11\/7 00:00:00",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"5",
+"jenis_buku_alat":"Buku Teks",
+"spm_qty_min_per_siswa":"0.0",
+"spm_qty_min_per_sekolah":"0",
+"create_date":"2013\/11\/7 00:00:00",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"6",
+"jenis_buku_alat":"Buku Pengayaan",
+"spm_qty_min_per_siswa":"0.0",
+"spm_qty_min_per_sekolah":"0",
+"create_date":"2013\/11\/7 00:00:00",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"7",
+"jenis_buku_alat":"Buku Pegangan Braille",
+"spm_qty_min_per_siswa":"0.0",
+"spm_qty_min_per_sekolah":"0",
+"create_date":"2013\/11\/7 00:00:00",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"8",
+"jenis_buku_alat":"Buku Penunjang Braille",
+"spm_qty_min_per_siswa":"0.0",
+"spm_qty_min_per_sekolah":"0",
+"create_date":"2013\/11\/7 00:00:00",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"9",
+"jenis_buku_alat":"Petunjuk percobaan",
+"spm_qty_min_per_siswa":"0.0",
+"spm_qty_min_per_sekolah":"0",
+"create_date":"2013\/11\/7 00:00:00",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"21",
+"jenis_buku_alat":"Alat Peraga",
+"spm_qty_min_per_siswa":"0.0",
+"spm_qty_min_per_sekolah":"0",
+"create_date":"2013\/5\/13 00:00:00",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"22",
+"jenis_buku_alat":"Alat Praktik",
+"spm_qty_min_per_siswa":"0.0",
+"spm_qty_min_per_sekolah":"0",
+"create_date":"2013\/5\/13 00:00:00",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"23",
+"jenis_buku_alat":"Alat Pendidikan Multimedia",
+"spm_qty_min_per_siswa":"0.0",
+"spm_qty_min_per_sekolah":"0",
+"create_date":"2013\/11\/7 00:00:00",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"24",
+"jenis_buku_alat":"Komputer",
+"spm_qty_min_per_siswa":"0.0",
+"spm_qty_min_per_sekolah":"0",
+"create_date":"2013\/11\/7 00:00:00",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"25",
+"jenis_buku_alat":"Gambar \/ Model \/ Poster",
+"spm_qty_min_per_siswa":"0.0",
+"spm_qty_min_per_sekolah":"0",
+"create_date":"2013\/5\/13 00:00:00",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"26",
+"jenis_buku_alat":"Model Kerangka Manusia",
+"spm_qty_min_per_siswa":"0.0",
+"spm_qty_min_per_sekolah":"0",
+"create_date":"2013\/11\/7 00:00:00",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"27",
+"jenis_buku_alat":"Model Tubuh Manusia",
+"spm_qty_min_per_siswa":"0.0",
+"spm_qty_min_per_sekolah":"0",
+"create_date":"2013\/11\/7 00:00:00",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"28",
+"jenis_buku_alat":"Globe",
+"spm_qty_min_per_siswa":"0.0",
+"spm_qty_min_per_sekolah":"0",
+"create_date":"2013\/11\/7 00:00:00",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"29",
+"jenis_buku_alat":"Model Tata Surya",
+"spm_qty_min_per_siswa":"0.0",
+"spm_qty_min_per_sekolah":"0",
+"create_date":"2013\/11\/7 00:00:00",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"30",
+"jenis_buku_alat":"Kaca Pembesar",
+"spm_qty_min_per_siswa":"0.0",
+"spm_qty_min_per_sekolah":"0",
+"create_date":"2013\/11\/7 00:00:00",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"31",
+"jenis_buku_alat":"Cermin datar",
+"spm_qty_min_per_siswa":"0.0",
+"spm_qty_min_per_sekolah":"0",
+"create_date":"2013\/11\/7 00:00:00",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"32",
+"jenis_buku_alat":"Cermin cekung",
+"spm_qty_min_per_siswa":"0.0",
+"spm_qty_min_per_sekolah":"0",
+"create_date":"2013\/11\/7 00:00:00",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"33",
+"jenis_buku_alat":"Cermin cembung",
+"spm_qty_min_per_siswa":"0.0",
+"spm_qty_min_per_sekolah":"0",
+"create_date":"2013\/11\/7 00:00:00",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"34",
+"jenis_buku_alat":"Lensa datar",
+"spm_qty_min_per_siswa":"0.0",
+"spm_qty_min_per_sekolah":"0",
+"create_date":"2013\/11\/7 00:00:00",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"35",
+"jenis_buku_alat":"Lensa cekung",
+"spm_qty_min_per_siswa":"0.0",
+"spm_qty_min_per_sekolah":"0",
+"create_date":"2013\/11\/7 00:00:00",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"36",
+"jenis_buku_alat":"Lensa cembung",
+"spm_qty_min_per_siswa":"0.0",
+"spm_qty_min_per_sekolah":"0",
+"create_date":"2013\/11\/7 00:00:00",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"37",
+"jenis_buku_alat":"Magnet batang",
+"spm_qty_min_per_siswa":"0.0",
+"spm_qty_min_per_sekolah":"0",
+"create_date":"2013\/11\/7 00:00:00",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"38",
+"jenis_buku_alat":"Poster Metamorfosis",
+"spm_qty_min_per_siswa":"0.0",
+"spm_qty_min_per_sekolah":"0",
+"create_date":"2013\/11\/7 00:00:00",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"39",
+"jenis_buku_alat":"Poster Hewan Langka",
+"spm_qty_min_per_siswa":"0.0",
+"spm_qty_min_per_sekolah":"0",
+"create_date":"2013\/11\/7 00:00:00",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"40",
+"jenis_buku_alat":"Poster Hewan dilindungi",
+"spm_qty_min_per_siswa":"0.0",
+"spm_qty_min_per_sekolah":"0",
+"create_date":"2013\/11\/7 00:00:00",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"41",
+"jenis_buku_alat":"Poster Tanaman Khas Indonesia",
+"spm_qty_min_per_siswa":"0.0",
+"spm_qty_min_per_sekolah":"0",
+"create_date":"2013\/11\/7 00:00:00",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"42",
+"jenis_buku_alat":"Poster Ekosistem",
+"spm_qty_min_per_siswa":"0.0",
+"spm_qty_min_per_sekolah":"0",
+"create_date":"2013\/11\/7 00:00:00",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"43",
+"jenis_buku_alat":"Poster Sistem Penapasan",
+"spm_qty_min_per_siswa":"0.0",
+"spm_qty_min_per_sekolah":"0",
+"create_date":"2013\/11\/7 00:00:00",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"44",
+"jenis_buku_alat":"Bidang miring",
+"spm_qty_min_per_siswa":"0.0",
+"spm_qty_min_per_sekolah":"0",
+"create_date":"2013\/11\/7 00:00:00",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"45",
+"jenis_buku_alat":"Dinamometer",
+"spm_qty_min_per_siswa":"0.0",
+"spm_qty_min_per_sekolah":"0",
+"create_date":"2013\/11\/7 00:00:00",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"46",
+"jenis_buku_alat":"Katrol tetap",
+"spm_qty_min_per_siswa":"0.0",
+"spm_qty_min_per_sekolah":"0",
+"create_date":"2013\/11\/7 00:00:00",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"47",
+"jenis_buku_alat":"Katrol bergerak",
+"spm_qty_min_per_siswa":"0.0",
+"spm_qty_min_per_sekolah":"0",
+"create_date":"2013\/11\/7 00:00:00",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"48",
+"jenis_buku_alat":"Balok kayu",
+"spm_qty_min_per_siswa":"0.0",
+"spm_qty_min_per_sekolah":"0",
+"create_date":"2013\/11\/7 00:00:00",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"49",
+"jenis_buku_alat":"Percobaan muai panjang",
+"spm_qty_min_per_siswa":"0.0",
+"spm_qty_min_per_sekolah":"0",
+"create_date":"2013\/11\/7 00:00:00",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"50",
+"jenis_buku_alat":"Percobaan optik",
+"spm_qty_min_per_siswa":"0.0",
+"spm_qty_min_per_sekolah":"0",
+"create_date":"2013\/11\/7 00:00:00",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"51",
+"jenis_buku_alat":"Percobaan rangkaian listrik",
+"spm_qty_min_per_siswa":"0.0",
+"spm_qty_min_per_sekolah":"0",
+"create_date":"2013\/11\/7 00:00:00",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"52",
+"jenis_buku_alat":"Gelas kimia",
+"spm_qty_min_per_siswa":"0.0",
+"spm_qty_min_per_sekolah":"0",
+"create_date":"2013\/11\/7 00:00:00",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"53",
+"jenis_buku_alat":"Model molekul sederhana",
+"spm_qty_min_per_siswa":"0.0",
+"spm_qty_min_per_sekolah":"0",
+"create_date":"2013\/11\/7 00:00:00",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"54",
+"jenis_buku_alat":"Pembakar spiritus",
+"spm_qty_min_per_siswa":"0.0",
+"spm_qty_min_per_sekolah":"0",
+"create_date":"2013\/11\/7 00:00:00",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"55",
+"jenis_buku_alat":"Cawan penguapan",
+"spm_qty_min_per_siswa":"0.0",
+"spm_qty_min_per_sekolah":"0",
+"create_date":"2013\/11\/7 00:00:00",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"56",
+"jenis_buku_alat":"Kaki tiga",
+"spm_qty_min_per_siswa":"0.0",
+"spm_qty_min_per_sekolah":"0",
+"create_date":"2013\/11\/7 00:00:00",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"57",
+"jenis_buku_alat":"Plat tetes",
+"spm_qty_min_per_siswa":"0.0",
+"spm_qty_min_per_sekolah":"0",
+"create_date":"2013\/11\/7 00:00:00",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"58",
+"jenis_buku_alat":"Pipet tetes + karet",
+"spm_qty_min_per_siswa":"0.0",
+"spm_qty_min_per_sekolah":"0",
+"create_date":"2013\/11\/7 00:00:00",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"59",
+"jenis_buku_alat":"Mikroskop monokuler",
+"spm_qty_min_per_siswa":"0.0",
+"spm_qty_min_per_sekolah":"0",
+"create_date":"2013\/11\/7 00:00:00",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"60",
+"jenis_buku_alat":"Poster genetika",
+"spm_qty_min_per_siswa":"0.0",
+"spm_qty_min_per_sekolah":"0",
+"create_date":"2013\/11\/7 00:00:00",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"61",
+"jenis_buku_alat":"Gambar\/model sistem darah manusia",
+"spm_qty_min_per_siswa":"0.0",
+"spm_qty_min_per_sekolah":"0",
+"create_date":"2013\/11\/7 00:00:00",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"62",
+"jenis_buku_alat":"Gambar\/model jantung manusia",
+"spm_qty_min_per_siswa":"0.0",
+"spm_qty_min_per_sekolah":"0",
+"create_date":"2013\/11\/7 00:00:00",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"63",
+"jenis_buku_alat":"Gambar\/model mata manusia",
+"spm_qty_min_per_siswa":"0.0",
+"spm_qty_min_per_sekolah":"0",
+"create_date":"2013\/11\/7 00:00:00",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"64",
+"jenis_buku_alat":"Gambar\/model telinga manusia",
+"spm_qty_min_per_siswa":"0.0",
+"spm_qty_min_per_sekolah":"0",
+"create_date":"2013\/11\/7 00:00:00",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"65",
+"jenis_buku_alat":"Gambar\/model tenggorokan manusia",
+"spm_qty_min_per_siswa":"0.0",
+"spm_qty_min_per_sekolah":"0",
+"create_date":"2013\/11\/7 00:00:00",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"66",
+"jenis_buku_alat":"Petunjuk percobaan",
+"spm_qty_min_per_siswa":"0.0",
+"spm_qty_min_per_sekolah":"0",
+"create_date":"2013\/11\/7 00:00:00",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"67",
+"jenis_buku_alat":"Gambar\/model pernafasan manusia",
+"spm_qty_min_per_siswa":"0.0",
+"spm_qty_min_per_sekolah":"0",
+"create_date":"2017\/7\/31 13:28:02",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"68",
+"jenis_buku_alat":"Gambar\/model pencernaan manusia",
+"spm_qty_min_per_siswa":"0.0",
+"spm_qty_min_per_sekolah":"0",
+"create_date":"2017\/7\/31 13:28:02",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"99",
+"jenis_buku_alat":"Lainnya",
+"spm_qty_min_per_siswa":"0.0",
+"spm_qty_min_per_sekolah":"0",
+"create_date":"2013\/5\/13 00:00:00",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"1101",
+"jenis_buku_alat":"BG.1: Agama Budha",
+"spm_qty_min_per_siswa":"0.0",
+"spm_qty_min_per_sekolah":"0",
+"create_date":"2014\/8\/4 17:12:23",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"1102",
+"jenis_buku_alat":"BG.1: Agama Hindu",
+"spm_qty_min_per_siswa":"0.0",
+"spm_qty_min_per_sekolah":"0",
+"create_date":"2014\/8\/4 17:12:23",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"1103",
+"jenis_buku_alat":"BG.1: Agama Islam",
+"spm_qty_min_per_siswa":"0.0",
+"spm_qty_min_per_sekolah":"0",
+"create_date":"2014\/8\/4 17:12:23",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"1104",
+"jenis_buku_alat":"BG.1: Agama Katholik",
+"spm_qty_min_per_siswa":"0.0",
+"spm_qty_min_per_sekolah":"0",
+"create_date":"2014\/8\/4 17:12:23",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"1105",
+"jenis_buku_alat":"BG.1: Agama Konghuchu",
+"spm_qty_min_per_siswa":"0.0",
+"spm_qty_min_per_sekolah":"0",
+"create_date":"2014\/8\/4 17:12:23",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"1106",
+"jenis_buku_alat":"BG.1: Agama Kristen",
+"spm_qty_min_per_siswa":"0.0",
+"spm_qty_min_per_sekolah":"0",
+"create_date":"2014\/8\/4 17:12:23",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"1107",
+"jenis_buku_alat":"BG.1: Benda, Binatang, dan Tanaman …",
+"spm_qty_min_per_siswa":"0.0",
+"spm_qty_min_per_sekolah":"0",
+"create_date":"2014\/8\/4 17:12:23",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"1108",
+"jenis_buku_alat":"BG.1: Diri Sendiri",
+"spm_qty_min_per_siswa":"0.0",
+"spm_qty_min_per_sekolah":"0",
+"create_date":"2014\/8\/4 17:12:23",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"1109",
+"jenis_buku_alat":"BG.1: Kagiatanku",
+"spm_qty_min_per_siswa":"0.0",
+"spm_qty_min_per_sekolah":"0",
+"create_date":"2014\/8\/4 17:12:23",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"1110",
+"jenis_buku_alat":"BG.1: Kegemaranku",
+"spm_qty_min_per_siswa":"0.0",
+"spm_qty_min_per_sekolah":"0",
+"create_date":"2014\/8\/4 17:12:23",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"1111",
+"jenis_buku_alat":"BG.1: Keluargaku",
+"spm_qty_min_per_siswa":"0.0",
+"spm_qty_min_per_sekolah":"0",
+"create_date":"2014\/8\/4 17:12:23",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"1112",
+"jenis_buku_alat":"BG.1: Lingkungan Bersih, dan Sehat",
+"spm_qty_min_per_siswa":"0.0",
+"spm_qty_min_per_sekolah":"0",
+"create_date":"2014\/8\/4 17:12:23",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"1113",
+"jenis_buku_alat":"BG.1: Pengalamanku",
+"spm_qty_min_per_siswa":"0.0",
+"spm_qty_min_per_sekolah":"0",
+"create_date":"2014\/8\/4 17:12:23",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"1114",
+"jenis_buku_alat":"BG.1: Peristiwa Alam",
+"spm_qty_min_per_siswa":"0.0",
+"spm_qty_min_per_sekolah":"0",
+"create_date":"2014\/8\/4 17:12:23",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"1115",
+"jenis_buku_alat":"BG.2: Agama Budha",
+"spm_qty_min_per_siswa":"0.0",
+"spm_qty_min_per_sekolah":"0",
+"create_date":"2014\/8\/4 17:12:23",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"1116",
+"jenis_buku_alat":"BG.2: Agama Hindu",
+"spm_qty_min_per_siswa":"0.0",
+"spm_qty_min_per_sekolah":"0",
+"create_date":"2014\/8\/4 17:12:23",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"1117",
+"jenis_buku_alat":"BG.2: Agama Islam",
+"spm_qty_min_per_siswa":"0.0",
+"spm_qty_min_per_sekolah":"0",
+"create_date":"2014\/8\/4 17:12:23",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"1118",
+"jenis_buku_alat":"BG.2: Agama Katholik",
+"spm_qty_min_per_siswa":"0.0",
+"spm_qty_min_per_sekolah":"0",
+"create_date":"2014\/8\/4 17:12:23",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"1119",
+"jenis_buku_alat":"BG.2: Agama Konghuchu",
+"spm_qty_min_per_siswa":"0.0",
+"spm_qty_min_per_sekolah":"0",
+"create_date":"2014\/8\/4 17:12:23",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"1120",
+"jenis_buku_alat":"BG.2: Agama Kristen",
+"spm_qty_min_per_siswa":"0.0",
+"spm_qty_min_per_sekolah":"0",
+"create_date":"2014\/8\/4 17:12:23",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"1121",
+"jenis_buku_alat":"BG.2: Air, Bumi, dan Matahari",
+"spm_qty_min_per_siswa":"0.0",
+"spm_qty_min_per_sekolah":"0",
+"create_date":"2014\/8\/4 17:12:23",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"1122",
+"jenis_buku_alat":"BG.2: Aku dan Sekolahku",
+"spm_qty_min_per_siswa":"0.0",
+"spm_qty_min_per_sekolah":"0",
+"create_date":"2014\/8\/4 17:12:23",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"1123",
+"jenis_buku_alat":"BG.2: Bermain di Lingkunganku",
+"spm_qty_min_per_siswa":"0.0",
+"spm_qty_min_per_sekolah":"0",
+"create_date":"2014\/8\/4 17:12:23",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"1124",
+"jenis_buku_alat":"BG.2: Hidup Bersih dan Sehat ",
+"spm_qty_min_per_siswa":"0.0",
+"spm_qty_min_per_sekolah":"0",
+"create_date":"2014\/8\/4 17:12:23",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"1125",
+"jenis_buku_alat":"BG.2: Hidup Rukun",
+"spm_qty_min_per_siswa":"0.0",
+"spm_qty_min_per_sekolah":"0",
+"create_date":"2014\/8\/4 17:12:23",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"1126",
+"jenis_buku_alat":"BG.2: Keselamatan di Rumah dan Per…",
+"spm_qty_min_per_siswa":"0.0",
+"spm_qty_min_per_sekolah":"0",
+"create_date":"2014\/8\/4 17:12:23",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"1127",
+"jenis_buku_alat":"BG.2: Merawat Hewan dan Tumbuhan",
+"spm_qty_min_per_siswa":"0.0",
+"spm_qty_min_per_sekolah":"0",
+"create_date":"2014\/8\/4 17:12:23",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"1128",
+"jenis_buku_alat":"BG.2: Tugasku Sehari-hari",
+"spm_qty_min_per_siswa":"0.0",
+"spm_qty_min_per_sekolah":"0",
+"create_date":"2014\/8\/4 17:12:23",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"1129",
+"jenis_buku_alat":"BG.4: Agama Budha",
+"spm_qty_min_per_siswa":"0.0",
+"spm_qty_min_per_sekolah":"0",
+"create_date":"2014\/8\/4 17:12:23",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"1130",
+"jenis_buku_alat":"BG.4: Agama Hindu",
+"spm_qty_min_per_siswa":"0.0",
+"spm_qty_min_per_sekolah":"0",
+"create_date":"2014\/8\/4 17:12:23",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"1131",
+"jenis_buku_alat":"BG.4: Agama Islam",
+"spm_qty_min_per_siswa":"0.0",
+"spm_qty_min_per_sekolah":"0",
+"create_date":"2014\/8\/4 17:12:23",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"1132",
+"jenis_buku_alat":"BG.4: Agama Katholik",
+"spm_qty_min_per_siswa":"0.0",
+"spm_qty_min_per_sekolah":"0",
+"create_date":"2014\/8\/4 17:12:23",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"1133",
+"jenis_buku_alat":"BG.4: Agama Konghuchu",
+"spm_qty_min_per_siswa":"0.0",
+"spm_qty_min_per_sekolah":"0",
+"create_date":"2014\/8\/4 17:12:23",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"1134",
+"jenis_buku_alat":"BG.4: Agama Kristen",
+"spm_qty_min_per_siswa":"0.0",
+"spm_qty_min_per_sekolah":"0",
+"create_date":"2014\/8\/4 17:12:23",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"1135",
+"jenis_buku_alat":"BG.4: Berbagai Pekerjaan",
+"spm_qty_min_per_siswa":"0.0",
+"spm_qty_min_per_sekolah":"0",
+"create_date":"2014\/8\/4 17:12:23",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"1136",
+"jenis_buku_alat":"BG.4: Cita-citaku",
+"spm_qty_min_per_siswa":"0.0",
+"spm_qty_min_per_sekolah":"0",
+"create_date":"2014\/8\/4 17:12:23",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"1137",
+"jenis_buku_alat":"BG.4: Daerah Tempat Tinggalku",
+"spm_qty_min_per_siswa":"0.0",
+"spm_qty_min_per_sekolah":"0",
+"create_date":"2014\/8\/4 17:12:23",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"1138",
+"jenis_buku_alat":"BG.4: Indahnya Kebersamaan",
+"spm_qty_min_per_siswa":"0.0",
+"spm_qty_min_per_sekolah":"0",
+"create_date":"2014\/8\/4 17:12:23",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"1139",
+"jenis_buku_alat":"BG.4: Indahnya Negeriku",
+"spm_qty_min_per_siswa":"0.0",
+"spm_qty_min_per_sekolah":"0",
+"create_date":"2014\/8\/4 17:12:23",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"1140",
+"jenis_buku_alat":"BG.4: Makanan Sehat dan Bergizi",
+"spm_qty_min_per_siswa":"0.0",
+"spm_qty_min_per_sekolah":"0",
+"create_date":"2014\/8\/4 17:12:23",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"1141",
+"jenis_buku_alat":"BG.4: Menghargai Jasa Pahlawan",
+"spm_qty_min_per_siswa":"0.0",
+"spm_qty_min_per_sekolah":"0",
+"create_date":"2014\/8\/4 17:12:23",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"1142",
+"jenis_buku_alat":"BG.4: Peduli Terhadap Makhluk Hidup",
+"spm_qty_min_per_siswa":"0.0",
+"spm_qty_min_per_sekolah":"0",
+"create_date":"2014\/8\/4 17:12:23",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"1143",
+"jenis_buku_alat":"BG.4: Selalu Berhemat Energi",
+"spm_qty_min_per_siswa":"0.0",
+"spm_qty_min_per_sekolah":"0",
+"create_date":"2014\/8\/4 17:12:23",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"1144",
+"jenis_buku_alat":"BG.5: Agama Budha",
+"spm_qty_min_per_siswa":"0.0",
+"spm_qty_min_per_sekolah":"0",
+"create_date":"2014\/8\/4 17:12:23",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"1145",
+"jenis_buku_alat":"BG.5: Agama Hindu",
+"spm_qty_min_per_siswa":"0.0",
+"spm_qty_min_per_sekolah":"0",
+"create_date":"2014\/8\/4 17:12:23",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"1146",
+"jenis_buku_alat":"BG.5: Agama Islam",
+"spm_qty_min_per_siswa":"0.0",
+"spm_qty_min_per_sekolah":"0",
+"create_date":"2014\/8\/4 17:12:23",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"1147",
+"jenis_buku_alat":"BG.5: Agama Katholik",
+"spm_qty_min_per_siswa":"0.0",
+"spm_qty_min_per_sekolah":"0",
+"create_date":"2014\/8\/4 17:12:23",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"1148",
+"jenis_buku_alat":"BG.5: Agama Konghuchu",
+"spm_qty_min_per_siswa":"0.0",
+"spm_qty_min_per_sekolah":"0",
+"create_date":"2014\/8\/4 17:12:23",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"1149",
+"jenis_buku_alat":"BG.5: Agama Kristen",
+"spm_qty_min_per_siswa":"0.0",
+"spm_qty_min_per_sekolah":"0",
+"create_date":"2014\/8\/4 17:12:23",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"1150",
+"jenis_buku_alat":"BG.5: Bangga Sbg Bangsa Indonesia",
+"spm_qty_min_per_siswa":"0.0",
+"spm_qty_min_per_sekolah":"0",
+"create_date":"2014\/8\/4 17:12:23",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"1151",
+"jenis_buku_alat":"BG.5: Bermain dengan Benda-benda …",
+"spm_qty_min_per_siswa":"0.0",
+"spm_qty_min_per_sekolah":"0",
+"create_date":"2014\/8\/4 17:12:23",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"1152",
+"jenis_buku_alat":"BG.5: Berperilaku Baik dlm Kehidup…",
+"spm_qty_min_per_siswa":"0.0",
+"spm_qty_min_per_sekolah":"0",
+"create_date":"2014\/8\/4 17:12:23",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"1153",
+"jenis_buku_alat":"BG.5: Hidup Rukun  ",
+"spm_qty_min_per_siswa":"0.0",
+"spm_qty_min_per_sekolah":"0",
+"create_date":"2014\/8\/4 17:12:23",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"1154",
+"jenis_buku_alat":"BG.5: Makanan Sehat dan Bergizi",
+"spm_qty_min_per_siswa":"0.0",
+"spm_qty_min_per_sekolah":"0",
+"create_date":"2014\/8\/4 17:12:23",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"1155",
+"jenis_buku_alat":"BG.5: Menjaga Kelestarian Lingkungan",
+"spm_qty_min_per_siswa":"0.0",
+"spm_qty_min_per_sekolah":"0",
+"create_date":"2014\/8\/4 17:12:23",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"1156",
+"jenis_buku_alat":"BG.5: Peristiwa dalam Kehidupan ",
+"spm_qty_min_per_siswa":"0.0",
+"spm_qty_min_per_sekolah":"0",
+"create_date":"2014\/8\/4 17:12:23",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"1157",
+"jenis_buku_alat":"BG.5: Sehat itu Penting",
+"spm_qty_min_per_siswa":"0.0",
+"spm_qty_min_per_sekolah":"0",
+"create_date":"2014\/8\/4 17:12:23",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"1158",
+"jenis_buku_alat":"BG.7: Agama Budha",
+"spm_qty_min_per_siswa":"0.0",
+"spm_qty_min_per_sekolah":"0",
+"create_date":"2014\/8\/4 17:12:23",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"1159",
+"jenis_buku_alat":"BG.7: Agama Hindu",
+"spm_qty_min_per_siswa":"0.0",
+"spm_qty_min_per_sekolah":"0",
+"create_date":"2014\/8\/4 17:12:23",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"1160",
+"jenis_buku_alat":"BG.7: Agama Islam",
+"spm_qty_min_per_siswa":"0.0",
+"spm_qty_min_per_sekolah":"0",
+"create_date":"2014\/8\/4 17:12:23",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"1161",
+"jenis_buku_alat":"BG.7: Agama Katholik",
+"spm_qty_min_per_siswa":"0.0",
+"spm_qty_min_per_sekolah":"0",
+"create_date":"2014\/8\/4 17:12:23",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"1162",
+"jenis_buku_alat":"BG.7: Agama Konghuchu",
+"spm_qty_min_per_siswa":"0.0",
+"spm_qty_min_per_sekolah":"0",
+"create_date":"2014\/8\/4 17:12:23",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"1163",
+"jenis_buku_alat":"BG.7: Agama Kristen",
+"spm_qty_min_per_siswa":"0.0",
+"spm_qty_min_per_sekolah":"0",
+"create_date":"2014\/8\/4 17:12:23",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"1164",
+"jenis_buku_alat":"BG.7: Bahasa Indonesia",
+"spm_qty_min_per_siswa":"0.0",
+"spm_qty_min_per_sekolah":"0",
+"create_date":"2014\/8\/4 17:12:23",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"1165",
+"jenis_buku_alat":"BG.7: Bahasa Inggris",
+"spm_qty_min_per_siswa":"0.0",
+"spm_qty_min_per_sekolah":"0",
+"create_date":"2014\/8\/4 17:12:23",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"1166",
+"jenis_buku_alat":"BG.7: IPA",
+"spm_qty_min_per_siswa":"0.0",
+"spm_qty_min_per_sekolah":"0",
+"create_date":"2014\/8\/4 17:12:23",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"1167",
+"jenis_buku_alat":"BG.7: IPS",
+"spm_qty_min_per_siswa":"0.0",
+"spm_qty_min_per_sekolah":"0",
+"create_date":"2014\/8\/4 17:12:23",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"1168",
+"jenis_buku_alat":"BG.7: Matematika",
+"spm_qty_min_per_siswa":"0.0",
+"spm_qty_min_per_sekolah":"0",
+"create_date":"2014\/8\/4 17:12:23",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"1169",
+"jenis_buku_alat":"BG.7: PJOK",
+"spm_qty_min_per_siswa":"0.0",
+"spm_qty_min_per_sekolah":"0",
+"create_date":"2014\/8\/4 17:12:23",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"1170",
+"jenis_buku_alat":"BG.7: PPKn",
+"spm_qty_min_per_siswa":"0.0",
+"spm_qty_min_per_sekolah":"0",
+"create_date":"2014\/8\/4 17:12:23",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"1171",
+"jenis_buku_alat":"BG.7: Prakarya",
+"spm_qty_min_per_siswa":"0.0",
+"spm_qty_min_per_sekolah":"0",
+"create_date":"2014\/8\/4 17:12:23",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"1172",
+"jenis_buku_alat":"BG.7: Seni dan Budaya",
+"spm_qty_min_per_siswa":"0.0",
+"spm_qty_min_per_sekolah":"0",
+"create_date":"2014\/8\/4 17:12:23",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"1173",
+"jenis_buku_alat":"BG.8: Agama Budha",
+"spm_qty_min_per_siswa":"0.0",
+"spm_qty_min_per_sekolah":"0",
+"create_date":"2014\/8\/4 17:12:23",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"1174",
+"jenis_buku_alat":"BG.8: Agama Hindu",
+"spm_qty_min_per_siswa":"0.0",
+"spm_qty_min_per_sekolah":"0",
+"create_date":"2014\/8\/4 17:12:23",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"1175",
+"jenis_buku_alat":"BG.8: Agama Islam",
+"spm_qty_min_per_siswa":"0.0",
+"spm_qty_min_per_sekolah":"0",
+"create_date":"2014\/8\/4 17:12:23",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"1176",
+"jenis_buku_alat":"BG.8: Agama Katholik",
+"spm_qty_min_per_siswa":"0.0",
+"spm_qty_min_per_sekolah":"0",
+"create_date":"2014\/8\/4 17:12:23",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"1177",
+"jenis_buku_alat":"BG.8: Agama Konghuchu",
+"spm_qty_min_per_siswa":"0.0",
+"spm_qty_min_per_sekolah":"0",
+"create_date":"2014\/8\/4 17:12:23",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"1178",
+"jenis_buku_alat":"BG.8: Agama Kristen",
+"spm_qty_min_per_siswa":"0.0",
+"spm_qty_min_per_sekolah":"0",
+"create_date":"2014\/8\/4 17:12:23",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"1179",
+"jenis_buku_alat":"BG.8: Bahasa Indonesia",
+"spm_qty_min_per_siswa":"0.0",
+"spm_qty_min_per_sekolah":"0",
+"create_date":"2014\/8\/4 17:12:23",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"1180",
+"jenis_buku_alat":"BG.8: Bahasa Inggris",
+"spm_qty_min_per_siswa":"0.0",
+"spm_qty_min_per_sekolah":"0",
+"create_date":"2014\/8\/4 17:12:23",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"1181",
+"jenis_buku_alat":"BG.8: IPA",
+"spm_qty_min_per_siswa":"0.0",
+"spm_qty_min_per_sekolah":"0",
+"create_date":"2014\/8\/4 17:12:23",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"1182",
+"jenis_buku_alat":"BG.8: IPS",
+"spm_qty_min_per_siswa":"0.0",
+"spm_qty_min_per_sekolah":"0",
+"create_date":"2014\/8\/4 17:12:23",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"1183",
+"jenis_buku_alat":"BG.8: Matematika",
+"spm_qty_min_per_siswa":"0.0",
+"spm_qty_min_per_sekolah":"0",
+"create_date":"2014\/8\/4 17:12:23",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"1184",
+"jenis_buku_alat":"BG.8: PJOK",
+"spm_qty_min_per_siswa":"0.0",
+"spm_qty_min_per_sekolah":"0",
+"create_date":"2014\/8\/4 17:12:23",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"1185",
+"jenis_buku_alat":"BG.8: PPKn",
+"spm_qty_min_per_siswa":"0.0",
+"spm_qty_min_per_sekolah":"0",
+"create_date":"2014\/8\/4 17:12:23",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"1186",
+"jenis_buku_alat":"BG.8: Prakarya",
+"spm_qty_min_per_siswa":"0.0",
+"spm_qty_min_per_sekolah":"0",
+"create_date":"2014\/8\/4 17:12:23",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"1187",
+"jenis_buku_alat":"BG.8: Seni dan Budaya",
+"spm_qty_min_per_siswa":"0.0",
+"spm_qty_min_per_sekolah":"0",
+"create_date":"2014\/8\/4 17:12:23",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"1188",
+"jenis_buku_alat":"BG.10: Agama Budha",
+"spm_qty_min_per_siswa":"0.0",
+"spm_qty_min_per_sekolah":"0",
+"create_date":"2014\/8\/4 17:12:23",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"1189",
+"jenis_buku_alat":"BG.10: Agama Hindu",
+"spm_qty_min_per_siswa":"0.0",
+"spm_qty_min_per_sekolah":"0",
+"create_date":"2014\/8\/4 17:12:23",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"1190",
+"jenis_buku_alat":"BG.10: Agama Islam",
+"spm_qty_min_per_siswa":"0.0",
+"spm_qty_min_per_sekolah":"0",
+"create_date":"2014\/8\/4 17:12:23",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"1191",
+"jenis_buku_alat":"BG.10: Agama Katholik",
+"spm_qty_min_per_siswa":"0.0",
+"spm_qty_min_per_sekolah":"0",
+"create_date":"2014\/8\/4 17:12:23",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"1192",
+"jenis_buku_alat":"BG.10: Agama Konghuchu",
+"spm_qty_min_per_siswa":"0.0",
+"spm_qty_min_per_sekolah":"0",
+"create_date":"2014\/8\/4 17:12:23",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"1193",
+"jenis_buku_alat":"BG.10: Agama Kristen",
+"spm_qty_min_per_siswa":"0.0",
+"spm_qty_min_per_sekolah":"0",
+"create_date":"2014\/8\/4 17:12:23",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"1194",
+"jenis_buku_alat":"BG.10: Bahasa Indonesia",
+"spm_qty_min_per_siswa":"0.0",
+"spm_qty_min_per_sekolah":"0",
+"create_date":"2014\/8\/4 17:12:23",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"1195",
+"jenis_buku_alat":"BG.10: Bahasa Inggris",
+"spm_qty_min_per_siswa":"0.0",
+"spm_qty_min_per_sekolah":"0",
+"create_date":"2014\/8\/4 17:12:23",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"1196",
+"jenis_buku_alat":"BG.10: Matematika",
+"spm_qty_min_per_siswa":"0.0",
+"spm_qty_min_per_sekolah":"0",
+"create_date":"2014\/8\/4 17:12:23",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"1197",
+"jenis_buku_alat":"BG.10: PJOK",
+"spm_qty_min_per_siswa":"0.0",
+"spm_qty_min_per_sekolah":"0",
+"create_date":"2014\/8\/4 17:12:23",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"1198",
+"jenis_buku_alat":"BG.10: PPKn",
+"spm_qty_min_per_siswa":"0.0",
+"spm_qty_min_per_sekolah":"0",
+"create_date":"2014\/8\/4 17:12:23",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"1199",
+"jenis_buku_alat":"BG.10: Prakarya dan Kewirausahaan",
+"spm_qty_min_per_siswa":"0.0",
+"spm_qty_min_per_sekolah":"0",
+"create_date":"2014\/8\/4 17:12:23",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"1200",
+"jenis_buku_alat":"BG.10: Sejarah",
+"spm_qty_min_per_siswa":"0.0",
+"spm_qty_min_per_sekolah":"0",
+"create_date":"2014\/8\/4 17:12:23",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"1201",
+"jenis_buku_alat":"BG.10: Seni dan Budaya",
+"spm_qty_min_per_siswa":"0.0",
+"spm_qty_min_per_sekolah":"0",
+"create_date":"2014\/8\/4 17:12:23",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"1202",
+"jenis_buku_alat":"BG.11: Agama Budha",
+"spm_qty_min_per_siswa":"0.0",
+"spm_qty_min_per_sekolah":"0",
+"create_date":"2014\/8\/4 17:12:23",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"1203",
+"jenis_buku_alat":"BG.11: Agama Hindu",
+"spm_qty_min_per_siswa":"0.0",
+"spm_qty_min_per_sekolah":"0",
+"create_date":"2014\/8\/4 17:12:23",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"1204",
+"jenis_buku_alat":"BG.11: Agama Islam",
+"spm_qty_min_per_siswa":"0.0",
+"spm_qty_min_per_sekolah":"0",
+"create_date":"2014\/8\/4 17:12:23",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"1205",
+"jenis_buku_alat":"BG.11: Agama Katholik",
+"spm_qty_min_per_siswa":"0.0",
+"spm_qty_min_per_sekolah":"0",
+"create_date":"2014\/8\/4 17:12:23",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"1206",
+"jenis_buku_alat":"BG.11: Agama Konghuchu",
+"spm_qty_min_per_siswa":"0.0",
+"spm_qty_min_per_sekolah":"0",
+"create_date":"2014\/8\/4 17:12:23",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"1207",
+"jenis_buku_alat":"BG.11: Agama Kristen",
+"spm_qty_min_per_siswa":"0.0",
+"spm_qty_min_per_sekolah":"0",
+"create_date":"2014\/8\/4 17:12:23",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"1208",
+"jenis_buku_alat":"BG.11: Bahasa Indonesia",
+"spm_qty_min_per_siswa":"0.0",
+"spm_qty_min_per_sekolah":"0",
+"create_date":"2014\/8\/4 17:12:23",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"1209",
+"jenis_buku_alat":"BG.11: Bahasa Inggris",
+"spm_qty_min_per_siswa":"0.0",
+"spm_qty_min_per_sekolah":"0",
+"create_date":"2014\/8\/4 17:12:23",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"1210",
+"jenis_buku_alat":"BG.11: Matematika",
+"spm_qty_min_per_siswa":"0.0",
+"spm_qty_min_per_sekolah":"0",
+"create_date":"2014\/8\/4 17:12:23",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"1211",
+"jenis_buku_alat":"BG.11: PJOK",
+"spm_qty_min_per_siswa":"0.0",
+"spm_qty_min_per_sekolah":"0",
+"create_date":"2014\/8\/4 17:12:23",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"1212",
+"jenis_buku_alat":"BG.11: PPKn",
+"spm_qty_min_per_siswa":"0.0",
+"spm_qty_min_per_sekolah":"0",
+"create_date":"2014\/8\/4 17:12:23",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"1213",
+"jenis_buku_alat":"BG.11: Prakarya dan Kewirausahaan",
+"spm_qty_min_per_siswa":"0.0",
+"spm_qty_min_per_sekolah":"0",
+"create_date":"2014\/8\/4 17:12:23",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"1214",
+"jenis_buku_alat":"BG.11: Sejarah",
+"spm_qty_min_per_siswa":"0.0",
+"spm_qty_min_per_sekolah":"0",
+"create_date":"2014\/8\/4 17:12:23",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"1215",
+"jenis_buku_alat":"BG.11: Seni dan Budaya",
+"spm_qty_min_per_siswa":"0.0",
+"spm_qty_min_per_sekolah":"0",
+"create_date":"2014\/8\/4 17:12:23",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"2101",
+"jenis_buku_alat":"BS.1: Agama Budha",
+"spm_qty_min_per_siswa":"0.0",
+"spm_qty_min_per_sekolah":"0",
+"create_date":"2014\/8\/4 17:12:23",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"2102",
+"jenis_buku_alat":"BS.1: Agama Hindu",
+"spm_qty_min_per_siswa":"0.0",
+"spm_qty_min_per_sekolah":"0",
+"create_date":"2014\/8\/4 17:12:23",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"2103",
+"jenis_buku_alat":"BS.1: Agama Islam",
+"spm_qty_min_per_siswa":"0.0",
+"spm_qty_min_per_sekolah":"0",
+"create_date":"2014\/8\/4 17:12:23",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"2104",
+"jenis_buku_alat":"BS.1: Agama Katholik",
+"spm_qty_min_per_siswa":"0.0",
+"spm_qty_min_per_sekolah":"0",
+"create_date":"2014\/8\/4 17:12:23",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"2105",
+"jenis_buku_alat":"BS.1: Agama Konghuchu",
+"spm_qty_min_per_siswa":"0.0",
+"spm_qty_min_per_sekolah":"0",
+"create_date":"2014\/8\/4 17:12:23",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"2106",
+"jenis_buku_alat":"BS.1: Agama Kristen",
+"spm_qty_min_per_siswa":"0.0",
+"spm_qty_min_per_sekolah":"0",
+"create_date":"2014\/8\/4 17:12:23",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"2107",
+"jenis_buku_alat":"BS.1: Benda, Binatang, dan Tanaman …",
+"spm_qty_min_per_siswa":"0.0",
+"spm_qty_min_per_sekolah":"0",
+"create_date":"2014\/8\/4 17:12:23",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"2108",
+"jenis_buku_alat":"BS.1: Diri Sendiri",
+"spm_qty_min_per_siswa":"0.0",
+"spm_qty_min_per_sekolah":"0",
+"create_date":"2014\/8\/4 17:12:23",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"2109",
+"jenis_buku_alat":"BS.1: Kagiatanku",
+"spm_qty_min_per_siswa":"0.0",
+"spm_qty_min_per_sekolah":"0",
+"create_date":"2014\/8\/4 17:12:23",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"2110",
+"jenis_buku_alat":"BS.1: Kegemaranku",
+"spm_qty_min_per_siswa":"0.0",
+"spm_qty_min_per_sekolah":"0",
+"create_date":"2014\/8\/4 17:12:23",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"2111",
+"jenis_buku_alat":"BS.1: Keluargaku",
+"spm_qty_min_per_siswa":"0.0",
+"spm_qty_min_per_sekolah":"0",
+"create_date":"2014\/8\/4 17:12:23",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"2112",
+"jenis_buku_alat":"BS.1: Lingkungan Bersih, dan Sehat",
+"spm_qty_min_per_siswa":"0.0",
+"spm_qty_min_per_sekolah":"0",
+"create_date":"2014\/8\/4 17:12:23",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"2113",
+"jenis_buku_alat":"BS.1: Pengalamanku",
+"spm_qty_min_per_siswa":"0.0",
+"spm_qty_min_per_sekolah":"0",
+"create_date":"2014\/8\/4 17:12:23",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"2114",
+"jenis_buku_alat":"BS.1: Peristiwa Alam",
+"spm_qty_min_per_siswa":"0.0",
+"spm_qty_min_per_sekolah":"0",
+"create_date":"2014\/8\/4 17:12:23",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"2115",
+"jenis_buku_alat":"BS.2: Agama Budha",
+"spm_qty_min_per_siswa":"0.0",
+"spm_qty_min_per_sekolah":"0",
+"create_date":"2014\/8\/4 17:12:23",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"2116",
+"jenis_buku_alat":"BS.2: Agama Hindu",
+"spm_qty_min_per_siswa":"0.0",
+"spm_qty_min_per_sekolah":"0",
+"create_date":"2014\/8\/4 17:12:23",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"2117",
+"jenis_buku_alat":"BS.2: Agama Islam",
+"spm_qty_min_per_siswa":"0.0",
+"spm_qty_min_per_sekolah":"0",
+"create_date":"2014\/8\/4 17:12:23",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"2118",
+"jenis_buku_alat":"BS.2: Agama Katholik",
+"spm_qty_min_per_siswa":"0.0",
+"spm_qty_min_per_sekolah":"0",
+"create_date":"2014\/8\/4 17:12:23",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"2119",
+"jenis_buku_alat":"BS.2: Agama Konghuchu",
+"spm_qty_min_per_siswa":"0.0",
+"spm_qty_min_per_sekolah":"0",
+"create_date":"2014\/8\/4 17:12:23",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"2120",
+"jenis_buku_alat":"BS.2: Agama Kristen",
+"spm_qty_min_per_siswa":"0.0",
+"spm_qty_min_per_sekolah":"0",
+"create_date":"2014\/8\/4 17:12:23",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"2121",
+"jenis_buku_alat":"BS.2: Air, Bumi, dan Matahari",
+"spm_qty_min_per_siswa":"0.0",
+"spm_qty_min_per_sekolah":"0",
+"create_date":"2014\/8\/4 17:12:23",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"2122",
+"jenis_buku_alat":"BS.2: Aku dan Sekolahku",
+"spm_qty_min_per_siswa":"0.0",
+"spm_qty_min_per_sekolah":"0",
+"create_date":"2014\/8\/4 17:12:23",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"2123",
+"jenis_buku_alat":"BS.2: Bermain di Lingkunganku",
+"spm_qty_min_per_siswa":"0.0",
+"spm_qty_min_per_sekolah":"0",
+"create_date":"2014\/8\/4 17:12:23",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"2124",
+"jenis_buku_alat":"BS.2: Hidup Bersih dan Sehat ",
+"spm_qty_min_per_siswa":"0.0",
+"spm_qty_min_per_sekolah":"0",
+"create_date":"2014\/8\/4 17:12:23",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"2125",
+"jenis_buku_alat":"BS.2: Hidup Rukun",
+"spm_qty_min_per_siswa":"0.0",
+"spm_qty_min_per_sekolah":"0",
+"create_date":"2014\/8\/4 17:12:23",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"2126",
+"jenis_buku_alat":"BS.2: Keselamatan di Rumah dan Per…",
+"spm_qty_min_per_siswa":"0.0",
+"spm_qty_min_per_sekolah":"0",
+"create_date":"2014\/8\/4 17:12:23",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"2127",
+"jenis_buku_alat":"BS.2: Merawat Hewan dan Tumbuhan",
+"spm_qty_min_per_siswa":"0.0",
+"spm_qty_min_per_sekolah":"0",
+"create_date":"2014\/8\/4 17:12:23",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"2128",
+"jenis_buku_alat":"BS.2: Tugasku Sehari-hari",
+"spm_qty_min_per_siswa":"0.0",
+"spm_qty_min_per_sekolah":"0",
+"create_date":"2014\/8\/4 17:12:23",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"2129",
+"jenis_buku_alat":"BS.4: Agama Budha",
+"spm_qty_min_per_siswa":"0.0",
+"spm_qty_min_per_sekolah":"0",
+"create_date":"2014\/8\/4 17:12:23",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"2130",
+"jenis_buku_alat":"BS.4: Agama Hindu",
+"spm_qty_min_per_siswa":"0.0",
+"spm_qty_min_per_sekolah":"0",
+"create_date":"2014\/8\/4 17:12:23",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"2131",
+"jenis_buku_alat":"BS.4: Agama Islam",
+"spm_qty_min_per_siswa":"0.0",
+"spm_qty_min_per_sekolah":"0",
+"create_date":"2014\/8\/4 17:12:23",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"2132",
+"jenis_buku_alat":"BS.4: Agama Katholik",
+"spm_qty_min_per_siswa":"0.0",
+"spm_qty_min_per_sekolah":"0",
+"create_date":"2014\/8\/4 17:12:23",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"2133",
+"jenis_buku_alat":"BS.4: Agama Konghuchu",
+"spm_qty_min_per_siswa":"0.0",
+"spm_qty_min_per_sekolah":"0",
+"create_date":"2014\/8\/4 17:12:23",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"2134",
+"jenis_buku_alat":"BS.4: Agama Kristen",
+"spm_qty_min_per_siswa":"0.0",
+"spm_qty_min_per_sekolah":"0",
+"create_date":"2014\/8\/4 17:12:23",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"2135",
+"jenis_buku_alat":"BS.4: Berbagai Pekerjaan",
+"spm_qty_min_per_siswa":"0.0",
+"spm_qty_min_per_sekolah":"0",
+"create_date":"2014\/8\/4 17:12:23",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"2136",
+"jenis_buku_alat":"BS.4: Cita-citaku",
+"spm_qty_min_per_siswa":"0.0",
+"spm_qty_min_per_sekolah":"0",
+"create_date":"2014\/8\/4 17:12:23",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"2137",
+"jenis_buku_alat":"BS.4: Daerah Tempat Tinggalku",
+"spm_qty_min_per_siswa":"0.0",
+"spm_qty_min_per_sekolah":"0",
+"create_date":"2014\/8\/4 17:12:23",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"2138",
+"jenis_buku_alat":"BS.4: Indahnya Kebersamaan",
+"spm_qty_min_per_siswa":"0.0",
+"spm_qty_min_per_sekolah":"0",
+"create_date":"2014\/8\/4 17:12:23",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"2139",
+"jenis_buku_alat":"BS.4: Indahnya Negeriku",
+"spm_qty_min_per_siswa":"0.0",
+"spm_qty_min_per_sekolah":"0",
+"create_date":"2014\/8\/4 17:12:23",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"2140",
+"jenis_buku_alat":"BS.4: Makanan Sehat dan Bergizi",
+"spm_qty_min_per_siswa":"0.0",
+"spm_qty_min_per_sekolah":"0",
+"create_date":"2014\/8\/4 17:12:23",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"2141",
+"jenis_buku_alat":"BS.4: Menghargai Jasa Pahlawan",
+"spm_qty_min_per_siswa":"0.0",
+"spm_qty_min_per_sekolah":"0",
+"create_date":"2014\/8\/4 17:12:23",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"2142",
+"jenis_buku_alat":"BS.4: Peduli Terhadap Makhluk Hidup",
+"spm_qty_min_per_siswa":"0.0",
+"spm_qty_min_per_sekolah":"0",
+"create_date":"2014\/8\/4 17:12:23",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"2143",
+"jenis_buku_alat":"BS.4: Selalu Berhemat Energi",
+"spm_qty_min_per_siswa":"0.0",
+"spm_qty_min_per_sekolah":"0",
+"create_date":"2014\/8\/4 17:12:23",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"2144",
+"jenis_buku_alat":"BS.5: Agama Budha",
+"spm_qty_min_per_siswa":"0.0",
+"spm_qty_min_per_sekolah":"0",
+"create_date":"2014\/8\/4 17:12:23",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"2145",
+"jenis_buku_alat":"BS.5: Agama Hindu",
+"spm_qty_min_per_siswa":"0.0",
+"spm_qty_min_per_sekolah":"0",
+"create_date":"2014\/8\/4 17:12:23",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"2146",
+"jenis_buku_alat":"BS.5: Agama Islam",
+"spm_qty_min_per_siswa":"0.0",
+"spm_qty_min_per_sekolah":"0",
+"create_date":"2014\/8\/4 17:12:23",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"2147",
+"jenis_buku_alat":"BS.5: Agama Katholik",
+"spm_qty_min_per_siswa":"0.0",
+"spm_qty_min_per_sekolah":"0",
+"create_date":"2014\/8\/4 17:12:23",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"2148",
+"jenis_buku_alat":"BS.5: Agama Konghuchu",
+"spm_qty_min_per_siswa":"0.0",
+"spm_qty_min_per_sekolah":"0",
+"create_date":"2014\/8\/4 17:12:23",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"2149",
+"jenis_buku_alat":"BS.5: Agama Kristen",
+"spm_qty_min_per_siswa":"0.0",
+"spm_qty_min_per_sekolah":"0",
+"create_date":"2014\/8\/4 17:12:23",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"2150",
+"jenis_buku_alat":"BS.5: Bangga Sbg Bangsa Indonesia",
+"spm_qty_min_per_siswa":"0.0",
+"spm_qty_min_per_sekolah":"0",
+"create_date":"2014\/8\/4 17:12:23",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"2151",
+"jenis_buku_alat":"BS.5: Bermain dengan Benda-benda …",
+"spm_qty_min_per_siswa":"0.0",
+"spm_qty_min_per_sekolah":"0",
+"create_date":"2014\/8\/4 17:12:23",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"2152",
+"jenis_buku_alat":"BS.5: Berperilaku Baik dlm Kehidup…",
+"spm_qty_min_per_siswa":"0.0",
+"spm_qty_min_per_sekolah":"0",
+"create_date":"2014\/8\/4 17:12:23",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"2153",
+"jenis_buku_alat":"BS.5: Hidup Rukun  ",
+"spm_qty_min_per_siswa":"0.0",
+"spm_qty_min_per_sekolah":"0",
+"create_date":"2014\/8\/4 17:12:23",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"2154",
+"jenis_buku_alat":"BS.5: Makanan Sehat dan Bergizi",
+"spm_qty_min_per_siswa":"0.0",
+"spm_qty_min_per_sekolah":"0",
+"create_date":"2014\/8\/4 17:12:23",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"2155",
+"jenis_buku_alat":"BS.5: Menjaga Kelestarian Lingkungan",
+"spm_qty_min_per_siswa":"0.0",
+"spm_qty_min_per_sekolah":"0",
+"create_date":"2014\/8\/4 17:12:23",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"2156",
+"jenis_buku_alat":"BS.5: Peristiwa dalam Kehidupan ",
+"spm_qty_min_per_siswa":"0.0",
+"spm_qty_min_per_sekolah":"0",
+"create_date":"2014\/8\/4 17:12:23",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"2157",
+"jenis_buku_alat":"BS.5: Sehat itu Penting",
+"spm_qty_min_per_siswa":"0.0",
+"spm_qty_min_per_sekolah":"0",
+"create_date":"2014\/8\/4 17:12:23",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"2158",
+"jenis_buku_alat":"BS.7: Agama Budha",
+"spm_qty_min_per_siswa":"0.0",
+"spm_qty_min_per_sekolah":"0",
+"create_date":"2014\/8\/4 17:12:23",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"2159",
+"jenis_buku_alat":"BS.7: Agama Hindu",
+"spm_qty_min_per_siswa":"0.0",
+"spm_qty_min_per_sekolah":"0",
+"create_date":"2014\/8\/4 17:12:23",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"2160",
+"jenis_buku_alat":"BS.7: Agama Islam",
+"spm_qty_min_per_siswa":"0.0",
+"spm_qty_min_per_sekolah":"0",
+"create_date":"2014\/8\/4 17:12:23",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"2161",
+"jenis_buku_alat":"BS.7: Agama Katholik",
+"spm_qty_min_per_siswa":"0.0",
+"spm_qty_min_per_sekolah":"0",
+"create_date":"2014\/8\/4 17:12:23",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"2162",
+"jenis_buku_alat":"BS.7: Agama Konghuchu",
+"spm_qty_min_per_siswa":"0.0",
+"spm_qty_min_per_sekolah":"0",
+"create_date":"2014\/8\/4 17:12:23",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"2163",
+"jenis_buku_alat":"BS.7: Agama Kristen",
+"spm_qty_min_per_siswa":"0.0",
+"spm_qty_min_per_sekolah":"0",
+"create_date":"2014\/8\/4 17:12:23",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"2164",
+"jenis_buku_alat":"BS.7: Bahasa Indonesia",
+"spm_qty_min_per_siswa":"0.0",
+"spm_qty_min_per_sekolah":"0",
+"create_date":"2014\/8\/4 17:12:23",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"2165",
+"jenis_buku_alat":"BS.7: Bahasa Inggris",
+"spm_qty_min_per_siswa":"0.0",
+"spm_qty_min_per_sekolah":"0",
+"create_date":"2014\/8\/4 17:12:23",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"2166",
+"jenis_buku_alat":"BS.7: IPA",
+"spm_qty_min_per_siswa":"0.0",
+"spm_qty_min_per_sekolah":"0",
+"create_date":"2014\/8\/4 17:12:23",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"2167",
+"jenis_buku_alat":"BS.7: IPS",
+"spm_qty_min_per_siswa":"0.0",
+"spm_qty_min_per_sekolah":"0",
+"create_date":"2014\/8\/4 17:12:23",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"2168",
+"jenis_buku_alat":"BS.7: Matematika",
+"spm_qty_min_per_siswa":"0.0",
+"spm_qty_min_per_sekolah":"0",
+"create_date":"2014\/8\/4 17:12:23",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"2169",
+"jenis_buku_alat":"BS.7: PJOK",
+"spm_qty_min_per_siswa":"0.0",
+"spm_qty_min_per_sekolah":"0",
+"create_date":"2014\/8\/4 17:12:23",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"2170",
+"jenis_buku_alat":"BS.7: PPKn",
+"spm_qty_min_per_siswa":"0.0",
+"spm_qty_min_per_sekolah":"0",
+"create_date":"2014\/8\/4 17:12:23",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"2171",
+"jenis_buku_alat":"BS.7: Prakarya",
+"spm_qty_min_per_siswa":"0.0",
+"spm_qty_min_per_sekolah":"0",
+"create_date":"2014\/8\/4 17:12:23",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"2172",
+"jenis_buku_alat":"BS.7: Seni dan Budaya",
+"spm_qty_min_per_siswa":"0.0",
+"spm_qty_min_per_sekolah":"0",
+"create_date":"2014\/8\/4 17:12:23",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"2173",
+"jenis_buku_alat":"BS.8: Agama Budha",
+"spm_qty_min_per_siswa":"0.0",
+"spm_qty_min_per_sekolah":"0",
+"create_date":"2014\/8\/4 17:12:23",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"2174",
+"jenis_buku_alat":"BS.8: Agama Hindu",
+"spm_qty_min_per_siswa":"0.0",
+"spm_qty_min_per_sekolah":"0",
+"create_date":"2014\/8\/4 17:12:23",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"2175",
+"jenis_buku_alat":"BS.8: Agama Islam",
+"spm_qty_min_per_siswa":"0.0",
+"spm_qty_min_per_sekolah":"0",
+"create_date":"2014\/8\/4 17:12:23",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"2176",
+"jenis_buku_alat":"BS.8: Agama Katholik",
+"spm_qty_min_per_siswa":"0.0",
+"spm_qty_min_per_sekolah":"0",
+"create_date":"2014\/8\/4 17:12:23",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"2177",
+"jenis_buku_alat":"BS.8: Agama Konghuchu",
+"spm_qty_min_per_siswa":"0.0",
+"spm_qty_min_per_sekolah":"0",
+"create_date":"2014\/8\/4 17:12:23",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"2178",
+"jenis_buku_alat":"BS.8: Agama Kristen",
+"spm_qty_min_per_siswa":"0.0",
+"spm_qty_min_per_sekolah":"0",
+"create_date":"2014\/8\/4 17:12:23",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"2179",
+"jenis_buku_alat":"BS.8: Bahasa Indonesia",
+"spm_qty_min_per_siswa":"0.0",
+"spm_qty_min_per_sekolah":"0",
+"create_date":"2014\/8\/4 17:12:23",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"2180",
+"jenis_buku_alat":"BS.8: Bahasa Inggris",
+"spm_qty_min_per_siswa":"0.0",
+"spm_qty_min_per_sekolah":"0",
+"create_date":"2014\/8\/4 17:12:23",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"2181",
+"jenis_buku_alat":"BS.8: IPA",
+"spm_qty_min_per_siswa":"0.0",
+"spm_qty_min_per_sekolah":"0",
+"create_date":"2014\/8\/4 17:12:23",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"2182",
+"jenis_buku_alat":"BS.8: IPS",
+"spm_qty_min_per_siswa":"0.0",
+"spm_qty_min_per_sekolah":"0",
+"create_date":"2014\/8\/4 17:12:23",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"2183",
+"jenis_buku_alat":"BS.8: Matematika",
+"spm_qty_min_per_siswa":"0.0",
+"spm_qty_min_per_sekolah":"0",
+"create_date":"2014\/8\/4 17:12:23",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"2184",
+"jenis_buku_alat":"BS.8: PJOK",
+"spm_qty_min_per_siswa":"0.0",
+"spm_qty_min_per_sekolah":"0",
+"create_date":"2014\/8\/4 17:12:23",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"2185",
+"jenis_buku_alat":"BS.8: PPKn",
+"spm_qty_min_per_siswa":"0.0",
+"spm_qty_min_per_sekolah":"0",
+"create_date":"2014\/8\/4 17:12:23",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"2186",
+"jenis_buku_alat":"BS.8: Prakarya",
+"spm_qty_min_per_siswa":"0.0",
+"spm_qty_min_per_sekolah":"0",
+"create_date":"2014\/8\/4 17:12:23",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"2187",
+"jenis_buku_alat":"BS.8: Seni dan Budaya",
+"spm_qty_min_per_siswa":"0.0",
+"spm_qty_min_per_sekolah":"0",
+"create_date":"2014\/8\/4 17:12:23",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"2188",
+"jenis_buku_alat":"BS.10: Agama Budha",
+"spm_qty_min_per_siswa":"0.0",
+"spm_qty_min_per_sekolah":"0",
+"create_date":"2014\/8\/4 17:12:23",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"2189",
+"jenis_buku_alat":"BS.10: Agama Hindu",
+"spm_qty_min_per_siswa":"0.0",
+"spm_qty_min_per_sekolah":"0",
+"create_date":"2014\/8\/4 17:12:23",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"2190",
+"jenis_buku_alat":"BS.10: Agama Islam",
+"spm_qty_min_per_siswa":"0.0",
+"spm_qty_min_per_sekolah":"0",
+"create_date":"2014\/8\/4 17:12:23",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"2191",
+"jenis_buku_alat":"BS.10: Agama Katholik",
+"spm_qty_min_per_siswa":"0.0",
+"spm_qty_min_per_sekolah":"0",
+"create_date":"2014\/8\/4 17:12:23",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"2192",
+"jenis_buku_alat":"BS.10: Agama Konghuchu",
+"spm_qty_min_per_siswa":"0.0",
+"spm_qty_min_per_sekolah":"0",
+"create_date":"2014\/8\/4 17:12:23",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"2193",
+"jenis_buku_alat":"BS.10: Agama Kristen",
+"spm_qty_min_per_siswa":"0.0",
+"spm_qty_min_per_sekolah":"0",
+"create_date":"2014\/8\/4 17:12:23",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"2194",
+"jenis_buku_alat":"BS.10: Bahasa Indonesia",
+"spm_qty_min_per_siswa":"0.0",
+"spm_qty_min_per_sekolah":"0",
+"create_date":"2014\/8\/4 17:12:23",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"2195",
+"jenis_buku_alat":"BS.10: Bahasa Inggris",
+"spm_qty_min_per_siswa":"0.0",
+"spm_qty_min_per_sekolah":"0",
+"create_date":"2014\/8\/4 17:12:23",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"2196",
+"jenis_buku_alat":"BS.10: Matematika",
+"spm_qty_min_per_siswa":"0.0",
+"spm_qty_min_per_sekolah":"0",
+"create_date":"2014\/8\/4 17:12:23",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"2197",
+"jenis_buku_alat":"BS.10: PJOK",
+"spm_qty_min_per_siswa":"0.0",
+"spm_qty_min_per_sekolah":"0",
+"create_date":"2014\/8\/4 17:12:23",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"2198",
+"jenis_buku_alat":"BS.10: PPKn",
+"spm_qty_min_per_siswa":"0.0",
+"spm_qty_min_per_sekolah":"0",
+"create_date":"2014\/8\/4 17:12:23",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"2199",
+"jenis_buku_alat":"BS.10: Prakarya dan Kewirausahaan",
+"spm_qty_min_per_siswa":"0.0",
+"spm_qty_min_per_sekolah":"0",
+"create_date":"2014\/8\/4 17:12:23",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"2200",
+"jenis_buku_alat":"BS.10: Sejarah",
+"spm_qty_min_per_siswa":"0.0",
+"spm_qty_min_per_sekolah":"0",
+"create_date":"2014\/8\/4 17:12:23",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"2201",
+"jenis_buku_alat":"BS.10: Seni dan Budaya",
+"spm_qty_min_per_siswa":"0.0",
+"spm_qty_min_per_sekolah":"0",
+"create_date":"2014\/8\/4 17:12:23",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"2202",
+"jenis_buku_alat":"BS.11: Agama Budha",
+"spm_qty_min_per_siswa":"0.0",
+"spm_qty_min_per_sekolah":"0",
+"create_date":"2014\/8\/4 17:12:23",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"2203",
+"jenis_buku_alat":"BS.11: Agama Hindu",
+"spm_qty_min_per_siswa":"0.0",
+"spm_qty_min_per_sekolah":"0",
+"create_date":"2014\/8\/4 17:12:23",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"2204",
+"jenis_buku_alat":"BS.11: Agama Islam",
+"spm_qty_min_per_siswa":"0.0",
+"spm_qty_min_per_sekolah":"0",
+"create_date":"2014\/8\/4 17:12:23",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"2205",
+"jenis_buku_alat":"BS.11: Agama Katholik",
+"spm_qty_min_per_siswa":"0.0",
+"spm_qty_min_per_sekolah":"0",
+"create_date":"2014\/8\/4 17:12:23",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"2206",
+"jenis_buku_alat":"BS.11: Agama Konghuchu",
+"spm_qty_min_per_siswa":"0.0",
+"spm_qty_min_per_sekolah":"0",
+"create_date":"2014\/8\/4 17:12:23",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"2207",
+"jenis_buku_alat":"BS.11: Agama Kristen",
+"spm_qty_min_per_siswa":"0.0",
+"spm_qty_min_per_sekolah":"0",
+"create_date":"2014\/8\/4 17:12:23",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"2208",
+"jenis_buku_alat":"BS.11: Bahasa Indonesia",
+"spm_qty_min_per_siswa":"0.0",
+"spm_qty_min_per_sekolah":"0",
+"create_date":"2014\/8\/4 17:12:23",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"2209",
+"jenis_buku_alat":"BS.11: Bahasa Inggris",
+"spm_qty_min_per_siswa":"0.0",
+"spm_qty_min_per_sekolah":"0",
+"create_date":"2014\/8\/4 17:12:23",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"2210",
+"jenis_buku_alat":"BS.11: Matematika",
+"spm_qty_min_per_siswa":"0.0",
+"spm_qty_min_per_sekolah":"0",
+"create_date":"2014\/8\/4 17:12:23",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"2211",
+"jenis_buku_alat":"BS.11: PJOK",
+"spm_qty_min_per_siswa":"0.0",
+"spm_qty_min_per_sekolah":"0",
+"create_date":"2014\/8\/4 17:12:23",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"2212",
+"jenis_buku_alat":"BS.11: PPKn",
+"spm_qty_min_per_siswa":"0.0",
+"spm_qty_min_per_sekolah":"0",
+"create_date":"2014\/8\/4 17:12:23",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"2213",
+"jenis_buku_alat":"BS.11: Prakarya dan Kewirausahaan",
+"spm_qty_min_per_siswa":"0.0",
+"spm_qty_min_per_sekolah":"0",
+"create_date":"2014\/8\/4 17:12:23",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"2214",
+"jenis_buku_alat":"BS.11: Sejarah",
+"spm_qty_min_per_siswa":"0.0",
+"spm_qty_min_per_sekolah":"0",
+"create_date":"2014\/8\/4 17:12:23",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"2215",
+"jenis_buku_alat":"BS.11: Seni dan Budaya",
+"spm_qty_min_per_siswa":"0.0",
+"spm_qty_min_per_sekolah":"0",
+"create_date":"2014\/8\/4 17:12:23",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+}
+]

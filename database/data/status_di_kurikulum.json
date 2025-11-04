@@ -1,0 +1,74 @@
+[
+{
+"id":"1",
+"ket_stat_di_kurikulum":"Matpel Wajib",
+"create_date":"2018\/1\/24 00:00:00",
+"last_update":"2019\/2\/25 05:52:47.803",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:52:47.803"
+},
+{
+"id":"2",
+"ket_stat_di_kurikulum":"Matpel Bidang Studi Wajib (tambahan jam)",
+"create_date":"2018\/1\/24 00:00:00",
+"last_update":"2019\/2\/25 05:52:47.803",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:52:47.803"
+},
+{
+"id":"3",
+"ket_stat_di_kurikulum":"Matpel Bidang Studi Wajib A \/ Kelompok A",
+"create_date":"2018\/1\/24 00:00:00",
+"last_update":"2019\/2\/25 05:52:47.804",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:52:47.804"
+},
+{
+"id":"4",
+"ket_stat_di_kurikulum":"Matpel Bidang Studi Wajib B \/ Kelompok B",
+"create_date":"2018\/1\/24 00:00:00",
+"last_update":"2019\/2\/25 05:52:47.804",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:52:47.804"
+},
+{
+"id":"5",
+"ket_stat_di_kurikulum":"Matpel Peminatan",
+"create_date":"2018\/1\/24 00:00:00",
+"last_update":"2019\/2\/25 05:52:47.804",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:52:47.804"
+},
+{
+"id":"6",
+"ket_stat_di_kurikulum":"Matpel Produktif",
+"create_date":"2018\/1\/24 00:00:00",
+"last_update":"2019\/2\/25 05:52:47.804",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:52:47.804"
+},
+{
+"id":"8",
+"ket_stat_di_kurikulum":"Ekstensi Team Teaching (Praktek)",
+"create_date":"2018\/1\/24 00:00:00",
+"last_update":"2019\/2\/25 05:52:47.804",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:52:47.804"
+},
+{
+"id":"9",
+"ket_stat_di_kurikulum":"Matpel Lainnya \/ Tambahan",
+"create_date":"2018\/1\/24 00:00:00",
+"last_update":"2019\/2\/25 05:52:47.804",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:52:47.804"
+},
+{
+"id":"10",
+"ket_stat_di_kurikulum":"Muatan Sekolah",
+"create_date":"2018\/7\/11 23:27:57.883",
+"last_update":"2019\/2\/25 05:52:47.804",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:52:47.804"
+}
+]

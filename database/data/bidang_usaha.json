@@ -1,0 +1,706 @@
+[
+{
+"id":"1         ",
+"nama_bidang_usaha":"Pertanian, Peternakan, Perburuan",
+"create_date":"2013\/10\/30 00:00:00",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"10        ",
+"nama_bidang_usaha":"Ind. Makanan ",
+"create_date":"2013\/10\/30 00:00:00",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"11        ",
+"nama_bidang_usaha":"Ind. Minuman ",
+"create_date":"2013\/10\/30 00:00:00",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"12        ",
+"nama_bidang_usaha":"Ind. Pengolahan Tembakau ",
+"create_date":"2013\/10\/30 00:00:00",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"13        ",
+"nama_bidang_usaha":"Ind. Tekstil ",
+"create_date":"2013\/10\/30 00:00:00",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"14        ",
+"nama_bidang_usaha":"Ind. Pakaian Jadi ",
+"create_date":"2013\/10\/30 00:00:00",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"15        ",
+"nama_bidang_usaha":"Ind. Kulit, dan Alas Kaki ",
+"create_date":"2013\/10\/30 00:00:00",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"16        ",
+"nama_bidang_usaha":"Ind. Kayu, dan Gabus ",
+"create_date":"2013\/10\/30 00:00:00",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"17        ",
+"nama_bidang_usaha":"Ind. Kertas dan Barang dari Kertas ",
+"create_date":"2013\/10\/30 00:00:00",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"18        ",
+"nama_bidang_usaha":"Ind. Pencetakan dan Repr. Media Rekaman ",
+"create_date":"2013\/10\/30 00:00:00",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"19        ",
+"nama_bidang_usaha":"Ind. Prod Bt Bara, Kilang Minyak Bumi ",
+"create_date":"2013\/10\/30 00:00:00",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"2         ",
+"nama_bidang_usaha":"Kehutanan dan Penebangan Kayu ",
+"create_date":"2013\/10\/30 00:00:00",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"20        ",
+"nama_bidang_usaha":"Ind. Bahan Kimia ",
+"create_date":"2013\/10\/30 00:00:00",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"21        ",
+"nama_bidang_usaha":"Ind. Farmasi ",
+"create_date":"2013\/10\/30 00:00:00",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"22        ",
+"nama_bidang_usaha":"Ind. Karet dan Plastik ",
+"create_date":"2013\/10\/30 00:00:00",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"23        ",
+"nama_bidang_usaha":"Ind. Barang Galian Bukan Logam ",
+"create_date":"2013\/10\/30 00:00:00",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"24        ",
+"nama_bidang_usaha":"Ind. Logam Dasar ",
+"create_date":"2013\/10\/30 00:00:00",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"25        ",
+"nama_bidang_usaha":"Ind. Barang Logam, Bukan Mesin",
+"create_date":"2013\/10\/30 00:00:00",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"26        ",
+"nama_bidang_usaha":"Ind. Komputer, Brg Elektronik dan Optik ",
+"create_date":"2013\/10\/30 00:00:00",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"27        ",
+"nama_bidang_usaha":"Ind. Peralatan Listrik ",
+"create_date":"2013\/10\/30 00:00:00",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"28        ",
+"nama_bidang_usaha":"Ind. Mesin dan Perlengkapan ytdl ",
+"create_date":"2013\/10\/30 00:00:00",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"29        ",
+"nama_bidang_usaha":"Ind. Kendaraan Bermotor ",
+"create_date":"2013\/10\/30 00:00:00",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"3         ",
+"nama_bidang_usaha":"Perikanan ",
+"create_date":"2013\/10\/30 00:00:00",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"30        ",
+"nama_bidang_usaha":"Ind. Alat Angkutan Lainnya ",
+"create_date":"2013\/10\/30 00:00:00",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"31        ",
+"nama_bidang_usaha":"Ind. Furnitur ",
+"create_date":"2013\/10\/30 00:00:00",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"32        ",
+"nama_bidang_usaha":"Ind. Pengolahan Lainnya ",
+"create_date":"2013\/10\/30 00:00:00",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"33        ",
+"nama_bidang_usaha":"Jasa Reparasi Mesin ",
+"create_date":"2013\/10\/30 00:00:00",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"35        ",
+"nama_bidang_usaha":"Pengadaan Listrik, Gas, Uap ",
+"create_date":"2013\/10\/30 00:00:00",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"36        ",
+"nama_bidang_usaha":"Pengadaan Air ",
+"create_date":"2013\/10\/30 00:00:00",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"37        ",
+"nama_bidang_usaha":"Pengelolaan Limbah ",
+"create_date":"2013\/10\/30 00:00:00",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"38        ",
+"nama_bidang_usaha":"Pengelolaan Sampah dan Daur Ulang ",
+"create_date":"2013\/10\/30 00:00:00",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"39        ",
+"nama_bidang_usaha":"Jasa Pengelolaan Sampah Lain ",
+"create_date":"2013\/10\/30 00:00:00",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"41        ",
+"nama_bidang_usaha":"Konstruksi Gedung ",
+"create_date":"2013\/10\/30 00:00:00",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"42        ",
+"nama_bidang_usaha":"Konstruksi Bangunan Sipil ",
+"create_date":"2013\/10\/30 00:00:00",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"43        ",
+"nama_bidang_usaha":"Konstruksi Khusus",
+"create_date":"2013\/10\/30 00:00:00",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"45        ",
+"nama_bidang_usaha":"Perdagangan Mobil dan Sepeda Motor 342 ",
+"create_date":"2013\/10\/30 00:00:00",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"46        ",
+"nama_bidang_usaha":"Perdagangan Besar, Bukan Mobil ",
+"create_date":"2013\/10\/30 00:00:00",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"47        ",
+"nama_bidang_usaha":"Perdagangan Eceran, Bukan Mobil ",
+"create_date":"2013\/10\/30 00:00:00",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"49        ",
+"nama_bidang_usaha":"Angkutan Darat dan Melalui Saluran Pipa ",
+"create_date":"2013\/10\/30 00:00:00",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"5         ",
+"nama_bidang_usaha":"Tmbg Batu Bara dan Lignit ",
+"create_date":"2013\/10\/30 00:00:00",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"50        ",
+"nama_bidang_usaha":"Angkutan Air ",
+"create_date":"2013\/10\/30 00:00:00",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"51        ",
+"nama_bidang_usaha":"Angkutan Udara ",
+"create_date":"2013\/10\/30 00:00:00",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"52        ",
+"nama_bidang_usaha":"Pergudangan dan Jasa Penunjang Angkutan ",
+"create_date":"2013\/10\/30 00:00:00",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"53        ",
+"nama_bidang_usaha":"Pos dan Kurir ",
+"create_date":"2013\/10\/30 00:00:00",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"55        ",
+"nama_bidang_usaha":"Penyediaan Akomodasi ",
+"create_date":"2013\/10\/30 00:00:00",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"56        ",
+"nama_bidang_usaha":"Penyediaan Makanan dan Minuman ",
+"create_date":"2013\/10\/30 00:00:00",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"58        ",
+"nama_bidang_usaha":"Penerbitan ",
+"create_date":"2013\/10\/30 00:00:00",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"59        ",
+"nama_bidang_usaha":"Produksi Video dan Musik ",
+"create_date":"2013\/10\/30 00:00:00",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"6         ",
+"nama_bidang_usaha":"Tmbg Mnyk Bumi, Gas Alam, Panas Bumi ",
+"create_date":"2013\/10\/30 00:00:00",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"60        ",
+"nama_bidang_usaha":"Penyiaran dan Pemrograman ",
+"create_date":"2013\/10\/30 00:00:00",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"61        ",
+"nama_bidang_usaha":"Telekomunikasi ",
+"create_date":"2013\/10\/30 00:00:00",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"62        ",
+"nama_bidang_usaha":"Kegiatan Pemrograman ",
+"create_date":"2013\/10\/30 00:00:00",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"63        ",
+"nama_bidang_usaha":"Kegiatan Jasa Informasi ",
+"create_date":"2013\/10\/30 00:00:00",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"64        ",
+"nama_bidang_usaha":"Jasa Keuangan ",
+"create_date":"2013\/10\/30 00:00:00",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"65        ",
+"nama_bidang_usaha":"Asuransi dan Dana Pensiun ",
+"create_date":"2013\/10\/30 00:00:00",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"66        ",
+"nama_bidang_usaha":"Jasa Penunjang Jasa Keuangan ",
+"create_date":"2013\/10\/30 00:00:00",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"68        ",
+"nama_bidang_usaha":"Real Estat ",
+"create_date":"2013\/10\/30 00:00:00",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"69        ",
+"nama_bidang_usaha":"Jasa Hukum dan Akuntansi ",
+"create_date":"2013\/10\/30 00:00:00",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"7         ",
+"nama_bidang_usaha":"Tmbg Bijih Logam ",
+"create_date":"2013\/10\/30 00:00:00",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"70        ",
+"nama_bidang_usaha":"Kegiatan Konsultansi Manajemen ",
+"create_date":"2013\/10\/30 00:00:00",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"71        ",
+"nama_bidang_usaha":"Jasa Arsitektur dan Teknik Sipil",
+"create_date":"2013\/10\/30 00:00:00",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"72        ",
+"nama_bidang_usaha":"Penelitian Ilmu Pengetahuan",
+"create_date":"2013\/10\/30 00:00:00",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"73        ",
+"nama_bidang_usaha":"Periklanan dan Penelitian Pasar ",
+"create_date":"2013\/10\/30 00:00:00",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"74        ",
+"nama_bidang_usaha":"Jasa Profesional, Ilmiah dan Teknis ",
+"create_date":"2013\/10\/30 00:00:00",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"75        ",
+"nama_bidang_usaha":"Jasa Kesehatan Hewan ",
+"create_date":"2013\/10\/30 00:00:00",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"77        ",
+"nama_bidang_usaha":"Jasa Persewaan ",
+"create_date":"2013\/10\/30 00:00:00",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"78        ",
+"nama_bidang_usaha":"Jasa Ketenagakerjaan ",
+"create_date":"2013\/10\/30 00:00:00",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"79        ",
+"nama_bidang_usaha":"Jasa Agen Perjalanan",
+"create_date":"2013\/10\/30 00:00:00",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"8         ",
+"nama_bidang_usaha":"Tmbg dan Penggalian Lainnya ",
+"create_date":"2013\/10\/30 00:00:00",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"80        ",
+"nama_bidang_usaha":"Jasa Keamanan dan Penyelidikan ",
+"create_date":"2013\/10\/30 00:00:00",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"81        ",
+"nama_bidang_usaha":"Jasa Untuk Gedung dan Pertamanan ",
+"create_date":"2013\/10\/30 00:00:00",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"82        ",
+"nama_bidang_usaha":"Jasa Administrasi Kantor ",
+"create_date":"2013\/10\/30 00:00:00",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"84        ",
+"nama_bidang_usaha":"Administrasi Pemerintahan, Pertahanan",
+"create_date":"2013\/10\/30 00:00:00",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"85        ",
+"nama_bidang_usaha":"Jasa Pendidikan ",
+"create_date":"2013\/10\/30 00:00:00",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"86        ",
+"nama_bidang_usaha":"Jasa Kesehatan Manusia ",
+"create_date":"2013\/10\/30 00:00:00",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"87        ",
+"nama_bidang_usaha":"Jasa Kegiatan Sosial di Dalam Panti ",
+"create_date":"2013\/10\/30 00:00:00",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"88        ",
+"nama_bidang_usaha":"Jasa Kegiatan Sosial di Luar Panti ",
+"create_date":"2013\/10\/30 00:00:00",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"9         ",
+"nama_bidang_usaha":"Jasa Pertambangan ",
+"create_date":"2013\/10\/30 00:00:00",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"90        ",
+"nama_bidang_usaha":"Kegiatan Hiburan, Kesenian ",
+"create_date":"2013\/10\/30 00:00:00",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"91        ",
+"nama_bidang_usaha":"Perpustakaan, Arsip, Museum ",
+"create_date":"2013\/10\/30 00:00:00",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"92        ",
+"nama_bidang_usaha":"Kegiatan Perjudian dan Pertaruhan ",
+"create_date":"2013\/10\/30 00:00:00",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":"2014\/7\/15 13:03:13",
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"93        ",
+"nama_bidang_usaha":"Kegiatan Olahraga dan Rekreasi ",
+"create_date":"2013\/10\/30 00:00:00",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"94        ",
+"nama_bidang_usaha":"Kegiatan Keanggotaan Organisasi ",
+"create_date":"2013\/10\/30 00:00:00",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"95        ",
+"nama_bidang_usaha":"Jasa Reparasi Komputer ",
+"create_date":"2013\/10\/30 00:00:00",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"96        ",
+"nama_bidang_usaha":"Jasa Perorangan Lainnya",
+"create_date":"2013\/10\/30 00:00:00",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"97        ",
+"nama_bidang_usaha":"Jasa Perorangan yg Melayani Rmh Tangga ",
+"create_date":"2013\/10\/30 00:00:00",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"98        ",
+"nama_bidang_usaha":"Keg. Rmh Tangga yang Digunakan Sendiri",
+"create_date":"2013\/10\/30 00:00:00",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"99        ",
+"nama_bidang_usaha":"Keg. Badan Internasional lain",
+"create_date":"2013\/10\/30 00:00:00",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+}
+]

@@ -1,0 +1,26 @@
+[
+{
+"id":"1",
+"nama":"Anak Kandung",
+"create_date":"2013\/5\/13 00:00:00",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"id":"2",
+"nama":"Anak Tiri",
+"create_date":"2013\/5\/13 00:00:00",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"id":"3",
+"nama":"Anak Angkat",
+"create_date":"2013\/5\/13 00:00:00",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+}
+]

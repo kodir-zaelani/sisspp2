@@ -1,0 +1,92 @@
+[
+{
+"id":"0",
+"nama":"Lainnya",
+"daftar_sekolah":"0",
+"daftar_rombel":"0",
+"create_date":"2013\/5\/14 00:00:00",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":"2013\/11\/7 00:00:00",
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"1",
+"nama":"Siswa baru",
+"daftar_sekolah":"1",
+"daftar_rombel":"1",
+"create_date":"2013\/5\/13 00:00:00",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"2",
+"nama":"Pindahan",
+"daftar_sekolah":"1",
+"daftar_rombel":"1",
+"create_date":"2013\/5\/13 00:00:00",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"3",
+"nama":"Naik kelas",
+"daftar_sekolah":"0",
+"daftar_rombel":"1",
+"create_date":"2013\/5\/13 00:00:00",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"4",
+"nama":"Akselerasi",
+"daftar_sekolah":"0",
+"daftar_rombel":"1",
+"create_date":"2013\/5\/13 00:00:00",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"5",
+"nama":"Mengulang",
+"daftar_sekolah":"0",
+"daftar_rombel":"1",
+"create_date":"2013\/5\/13 00:00:00",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"6",
+"nama":"Lanjutan semester",
+"daftar_sekolah":"0",
+"daftar_rombel":"1",
+"create_date":"2013\/5\/13 00:00:00",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"7",
+"nama":"Kembali bersekolah",
+"daftar_sekolah":"1",
+"daftar_rombel":"1",
+"create_date":"2015\/9\/3 17:30:00",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"9",
+"nama":"Putus Sekolah",
+"daftar_sekolah":"0",
+"daftar_rombel":"0",
+"create_date":"2013\/5\/13 00:00:00",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":"2013\/5\/13 00:00:00",
+"last_sync":"2019\/2\/25 05:53:19"
+}
+]

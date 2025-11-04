@@ -1,0 +1,122 @@
+[
+{
+"id":1,
+"nama":"Tunjangan Profesi Guru",
+"create_date":"2013\/5\/13 00:00:00",
+"last_update":"2019\/2\/25 05:53:31",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:31"
+},
+{
+"id":2,
+"nama":"Tunjangan Anak",
+"create_date":"2013\/5\/13 00:00:00",
+"last_update":"2019\/2\/25 05:53:31",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:31"
+},
+{
+"id":3,
+"nama":"Tunjangan Istri\/Suami",
+"create_date":"2013\/5\/13 00:00:00",
+"last_update":"2019\/2\/25 05:53:31",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:31"
+},
+{
+"id":4,
+"nama":"Tunjangan Beras",
+"create_date":"2013\/5\/13 00:00:00",
+"last_update":"2019\/2\/25 05:53:31",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:31"
+},
+{
+"id":5,
+"nama":"Tunjangan Umum PNS",
+"create_date":"2013\/5\/13 00:00:00",
+"last_update":"2019\/2\/25 05:53:31",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:31"
+},
+{
+"id":6,
+"nama":"Tunjangan Khusus Guru\/Dosen",
+"create_date":"2013\/5\/13 00:00:00",
+"last_update":"2019\/2\/25 05:53:31",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:31"
+},
+{
+"id":7,
+"nama":"Tunjangan Medis",
+"create_date":"2013\/5\/13 00:00:00",
+"last_update":"2019\/2\/25 05:53:31",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:31"
+},
+{
+"id":8,
+"nama":"Tunjangan Umum PNS",
+"create_date":"2013\/5\/13 00:00:00",
+"last_update":"2019\/2\/25 05:53:31",
+"expired_date":"2014\/10\/18 16:45:00",
+"last_sync":"2019\/2\/25 05:53:31"
+},
+{
+"id":9,
+"nama":"Tunjangan Pegawai Non PNS",
+"create_date":"2013\/5\/13 00:00:00",
+"last_update":"2019\/2\/25 05:53:31",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:31"
+},
+{
+"id":10,
+"nama":"Tunjangan Hari Tua",
+"create_date":"2013\/5\/13 00:00:00",
+"last_update":"2019\/2\/25 05:53:31",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:31"
+},
+{
+"id":11,
+"nama":"Bantuan peningkatan  kulifikasi akademik",
+"create_date":"2013\/5\/13 00:00:00",
+"last_update":"2019\/2\/25 05:53:31",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:31"
+},
+{
+"id":12,
+"nama":"Tunjangan Guru Daerah khusus",
+"create_date":"2013\/5\/13 00:00:00",
+"last_update":"2019\/2\/25 05:53:31",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:31"
+},
+{
+"id":13,
+"nama":"Tunjangan Fungsional non PNS ",
+"create_date":"2013\/5\/13 00:00:00",
+"last_update":"2019\/2\/25 05:53:31",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:31"
+},
+{
+"id":14,
+"nama":"Tunjangan  Pendidikan Khusus & Layanan Khusus",
+"create_date":"2013\/5\/13 00:00:00",
+"last_update":"2019\/2\/25 05:53:31",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:31"
+},
+{
+"id":99,
+"nama":"Lainnya",
+"create_date":"2013\/5\/25 00:00:00",
+"last_update":"2019\/2\/25 05:53:31",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:31"
+}
+]

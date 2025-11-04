@@ -1,0 +1,30 @@
+[
+{"type":"header","version":"5.2.1","comment":"Export to JSON plugin for PHPMyAdmin"},
+{"type":"database","name":"db_sis_spp2"},
+{"type":"table","name":"sumberdanas","database":"db_sis_spp2","data":
+[
+{"id":"019a4024-3fcf-7109-a945-a7d156b04129","sumber_dana_id":"1","nama":"Direktorat PSD","created_at":"2025-11-01 15:58:28","updated_at":"2025-11-01 15:58:28"},
+{"id":"019a4024-3fd5-711b-8162-e3f2c9d58ef1","sumber_dana_id":"2","nama":"Direktorat PSMP","created_at":"2025-11-01 15:58:28","updated_at":"2025-11-01 15:58:28"},
+{"id":"019a4024-3fd9-7204-b1f3-d237f48ef7fe","sumber_dana_id":"3","nama":"Direktorat PSMA","created_at":"2025-11-01 15:58:28","updated_at":"2025-11-01 15:58:28"},
+{"id":"019a4024-3fdd-7164-8fe8-73aedcea7cbe","sumber_dana_id":"4","nama":"Direktorat PSMK","created_at":"2025-11-01 15:58:28","updated_at":"2025-11-01 15:58:28"},
+{"id":"019a4024-3fe3-717f-ba2e-b9c3a6eea47d","sumber_dana_id":"5","nama":"Direktorat PKLK Dikdas","created_at":"2025-11-01 15:58:28","updated_at":"2025-11-01 15:58:28"},
+{"id":"019a4024-3fe6-73da-a05d-305a67126916","sumber_dana_id":"6","nama":"Direktorat PKLK Dikmen","created_at":"2025-11-01 15:58:28","updated_at":"2025-11-01 15:58:28"},
+{"id":"019a4024-3fe9-7164-b1be-a5fd92b0afb6","sumber_dana_id":"7","nama":"Direktorat P2TK Dikdas","created_at":"2025-11-01 15:58:28","updated_at":"2025-11-01 15:58:28"},
+{"id":"019a4024-3fec-7303-baea-1613bbe70d8b","sumber_dana_id":"8","nama":"Direktorat P2TK Dikmen","created_at":"2025-11-01 15:58:28","updated_at":"2025-11-01 15:58:28"},
+{"id":"019a4024-3fef-72c7-a1c8-17e2635233d6","sumber_dana_id":"9","nama":"Sekretariat Dikdas","created_at":"2025-11-01 15:58:28","updated_at":"2025-11-01 15:58:28"},
+{"id":"019a4024-3ff4-7273-90cb-5f2ac6231e8e","sumber_dana_id":"10","nama":"Sekretariat Dikmen","created_at":"2025-11-01 15:58:28","updated_at":"2025-11-01 15:58:28"},
+{"id":"019a4024-3ff8-72e5-af70-1d29350e6e99","sumber_dana_id":"21","nama":"Biro PKLN","created_at":"2025-11-01 15:58:28","updated_at":"2025-11-01 15:58:28"},
+{"id":"019a4024-3ffc-71cd-8751-59e152455e3d","sumber_dana_id":"22","nama":"Pustekkom","created_at":"2025-11-01 15:58:28","updated_at":"2025-11-01 15:58:28"},
+{"id":"019a4024-4000-7274-9b56-4d60710b8625","sumber_dana_id":"23","nama":"Puskurbuk","created_at":"2025-11-01 15:58:28","updated_at":"2025-11-01 15:58:28"},
+{"id":"019a4024-4005-7186-8eec-16c373119a05","sumber_dana_id":"24","nama":"Puspendik","created_at":"2025-11-01 15:58:28","updated_at":"2025-11-01 15:58:28"},
+{"id":"019a4024-4009-7269-b6ac-768ed249897c","sumber_dana_id":"31","nama":"Balitbang","created_at":"2025-11-01 15:58:28","updated_at":"2025-11-01 15:58:28"},
+{"id":"019a4024-400c-73c9-a10d-2d4e058d5909","sumber_dana_id":"41","nama":"Badan PSDMPK dan PMP","created_at":"2025-11-01 15:58:28","updated_at":"2025-11-01 15:58:28"},
+{"id":"019a4024-400f-7060-b9cd-dbc7e0f1a255","sumber_dana_id":"51","nama":"Dikti","created_at":"2025-11-01 15:58:28","updated_at":"2025-11-01 15:58:28"},
+{"id":"019a4024-4014-727e-844f-4695516bd14f","sumber_dana_id":"61","nama":"Dinas Propinsi","created_at":"2025-11-01 15:58:28","updated_at":"2025-11-01 15:58:28"},
+{"id":"019a4024-4018-737e-b372-086080310446","sumber_dana_id":"62","nama":"Dinas Kabupaten","created_at":"2025-11-01 15:58:28","updated_at":"2025-11-01 15:58:28"},
+{"id":"019a4024-401b-70e8-93bf-81cce6b3fa5b","sumber_dana_id":"991","nama":"Bantuan Swasta","created_at":"2025-11-01 15:58:28","updated_at":"2025-11-01 15:58:28"},
+{"id":"019a4024-401e-71b5-8b86-e0d1f0b57add","sumber_dana_id":"992","nama":"Bantuan Asing","created_at":"2025-11-01 15:58:28","updated_at":"2025-11-01 15:58:28"},
+{"id":"019a4024-4022-7180-b053-284d57279858","sumber_dana_id":"999","nama":"Lainnya","created_at":"2025-11-01 15:58:28","updated_at":"2025-11-01 15:58:28"}
+]
+}
+]

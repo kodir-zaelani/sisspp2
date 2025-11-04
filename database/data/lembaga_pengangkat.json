@@ -1,0 +1,59 @@
+[
+
+{
+"id":"1",
+"nama":"Pemerintah Pusat",
+"create_date":"2013\/7\/13 00:00:00",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"2",
+"nama":"Pemerintah Propinsi",
+"create_date":"2013\/7\/13 00:00:00",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"3",
+"nama":"Pemerintah Kab\/Kota",
+"create_date":"2013\/7\/13 00:00:00",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"4",
+"nama":"Ketua Yayasan",
+"create_date":"2013\/7\/13 00:00:00",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"5",
+"nama":"Kepala Sekolah",
+"create_date":"2013\/7\/13 00:00:00",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"6",
+"nama":"Komite Sekolah",
+"create_date":"2013\/7\/13 00:00:00",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"99",
+"nama":"Lainnya",
+"create_date":"2013\/7\/12 00:00:00",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+}
+]

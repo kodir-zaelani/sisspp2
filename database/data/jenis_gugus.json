@@ -1,0 +1,74 @@
+[
+{
+"id":"0",
+"jenis_gugus":"Belum Ikut",
+"create_date":"2013\/5\/13 00:00:00",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"1",
+"jenis_gugus":"Inti",
+"create_date":"2013\/5\/13 00:00:00",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"2",
+"jenis_gugus":"Imbas",
+"create_date":"2013\/5\/13 00:00:00",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"3",
+"jenis_gugus":"unknown",
+"create_date":"2013\/11\/21 01:02:17",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":"2013\/11\/21 01:02:17",
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"4",
+"jenis_gugus":"unknown",
+"create_date":"2013\/11\/21 01:02:17",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":"2013\/11\/21 01:02:17",
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"7",
+"jenis_gugus":"unknown",
+"create_date":"2013\/11\/8 00:00:00",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":"2013\/11\/8 00:00:00",
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"9",
+"jenis_gugus":"unknown",
+"create_date":"2013\/11\/8 00:00:00",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":"2013\/11\/8 00:00:00",
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"10",
+"jenis_gugus":"Pondok Pesantren",
+"create_date":"2017\/10\/3 22:00:00",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":"11",
+"jenis_gugus":"SKS",
+"create_date":"2018\/1\/8 11:31:43",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+}
+]

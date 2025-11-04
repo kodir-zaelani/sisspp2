@@ -1,0 +1,79 @@
+[
+{
+"id":1,
+"sumber_dana_id":"999",
+"nama":"Prestasi",
+"untuk_pd":"1",
+"untuk_ptk":"1",
+"create_date":"2013\/5\/13 00:00:00",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"id":2,
+"sumber_dana_id":"999",
+"nama":"Kemiskinan",
+"untuk_pd":"1",
+"untuk_ptk":"0",
+"create_date":"2013\/5\/13 00:00:00",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"id":3,
+"sumber_dana_id":"999",
+"nama":"Pendidikan",
+"untuk_pd":"1",
+"untuk_ptk":"1",
+"create_date":"2013\/5\/13 00:00:00",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"id":4,
+"sumber_dana_id":"999",
+"nama":"Unggulan",
+"untuk_pd":"1",
+"untuk_ptk":"1",
+"create_date":"2013\/5\/13 00:00:00",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"id":5,
+"sumber_dana_id":"999",
+"nama":"Ikatan Dinas",
+"untuk_pd":"0",
+"untuk_ptk":"1",
+"create_date":"2013\/10\/7 00:00:00",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"id":6,
+"sumber_dana_id":"999",
+"nama":"Peningkatan Karir",
+"untuk_pd":"0",
+"untuk_ptk":"1",
+"create_date":"2013\/10\/7 00:00:00",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"id":99,
+"sumber_dana_id":"999",
+"nama":"Lainnya",
+"untuk_pd":"1",
+"untuk_ptk":"1",
+"create_date":"2013\/5\/13 00:00:00",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+}
+]

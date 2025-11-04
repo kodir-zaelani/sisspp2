@@ -1,0 +1,38 @@
+[
+{
+"id":0,
+"kategori_error":1,
+"keterangan":"Tidak Ada Error",
+"create_date":"2013\/9\/23 00:00:00",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"id":2001,
+"kategori_error":2,
+"keterangan":"NUPTK Invalid",
+"create_date":"2016\/5\/9 04:00:00",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"id":3001,
+"kategori_error":3,
+"keterangan":"Nama Kosong",
+"create_date":"2017\/2\/6 17:24:59",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"id":3002,
+"kategori_error":4,
+"keterangan":"Nama Ibu Kosong",
+"create_date":"2017\/2\/6 17:28:39",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+}
+]

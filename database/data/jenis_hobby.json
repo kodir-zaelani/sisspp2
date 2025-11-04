@@ -1,0 +1,58 @@
+[
+{
+"id":"-1",
+"nm_hobby":"(belum diisi)",
+"create_date":"2015\/7\/30 01:47:23",
+"last_update":"2019\/2\/25 05:53:20",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:20"
+},
+{
+"id":"1",
+"nm_hobby":"Olah Raga",
+"create_date":"2015\/7\/30 13:32:00",
+"last_update":"2019\/2\/25 05:53:20",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:20"
+},
+{
+"id":"2",
+"nm_hobby":"Kesenian",
+"create_date":"2015\/7\/30 13:32:00",
+"last_update":"2019\/2\/25 05:53:20",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:20"
+},
+{
+"id":"3",
+"nm_hobby":"Membaca",
+"create_date":"2015\/7\/30 13:32:00",
+"last_update":"2019\/2\/25 05:53:20",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:20"
+},
+{
+"id":"4",
+"nm_hobby":"Menulis",
+"create_date":"2015\/7\/30 13:32:00",
+"last_update":"2019\/2\/25 05:53:20",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:20"
+},
+{
+"id":"5",
+"nm_hobby":"Traveling",
+"create_date":"2015\/7\/30 13:32:00",
+"last_update":"2019\/2\/25 05:53:20",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:20"
+},
+{
+"id":"6",
+"nm_hobby":"Lainnya",
+"create_date":"2015\/7\/30 13:32:00",
+"last_update":"2019\/2\/25 05:53:20",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:20"
+}
+]

@@ -1,0 +1,74 @@
+[
+{
+"id":1,
+"nm_jns_panitia":"Penanggulangan Tindak Kekerasan di Sekolah",
+"create_date":"2016\/7\/15 07:22:52",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":2,
+"nm_jns_panitia":"Penyelenggara Komite Sekolah",
+"create_date":"2017\/7\/15 07:22:52",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":3,
+"nm_jns_panitia":"Pengenalan Lingkungan Sekolah",
+"create_date":"2018\/8\/16 20:54:48",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":4,
+"nm_jns_panitia":"Penerimaan Peserta Didik Baru",
+"create_date":"2018\/8\/16 20:54:48",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":5,
+"nm_jns_panitia":"Penyelenggara Ujian Nasional",
+"create_date":"2018\/8\/16 20:54:48",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":6,
+"nm_jns_panitia":"Literasi Sekolah",
+"create_date":"2018\/8\/16 20:54:48",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":7,
+"nm_jns_panitia":"Tim Bos Sekolah",
+"create_date":"2018\/8\/16 20:54:48",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":8,
+"nm_jns_panitia":"Tim Pendataan Sekolah",
+"create_date":"2018\/8\/16 20:54:48",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id":9,
+"nm_jns_panitia":"Kegiatan Keagamaan",
+"create_date":"2018\/8\/16 20:54:48",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+}
+]

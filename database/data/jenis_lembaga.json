@@ -1,0 +1,152 @@
+[
+{
+"jenis_lembaga_id":"1",
+"nama":"Sekolah",
+"tempat_pengawas":"0",
+"simpul_pendataan":"0",
+"create_date":"2013\/11\/7 00:00:00",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"jenis_lembaga_id":"2",
+"nama":"UPTD",
+"tempat_pengawas":"0",
+"simpul_pendataan":"0",
+"create_date":"2013\/11\/7 00:00:00",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"jenis_lembaga_id":"3",
+"nama":"Dinas Pendidikan Kabupaten\/Kota",
+"tempat_pengawas":"0",
+"simpul_pendataan":"0",
+"create_date":"2013\/11\/7 00:00:00",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"jenis_lembaga_id":"4",
+"nama":"Dinas Pendidikan Provinsi",
+"tempat_pengawas":"0",
+"simpul_pendataan":"0",
+"create_date":"2013\/11\/7 00:00:00",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"jenis_lembaga_id":"5",
+"nama":"Direktorat Teknis",
+"tempat_pengawas":"0",
+"simpul_pendataan":"0",
+"create_date":"2013\/11\/7 00:00:00",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"jenis_lembaga_id":"6",
+"nama":"Direktorat Jenderal",
+"tempat_pengawas":"0",
+"simpul_pendataan":"0",
+"create_date":"2013\/11\/7 00:00:00",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"jenis_lembaga_id":"7",
+"nama":"Pusat Pusat di Kementerian",
+"tempat_pengawas":"0",
+"simpul_pendataan":"0",
+"create_date":"2013\/11\/7 00:00:00",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"jenis_lembaga_id":"8",
+"nama":"Sekretariat Jenderal",
+"tempat_pengawas":"0",
+"simpul_pendataan":"0",
+"create_date":"2013\/11\/7 00:00:00",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"jenis_lembaga_id":"20",
+"nama":"Kanwil Kemenag",
+"tempat_pengawas":"0",
+"simpul_pendataan":"0",
+"create_date":"2013\/11\/7 00:00:00",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"jenis_lembaga_id":"40",
+"nama":"Sekretariat Ditjen Dikmen",
+"tempat_pengawas":"0",
+"simpul_pendataan":"0",
+"create_date":"2014\/11\/4 02:49:00",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"jenis_lembaga_id":"41",
+"nama":"Direktorat PSMA",
+"tempat_pengawas":"0",
+"simpul_pendataan":"0",
+"create_date":"2014\/11\/4 02:49:00",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"jenis_lembaga_id":"42",
+"nama":"Direktorat PSMK",
+"tempat_pengawas":"0",
+"simpul_pendataan":"0",
+"create_date":"2014\/11\/4 02:49:00",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"jenis_lembaga_id":"43",
+"nama":"Direktorat PTK",
+"tempat_pengawas":"0",
+"simpul_pendataan":"0",
+"create_date":"2014\/11\/4 02:49:00",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"jenis_lembaga_id":"44",
+"nama":"Direktorat PKLK",
+"tempat_pengawas":"0",
+"simpul_pendataan":"0",
+"create_date":"2014\/11\/4 02:49:00",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"jenis_lembaga_id":"99",
+"nama":"Lainnya",
+"tempat_pengawas":"0",
+"simpul_pendataan":"0",
+"create_date":"2013\/11\/7 00:00:00",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+}
+]

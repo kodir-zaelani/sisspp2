@@ -1,0 +1,41 @@
+[{
+"id":"1",
+"nama":"A",
+"create_date":"025-07-25 00.00.00",
+"last_update":"2025-07-25 05.53.19",
+"expired_date":null,
+"last_sync":"2025-07-25 05.53.19"
+},
+{
+"id":"2",
+"nama":"B",
+"create_date":"025-07-25 00.00.00",
+"last_update":"2025-07-25 05.53.19",
+"expired_date":null,
+"last_sync":"2025-07-25 05.53.19"
+},
+{
+"id":"3",
+"nama":"C",
+"create_date":"025-07-25 00.00.00",
+"last_update":"2025-07-25 05.53.19",
+"expired_date":null,
+"last_sync":"2025-07-25 05.53.19"
+},
+{
+"id":"8",
+"nama":"Tidak Terakreditasi",
+"create_date":"025-07-25 00.00.00",
+"last_update":"2025-07-25 05.53.19",
+"expired_date":null,
+"last_sync":"2025-07-25 05.53.19"
+},
+{
+"id":"9",
+"nama":"Belum Terakreditasi",
+"create_date":"025-07-25 00.00.00",
+"last_update":"2025-07-25 05.53.19",
+"expired_date":null,
+"last_sync":"2025-07-25 05.53.19"
+}]
+

@@ -1,0 +1,112 @@
+{
+"RECORDS":[
+{
+"id_jenis_sertifikasi":"1",
+"jenis_sertifikasi":"Sertifikasi Pendidik",
+"prof_guru":"1",
+"kepala_sekolah":"1",
+"laboran":"0",
+"kebutuhan_khusus_id":0,
+"create_date":"2013\/9\/1 00:00:00",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"id_jenis_sertifikasi":"2",
+"jenis_sertifikasi":"Portofolio (PF)",
+"prof_guru":"1",
+"kepala_sekolah":"1",
+"laboran":"0",
+"kebutuhan_khusus_id":0,
+"create_date":"2013\/9\/1 00:00:00",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":"2016\/7\/14 13:22:14",
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"id_jenis_sertifikasi":"3",
+"jenis_sertifikasi":"Pendidikan dan Pel Prof (PLPG)",
+"prof_guru":"1",
+"kepala_sekolah":"1",
+"laboran":"0",
+"kebutuhan_khusus_id":0,
+"create_date":"2013\/9\/1 00:00:00",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":"2016\/7\/14 13:22:14",
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"id_jenis_sertifikasi":"4",
+"jenis_sertifikasi":"Sertifikat Induksi",
+"prof_guru":"1",
+"kepala_sekolah":"0",
+"laboran":"0",
+"kebutuhan_khusus_id":0,
+"create_date":"2015\/1\/19 12:30:00",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"id_jenis_sertifikasi":"5",
+"jenis_sertifikasi":"Pelatihan Profesi Guru (PPG)",
+"prof_guru":"1",
+"kepala_sekolah":"0",
+"laboran":"0",
+"kebutuhan_khusus_id":0,
+"create_date":"2015\/1\/19 12:30:00",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":"2016\/7\/14 13:22:14",
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"id_jenis_sertifikasi":"991",
+"jenis_sertifikasi":"Lainnya Guru",
+"prof_guru":"1",
+"kepala_sekolah":"0",
+"laboran":"0",
+"kebutuhan_khusus_id":0,
+"create_date":"2013\/9\/1 00:00:00",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"id_jenis_sertifikasi":"992",
+"jenis_sertifikasi":"Lainnya Kepala Sekolah",
+"prof_guru":"0",
+"kepala_sekolah":"1",
+"laboran":"0",
+"kebutuhan_khusus_id":0,
+"create_date":"2013\/9\/1 00:00:00",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"id_jenis_sertifikasi":"993",
+"jenis_sertifikasi":"Lainnya Laboran",
+"prof_guru":"0",
+"kepala_sekolah":"0",
+"laboran":"1",
+"kebutuhan_khusus_id":0,
+"create_date":"2013\/9\/1 00:00:00",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+},
+{
+"id_jenis_sertifikasi":"999",
+"jenis_sertifikasi":"Lainnya",
+"prof_guru":"0",
+"kepala_sekolah":"0",
+"laboran":"0",
+"kebutuhan_khusus_id":0,
+"create_date":"2013\/9\/1 00:00:00",
+"last_update":"2019\/2\/25 05:53:21",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:21"
+}
+]
+}

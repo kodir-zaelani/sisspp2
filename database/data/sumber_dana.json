@@ -1,0 +1,90 @@
+[
+{
+"id":"1",
+"nama":"Direktorat PSD"
+},
+{
+"id":"2",
+"nama":"Direktorat PSMP"
+},
+{
+"id":"3",
+"nama":"Direktorat PSMA"
+},
+{
+"id":"4",
+"nama":"Direktorat PSMK"
+},
+{
+"id":"5",
+"nama":"Direktorat PKLK Dikdas"
+},
+{
+"id":"6",
+"nama":"Direktorat PKLK Dikmen"
+},
+{
+"id":"7",
+"nama":"Direktorat P2TK Dikdas"
+},
+{
+"id":"8",
+"nama":"Direktorat P2TK Dikmen"
+},
+{
+"id":"9",
+"nama":"Sekretariat Dikdas"
+},
+{
+"id":"10",
+"nama":"Sekretariat Dikmen"
+},
+{
+"id":"21",
+"nama":"Biro PKLN"
+},
+{
+"id":"22",
+"nama":"Pustekkom"
+},
+{
+"id":"23",
+"nama":"Puskurbuk"
+},
+{
+"id":"24",
+"nama":"Puspendik"
+},
+{
+"id":"31",
+"nama":"Balitbang"
+},
+{
+"id":"41",
+"nama":"Badan PSDMPK dan PMP"
+},
+{
+"id":"51",
+"nama":"Dikti"
+},
+{
+"id":"61",
+"nama":"Dinas Propinsi"
+},
+{
+"id":"62",
+"nama":"Dinas Kabupaten"
+},
+{
+"id":"991",
+"nama":"Bantuan Swasta"
+},
+{
+"id":"992",
+"nama":"Bantuan Asing"
+},
+{
+"id":"999",
+"nama":"Lainnya"
+}
+]

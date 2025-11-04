@@ -1,0 +1,98 @@
+[
+{
+"status_kepegawaian_id":1,
+"nama":"PNS",
+"create_date":"2013\/5\/13 00:00:00",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"status_kepegawaian_id":2,
+"nama":"PNS Diperbantukan",
+"create_date":"2013\/5\/13 00:00:00",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"status_kepegawaian_id":3,
+"nama":"PNS Depag",
+"create_date":"2013\/5\/13 00:00:00",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"status_kepegawaian_id":4,
+"nama":"GTY\/PTY",
+"create_date":"2013\/5\/13 00:00:00",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"status_kepegawaian_id":5,
+"nama":"Honor Daerah TK.I Provinsi",
+"create_date":"2013\/5\/13 00:00:00",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"status_kepegawaian_id":6,
+"nama":"Honor Daerah TK.II Kab\/Kota",
+"create_date":"2013\/5\/13 00:00:00",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"status_kepegawaian_id":7,
+"nama":"Guru Bantu Pusat",
+"create_date":"2013\/5\/13 00:00:00",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":"2018\/1\/27 01:00:00",
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"status_kepegawaian_id":8,
+"nama":"Guru Honor Sekolah",
+"create_date":"2013\/5\/13 00:00:00",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"status_kepegawaian_id":9,
+"nama":"Tenaga Honor Sekolah",
+"create_date":"2013\/5\/13 00:00:00",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"status_kepegawaian_id":10,
+"nama":"CPNS",
+"create_date":"2014\/2\/7 16:14:45",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"status_kepegawaian_id":51,
+"nama":"Kontrak Kerja WNA",
+"create_date":"2015\/5\/14 00:00:00",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"status_kepegawaian_id":99,
+"nama":"Lainnya",
+"create_date":"2013\/4\/30 00:00:00",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":"2017\/2\/7 00:00:00",
+"last_sync":"2019\/2\/25 05:53:19"
+}
+]

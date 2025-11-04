@@ -1,0 +1,30 @@
+[
+{
+"id":"1",
+"nama":"APBN"
+},
+{
+"id":"2",
+"nama":"APBD Provinsi"
+},
+{
+"id":"3",
+"nama":"APBD Kabupaten\/Kota"
+},
+{
+"id":"4",
+"nama":"Yayasan"
+},
+{
+"id":"5",
+"nama":"Sekolah"
+},
+{
+"id":"6",
+"nama":"Lembaga Donor"
+},
+{
+"id":"99",
+"nama":"Lainnya"
+}
+]

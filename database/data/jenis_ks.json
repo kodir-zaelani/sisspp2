@@ -1,0 +1,130 @@
+{
+"RECORDS":[
+{
+"id_jns_ks":"1",
+"nm_jns_ks":"Prakerin Siswa SMK",
+"ket_jns_ks":null,
+"create_date":"2016\/7\/14 23:48:03",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id_jns_ks":"2",
+"nm_jns_ks":"Prakerin Guru SMK",
+"ket_jns_ks":null,
+"create_date":"2016\/7\/14 23:48:03",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id_jns_ks":"3",
+"nm_jns_ks":"Pengembangan Teaching Factory",
+"ket_jns_ks":null,
+"create_date":"2016\/7\/14 23:48:03",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id_jns_ks":"4",
+"nm_jns_ks":"Kerjasama Kurikulum",
+"ket_jns_ks":null,
+"create_date":"2016\/7\/14 23:48:03",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id_jns_ks":"5",
+"nm_jns_ks":"Kerjasama Komersial",
+"ket_jns_ks":null,
+"create_date":"2016\/7\/14 23:48:03",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id_jns_ks":"11",
+"nm_jns_ks":"Bantuan Sarana Prasarana",
+"ket_jns_ks":null,
+"create_date":"2016\/10\/27 18:30:00",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id_jns_ks":"12",
+"nm_jns_ks":"Uji Kopetensi \/ Sertifikasi",
+"ket_jns_ks":null,
+"create_date":"2016\/10\/27 18:30:00",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id_jns_ks":"13",
+"nm_jns_ks":"Kelas Industri",
+"ket_jns_ks":null,
+"create_date":"2016\/10\/27 18:30:00",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id_jns_ks":"14",
+"nm_jns_ks":"Perektrutan Tamatan",
+"ket_jns_ks":null,
+"create_date":"2016\/10\/27 18:30:00",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id_jns_ks":"15",
+"nm_jns_ks":"Guru Tamu",
+"ket_jns_ks":null,
+"create_date":"2016\/10\/27 18:30:00",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id_jns_ks":"16",
+"nm_jns_ks":"CSR",
+"ket_jns_ks":null,
+"create_date":"2016\/10\/27 18:30:00",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id_jns_ks":"17",
+"nm_jns_ks":"Lomba Kompetensi Siswa",
+"ket_jns_ks":null,
+"create_date":"2016\/10\/27 18:30:00",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id_jns_ks":"999998",
+"nm_jns_ks":"Lainnya",
+"ket_jns_ks":null,
+"create_date":"2016\/7\/14 23:48:03",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":null,
+"last_sync":"2019\/2\/25 05:53:19"
+},
+{
+"id_jns_ks":"999999",
+"nm_jns_ks":"Tidak diisi",
+"ket_jns_ks":null,
+"create_date":"2016\/7\/14 23:48:03",
+"last_update":"2019\/2\/25 05:53:19",
+"expired_date":"2016\/6\/23 11:00:00",
+"last_sync":"2019\/2\/25 05:53:19"
+}
+]
+}
