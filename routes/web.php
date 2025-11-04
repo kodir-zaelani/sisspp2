@@ -29,6 +29,29 @@ Route::middleware(['auth', 'verified', 'web'])->group(function () {
     Route::get('backend/settings/{setting}/edit', [App\Http\Controllers\Backend\SettingController::class, 'editsetting'])->name('backend.settings.edit');
     Route::put('backend/settings/{setting}/update', [App\Http\Controllers\Backend\SettingController::class, 'updatesetting'])->name('backend.settings.update');
 
+ // Yayasan
+    Route::get('backend/yayasan', [App\Http\Controllers\Backend\YayasanController::class, 'index'])->name('backend.yayasan.index');
+    Route::get('backend/yayasan/create', [App\Http\Controllers\Backend\YayasanController::class, 'create'])->name('backend.yayasan.create');
+    Route::post('backend/yayasan/store', [App\Http\Controllers\Backend\YayasanController::class, 'store'])->name('backend.yayasan.store');
+    Route::get('backend/yayasan/{yayasan}/edit', [App\Http\Controllers\Backend\YayasanController::class, 'edit'])->name('backend.yayasan.edit');
+    Route::put('backend/yayasan/{yayasan}/update', [App\Http\Controllers\Backend\YayasanController::class, 'update'])->name('backend.yayasan.update');
+    Route::put('backend/yayasan/{yayasan}/updatelogo', [App\Http\Controllers\Backend\YayasanController::class, 'updatelogo'])->name('backend.yayasan.updatelogo');
+    Route::get('backend/yayasan/export', [App\Http\Controllers\Backend\YayasanController::class, 'export'])->name('backend.yayasan.export');
+    Route::post('backend/yayasan/import', [App\Http\Controllers\Backend\YayasanController::class, 'import'])->name('backend.yayasan.import');
+
+    // Sekolah
+    Route::get('backend/sekolah', [App\Http\Controllers\Backend\SekolahController::class, 'index'])->name('backend.sekolah.index');
+    Route::get('backend/sekolah/create', [App\Http\Controllers\Backend\SekolahController::class, 'create'])->name('backend.sekolah.create');
+    Route::post('backend/sekolah/store', [App\Http\Controllers\Backend\SekolahController::class, 'store'])->name('backend.sekolah.store');
+    Route::get('backend/sekolah/{sekolah}/edit', [App\Http\Controllers\Backend\SekolahController::class, 'edit'])->name('backend.sekolah.edit');
+    Route::put('backend/sekolah/{sekolah}/update', [App\Http\Controllers\Backend\SekolahController::class, 'update'])->name('backend.sekolah.update');
+    Route::put('backend/sekolah/{sekolah}/updatelogo', [App\Http\Controllers\Backend\SekolahController::class, 'updatelogo'])->name('backend.sekolah.updatelogo');
+    Route::post('backend/sekolah/import', [App\Http\Controllers\Backend\SekolahController::class, 'import'])->name('backend.sekolah.import');
+
+    // Json Data for City, District and Village
+    Route::get('backend/get/city/{province_code}', [App\Http\Controllers\Backend\WilayahController::class, 'getcity'])->name('backend.wilayah.getcity');
+    Route::get('backend/get/distric/{city_code}', [App\Http\Controllers\Backend\WilayahController::class, 'getdistrict'])->name('backend.wilayah.getdistrict');
+    Route::get('backend/get/village/{district_code}', [App\Http\Controllers\Backend\WilayahController::class, 'getvillage'])->name('backend.wilayah.getvillage');
 
     // Permission
     Route::get('backend/permissions/index', [App\Http\Controllers\Backend\PermissionController::class, 'index'])->name('backend.permissions.index');
@@ -39,6 +62,54 @@ Route::middleware(['auth', 'verified', 'web'])->group(function () {
     Route::post('backend/roles/store', [App\Http\Controllers\Backend\RoleController::class, 'store'])->name('backend.roles.store');
     Route::get('backend/roles/{role}/edit', [App\Http\Controllers\Backend\RoleController::class, 'edit'])->name('backend.roles.edit');
     Route::put('backend/roles/{role}/update', [App\Http\Controllers\Backend\RoleController::class, 'update'])->name('backend.roles.update');
+
+    // Wilayah Indonesia
+    Route::get('backend/indonesia', [App\Http\Controllers\Backend\WilayahController::class, 'index'])->name('backend.wilayah.index');
+
+    // Agama
+    Route::get('backend/agama', [App\Http\Controllers\Backend\AgamaController::class, 'index'])->name('backend.agama.index');
+
+    // Bentuk Pendidikan
+    Route::get('backend/bentukpendidikan', [App\Http\Controllers\Backend\BentukpendidikanController::class, 'index'])->name('backend.bentukpendidikan.index');
+
+    // Jenjang Pendidikan
+    Route::get('backend/jenjangpendidikan', [App\Http\Controllers\Backend\JenjangpendidikanController::class, 'index'])->name('backend.jenjangpendidikan.index');
+
+    // Tingkat Pendidikan
+    Route::get('backend/tingkatpendidikan', [App\Http\Controllers\Backend\TingkatpendidikanController::class, 'index'])->name('backend.tingkatpendidikan.index');
+
+    // Status Kepemilikan
+    Route::get('backend/statuskepemilikan', [App\Http\Controllers\Backend\StatuskepemilikanController::class, 'index'])->name('backend.statuskepemilikan.index');
+
+    // Kebutuhan Khusus
+    Route::get('backend/kebutuhankhusus', [App\Http\Controllers\Backend\KebutuhankhususController::class, 'index'])->name('backend.kebutuhankhusus.index');
+
+    // Akreditasi
+    Route::get('backend/akreditasi', [App\Http\Controllers\Backend\AkreditasiController::class, 'index'])->name('backend.akreditasi.index');
+
+    // Jenis Rombel
+    Route::get('backend/jenisrombel', [App\Http\Controllers\Backend\JenisrombelController::class, 'index'])->name('backend.jenisrombel.index');
+
+    // Jenis PTK
+    Route::get('backend/jenisptk', [App\Http\Controllers\Backend\JenisptkController::class, 'index'])->name('backend.jenisptk.index');
+
+    // Jurusan
+    Route::get('backend/jurusan', [App\Http\Controllers\Backend\JurusanController::class, 'index'])->name('backend.jurusan.index');
+
+    // Kurikulum Controller
+    Route::get('backend/kurikulum', [App\Http\Controllers\Backend\KurikulumController::class, 'index'])->name('backend.kurikulum.index');
+
+    // Matapelajaran Controller
+    Route::get('backend/matapelajaran', [App\Http\Controllers\Backend\MatapelajaranController::class, 'index'])->name('backend.matapelajaran.index');
+
+    // Tahun ajaran Controller
+    Route::get('backend/tahunajaran', [App\Http\Controllers\Backend\TahunajaranController::class, 'index'])->name('backend.tahunajaran.index');
+
+    // SemesterController
+    Route::get('backend/semester', [App\Http\Controllers\Backend\SemesterController::class, 'index'])->name('backend.semester.index');
+
+    // SemesterController
+    Route::get('backend/jenistagihan', [App\Http\Controllers\Backend\JenistagihanController::class, 'index'])->name('backend.jenistagihan.index');
 
 });
 

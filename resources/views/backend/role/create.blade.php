@@ -33,16 +33,16 @@
                         <h4 class="box-title">
                             Create a Role
                         </h4>
-                           <div class="box-controls pull-right">
-                                <div class="mb-1 box-header-actions">
-                                    <a href="{{ route('backend.roles.index') }}" class="btn btn-warning me-2">
-                                        Cancel
-                                    </a>
-                                    <button  type="submit"class="btn btn-primary">
-                                        Save
-                                    </button>
-                                </div>
+                        <div class="box-controls pull-right">
+                            <div class="mb-1 box-header-actions">
+                                <a href="{{ route('backend.roles.index') }}" class="btn btn-warning me-2">
+                                    Cancel
+                                </a>
+                                <button  type="submit"class="btn btn-primary">
+                                    Save
+                                </button>
                             </div>
+                        </div>
                     </div>
                     <div class="box-body">
                         <div class="form-group">
@@ -54,6 +54,17 @@
                             <div class="form-control-feedback">
                                 <small><code>{{ $message }}</code> </small>
                             </div>
+                            @enderror
+                        </div>
+                        <div class="form-group @error('guard_name') has-error @enderror">
+                            <h5>Guard Name <span class="text-danger">*</span></h5>
+                            <select class="form-control select2" style="width: 100%;"  name="guard_name">
+                                <option value="" holder>Select Guard</option>
+                                <option value="web" {{ old('guard_name') == 'web' ? 'selected' : '' }}>Web</option>
+                                <option value="api" {{ old('guard_name') == 'web' ? 'selected' : '' }}>Api</option>
+                            </select>
+                            @error('guard_name')
+                            <span class="help-block"><strong>{{ $message }}</strong></span>
                             @enderror
                         </div>
                         <div class="form-group">

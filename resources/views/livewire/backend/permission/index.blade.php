@@ -75,6 +75,9 @@
                                                     <td>
                                                         {{ !empty($item->description) ? $item->description:'' }}
                                                     </td>
+                                                    <td>
+                                                        {{ !empty($item->guard_name ) ? $item->guard_name :'' }}
+                                                    </td>
 
                                                     <td class="text-center align-midle">
                                                         <button wire:click="edit('{{ $item->id }}')" class="btn btn-xs btn-warning" title="Edit"><i class="fa fa-edit "></i></button>

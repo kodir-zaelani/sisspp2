@@ -17,7 +17,7 @@ class RoleUserSeeder extends Seeder
     {
         //assign permission to role
         $role        = Role::find('9f4846f7-68fc-4440-8f8f-ec5f3ebb15ac');
-        $permissions_web = Permission::all();
+        $permissions_web = Permission::where('guard_name', 'web')->get();
 
         $role->syncPermissions($permissions_web);
 

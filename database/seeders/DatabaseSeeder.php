@@ -103,7 +103,7 @@ class DatabaseSeeder extends Seeder
         // $this->call(UserSeeder::class);
         // $this->call(RoleSeeder::class);
         // $this->call(PermissionSeeder::class);
-        // $this->call(RoleUserSeeder::class);
+        $this->call(RoleUserSeeder::class);
         // $this->call(RoleUseradminSeeder::class);
         // $this->call(AgamaSeeder::class);
         // $this->call(JenisPengaduanSeeder::class); // belum ada

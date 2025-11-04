@@ -26,6 +26,7 @@ class Index extends Component
 
     public $name;
     public $description;
+    public $guard_name ;
     public $modelId;
 
 
@@ -40,6 +41,7 @@ class Index extends Component
         return [
             'name'        => 'Name',
             'description' => 'Description',
+            'guard_name'       => 'Guard Name',
         ];
     }
 
@@ -224,13 +226,14 @@ class Index extends Component
     {
         $validateData = [
             'name' => 'required|min:2|unique:permissions,name',
+            'guard_name' => 'required',
         ];
 
         // Default data
         $data = [
             'name'        => $this->name,
             'description' => $this->description,
-            // 'guard_name ' => 'web',
+            'guard_name' => $this->guard_name,
         ];
 
         $this->validate($validateData);
@@ -253,6 +256,7 @@ class Index extends Component
 
         $this->name = $model->name;
         $this->description = $model->description;
+        $this->guard_name = $model->guard_name;
     }
 
     public function cancelEdit()
@@ -264,12 +268,13 @@ class Index extends Component
     {
         $validateData = [
             'name' => 'required|min:2',
-            'description' => 'required|min:2',
+            'guard_name' => 'required',
         ];
 
         // Default data
         $data = [
             'name'        => $this->name,
+            'guard_name' => $this->guard_name,
             'description' => $this->description,
         ];
 
@@ -290,6 +295,7 @@ class Index extends Component
         // Kosongkan field input
         $this->name        = null;
         $this->description = null;
+        $this->guard_name = null;
     }
 
     public function render()
