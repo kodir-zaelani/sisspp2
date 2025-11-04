@@ -46,7 +46,7 @@ return new class extends Migration
             $table->uuid('lembagapengangkat_id')->nullable();
             $table->uuid('sumbergaji_id')->nullable();
             $table->string('nama_ibu_kandung')->nullable();
-            $table->tinyInteger('status_perkawinan')->nullable();
+            $table->string('status_perkawinan')->nullable()->default('Belum Kawin');
             $table->string('nama_suami_istri')->nullable();
             $table->string('nip_suami_istri')->nullable();
             $table->uuid('pekerjaan_suami_istri_id')->nullable();
