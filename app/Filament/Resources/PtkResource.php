@@ -22,7 +22,18 @@ class PtkResource extends Resource
 {
     protected static ?string $model = Ptk::class;
 
-    protected static ?string $navigationIcon = 'heroicon-o-rectangle-stack';
+   protected static ?string $navigationLabel = 'PTK';
+    protected static ?string $navigationGroup = 'Kepegawaian';
+    public static function getNavigationBadge(): ?string
+    {
+        return static::getModel()::count();
+    }
+
+    public static function getNavigationBadgeColor(): ?string
+    {
+        return static::getModel()::count() > 5 ? 'success' : 'warning';
+    }
+    // protected static ?string $navigationIcon = 'heroicon-o-rectangle-stack';
 
     public static function form(Form $form): Form
     {
@@ -208,7 +219,7 @@ class PtkResource extends Resource
     {
         return $table
         ->columns([
-            Tables\Columns\TextColumn::make('sekolah_id')
+            Tables\Columns\TextColumn::make('sekolah.nama')
             ->searchable(),
             Tables\Columns\TextColumn::make('gelar_depan')
             ->searchable(),

@@ -77,7 +77,7 @@ class JenisptkResource extends Resource
     {
         return $table
             ->columns([
-                
+
                 Tables\Columns\TextColumn::make('jenis_ptk_id')
                     ->searchable(),
                 Tables\Columns\TextColumn::make('jenis_ptk')
@@ -136,7 +136,7 @@ class JenisptkResource extends Resource
                 Tables\Actions\BulkActionGroup::make([
                     Tables\Actions\DeleteBulkAction::make(),
                 ]),
-            ]);
+            ])->extremePaginationLinks();
     }
 
     public static function getRelations(): array

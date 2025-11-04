@@ -5,6 +5,7 @@ namespace App\Models;
 use Illuminate\Support\Str;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Concerns\HasUuids;
+use Illuminate\Database\Eloquent\Relations\HasMany;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 
@@ -51,6 +52,16 @@ class Sekolah extends Model
         }
 
         return $logosekolahThumbUrl;
+    }
+
+    /**
+     * Get all of the ptk for the Sekolah
+     *
+     * @return \Illuminate\Database\Eloquent\Relations\HasMany
+     */
+    public function ptk(): HasMany
+    {
+        return $this->hasMany(Ptk::class, 'sekolah_id');
     }
 
     public function province()

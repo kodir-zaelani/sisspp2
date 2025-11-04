@@ -47,6 +47,7 @@ class ImportPtk implements ToCollection, WithStartRow
     {
         HeadingRowFormatter::default('none');
         $jk = '';
+        $lisensi = '';
 
         foreach ($rows as $row)
             {
@@ -68,10 +69,16 @@ class ImportPtk implements ToCollection, WithStartRow
 
 
 
-            if ($row[4] == 'L') {
-                $jk = 1;
-            } elseif ($row[3] == 'P') {
-                $jk = 2;
+            // if ($row[4] == 'L') {
+            //     $jk = 1;
+            // } elseif ($row[3] == 'P') {
+            //     $jk = 2;
+            // };
+
+            if ($row[4] == 'Ya') {
+                $lisensi = 1;
+            } else {
+                $lisensi = 2;
             };
 
             Ptk::create([
@@ -79,7 +86,7 @@ class ImportPtk implements ToCollection, WithStartRow
                 'gelar_depan'              => $row[1],
                 'nama'                     => $row[2],
                 'gelar_belakang'           => $row[3],
-                'jenis_kelamin'            => $jk,
+                'jenis_kelamin'            => $row[4],
                 'tempat_lahir'             => $row[5],
                 'tanggal_lahir'            => $row[6],
                 'nik'                      => $row[7],
@@ -113,7 +120,7 @@ class ImportPtk implements ToCollection, WithStartRow
                 'nip_suami_istri'          => $row[35],
                 'pekerjaan_suami_istri_id' => $pekerjaan['id'] ?? null,
                 'tmt_pns'                  => $row[37],
-                'lisensi_kepala_sekolah'   => $row[38],
+                'lisensi_kepala_sekolah'   => $lisensi,
                 'npwp'                     => $row[39],
                 'penugasan'                => $row[40],
                 'jenjangpendidikan_id'     => $jenjangpendidikan['id'] ?? null,

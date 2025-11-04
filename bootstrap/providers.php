@@ -3,4 +3,5 @@
 return [
     App\Providers\AppServiceProvider::class,
     App\Providers\Filament\ManajemenPanelProvider::class,
+    App\Providers\ViewSettingServiceProvider::class,
 ];
