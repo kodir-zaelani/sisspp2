@@ -13,8 +13,8 @@
                             </a>
                         </li>
                         <li class="breadcrumb-item">
-                            <a href="{{ route('backend.sekolah.index') }}">
-                                Satuan Pendidikan
+                            <a href="{{ route('backend.ptk.index') }}">
+                                PTK
                             </a>
                         </li>
                         <li class="breadcrumb-item active" aria-current="page">Tambah Data</li>
@@ -29,7 +29,7 @@
         <div class="col-12">
             <div class="box box-bordered border-success">
                 <div class="box-body">
-                    <form action="{{ route('backend.sekolah.import') }}" method="POST" enctype="multipart/form-data">
+                    <form action="{{ route('backend.ptk.import') }}" method="POST" enctype="multipart/form-data">
                         @csrf
                         <input type="file" name="importfile" class="form-control @error('importfile') is-invalid @enderror" required>
                         @error('importfile')

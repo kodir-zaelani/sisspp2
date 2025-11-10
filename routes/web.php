@@ -48,6 +48,31 @@ Route::middleware(['auth', 'verified', 'web'])->group(function () {
     Route::put('backend/sekolah/{sekolah}/updatelogo', [App\Http\Controllers\Backend\SekolahController::class, 'updatelogo'])->name('backend.sekolah.updatelogo');
     Route::post('backend/sekolah/import', [App\Http\Controllers\Backend\SekolahController::class, 'import'])->name('backend.sekolah.import');
 
+    // PTK
+    Route::get('backend/ptk', [App\Http\Controllers\Backend\PtkController::class, 'index'])->name('backend.ptk.index');
+    Route::get('backend/ptk/create', [App\Http\Controllers\Backend\PtkController::class, 'create'])->name('backend.ptk.create');
+    Route::post('backend/ptk/store', [App\Http\Controllers\Backend\PtkController::class, 'store'])->name('backend.ptk.store');
+    Route::get('backend/ptk/{ptk}/edit', [App\Http\Controllers\Backend\PtkController::class, 'edit'])->name('backend.ptk.edit');
+    Route::put('backend/ptk/{ptk}/update', [App\Http\Controllers\Backend\PtkController::class, 'update'])->name('backend.ptk.update');
+    Route::put('backend/ptk/{ptk}/updatelogo', [App\Http\Controllers\Backend\PtkController::class, 'updatelogo'])->name('backend.ptk.updatelogo');
+    Route::post('backend/ptk/import', [App\Http\Controllers\Backend\PtkController::class, 'import'])->name('backend.ptk.import');
+
+    // Jurusansp
+    Route::get('backend/jurusansp', [App\Http\Controllers\Backend\JurusanspController::class, 'index'])->name('backend.jurusansp.index');
+    Route::get('backend/jurusansp/create', [App\Http\Controllers\Backend\JurusanspController::class, 'create'])->name('backend.jurusansp.create');
+    Route::post('backend/jurusansp/store', [App\Http\Controllers\Backend\JurusanspController::class, 'store'])->name('backend.jurusansp.store');
+    Route::get('backend/jurusansp/{jurusansp}/edit', [App\Http\Controllers\Backend\JurusanspController::class, 'edit'])->name('backend.jurusansp.edit');
+    Route::put('backend/jurusansp/{jurusansp}/update', [App\Http\Controllers\Backend\JurusanspController::class, 'update'])->name('backend.jurusansp.update');
+
+    Route::get('backend/get/jurusansp/{sekolah_id}', [App\Http\Controllers\Backend\JurusanspController::class, 'getjurusansp'])->name('backend.jurusansp.getjurusansp');
+    Route::get('backend/get/jurusan/{jurusan_id}', [App\Http\Controllers\Backend\JurusanController::class, 'getjurusan'])->name('backend.jurusan.getjurusan');
+    // Rombonganbelajar
+    Route::get('backend/rombonganbelajar', [App\Http\Controllers\Backend\RombonganbelajarController::class, 'index'])->name('backend.rombonganbelajar.index');
+    Route::get('backend/rombonganbelajar/create', [App\Http\Controllers\Backend\RombonganbelajarController::class, 'create'])->name('backend.rombonganbelajar.create');
+    Route::post('backend/rombonganbelajar/store', [App\Http\Controllers\Backend\RombonganbelajarController::class, 'store'])->name('backend.rombonganbelajar.store');
+    Route::get('backend/rombonganbelajar/{rombonganbelajar}/edit', [App\Http\Controllers\Backend\RombonganbelajarController::class, 'edit'])->name('backend.rombonganbelajar.edit');
+    Route::put('backend/rombonganbelajar/{rombonganbelajar}/update', [App\Http\Controllers\Backend\RombonganbelajarController::class, 'update'])->name('backend.rombonganbelajar.update');
+
     // Json Data for City, District and Village
     Route::get('backend/get/city/{province_code}', [App\Http\Controllers\Backend\WilayahController::class, 'getcity'])->name('backend.wilayah.getcity');
     Route::get('backend/get/distric/{city_code}', [App\Http\Controllers\Backend\WilayahController::class, 'getdistrict'])->name('backend.wilayah.getdistrict');

@@ -1,9 +1,9 @@
 <?php
 
-namespace App\Livewire\Backend\Jenisrombel;
+namespace App\Livewire\Backend\Ptk;
 
+use App\Models\Ptk;
 use Livewire\Component;
-use App\Models\Jenisrombel;
 use Livewire\WithPagination;
 
 class Index extends Component
@@ -17,8 +17,10 @@ class Index extends Component
     public $checked       = [];
     public $selectPage    = false;
     public $selectAll     = false;
+
     public $sortDirection = 'asc';
-    public $sortColumn    = 'jenisrombelid';
+    public $sortColumn    = 'nama';
+
     public $statusUpdate  = false;
     public $headersTable;
     public $action;
@@ -34,8 +36,11 @@ class Index extends Component
     private function headerConfig()
     {
         return [
-            // 'kebutuhan_khusus_id' => 'Kode',
-            'nama'    => 'Jenis Rombel',
+            'nama'          => 'Nama',
+            'jenis_kelamin' => 'JK',
+            'nuptk'         => 'NUPTK',
+            'jenisptk_id'   => 'Jenis PTK ',
+
         ];
     }
 
@@ -72,21 +77,21 @@ class Index extends Component
         $this->resetPage();
     }
 
-    public function getJenisrombelQueryProperty()
+    public function getPtkQueryProperty()
     {
-        return Jenisrombel::orderBy($this->sortColumn, $this->sortDirection)
+        return Ptk::orderBy($this->sortColumn, $this->sortDirection)
         ->search(trim($this->search)); //search menggunakan scopeSearch di model
     }
 
-    public function getJenisrombelProperty()
+    public function getPtkProperty()
     {
-        return $this->jenisrombelQuery->paginate($this->paginate);
+        return $this->ptkQuery->paginate($this->paginate);
     }
 
     public function updatedSelectPage($value)
     {
         if ($value) {
-            $this->checked = $this->jenisrombel->pluck('id')->map(fn ($item) => (string) $item)->toArray();
+            $this->checked = $this->ptk->pluck('id')->map(fn ($item) => (string) $item)->toArray();
         } else {
             $this->checked = [];
         }
@@ -100,45 +105,12 @@ class Index extends Component
     public function selectAll()
     {
         $this->selectAll = true;
-        $this->checked = $this->jenisrombelQuery->pluck('id')->map(fn ($item) => (string) $item)->toArray();
+        $this->checked = $this->ptkQuery->pluck('id')->map(fn ($item) => (string) $item)->toArray();
     }
 
     public function isChecked($id)
     {
         return in_array($id, $this->checked);
-    }
-
-    public function religiStored($religi)
-    {
-        // Sweet alert
-        $this->dispatch('swal:modal', [
-            'title' => 'Success!',
-            'timer'=>5000,
-            'icon'=>'success',
-            'text'=>'Jenisrombel ' . $religi['kebutuhan_khusus'] . ' was Stored',
-            'toast'=>true, // Jika mau menggunakan toas
-            'position'=>'top-right', // Jika mau menggunakan toas
-            'showConfirmButton'=>true,
-            'showCancelButton'=>false,
-        ]);
-        $this->resetErrorBag();
-        $this->resetValidation();
-    }
-
-    public function religiUpdated($religi)
-    {
-        // Sweet alert
-        $this->dispatch('swal:modal', [
-            'title' => 'Success!',
-            'timer'=>5000,
-            'icon'=>'success',
-            'text'=>'Jenisrombel ' . $religi['kebutuhan_khusus'] . ' was Updated',
-            // 'toast'=>true, // Jika mau menggunakan toas
-            // 'position'=>'top-right', // Jika mau menggunakan toas
-            'showConfirmButton'=>true,
-            'showCancelButton'=>false,
-        ]);
-        $this->statusUpdate = false;
     }
 
     public function selectItem($itemId, $action)
@@ -160,7 +132,7 @@ class Index extends Component
 
     public function deleteRecords()
     {
-        Jenisrombel::whereKey($this->checked)->delete();
+        Ptk::whereKey($this->checked)->delete();
 
         $this->checked = [];
         $this->selectAll = false;
@@ -183,14 +155,14 @@ class Index extends Component
     // Delete Single Record
     public function delete()
     {
-        Jenisrombel::destroy($this->selectedItem);
+        Ptk::destroy($this->selectedItem);
 
         // Sweet alert
         $this->dispatch('swal:modal', [
             'title' => 'Deleted Success!',
             'timer' => 4000,
             'icon'  => 'success',
-            'text'  => 'Jenisrombel was deleted',
+            'text'  => 'Ptk was deleted',
             // 'toast'=>true, // Jika mau menggunakan toas
             // 'position'=>'top-right', // Jika mau menggunakan toas
             'showConfirmButton' => true,
@@ -203,13 +175,11 @@ class Index extends Component
         $this->dispatch('closeDeleteModal');
     }
 
-
     public function render()
     {
-        return view('livewire.backend.jenisrombel.index', [
-            'datajenisrombel' => $this->jenisrombel,
-            'title' => 'Jenis Rombel',
+        return view('livewire.backend.ptk.index',[
+            'dataptk' => $this->ptk,
+            'title' => 'Daftar PTK'
         ]);
     }
-
 }

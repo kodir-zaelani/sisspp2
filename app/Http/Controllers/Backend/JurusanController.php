@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers\Backend;
 
+use App\Models\Jurusan;
 use Illuminate\View\View;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
@@ -31,5 +32,18 @@ class JurusanController extends Controller
         return view('backend.jurusan.index', [
             'title' => 'Jurusan'
         ]);
+    }
+
+    /**
+    * Get Jurusan.
+    *
+    * @return \Illuminate\Http\Response
+    */
+    public function getjurusan($jurusan_id)
+    {
+        // menampilkan data menggunakan Query builder buka elequent
+        $jurusan = Jurusan::where('id', $jurusan_id)->first();
+        $nama_jurusan = $jurusan->nama_jurusan;
+        return response()->json($nama_jurusan);
     }
 }

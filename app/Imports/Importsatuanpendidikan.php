@@ -14,11 +14,19 @@ use Laravolt\Indonesia\Models\City;
 use Laravolt\Indonesia\Models\Village;
 use Laravolt\Indonesia\Models\District;
 use Laravolt\Indonesia\Models\Province;
+use Maatwebsite\Excel\Concerns\Importable;
+use Maatwebsite\Excel\Concerns\SkipsErrors;
 use Maatwebsite\Excel\Concerns\ToCollection;
+use Maatwebsite\Excel\Concerns\WithStartRow;
 use Maatwebsite\Excel\Imports\HeadingRowFormatter;
 
-class Importsatuanpendidikan implements ToCollection
+class Importsatuanpendidikan implements ToCollection, WithStartRow
 {
+     use Importable, SkipsErrors;
+    public function startRow(): int
+    {
+        return 3;
+    }
     /**
     * @param array $row
     *
@@ -40,7 +48,7 @@ class Importsatuanpendidikan implements ToCollection
             $statuskepemilikan = Statuskepemilikan::where('nama', $row[15])->first();
             $namabank          = Bank::where('nama', $row[20])->first();
             $kebutuhankhusus   = Kebutuhankhusus::where('kebutuhan_khusus', $row[18])->first();
-            $yayasan           = Yayasan::where('nama', $row[34])->first();
+            $yayasanid           = Yayasan::where('nama', $row[34])->first();
 
             if ($row[3] == 'Swasta') {
                 $status_sekolah = 2;
@@ -58,6 +66,7 @@ class Importsatuanpendidikan implements ToCollection
             if ($status_sekolah != null) {
                 if ($mbs != null) {
                     Sekolah::create([
+
                         'nama'                      => $row[0],
                         'npsn'                      => $row[1],
                         'sk_pendirian_sekolah'      => $row[13],
@@ -79,10 +88,10 @@ class Importsatuanpendidikan implements ToCollection
                         'website'                   => $row[31],
                         'lintang'                   => $row[32],
                         'bujur'                     => $row[33],
-                        // 'yayasan_id'                => $value_yayasanid['id'] ?? null,
+                        'yayasan_id'                => $yayasanid['id'] ?? null,
                         'status_sekolah'            => $status_sekolah,
                         'mbs'                       => $mbs,
-                        'negara_id'                 => $negara['id'],
+                        'negara_id'                 => $negara['id'] ?? null,
                         'bentukpendidikan_id'       => $bentukpendidikan['id'],
                         'statuskepemilikan_id'      => $statuskepemilikan['id'],
                         'bank_id'                   => $namabank['id'],

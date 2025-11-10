@@ -17,6 +17,14 @@ class Ptk extends Model
     protected $guarded      = [];
     protected $dateFormat    = 'Y-m-d H:i:s';
 
+    public function scopeSearch($query, $term)
+    {
+        $term = "%$term%";
+        $query->where(function ($query) use ($term) {
+            $query->where('nama', 'like', $term);
+        });
+    }
+
     public function getImageUrlAttribute($value)
     {
         $imageUrl = "";
@@ -78,6 +86,15 @@ class Ptk extends Model
     public function sekolah(): BelongsTo
     {
         return $this->belongsTo(Sekolah::class, 'sekolah_id');
+    }
+   /**
+     * Get the jenisptk that owns the Semester
+     *
+     * @return \Illuminate\Database\Eloquent\Relations\BelongsTo
+     */
+    public function jenisptk(): BelongsTo
+    {
+        return $this->belongsTo(Jenisptk::class, 'jenisptk_id');
     }
 
 

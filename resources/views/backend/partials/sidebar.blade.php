@@ -50,6 +50,30 @@
                                     </a>
                                 </li>
                                 @endcan
+                                 {{-- @can('jurusansp.index') --}}
+                                <li class="{{ setActive('backend/jurusansp') }}">
+                                    <a href="{{ route('backend.jurusansp.index') }}">
+                                        <i class="icon-Commit"><span class="path1"></span><span class="path2"></span></i>
+                                        Jurusan SP
+                                    </a>
+                                </li>
+                                {{-- @endcan --}}
+                                @can('ptk.index')
+                                <li class="{{ setActive('backend/ptk') }}">
+                                    <a href="{{ route('backend.ptk.index') }}">
+                                        <i class="icon-Commit"><span class="path1"></span><span class="path2"></span></i>
+                                        PTK
+                                    </a>
+                                </li>
+                                @endcan
+                                {{-- @can('rombonganbelajar.index') --}}
+                                <li class="{{ setActive('backend/rombonganbelajar') }}">
+                                    <a href="{{ route('backend.rombonganbelajar.index') }}">
+                                        <i class="icon-Commit"><span class="path1"></span><span class="path2"></span></i>
+                                        Rombongan Belajar
+                                    </a>
+                                </li>
+                                {{-- @endcan --}}
                                 @can('jenistagihan.index')
                                 <li class="{{ setActive('backend/jenistagihan') }}">
                                     <a href="{{ route('backend.jenistagihan.index') }}">
