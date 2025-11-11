@@ -74,6 +74,14 @@
                                     </a>
                                 </li>
                                 {{-- @endcan --}}
+                                {{-- @can('pesertadidik.index') --}}
+                               <li class="{{ setActive('backend/pesertadidik') }}">
+                                   <a href="{{ route('backend.pesertadidik.index') }}">
+                                       <i class="icon-Commit"><span class="path1"></span><span class="path2"></span></i>
+                                       Peserta Didik
+                                   </a>
+                               </li>
+                               {{-- @endcan --}}
                                 @can('jenistagihan.index')
                                 <li class="{{ setActive('backend/jenistagihan') }}">
                                     <a href="{{ route('backend.jenistagihan.index') }}">

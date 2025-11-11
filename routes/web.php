@@ -73,6 +73,14 @@ Route::middleware(['auth', 'verified', 'web'])->group(function () {
     Route::get('backend/rombonganbelajar/{rombonganbelajar}/edit', [App\Http\Controllers\Backend\RombonganbelajarController::class, 'edit'])->name('backend.rombonganbelajar.edit');
     Route::put('backend/rombonganbelajar/{rombonganbelajar}/update', [App\Http\Controllers\Backend\RombonganbelajarController::class, 'update'])->name('backend.rombonganbelajar.update');
 
+    // Pesertadidik
+    Route::get('backend/pesertadidik', [App\Http\Controllers\Backend\PesertadidikController::class, 'index'])->name('backend.pesertadidik.index');
+    Route::get('backend/pesertadidik/create', [App\Http\Controllers\Backend\PesertadidikController::class, 'create'])->name('backend.pesertadidik.create');
+    Route::post('backend/pesertadidik/store', [App\Http\Controllers\Backend\PesertadidikController::class, 'store'])->name('backend.pesertadidik.store');
+    Route::get('backend/pesertadidik/{pesertadidik}/edit', [App\Http\Controllers\Backend\PesertadidikController::class, 'edit'])->name('backend.pesertadidik.edit');
+    Route::put('backend/pesertadidik/{pesertadidik}/update', [App\Http\Controllers\Backend\PesertadidikController::class, 'update'])->name('backend.pesertadidik.update');
+    Route::post('backend/pesertadidik/import', [App\Http\Controllers\Backend\PesertadidikController::class, 'import'])->name('backend.pesertadidik.import');
+
     // Json Data for City, District and Village
     Route::get('backend/get/city/{province_code}', [App\Http\Controllers\Backend\WilayahController::class, 'getcity'])->name('backend.wilayah.getcity');
     Route::get('backend/get/distric/{city_code}', [App\Http\Controllers\Backend\WilayahController::class, 'getdistrict'])->name('backend.wilayah.getdistrict');
