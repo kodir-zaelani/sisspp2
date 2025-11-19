@@ -47,4 +47,14 @@ class Semester extends Model
     {
         return $this->belongsTo(Tahunajaran::class);
     }
+
+    /**
+    * Get the pdlongitudinal associated with the Pesertadidik
+    *
+    * @return \Illuminate\Database\Eloquent\Relations\HasMany
+    */
+    public function pdlongitudinal(): HasMany
+    {
+        return $this->hasMany(Pdlongitudinal::class, 'pesertadidik_id');
+    }
 }

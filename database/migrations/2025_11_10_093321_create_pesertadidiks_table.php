@@ -7,23 +7,26 @@ use Illuminate\Support\Facades\Schema;
 return new class extends Migration
 {
     /**
-     * Run the migrations.
-     */
+    * Run the migrations.
+    */
     public function up(): void
     {
         Schema::create('pesertadidiks', function (Blueprint $table) {
-              $table->uuid('id')->primary();
-            $table->uuid('sekolah_id');
-            $table->uuid('tahunajaran_id');
+            $table->uuid('id')->primary();
+            $table->foreignUuid('sekolah_id');
+            $table->foreignUuid('tahunajaran_id');
+            $table->foreignUuid('semester_id');
+            $table->foreignUuid('jenispendaftaran_id');
+            $table->foreignUuid('tingkatpendidikan_id');
             $table->string('nama');
-            $table->char('jenis_kelamin', 1)->nullable();
-            $table->string('nisn')->unique();
             $table->string('nipd')->unique()->nullable();
-            $table->string('nik')->unique()->nullable();
-            $table->uuid('kebutuhankhusus_id')->nullable();
+            $table->char('jenis_kelamin', 1)->nullable();
+            $table->string('nisn')->unique()->nullable();
             $table->string('tempat_lahir')->nullable();
             $table->date('tanggal_lahir')->nullable();
-            $table->uuid('agama_id')->nullable();
+            $table->string('nik')->unique()->nullable();
+            $table->foreignUuid('agama_id')->nullable();
+            $table->date('tanggal_diterima')->nullable();
             $table->string('alamat_jalan')->nullable();
             $table->string('rt', 5)->nullable()->default('00000');
             $table->string('rw', 5)->nullable()->default('00000');
@@ -33,54 +36,65 @@ return new class extends Migration
             $table->char('district_code', 7)->nullable();
             $table->char('village_code', 10)->nullable();
             $table->string('kode_pos', 5)->nullable();
-            $table->string('lintang')->nullable();
-            $table->string('bujur')->nullable();
-            $table->text('maps')->nullable();
-            $table->unsignedInteger('anak_keberapa')->default(1);
+            $table->foreignUuid('jenistinggal_id')->nullable();
+            $table->foreignUuid('alattransportasi_id')->nullable();
             $table->string('no_telepon_rumah')->nullable();
             $table->string('no_telepon_seluler')->nullable();
             $table->string('email')->nullable();
-            $table->boolean('penerima_kps')->default(false);
+            $table->string('skhun')->nullable();
+            $table->string('penerima_kps')->default('Tidak');
             $table->string('no_kps')->nullable();
-            $table->boolean('layak_pip')->default(false);
-            $table->uuid('alasanlayakpip_id')->nullable();
-            $table->boolean('penerima_kip')->default(false);
+            $table->string('nama_ayah')->nullable();
+            $table->string('nik_ayah')->nullable();
+            $table->integer('tahun_lahir_ayah')->nullable();
+            $table->foreignUuid('jenjangpendidikan_ayah_id')->nullable();
+            $table->foreignUuid('pekerjaan_ayah_id')->nullable();
+            $table->foreignUuid('penghasilan_ayah_id')->nullable();
+            $table->foreignUuid('kebutuhankhusus_ayah_id')->nullable();
+            $table->string('nama_ibu')->nullable();
+            $table->integer('tahun_lahir_ibu')->nullable();
+            $table->foreignUuid('jenjangpendidikan_ibu_id')->nullable();
+            $table->foreignUuid('pekerjaan_ibu_id')->nullable();
+            $table->foreignUuid('penghasilan_ibu_id')->nullable();
+            $table->string('nik_ibu')->nullable();
+            $table->foreignUuid('kebutuhankhusus_ibu_id')->nullable();
+            $table->string('nama_wali')->nullable();
+            $table->integer('tahun_lahir_wali')->nullable();
+            $table->foreignUuid('jenjangpendidikan_wali_id')->nullable();
+            $table->foreignUuid('pekerjaan_wali_id')->nullable();
+            $table->foreignUuid('penghasilan_wali_id')->nullable();
+            $table->string('nik_wali')->nullable();
+            $table->foreignUuid('kebutuhankhusus_wali_id')->nullable();
+            $table->string('no_peserta_ujian')->nullable();
+            $table->string('no_seri_ijazah')->nullable();
+            $table->string('penerima_kip')->default('Tidak');
             $table->string('no_kip')->nullable();
             $table->string('nama_kip')->nullable();
-            $table->uuid('statuspotonganspp_id')->nullable();
-            $table->uuid('jenistinggal_id')->nullable();
-            $table->uuid('alattransportasi_id')->nullable();
+            $table->foreignUuid('statuspotonganspp_id')->nullable();
             $table->string('no_kks')->nullable();
             $table->string('reg_akta_lahir')->nullable();
-            $table->uuid('bank_id')->nullable();
+            $table->foreignUuid('bank_id')->nullable();
             $table->string('rek_bank')->nullable();
-            $table->string('nama_kcp')->nullable();
             $table->string('rek_atas_nama')->nullable();
-            $table->unsignedInteger('status_data')->nullable();
-            $table->string('nik_ayah')->nullable();
-            $table->string('nama_ayah')->nullable();
-            $table->char('tahun_lahir_ayah', 4)->nullable();
-            $table->uuid('jenjangpendidikan_ayah_id')->nullable();
-            $table->uuid('pekerjaan_ayah_id')->nullable();
-            $table->uuid('penghasilan_ayah_id')->nullable();
-            $table->uuid('kebutuhankhusus_ayah_id')->nullable();
-            $table->string('nik_ibu')->nullable();
-            $table->char('tahun_lahir_ibu', 4)->nullable();
-            $table->uuid('jenjangpendidikan_ibu_id')->nullable();
-            $table->uuid('pekerjaan_ibu_id')->nullable();
-            $table->uuid('penghasilan_ibu_id')->nullable();
-            $table->uuid('kebutuhankhusus_ibu_id')->nullable();
-            $table->string('nik_wali')->nullable();
-            $table->char('tahun_lahir_wali', 4)->nullable();
-            $table->uuid('jenjangpendidikan_wali_id')->nullable();
-            $table->uuid('pekerjaan_wali_id')->nullable();
-            $table->uuid('penghasilan_wali_id')->nullable();
-            $table->uuid('kebutuhankhusus_wali_id')->nullable();
-            $table->uuid('negara_id')->nullable();
+            $table->string('layak_pip')->default('Tidak');
+            $table->foreignUuid('alasanlayakpip_id')->nullable();
+            $table->foreignUuid('kebutuhankhusus_id')->nullable();
+            $table->tinyInteger('anak_keberapa')->default(1);
+            $table->string('lintang')->nullable();
+            $table->string('bujur')->nullable();
+            $table->string('no_kk')->nullable();
+            $table->text('maps')->nullable();
+            $table->tinyInteger('status_data')->nullable();
+            $table->foreignUuid('negara_id')->nullable();
             $table->string('image')->nullable();
+            $table->uuid('updated_by')->nullable();
+            $table->uuid('deleted_by')->nullable();
             $table->timestamps();
             $table->softDeletes();
 
+            $table->foreign('tingkatpendidikan_id')->references('id')->on('tingkatpendidikans')->onUpdate('cascade')->onDelete('restrict');
+            $table->foreign('semester_id')->references('id')->on('semesters')->onUpdate('cascade')->onDelete('restrict');
+            $table->foreign('jenispendaftaran_id')->references('id')->on('jenispendaftarans')->onUpdate('cascade')->onDelete('restrict');
             $table->foreign('bank_id')->references('id')->on('banks')->onUpdate('cascade')->onDelete('restrict');
             $table->foreign('alasanlayakpip_id')->references('id')->on('alasanlayakpips')->onUpdate('cascade')->onDelete('restrict');
             $table->foreign('alattransportasi_id')->references('id')->on('alattransportasis')->onUpdate('cascade')->onDelete('restrict');
@@ -130,8 +144,8 @@ return new class extends Migration
     }
 
     /**
-     * Reverse the migrations.
-     */
+    * Reverse the migrations.
+    */
     public function down(): void
     {
         Schema::dropIfExists('pesertadidiks');

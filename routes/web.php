@@ -80,6 +80,8 @@ Route::middleware(['auth', 'verified', 'web'])->group(function () {
     Route::get('backend/pesertadidik/{pesertadidik}/edit', [App\Http\Controllers\Backend\PesertadidikController::class, 'edit'])->name('backend.pesertadidik.edit');
     Route::put('backend/pesertadidik/{pesertadidik}/update', [App\Http\Controllers\Backend\PesertadidikController::class, 'update'])->name('backend.pesertadidik.update');
     Route::post('backend/pesertadidik/import', [App\Http\Controllers\Backend\PesertadidikController::class, 'import'])->name('backend.pesertadidik.import');
+    Route::get('backend/pesertadidik/cleanupload', [App\Http\Controllers\Backend\PesertadidikController::class, 'cleanupload'])->name('backend.pesertadidik.cleanupload');
+    Route::get('backend/pesertadidik/{pesertadidik}/show', [App\Http\Controllers\Backend\PesertadidikController::class, 'show'])->name('backend.pesertadidik.show');
 
     // Json Data for City, District and Village
     Route::get('backend/get/city/{province_code}', [App\Http\Controllers\Backend\WilayahController::class, 'getcity'])->name('backend.wilayah.getcity');

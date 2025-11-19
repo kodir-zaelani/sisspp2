@@ -36,8 +36,9 @@ class Index extends Component
     private function headerConfig()
     {
         return [
-            'sekolah_id' => 'Nama Sekolah',
-            'nama'       => 'Nama Jurusan',
+            'nama' => 'Nama',
+            'nisn' => 'NISN',
+            'nipd' => 'NIPD',
         ];
     }
 

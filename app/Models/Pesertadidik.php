@@ -5,12 +5,14 @@ namespace App\Models;
 use Illuminate\Support\Str;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\SoftDeletes;
+use Illuminate\Database\Eloquent\Relations\HasOne;
 use Illuminate\Database\Eloquent\Concerns\HasUuids;
+use Illuminate\Database\Eloquent\Relations\HasMany;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 
 class Pesertadidik extends Model
 {
-     use HasUuids, SoftDeletes;
+    use HasUuids, SoftDeletes;
 
     protected $primaryKey   = 'id';
     protected $guarded      = [];
@@ -22,6 +24,13 @@ class Pesertadidik extends Model
         $query->where(function ($query) use ($term) {
             $query->where('nama', 'like', $term);
         });
+    }
+
+    // mutator
+
+    public function setNamaAttribute($value)
+    {
+        $this->attributes['nama'] = Str::title($value);
     }
 
     public function getImageUrlAttribute($value)
@@ -77,14 +86,24 @@ class Pesertadidik extends Model
         $this->attributes['slug'] = Str::slug($value);
     }
 
-   /**
-     * Get the sekolah that owns the Semester
-     *
-     * @return \Illuminate\Database\Eloquent\Relations\BelongsTo
-     */
+    /**
+    * Get the sekolah that owns the Semester
+    *
+    * @return \Illuminate\Database\Eloquent\Relations\BelongsTo
+    */
     public function sekolah(): BelongsTo
     {
         return $this->belongsTo(Sekolah::class, 'sekolah_id');
+    }
+
+    /**
+    * Get the pdlongitudinal associated with the Pesertadidik
+    *
+    * @return \Illuminate\Database\Eloquent\Relations\HasMany
+    */
+    public function pdlongitudinal(): HasMany
+    {
+        return $this->hasMany(Pdlongitudinal::class, 'pesertadidik_id');
     }
 
 }

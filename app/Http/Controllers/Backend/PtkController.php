@@ -10,7 +10,7 @@ use Maatwebsite\Excel\Facades\Excel;
 
 class PtkController extends Controller
 {
-protected $uploadPath;
+    protected $uploadPath;
     protected $uploadPathexcel    = 'files/excel/';
     /**
     * Create a new controller instance.
