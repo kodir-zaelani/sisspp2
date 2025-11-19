@@ -98,7 +98,7 @@
                                     You have selected <strong>{{ count($checked) }}</strong> items, Do you
                                     want to Select All
                                     <strong>{{ $datapesertadidik->total() }}</strong>?
-                                    <a href="#" class="ml-2" wire:click.live="selectAll">Select All</a>
+                                    <a href="#" class="ml-2" wire:click="selectAll">Select All</a>
                                 </div>
                                 @endif
                                 @endif
