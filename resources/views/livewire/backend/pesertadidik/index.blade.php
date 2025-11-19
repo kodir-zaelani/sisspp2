@@ -113,12 +113,7 @@
                                         <thead class="bg-success">
                                             <tr>
                                                 <th width="4%" scope="col">#</th>
-                                                <th>
-                                                    <div class="checkbox">
-                                                        <input id="checkbox2" type="checkbox" wire:model.live="selectPage">
-                                                        <label for="checkbox2"> </label>
-                                                    </div>
-                                                </th>
+                                                <th width="4%" scope="col"></th>
                                                 @foreach ($headersTable as $key => $value)
                                                 <th scope="col" wire:click.prevent="sortBy('{{ $key }}')" style="cursor: pointer">
                                                     {{ $value }}
@@ -134,10 +129,7 @@
                                             <tr>
                                                 <th class="text-right" scope="row">{{ $no + $datapesertadidik->firstItem() }}</th>
                                                 <td>
-                                                    <div class="checkbox">
-                                                        <input type="checkbox" id="Checkbox_{{ $no + $datapesertadidik->firstItem() }}" value="{{ $item->id }}" wire:model="checked">
-                                                        <label for="Checkbox_{{ $no + $datapesertadidik->firstItem() }}"></label>
-                                                    </div>
+                                                    <a href="#" class="btn btn-xs btn-primary"><i class="bi bi-search"></i></a>
                                                 </td>
                                                 <td>
                                                     {{ Str::title(!empty($item->nama) ? $item->nama:'') }}
