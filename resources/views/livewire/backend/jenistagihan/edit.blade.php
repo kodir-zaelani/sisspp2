@@ -8,7 +8,7 @@
                  <div class="form-group @error('tahunajaran_id') has-error @enderror">
                     <h5 >Tahun Ajaran <span class="text-danger">*</span></h5>
                     <select class="form-control select2" style="width: 100%;" wire:model.live="tahunajaran_id" id="selcetprovince_code">
-                        <option value="" holder>Pilih Provinsi</option>
+                        <option value="" holder>Pilih Tahun Ajaran</option>
                         @foreach ($dataptahunajaran as $item)
                         <option value="{{ $item->id }}" {{ old('id') == $item->id ? 'selected' : '' }}>
                             {{ $item->nama }}
@@ -35,10 +35,10 @@
                 <div class="form-group">
                     <label class="form-label">Periodik :</label>
                     <div class="demo-radio-button">
-                        <input value="1" wire:model="periodik"
+                        <input value="Ya" wire:model="periodik"
                         type="radio" id="radio_30" class="with-gap radio-col-success" />
                         <label for="radio_30">Ya</label>
-                        <input value="0" wire:model="periodik"
+                        <input value="Tidak" wire:model="periodik"
                         type="radio" id="radio_32" class="with-gap radio-col-success" checked />
                         <label for="radio_32">Tidak</label>
                     </div>
@@ -57,10 +57,10 @@
                 <div class="form-group">
                     <label class="form-label">Perlu Tagihan :</label>
                     <div class="demo-radio-button">
-                        <input value="1" wire:model="perlu_tagihan"
+                        <input value="Ya" wire:model="perlu_tagihan"
                         type="radio" id="radio_30perlu_tagihan" class="with-gap radio-col-success" />
                         <label for="radio_30perlu_tagihan">Ya</label>
-                        <input value="0" wire:model="perlu_tagihan"
+                        <input value="Tidak" wire:model="perlu_tagihan"
                         type="radio" id="radio_32perlu_tagihan" class="with-gap radio-col-success" checked />
                         <label for="radio_32perlu_tagihan">Tidak</label>
                     </div>
@@ -68,9 +68,9 @@
                 <div class="form-group">
                     <h5>Besaran<span class="text-danger">*</span></h5>
                     <div class="controls">
-                        <input type="number" wire:model="nama" class="form-control @error('nama') is-invalid @enderror" value="{{ old('nama') }}" placeholder="Nama Sekolah" required>
+                        <input type="number" wire:model="besaran" class="form-control @error('besaran') is-invalid @enderror" value="{{ old('besaran') }}" placeholder="Nama Sekolah" required>
                     </div>
-                    @error('nama')
+                    @error('besaran')
                     <div class="form-control-feedback"><small> <code>{{ $message }}</code> </small></div>
                     @enderror
                 </div>
