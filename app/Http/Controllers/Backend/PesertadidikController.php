@@ -21,7 +21,20 @@ class PesertadidikController extends Controller
     protected $uploadPath;
     protected $uploadPathexcel    = 'files/excel/';
 
+    /**
+    * Create a new controller instance.
+    *
+    * @return void
+    */
+    public function __construct()
+    {
+        $this->uploadPath = public_path(config('cms.image.directoryPesertadidik'));
+    }
+
     public function index(){
+
+        $this->cleanupload();
+
         return view('backend.pesertadidik.index',[
             'title' => 'Peserta Didik'
         ]);
@@ -34,6 +47,8 @@ class PesertadidikController extends Controller
     */
     public function create()
     {
+        $this->cleanupload();
+
         return view('backend.pesertadidik.create', [
             'sekolah' => Sekolah::all(),
             'tahunajaran' => Tahunajaran::orderBy('nama', 'desc')->get(),
@@ -90,34 +105,35 @@ class PesertadidikController extends Controller
             $semesterId,
             $tanggalditerima,
             $tingkatpendidikanId,
-            $jenispendaftaranId);
+            $jenispendaftaranId
+        );
 
-            $import->import('uploads/files/excel/'.$nama_file);
+        $import->import('uploads/files/excel/'.$nama_file);
 
-            if ($import->failures()->isNotEmpty()) {
-                return back()->withFailures($import->failures());
-            }
-
-            // dd($import->failures());
-            //remove file import from server
-            File::delete('uploads/files/excel/'.$nama_file);
-
-            return redirect()->route('backend.pesertadidik.index')->with('success', 'Data Peserta Didik berhasil diimport!');
+        if ($import->failures()->isNotEmpty()) {
+            return back()->withFailures($import->failures());
         }
 
-        // Fungsi hapus file di folder livewire-tmp setelah simpan
+        // dd($import->failures());
+        //remove file import from server
+        File::delete('uploads/files/excel/'.$nama_file);
 
-        public function cleanupload()
-        {
-            $tempImages = Storage::files('files/excel');
+        return redirect()->route('backend.pesertadidik.index')->with('success', 'Data Peserta Didik berhasil diimport!');
+    }
 
-            foreach ($tempImages as $file) {
-                # code...
-                Storage::delete($file);
-            }
-            return redirect()->route('backend.pesertadidik.create');
+    // Fungsi hapus file di folder livewire-tmp setelah simpan
 
+    public function cleanupload()
+    {
+        $tempImages = Storage::files('files/excel');
+
+        foreach ($tempImages as $file) {
+            # code...
+            Storage::delete($file);
         }
-
+        // return redirect()->route('backend.pesertadidik.create');
 
     }
+
+
+}

@@ -51,7 +51,7 @@ return new class extends Migration
             $table->string('nip_suami_istri')->nullable();
             $table->uuid('pekerjaan_suami_istri_id')->nullable();
             $table->date('tmt_pns')->nullable();
-            $table->tinyInteger('lisensi_kepala_sekolah')->nullable();
+            $table->char('lisensi_kepala_sekolah')->nullable()->default('Tidak');
             $table->string('npwp')->nullable();
             $table->string('penugasan')->default('induk');
             $table->uuid('jenjangpendidikan_id')->nullable();

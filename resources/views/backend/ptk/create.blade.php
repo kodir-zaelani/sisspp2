@@ -28,9 +28,89 @@
     <div class="row">
         <div class="col-12">
             <div class="box box-bordered border-success">
+                <div class="box-header">
+                    <h4>Import PTK</h4>
+                    <div class="box-controls pull-right">
+                        <a href="{{route('backend.ptk.index')}}" class="btn btn-sm btn-warning me-3" title="Import">
+                            <i class="bi bi-arrow-left"></i>
+                            Kembali
+                        </a>
+                    </div>
+                </div>
                 <div class="box-body">
+                    @if (isset($errors) && $errors->any())
+                    <div class="row">
+                        <div class="col">
+                            <div class="alert alert-danger">
+                                @foreach ($errors->all() as $error)
+                                {{ $error }}
+                                @endforeach
+                            </div>
+                        </div>
+                    </div>
+                    @endif
+                    @if (session()->has('failures'))
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="box">
+                                <div class="box-header">
+                                    <h4>Daftar Data Duplikat </h4>
+                                    <small class="text-muted">Perbaiki data duplikat tersebut atau data sudah ada dalam database</small>
+                                    <div class="box-controls pull-right">
+                                        <a href="{{route('backend.ptk.create')}}" class="btn btn-sm btn-success me-3" title="Import"><i class="fa fa-file "></i> Import Ulang</a>
+                                    </div>
+                                </div>
+                                <div class="box-body">
+                                    <table class="table table-danger">
+                                        <tr>
+                                            <th>Row</th>
+                                            <th>Attribute</th>
+                                            <th>Errors</th>
+                                            <th>Values</th>
+                                        </tr>
+                                        @foreach (session()->get('failures') as $validation)
+                                        <tr>
+                                            <td>{{ $validation->row()}}</td>
+                                            <td>{{ $validation->attribute()}}</td>
+                                            <td>
+                                                <ul>
+                                                    @foreach ($validation->errors() as $e)
+                                                    <li>{{ $e }}</li>
+                                                    @endforeach
+                                                </ul>
+                                            </td>
+                                            <td>{{ $validation->values() [$validation->attribute()]}}</td>
+                                        </tr>
+                                        @endforeach
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    @endif
                     <form action="{{ route('backend.ptk.import') }}" method="POST" enctype="multipart/form-data">
                         @csrf
+                        <div class="row">
+                            <div class="col-lg-12 col-md-12 col-12">
+                                <div class="form-group @error('sekolah_id') has-error @enderror">
+                                    <h5 >Sekolah <span class="text-danger">*</span></h5>
+                                    <select class="form-control select2" style="width: 100%;" name="sekolah_id" id="sekolah_id" required>
+                                        <option value="" holder>Pilih Sekolah</option>
+                                        @foreach ($sekolah as $item)
+                                        <option value="{{ $item->id }}" {{ old('sekolah_id') == $item->id ? 'selected' : '' }}>
+                                            {{ $item->nama }}
+                                        </option>
+                                        @endforeach
+                                    </select>
+                                    @error('sekolah_id')
+                                    <div class="form-control-feedback"><small>
+                                        <code>{{ $message }}</code> </small>
+                                    </div>
+                                    @enderror
+                                </div>
+                            </div>
+                        </div>
+                        <h5>File sumber</h5>
                         <input type="file" name="importfile" class="form-control @error('importfile') is-invalid @enderror" required>
                         @error('importfile')
                         <div class="form-control-feedback">

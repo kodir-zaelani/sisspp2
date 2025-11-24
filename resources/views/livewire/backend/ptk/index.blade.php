@@ -21,6 +21,17 @@
     </div>
     <section class="content">
         <x-flash-message/>
+          @if (isset($errors) && $errors->any())
+        <div class="row">
+            <div class="col">
+                <div class="alert alert-danger">
+                    @foreach ($errors->all() as $error)
+                    {{ $error }}
+                    @endforeach
+                </div>
+            </div>
+        </div>
+        @endif
         <div class="row">
             <div class="col-xl-12 col-md-12 col-lg-12 col-12">
                 <div class="box box-bordered border-primary">

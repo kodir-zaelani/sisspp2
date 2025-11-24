@@ -26,6 +26,12 @@
     <div class="box">
         <div class="box-header">
             <h4>Import Peserta Didik</h4>
+            <div class="box-controls pull-right">
+                <a href="{{route('backend.pesertadidik.index')}}" class="btn btn-sm btn-warning me-3" title="Import">
+                    <i class="bi bi-arrow-left"></i>
+                    Kembali
+                </a>
+            </div>
         </div>
         <div class="box-body">
 
@@ -49,7 +55,7 @@
                             <h4>Daftar Data Duplikat </h4>
                             <small class="text-muted">Perbaiki data duplikat tersebut atau data sudah ada dalam database</small>
                             <div class="box-controls pull-right">
-                                <a href="{{route('backend.pesertadidik.cleanupload')}}" class="btn btn-sm btn-success me-3" title="Import"><i class="fa fa-file "></i> Import Ulang</a>
+                                <a href="{{route('backend.pesertadidik.create')}}" class="btn btn-sm btn-success me-3" title="Import"><i class="fa fa-file "></i> Import Ulang</a>
                             </div>
                         </div>
                         <div class="box-body">

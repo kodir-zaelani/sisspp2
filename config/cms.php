@@ -11,6 +11,16 @@ return [
             'width' => 300,
             'height' => 200
         ],
+        'directoryPtk' => 'uploads/images/ptk/',
+        'thumbnailptk' => [
+            'width' => 150,
+            'height' => 200
+        ],
+        'directoryPesertadidik' => 'uploads/images/pesertadidik/',
+        'thumbnailpesertadidik' => [
+            'width' => 150,
+            'height' => 200
+        ],
         'directoryFacilities' => 'uploads/images/facilities/',
         'thumbnailpost' => [
             'width' => 300,
