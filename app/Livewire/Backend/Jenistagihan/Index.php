@@ -194,7 +194,7 @@ class Index extends Component
         return view('livewire.backend.jenistagihan.index', [
             'datajenistagihan' => $this->jenistagihan,
             'sekolah' => Sekolah::orderBy('nama', 'asc')->get(),
-            'dataptahunajaran' => Tahunajaran::with('jenistagihans')->orderBy('tahun_ajaran_id', 'desc')->get(),
+            'dataptahunajaran' => Tahunajaran::orderBy('tahun_ajaran_id', 'desc')->get(),
             'title' => 'Jenis Tagihan',
         ]);
     }
