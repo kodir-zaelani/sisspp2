@@ -5,7 +5,6 @@ namespace App\Http\Controllers\Backend;
 use App\Models\Setting;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
-use Intervention\Image\ImageManager;
 use App\Http\Requests\SettingStoreRequest;
 use App\Http\Requests\SettingUpdateRequest;
 use Intervention\Image\Laravel\Facades\Image;
