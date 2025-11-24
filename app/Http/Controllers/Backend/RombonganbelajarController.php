@@ -38,7 +38,7 @@ class RombonganbelajarController extends Controller
             'semester' => Semester::orderBy('nama', 'desc')->get(),
             'tingkatpendidikan' => Tingkatpendidikan::orderBy('nama', 'asc')->get(),
             'jurusansp' => Jurusansp::all(),
-            'ptks' => Ptk::all(),
+            'ptks' => Ptk::orderBy('nama', 'asc')->get(),
             'title' => 'Daftar Rombongan Belajar'
         ]);
 

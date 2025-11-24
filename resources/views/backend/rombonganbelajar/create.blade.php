@@ -109,7 +109,7 @@
                         <div class="form-group">
                             <h5>Nama Rombongan Belajar <span class="text-danger">*</span></h5>
                             <div class="controls">
-                                <input type="text" name="nama" class="form-control @error('nama') is-invalid @enderror" value="{{ old('nama') }}" placeholder="Nama Yayasan" required>
+                                <input type="text" name="nama" class="form-control @error('nama') is-invalid @enderror" value="{{ old('nama') }}" placeholder="Nama Rombongan Belajar" required>
                             </div>
                             @error('nama')
                             <div class="form-control-feedback"><small> <code>{{ $message }}</code> </small></div>
