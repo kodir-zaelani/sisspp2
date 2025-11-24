@@ -2,6 +2,7 @@
 
 namespace App\Livewire\Backend\Jenistagihan;
 
+use App\Models\Sekolah;
 use Livewire\Component;
 use App\Models\Tahunajaran;
 use App\Models\Jenistagihan;
