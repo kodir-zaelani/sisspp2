@@ -37,6 +37,8 @@ class JenistagihanController extends Controller
     */
     public function index(): View
     {
+        $this->cleanupload();
+
         return view('backend.jenistagihan.index', [
             'title' => 'Jenis Tagihan'
         ]);
@@ -44,6 +46,8 @@ class JenistagihanController extends Controller
 
     public function create(): View
     {
+        $this->cleanupload();
+
         return view('backend.jenistagihan.create', [
             'sekolah' => Sekolah::orderBy('nama', 'asc')->get(),
             'dataptahunajaran' => Tahunajaran::orderBy('tahun_ajaran_id', 'desc')->get(),
@@ -60,6 +64,8 @@ class JenistagihanController extends Controller
 
     public function formimport(Request $request)
     {
+        $this->cleanupload();
+
         return view('backend.jenistagihan.import', [
             'sekolah' => Sekolah::orderBy('nama', 'asc')->get(),
             'dataptahunajaran' => Tahunajaran::orderBy('tahun_ajaran_id', 'desc')->get(),

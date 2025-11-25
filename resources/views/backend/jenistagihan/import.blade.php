@@ -37,6 +37,12 @@
             <form action="{{ route('backend.jenistagihan.import') }}" method="POST" enctype="multipart/form-data">
                 @csrf
                 <div class="box-body">
+                     <div class="pb-5 row">
+                                <div class="col-12">
+                                    Silahkan <a class="text-decoration-none btn btn-sm btn-info" href="{{asset('')}}uploads/files/templates/4_template_Daftar_Tagihan.xlsx" style="pointer='cursor';">Unduh Template</a>   file spreadsheet terlebih dahulu!
+                                </div>
+                            </div>
+                            <hr>
                     <div class="row">
                         <div class="col-lg-6 col-md-6 col-12">
                             <div class="form-group @error('sekolah_id') has-error @enderror">

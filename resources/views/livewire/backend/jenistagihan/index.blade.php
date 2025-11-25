@@ -32,7 +32,7 @@
                                 <option value="50">50</option>
                                 <option value="100">100</option>
                             </select>
-                            <a  href="{{route('backend.jenistagihan.create')}}" class="btn btn-success btn-sm ms-3" title="Tambah"> <i class="fa fa-plus me-2" aria-hidden="true"></i> Tambah</a>
+                            <a  href="{{route('backend.jenistagihan.formimport')}}" class="btn btn-success btn-sm ms-3" title="Tambah"> <i class="fa fa-plus me-2" aria-hidden="true"></i> Tambah</a>
                             <ul class="box-controls pull-right">
                                 <li>
                                     <div class="ms-auto form-group me-2 expand">
