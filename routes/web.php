@@ -80,8 +80,14 @@ Route::middleware(['auth', 'verified', 'web'])->group(function () {
     Route::get('backend/pesertadidik/{pesertadidik}/edit', [App\Http\Controllers\Backend\PesertadidikController::class, 'edit'])->name('backend.pesertadidik.edit');
     Route::put('backend/pesertadidik/{pesertadidik}/update', [App\Http\Controllers\Backend\PesertadidikController::class, 'update'])->name('backend.pesertadidik.update');
     Route::post('backend/pesertadidik/import', [App\Http\Controllers\Backend\PesertadidikController::class, 'import'])->name('backend.pesertadidik.import');
-    Route::get('backend/pesertadidik/cleanupload', [App\Http\Controllers\Backend\PesertadidikController::class, 'cleanupload'])->name('backend.pesertadidik.cleanupload');
     Route::get('backend/pesertadidik/{pesertadidik}/show', [App\Http\Controllers\Backend\PesertadidikController::class, 'show'])->name('backend.pesertadidik.show');
+
+     // SemesterController
+    Route::get('backend/jenistagihan', [App\Http\Controllers\Backend\JenistagihanController::class, 'index'])->name('backend.jenistagihan.index');
+    Route::get('backend/jenistagihan/create', [App\Http\Controllers\Backend\JenistagihanController::class, 'create'])->name('backend.jenistagihan.create');
+    Route::post('backend/jenistagihan/store', [App\Http\Controllers\Backend\JenistagihanController::class, 'store'])->name('backend.jenistagihan.store');
+    Route::get('backend/jenistagihan/formimport', [App\Http\Controllers\Backend\JenistagihanController::class, 'formimport'])->name('backend.jenistagihan.formimport');
+    Route::post('backend/jenistagihan/import', [App\Http\Controllers\Backend\JenistagihanController::class, 'import'])->name('backend.jenistagihan.import');
 
     // Json Data for City, District and Village
     Route::get('backend/get/city/{province_code}', [App\Http\Controllers\Backend\WilayahController::class, 'getcity'])->name('backend.wilayah.getcity');
@@ -143,8 +149,7 @@ Route::middleware(['auth', 'verified', 'web'])->group(function () {
     // SemesterController
     Route::get('backend/semester', [App\Http\Controllers\Backend\SemesterController::class, 'index'])->name('backend.semester.index');
 
-    // SemesterController
-    Route::get('backend/jenistagihan', [App\Http\Controllers\Backend\JenistagihanController::class, 'index'])->name('backend.jenistagihan.index');
+
 
 });
 

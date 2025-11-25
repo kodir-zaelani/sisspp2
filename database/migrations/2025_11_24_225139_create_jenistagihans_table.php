@@ -17,9 +17,9 @@ return new class extends Migration
             $table->foreignUuid('tahunajaran_id')->constrained('tahunajarans')->cascadeOnDelete();
             $table->string('nama');
             $table->char('periodik')->default('Ya');
-            $table->enum('jenis_periodik', ['bulan', 'tahun_ajaran'])->nullable();
+            $table->enum('jenis_periodik', ['bulan', 'tahun'])->nullable();
             $table->char('perlu_tagihan')->default('Ya');
-            $table->decimal('besaran', 8, 2)->default(0);
+            $table->decimal('besaran', 14, 2)->default(0);
             $table->date('tanggal_mulai');
             $table->date('tanggal_selesai');
             $table->timestamps();

@@ -42,7 +42,7 @@
                         type="radio" id="radio_30" class="with-gap radio-col-success" />
                         <label for="radio_30">Ya</label>
                         <input value="Tida" wire:model="periodik"
-                        type="radio" id="radio_32" class="with-gap radio-col-success" checked />
+                        type="radio" id="radio_32" class="with-gap radio-col-success"  />
                         <label for="radio_32">Tidak</label>
                     </div>
                 </div>
@@ -53,7 +53,7 @@
                         type="radio" id="radio_33" class="with-gap radio-col-success" />
                         <label for="radio_33">Bulan</label>
                         <input value="tahun_ajaran" wire:model="jenis_periodik"
-                        type="radio" id="radio_34" class="with-gap radio-col-success" checked />
+                        type="radio" id="radio_34" class="with-gap radio-col-success"  />
                         <label for="radio_34">Tahun Masuk</label>
                     </div>
                 </div>
@@ -64,7 +64,7 @@
                         type="radio" id="radio_30perlu_tagihan" class="with-gap radio-col-success" />
                         <label for="radio_30perlu_tagihan">Ya</label>
                         <input value="Tidak" wire:model="perlu_tagihan"
-                        type="radio" id="radio_32perlu_tagihan" class="with-gap radio-col-success" checked />
+                        type="radio" id="radio_32perlu_tagihan" class="with-gap radio-col-success"  />
                         <label for="radio_32perlu_tagihan">Tidak</label>
                     </div>
                 </div>
