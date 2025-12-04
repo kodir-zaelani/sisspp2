@@ -85,6 +85,7 @@
     <link href="{{ asset('') }}assets/icons/flag-icon-css/css/flag-icon.min.css" rel="stylesheet">
     <link href="{{ asset('') }}assets/frontend/dist/css/bootstrap.min.css" rel="stylesheet" />
     <link href="{{ asset('') }}assets/icons/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css">
     <meta name="theme-color" content="#712cf9" />
         <style>
       .bd-placeholder-img {
@@ -261,7 +262,6 @@
     </nav>
     <main class="container">
         @yield('content')
-
     </main>
     <div class="container">
         <footer class="flex-wrap py-3 my-4 d-flex justify-content-between align-items-center border-top">
@@ -313,5 +313,19 @@
   </svg>
 
     <script src="{{ asset('') }}assets/frontend/dist/js/bootstrap.bundle.min.js" class="astro-vvvwv3sm"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+    <script>
+        //message with toastr
+        @if(session()->has('success'))
+
+            toastr.success('{{ session('success ') }}', 'BERHASIL!');
+
+        @elseif(session()->has('error'))
+
+            toastr.error('{{ session('error ') }}', 'GAGAL!');
+
+        @endif
+
+    </script>
 </body>
 </html>

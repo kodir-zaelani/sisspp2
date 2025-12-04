@@ -106,4 +106,24 @@ class Pesertadidik extends Model
         return $this->hasMany(Pdlongitudinal::class, 'pesertadidik_id');
     }
 
+    /**
+     * Get all of the anggotarombels for the Pesertadidik
+     *
+     * @return \Illuminate\Database\Eloquent\Relations\HasMany
+     */
+    public function anggotarombels(): HasMany
+    {
+        return $this->hasMany(Anggotarombel::class);
+    }
+
+    /**
+     * Get the tahunajaran that owns the Pesertadidik
+     *
+     * @return \Illuminate\Database\Eloquent\Relations\BelongsTo
+     */
+    public function tahunajaran(): BelongsTo
+    {
+        return $this->belongsTo(Tahunajaran::class);
+    }
+
 }

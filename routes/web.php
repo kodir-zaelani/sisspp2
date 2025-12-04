@@ -4,6 +4,10 @@ use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', [App\Http\Controllers\Frontend\FrontendController::class, 'index'])->name('root');
+Route::get('/donasi', [App\Http\Controllers\Frontend\FrontendController::class, 'donasi'])->name('donasi');
+Route::get('/donations', [App\Http\Controllers\Frontend\FrontendController::class, 'listdonasi'])->name('listdonasi');
+Route::get('/donations/create', [App\Http\Controllers\Frontend\FrontendController::class, 'create'])->name('donations.create');
+Route::post('/donations/store', [App\Http\Controllers\Frontend\FrontendController::class, 'store'])->name('donations.store');
 
 Route::middleware(['auth', 'verified', 'web'])->group(function () {
     Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');
@@ -64,8 +68,10 @@ Route::middleware(['auth', 'verified', 'web'])->group(function () {
     Route::get('backend/jurusansp/{jurusansp}/edit', [App\Http\Controllers\Backend\JurusanspController::class, 'edit'])->name('backend.jurusansp.edit');
     Route::put('backend/jurusansp/{jurusansp}/update', [App\Http\Controllers\Backend\JurusanspController::class, 'update'])->name('backend.jurusansp.update');
 
+    // getselect
     Route::get('backend/get/jurusansp/{sekolah_id}', [App\Http\Controllers\Backend\JurusanspController::class, 'getjurusansp'])->name('backend.jurusansp.getjurusansp');
     Route::get('backend/get/jurusan/{jurusan_id}', [App\Http\Controllers\Backend\JurusanController::class, 'getjurusan'])->name('backend.jurusan.getjurusan');
+
     // Rombonganbelajar
     Route::get('backend/rombonganbelajar', [App\Http\Controllers\Backend\RombonganbelajarController::class, 'index'])->name('backend.rombonganbelajar.index');
     Route::get('backend/rombonganbelajar/create', [App\Http\Controllers\Backend\RombonganbelajarController::class, 'create'])->name('backend.rombonganbelajar.create');
@@ -81,6 +87,13 @@ Route::middleware(['auth', 'verified', 'web'])->group(function () {
     Route::put('backend/pesertadidik/{pesertadidik}/update', [App\Http\Controllers\Backend\PesertadidikController::class, 'update'])->name('backend.pesertadidik.update');
     Route::post('backend/pesertadidik/import', [App\Http\Controllers\Backend\PesertadidikController::class, 'import'])->name('backend.pesertadidik.import');
     Route::get('backend/pesertadidik/{pesertadidik}/show', [App\Http\Controllers\Backend\PesertadidikController::class, 'show'])->name('backend.pesertadidik.show');
+
+    // Anggotarombel
+    Route::get('backend/anggotarombel', [App\Http\Controllers\Backend\AnggotarombelController::class, 'index'])->name('backend.anggotarombel.index');
+    Route::get('backend/anggotarombel/create', [App\Http\Controllers\Backend\AnggotarombelController::class, 'create'])->name('backend.anggotarombel.create');
+    Route::post('backend/anggotarombel/store', [App\Http\Controllers\Backend\AnggotarombelController::class, 'store'])->name('backend.anggotarombel.store');
+    Route::get('backend/anggotarombel/{anggotarombel}/edit', [App\Http\Controllers\Backend\AnggotarombelController::class, 'edit'])->name('backend.anggotarombel.edit');
+    Route::put('backend/anggotarombel/{anggotarombel}/update', [App\Http\Controllers\Backend\AnggotarombelController::class, 'update'])->name('backend.anggotarombel.update');
 
      // SemesterController
     Route::get('backend/jenistagihan', [App\Http\Controllers\Backend\JenistagihanController::class, 'index'])->name('backend.jenistagihan.index');

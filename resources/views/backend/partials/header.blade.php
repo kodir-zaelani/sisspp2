@@ -9,12 +9,12 @@
             <span class="icon-Align-left"><span class="path1"></span><span class="path2"></span><span class="path3"></span></span>
         </a>
         <!-- Logo -->
-        <a href="{{ route('backend.dashboard') }}" class="logo">
+        <a href="{{ route('backend.dashboard') }}" class="pt-2 logo d-none d-lg-block">
             <div class="logo-lg">
                 @if ($global_option != '0')
                 @if ($global_option->logo_menu)
-                <span class="light-logo"><img src="{{ asset('') }}uploads/images/logo/{{ $global_option->logo_menu }}" alt="{{ config('app.name', 'App Web') }}" style="max-width: 60%"/></span>
-                <span class="dark-logo"><img src="{{ asset('') }}uploads/images/logo/{{ $global_option->logo_menu }}" alt="{{ config('app.name', 'App Web') }}" style="max-width: 60%"/></span>
+                <span class="light-logo"><img src="{{ asset('') }}uploads/images/logo/{{ $global_option->logo_menu }}" alt="{{ config('app.name', 'App Web') }}" style="max-width: 50%"/></span>
+                <span class="dark-logo"><img src="{{ asset('') }}uploads/images/logo/{{ $global_option->logo_menu }}" alt="{{ config('app.name', 'App Web') }}" style="max-width: 50%"/></span>
                 @else
                 <span class="light-logo"><img src="{{ asset('') }}uploads/default/logobpic.png" alt="{{ config('app.name', 'App Web') }}" style="max-width: 70%"/></span>
                 <span class="dark-logo"><img src="{{ asset('') }}uploads/default/logobpic.png" alt="{{ config('app.name', 'App Web') }}" style="max-width: 70%"/></span>

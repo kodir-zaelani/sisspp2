@@ -12,7 +12,7 @@
                             <li class="breadcrumb-item"><a href="{{ route('backend.dashboard') }}"><i class="fa fa-home"><span
                                 class="path1"></span><span class="path2"></span></i></a></li>
                                 <li class="breadcrumb-item" aria-current="page">Jenis Tagihan</li>
-                                <li class="breadcrumb-item active" aria-current="page">{{ $title}}</li>
+                                <li class="breadcrumb-item active" aria-current="page">List</li>
                             </ol>
                         </nav>
                     </div>

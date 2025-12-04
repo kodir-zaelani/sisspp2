@@ -73,13 +73,13 @@
                                             <tr>
                                                 <th class="text-right" scope="row">{{ $no + $datarombonganbelajar->firstItem() }}</th>
                                                 <td>
-                                                    {{ !empty($item->nama) ? $item->nama:'' }}
+                                                    {{ !empty($item->tingkatpendidikan_id) ? $item->tingkatpendidikan->nama:'' }}
                                                 </td>
                                                 <td>
                                                     {{ !empty($item->semester_id) ? $item->semester->nama:'' }}
                                                 </td>
                                                 <td>
-                                                    {{ !empty($item->tingkatpendidikan_id) ? $item->tingkatpendidikan->nama:'' }}
+                                                    {{ !empty($item->nama) ? $item->nama:'' }}
                                                 </td>
                                                 <td>
                                                     {{ !empty($item->ptk_id) ? $item->ptk->nama:'' }}

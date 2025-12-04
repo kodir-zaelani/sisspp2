@@ -36,9 +36,9 @@ class Index extends Component
     private function headerConfig()
     {
         return [
-            'nama'                 => 'Nama',
-            'semester_id'          => 'Semester',
             'tingkatpendidikan_id' => 'Tingkat',
+            'semester_id'          => 'Semester',
+            'nama'                 => 'Nama Rombel',
             'ptk_id'               => 'Wali Kelas',
         ];
     }

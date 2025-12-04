@@ -36,7 +36,7 @@ class RombonganbelajarController extends Controller
         return view('backend.rombonganbelajar.create', [
             'sekolah' => Sekolah::orderBy('nama', 'asc')->get(),
             'semester' => Semester::orderBy('nama', 'desc')->get(),
-            'tingkatpendidikan' => Tingkatpendidikan::orderBy('nama', 'asc')->get(),
+            'tingkatpendidikan' => Tingkatpendidikan::orderBy('tingkat_pendidikan_id', 'asc')->get(),
             'jurusansp' => Jurusansp::all(),
             'ptks' => Ptk::orderBy('nama', 'asc')->get(),
             'title' => 'Daftar Rombongan Belajar'
