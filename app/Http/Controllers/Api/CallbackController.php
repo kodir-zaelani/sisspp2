@@ -69,12 +69,12 @@ class CallbackController extends Controller
                     *   update invoice to success
                     */
                     $data_invoice->update([
-                        'status' => 'SUCCESS'
+                        'status' => 'SUCCESS',
+                        'tanggalbayar' => now(),
                     ]);
 
                     $detail_invoices = $data_invoice->detailinvoices()->get();
 
-            // dd('update CC');
 
                     foreach ($detail_invoices as $item) {
                         $item->tagihansiswa()->where('id', $item->tagihansiswa_id)->update(['statusbayar' => 'Lunas']);
@@ -90,12 +90,12 @@ class CallbackController extends Controller
             *   update invoice to success
             */
             $data_invoice->update([
-                'status' => 'SUCCESS'
+                'status' => 'SUCCESS',
+                'tanggalbayar' => now(),
             ]);
 
             $detail_invoices = $data_invoice->detailinvoices()->get();
 
-            // dd('update tf');
 
             foreach ($detail_invoices as $item) {
                 $item->tagihansiswa()->where('id', $item->tagihansiswa_id)->update(['statusbayar' => 'Lunas']);
