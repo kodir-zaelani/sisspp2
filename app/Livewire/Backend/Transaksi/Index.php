@@ -147,7 +147,7 @@ class Index extends Component
         ->where('rombonganbelajar_id', $this->rombonganbelajarId)
         ->where('semester_id', $this->semesterId)
         ->where('pesertadidik_id', $this->pesertadidikId)
-        // ->filter(trim($this->filter))
+        ->where('statusbayar', 'Belum')
         ->search(trim($this->search)); //search menggunakan scopeSearch di model
     }
 
