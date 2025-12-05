@@ -105,7 +105,7 @@
                                                         <div class="accordion-item">
                                                             <h2 class="accordion-header">
                                                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne-{{$item->id}}" aria-expanded="false" aria-controls="flush-collapseOne-{{$item->id}}">
-                                                                    Detail <span class="fw-bold"> Total : {{ !empty($item->total_amount) ? $item->total_amount :'' }}</span>
+                                                                    Detail <span class="fw-bold ms-5"> Total : {{ !empty($item->total_amount) ? $item->formatRupiah('total_amount') :'' }}</span>
                                                                 </button>
                                                             </h2>
                                                             <div id="flush-collapseOne-{{$item->id}}" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample-{{$item->id}}">
