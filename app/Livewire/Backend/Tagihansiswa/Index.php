@@ -123,7 +123,7 @@ class Index extends Component
         ->with('pesertadidik', 'jenistagihan')
         ->where('rombonganbelajar_id', $this->rombonganbelajarId)
         ->where('semester_id', $this->semesterId)
-        // ->filter(trim($this->filter))
+        ->where('statusbayar', 'Belum')
         ->search(trim($this->search)); //search menggunakan scopeSearch di model
     }
 
