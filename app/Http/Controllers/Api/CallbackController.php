@@ -70,7 +70,7 @@ class CallbackController extends Controller
                     */
                     $data_invoice->update([
                         'status' => 'SUCCESS',
-                        'tanggalbayar' => now('Y-m-d H:i:s'),
+                        'tanggalbayar' => now(),
                     ]);
 
                     $detail_invoices = $data_invoice->detailinvoices()->get();
@@ -91,7 +91,7 @@ class CallbackController extends Controller
             */
             $data_invoice->update([
                 'status' => 'SUCCESS',
-                'tanggalbayar' => now('Y-m-d H:i:s'),
+                'tanggalbayar' => now(),
             ]);
 
             $detail_invoices = $data_invoice->detailinvoices()->get();
