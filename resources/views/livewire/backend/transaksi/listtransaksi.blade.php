@@ -72,7 +72,8 @@
                                             <tr>
                                                 <th class="text-right" scope="row">{{ $no + $datainvoice->firstItem() }}</th>
                                                 <td>
-                                                    {{ !empty($item->invoice) ? $item->invoice :'' }}
+                                                    {{ !empty($item->invoice) ? $item->invoice :'' }}<br/>
+                                                    <span class="fw-bold">{{ $item->status }}</span>
                                                 </td>
                                                 <td>
                                                     {{ !empty($item->pesertadidik_id) ? $item->pesertadidik->nama :'' }}<br/>
@@ -88,9 +89,6 @@
                                                     {{ $item->updated_at->format('d F Y') }}
                                                 </td>
                                                 <td>
-                                                    {{ $item->status }}
-                                                </td>
-                                                <td>
                                                     @if($item->status == 'PENDING')
                                                     <button wire:click="selectItem('{{ $item->id }}', 'edit')" class="btn btn-sm btn-warning" title="Edit Transaksi">
                                                         <span class="fw-bold"><i class="fa fa-pencil"></i></span>
@@ -101,7 +99,7 @@
                                                 </td>
                                             </tr>
                                             <tr>
-                                                <td colspan="6">
+                                                <td colspan="7">
                                                     <div class="accordion accordion-flush" id="accordionFlushExample-{{$item->id}}">
                                                         <div class="accordion-item">
                                                             <h2 class="accordion-header">
