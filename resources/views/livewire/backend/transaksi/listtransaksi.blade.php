@@ -72,21 +72,22 @@
                                             <tr>
                                                 <th class="text-right" scope="row">{{ $no + $datainvoice->firstItem() }}</th>
                                                 <td>
-                                                    {{ !empty($item->invoice) ? $item->invoice :'' }}<br/>
-                                                    <span class="fw-bold">{{ $item->status }}</span>
+                                                    {{ !empty($item->invoice) ? $item->invoice :'' }}
                                                 </td>
                                                 <td>
                                                     {{ !empty($item->pesertadidik_id) ? $item->pesertadidik->nama :'' }}<br/>
                                                     {{ $item->pesertadidik->nisn }}
                                                 </td>
-                                                <td>
+                                                {{-- <td>
                                                     {{ $item->formatRupiah('total_amount') }}
+                                                </td> --}}
+                                                <td>
+                                                    {{ !empty($item->tanggalbayar) ? $item->tanggalbayar->format('d F Y') :'' }}
                                                 </td>
                                                 <td>
-                                                    {{ $item->created_at->format('d F Y') }}
-                                                </td>
-                                                <td>
-                                                    {{ $item->updated_at->format('d F Y') }}
+                                                    <span class="fw-bold">
+                                                    {{ !empty($item->status) ? $item->status :'' }}
+                                                    </span>
                                                 </td>
                                                 <td>
                                                     @if($item->status == 'PENDING')
@@ -104,7 +105,7 @@
                                                         <div class="accordion-item">
                                                             <h2 class="accordion-header">
                                                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne-{{$item->id}}" aria-expanded="false" aria-controls="flush-collapseOne-{{$item->id}}">
-                                                                    Detail
+                                                                    Detail <span class="fw-bold"> Total : {{ !empty($item->total_amount) ? $item->total_amount :'' }}</span>
                                                                 </button>
                                                             </h2>
                                                             <div id="flush-collapseOne-{{$item->id}}" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample-{{$item->id}}">
