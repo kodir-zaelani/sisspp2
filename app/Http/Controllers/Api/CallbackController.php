@@ -145,11 +145,5 @@ class CallbackController extends Controller
 
         }
 
-        // $data_invoiceupdate = Invoice::where('invoice', $orderId)->where('status', 'SUCCESS')->first();
-
-        // $detailinvoices = Detailinvoice::where('invoice_id', $data_invoiceupdate->id)->get();
-
-
-
     }
 }
