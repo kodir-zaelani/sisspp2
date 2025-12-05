@@ -11,10 +11,10 @@ use App\Http\Controllers\Controller;
 class CallbackController extends Controller
 {
     /**
-     * __construct
-     *
-     * @return void
-     */
+    * __construct
+    *
+    * @return void
+    */
     public function __construct()
     {
         // Set midtrans configuration
@@ -25,11 +25,11 @@ class CallbackController extends Controller
     }
 
     /**
-     * index
-     *
-     * @param  mixed $request
-     * @return void
-     */
+    * index
+    *
+    * @param  mixed $request
+    * @return void
+    */
     public function index(Request $request)
     {
         $payload      = $request->getContent();
@@ -54,25 +54,33 @@ class CallbackController extends Controller
             // For credit card transaction, we need to check whether transaction is challenge by FDS or not
             if ($type == 'credit_card') {
 
-              if($fraud == 'challenge') {
+                if($fraud == 'challenge') {
 
-                /**
-                *   update invoice to pending
-                */
-                $data_invoice->update([
-                    'status' => 'PENDING'
-                ]);
+                    /**
+                    *   update invoice to pending
+                    */
+                    $data_invoice->update([
+                        'status' => 'PENDING'
+                    ]);
 
-              } else {
+                } else {
 
-                /**
-                *   update invoice to success
-                */
-                $data_invoice->update([
-                    'status' => 'SUCCESS'
-                ]);
+                    /**
+                    *   update invoice to success
+                    */
+                    $data_invoice->update([
+                        'status' => 'SUCCESS'
+                    ]);
 
-              }
+                    $detail_invoices = $data_invoice->detailinvoices()->get();
+
+            // dd('update CC');
+
+                    foreach ($detail_invoices as $item) {
+                        $item->tagihansiswa()->where('id', $item->tagihansiswa_id)->update(['statusbayar' => 'Lunas']);
+                    }
+
+                }
 
             }
 
@@ -85,6 +93,13 @@ class CallbackController extends Controller
                 'status' => 'SUCCESS'
             ]);
 
+            $detail_invoices = $data_invoice->detailinvoices()->get();
+
+            // dd('update tf');
+
+            foreach ($detail_invoices as $item) {
+                $item->tagihansiswa()->where('id', $item->tagihansiswa_id)->update(['statusbayar' => 'Lunas']);
+            }
 
         } elseif($transaction == 'pending'){
 
@@ -130,13 +145,11 @@ class CallbackController extends Controller
 
         }
 
-        $data_invoiceupdate = Invoice::where('invoice', $orderId)->where('status', 'SUCCESS')->first();
+        // $data_invoiceupdate = Invoice::where('invoice', $orderId)->where('status', 'SUCCESS')->first();
 
-        $detailinvoices = Detailinvoice::where('invoice_id', $data_invoiceupdate->id)->get();
+        // $detailinvoices = Detailinvoice::where('invoice_id', $data_invoiceupdate->id)->get();
 
-        foreach ($detailinvoices as $item) {
-            $item->tagihansiswa()->statusbayar->update(['statusbayar' => 'Lunas']);
-        }
+
 
     }
 }
