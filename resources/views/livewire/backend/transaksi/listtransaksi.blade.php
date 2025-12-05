@@ -81,10 +81,10 @@
                                                     {{ $item->status }}
                                                 </td>
                                                 <td>
+                                                    @if($item->status == 'PENDING')
                                                     <button wire:click="selectItem('{{ $item->id }}', 'edit')" class="btn btn-sm btn-warning" title="Edit Transaksi">
                                                         <span class="fw-bold"><i class="fa fa-pencil"></i></span>
                                                     </button>
-                                                    @if($item->status == 'PENDING')
                                                     <button  class="border-0 shadow-sm btn btn-sm btn-info fw-bold" title="Pembayaran Tunai">Tunai</button>
                                                     <button onclick="payment('{{ $item->snap_token }}');" class="border-0 shadow-sm btn btn-sm btn-success fw-bold" title="Via Midtrans">Midtrans</button>
                                                     @endif
