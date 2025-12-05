@@ -34,4 +34,13 @@ class Detailtempinvoice extends Model
         return $this->belongsTo(Tagihansiswa::class);
     }
 
+    /**
+     * Get the pesertadidik that owns the Detailtempinvoice
+     *
+     * @return \Illuminate\Database\Eloquent\Relations\BelongsTo
+     */
+    public function pesertadidik(): BelongsTo
+    {
+        return $this->belongsTo(Pesertadidik::class);
+    }
 }

@@ -14,6 +14,7 @@ return new class extends Migration
         Schema::create('detailtempinvoices', function (Blueprint $table) {
             $table->uuid('id')->primary();
             $table->foreignUuid('tagihansiswa_id')->constrained('tagihansiswas')->cascadeOnDelete();
+            $table->foreignUuid('pesertadidik_id')->constrained('pesertadidiks')->cascadeOnDelete();
             $table->unsignedInteger('periode_bulan');
             $table->unsignedInteger('nilai_tagihan');
             $table->timestamps();

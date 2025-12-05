@@ -182,7 +182,7 @@
                                                 </td>
                                                 <td>
                                                     <button wire:click="selectItem('{{ $item->id }}', 'bayartagihan')" class="btn btn-xs btn-primary" title="Tambah Pembayaran">
-                                                        <span class="fw-bold"><i class="fa fa-plus"></i> Bayar</span>
+                                                        <span class="fw-bold"><i class="fa fa-plus"></i> Tambah</span>
                                                     </button>
                                                 </td>
                                             </tr>

@@ -169,7 +169,7 @@ class Index extends Component
     {
         $this->selectedItem = $itemId;
         if ($action == 'bayartagihan') {
-            $this->bayar($itemId);
+            $this->simpantagihan($itemId);
         } elseif ($action == 'delete') {
             $this->dispatch('openDeleteModal');
         }
@@ -180,7 +180,7 @@ class Index extends Component
         $this->dispatch('openCheckoutModal');
     }
 
-    public function bayar()
+    public function simpantagihan()
     {
         $temptagihansiswa = Tagihansiswa::where('id', $this->selectedItem)->first();
 
@@ -189,6 +189,7 @@ class Index extends Component
             'tagihansiswa_id' => $temptagihansiswa->id,
             'periode_bulan'   => $temptagihansiswa->periode_bulan,
             'nilai_tagihan'   => $temptagihansiswa->nilai_tagihan,
+            'pesertadidik_id' => $temptagihansiswa->pesertadidik_id,
         ];
 
         $temptransaksitagihansiswa = Detailtempinvoice::create($data);
@@ -277,7 +278,10 @@ class Index extends Component
 
         public function getDetailtempinvoiceQueryProperty()
         {
-            return Detailtempinvoice::orderBy('created_at', 'asc');
+            return Detailtempinvoice::orderBy('created_at', 'desc')
+            ->with('pesertadidik', 'tagihansiswa')
+            ->where('pesertadidik_id', $this->pesertadidikId)
+            ;
         }
 
         public function getDetailtempinvoiceProperty()
