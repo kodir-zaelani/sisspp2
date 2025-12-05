@@ -81,12 +81,64 @@
                                                     {{ $item->status }}
                                                 </td>
                                                 <td>
+                                                    <button wire:click="selectItem('{{ $item->id }}', 'edit')" class="btn btn-sm btn-warning" title="Edit Transaksi">
+                                                        <span class="fw-bold"><i class="fa fa-pencil"></i></span>
+                                                    </button>
                                                     @if($item->status == 'PENDING')
-                                                    <button onclick="payment('{{ $item->snap_token }}');" class="border-0 shadow-sm btn btn-sm btn-success">Pay</button>
+                                                    <button  class="border-0 shadow-sm btn btn-sm btn-info fw-bold" title="Pembayaran Tunai">Tunai</button>
+                                                    <button onclick="payment('{{ $item->snap_token }}');" class="border-0 shadow-sm btn btn-sm btn-success fw-bold" title="Via Midtrans">Midtrans</button>
                                                     @endif
-                                                    {{-- <button  class="btn btn-sm btn-success" title="Bayar ">
-                                                        <span class="fw-bold"><i class="fa fa-plus"></i> Bayar Via Midtrans</span>
-                                                    </button> --}}
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td colspan="6">
+                                                    <div class="accordion accordion-flush" id="accordionFlushExample-{{$item->id}}">
+                                                        <div class="accordion-item">
+                                                            <h2 class="accordion-header">
+                                                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne-{{$item->id}}" aria-expanded="false" aria-controls="flush-collapseOne-{{$item->id}}">
+                                                                    Detail
+                                                                </button>
+                                                            </h2>
+                                                            <div id="flush-collapseOne-{{$item->id}}" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample-{{$item->id}}">
+                                                                <div class="accordion-body">
+                                                                    <div class="row">
+                                                                        <div class="col">
+                                                                            <div class="table-responsive">
+                                                                                <table class="table mb-0 table-hover">
+                                                                                    <tbody>
+                                                                                        <tr>
+                                                                                            <th scope="col">Nama Tagihan</th>
+                                                                                            <th scope="col"> Periode bulan </th>
+                                                                                            <th scope="col">Nilai</th>
+                                                                                            <th scope="col">Status</th>
+                                                                                        </tr>
+                                                                                    </tbody>
+                                                                                    <tbody>
+                                                                                        @foreach ($item->detailinvoices()->get() as $detail)
+                                                                                        <tr>
+                                                                                            <td>
+                                                                                                {{ $detail->tagihansiswa->jenistagihan->nama }}
+                                                                                            </td>
+                                                                                            <td>
+                                                                                                {{ $detail->periode_bulan }}
+                                                                                            </td>
+                                                                                            <td>
+                                                                                                {{ $detail->nilai_tagihan }}
+                                                                                            </td>
+                                                                                            <td>
+                                                                                                {{ $detail->tagihansiswa->statusbayar }}
+                                                                                            </td>
+                                                                                        </tr>
+                                                                                        @endforeach
+                                                                                    </tbody>
+                                                                                </table>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
                                                 </td>
                                             </tr>
                                             @endforeach

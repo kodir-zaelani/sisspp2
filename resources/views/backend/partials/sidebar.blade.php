@@ -31,7 +31,7 @@
                                     <li class="{{ setActive('backend/tagihans') }}">
                                         <a href="{{ route('backend.tagihans.index') }}">
                                             <i class="icon-Commit"><span class="path1"></span><span class="path2"></span></i>
-                                            Daftar Tagihan Siswa
+                                            Daftar Tagihan
                                         </a>
                                     </li>
                                     <li class="{{ setActive('backend/transaksi') }}">

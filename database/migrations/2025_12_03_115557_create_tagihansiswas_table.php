@@ -21,7 +21,7 @@ return new class extends Migration
             $table->foreignUuid('jenistagihan_id')->constrained('jenistagihans')->cascadeOnDelete();
             $table->unsignedInteger('periode_bulan')->default(0);
             $table->unsignedInteger('nilai_tagihan');
-            $table->string('statusbayar')->default('belum');
+            $table->string('statusbayar')->default('Belum');
             $table->uuid('created_by')->nullable();
             $table->uuid('updated_by')->nullable();
             $table->timestamps();

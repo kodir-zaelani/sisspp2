@@ -80,9 +80,6 @@ class Listtransaksi extends Component
     {
         return Invoice::orderBy($this->sortColumn, $this->sortDirection)
         ->with('pesertadidik')
-        // ->where('rombonganbelajar_id', $this->rombonganbelajarId)
-        // ->where('semester_id', $this->semesterId)
-        // ->where('pesertadidik_id', $this->pesertadidikId)
         ->search(trim($this->search)); //search menggunakan scopeSearch di model
     }
 

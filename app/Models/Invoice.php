@@ -4,6 +4,7 @@ namespace App\Models;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Concerns\HasUuids;
+use Illuminate\Database\Eloquent\Relations\HasMany;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 
@@ -54,5 +55,15 @@ class Invoice extends Model
     public function semester(): BelongsTo
     {
         return $this->belongsTo(semester::class);
+    }
+
+    /**
+     * Get all of the detailinvoices for the Invoice
+     *
+     * @return \Illuminate\Database\Eloquent\Relations\HasMany
+     */
+    public function detailinvoices(): HasMany
+    {
+        return $this->hasMany(Detailinvoice::class);
     }
 }
