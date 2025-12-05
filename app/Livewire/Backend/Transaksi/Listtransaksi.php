@@ -38,8 +38,8 @@ class Listtransaksi extends Component
             'invoice'         => 'NO Invoice',
             'pesertadidik_id' => 'Nama',
             'total_amount'    => 'Total',
-            'created_at'          => 'Tanggal Tagihan',
-            'updated_at'          => 'Tanggal Pembayaran',
+            'created_at'          => 'Tagihan',
+            'updated_at'          => 'Pembayaran',
             'status'          => 'Status',
         ];
     }
