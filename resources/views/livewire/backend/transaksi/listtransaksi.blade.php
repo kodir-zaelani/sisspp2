@@ -127,7 +127,7 @@
                                                                                                 {{ $detail->periode_bulan }}
                                                                                             </td>
                                                                                             <td>
-                                                                                                {{ $item->formatRupiah('nilai_tagihan') }}
+                                                                                                {{ $detail->nilai_tagihan }}
                                                                                             </td>
                                                                                             <td>
                                                                                                 {{ $detail->tagihansiswa->statusbayar }}
