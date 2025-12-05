@@ -62,7 +62,11 @@
                                                     @endif
                                                 </th>
                                                 @endforeach
-                                                <th scope="col">Aksi</th>
+                                                <th scope="col">
+                                                    @if($item->status == 'PENDING')
+                                                    Aksi
+                                                    @endif
+                                                </th>
                                             </tr>
                                         </tbody>
                                         <tbody>
@@ -77,7 +81,7 @@
                                                     {{ $item->pesertadidik->nisn }}
                                                 </td>
                                                 <td>
-                                                    {{ $item->total_amount }}
+                                                    {{ $item->formatRupiah('total_amount') }}
                                                 </td>
                                                 <td>
                                                     {{ $item->status }}
