@@ -63,9 +63,7 @@
                                                 </th>
                                                 @endforeach
                                                 <th scope="col">
-                                                    @if($item->status == 'PENDING')
                                                     Aksi
-                                                    @endif
                                                 </th>
                                             </tr>
                                         </tbody>
