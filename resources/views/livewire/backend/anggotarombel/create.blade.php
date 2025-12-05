@@ -1,5 +1,4 @@
 <div>
-    <x-flash-message/>
     <div class="row">
         <div class="col-lg-12 col-md-12 col-xl-12 col-12">
             <form enctype="multipart/form-data" method="POST">
@@ -101,7 +100,7 @@
                 </div>
 
             </form>
-
+            <x-flash-message/>
             <div class="row">
                 <div class="col-xl-6 col-lg-6 col-md-6 col-12">
                     <div class="mt-4 box box-bordered border-primary">
@@ -279,21 +278,21 @@
         </div>
     </div>
     <div class="modal center-modal fade" id="modalFormDelete" tabindex="-1">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title">Delete Item</h5>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                    </div>
-                    <div class="modal-body">
-                        {{-- Selected Item {{ $selectedItem }} --}}
-                        <p><h3>Do you wish to continue?</h3></p>
-                    </div>
-                    <div class="modal-footer modal-footer-uniform">
-                        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cancel</button>
-                        <button wire:click="delete" class="btn btn-primary float-end">Yes</button>
-                    </div>
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Delete Item</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    {{-- Selected Item {{ $selectedItem }} --}}
+                    <p><h3>Do you wish to continue?</h3></p>
+                </div>
+                <div class="modal-footer modal-footer-uniform">
+                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cancel</button>
+                    <button wire:click="delete" class="btn btn-primary float-end">Yes</button>
                 </div>
             </div>
         </div>
+    </div>
 </div>
