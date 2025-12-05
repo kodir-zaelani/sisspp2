@@ -40,7 +40,7 @@ class Listtransaksi extends Component
             'total_amount'    => 'Total',
             'created_at'          => 'Tagihan',
             'updated_at'          => 'Pembayaran',
-            'status'          => 'Status',
+            // 'status'          => 'Status',
         ];
     }
 
