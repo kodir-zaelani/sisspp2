@@ -22,6 +22,7 @@ return new class extends Migration
             $table->string('status')->default('PENDING');
             $table->string('metodepembayaran')->nullable();
             $table->string('snap_token')->nullable();
+            $table->date('tanggalbayar')->nullable();
             $table->uuid('created_by')->nullable();
             $table->uuid('updated_by')->nullable();
             $table->timestamps();
