@@ -2,6 +2,7 @@
 
 namespace App\Models;
 
+use App\Traits\HasFormatRupiah;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\SoftDeletes;
 use Illuminate\Database\Eloquent\Concerns\HasUuids;
@@ -13,6 +14,8 @@ class Jenistagihan extends Model
     use HasFactory;
     use HasUuids;
     use SoftDeletes;
+    use HasFormatRupiah;
+
 
     protected $guarded    = [];
     protected $primaryKey = 'id';

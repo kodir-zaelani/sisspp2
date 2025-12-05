@@ -2,6 +2,7 @@
 
 namespace App\Models;
 
+use App\Traits\HasFormatRupiah;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Concerns\HasUuids;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
@@ -11,6 +12,7 @@ class Tagihansiswa extends Model
 {
     use HasFactory;
     use HasUuids;
+    use HasFormatRupiah;
 
     protected $guarded    = [];
     protected $primaryKey = 'id';
