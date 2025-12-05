@@ -82,7 +82,7 @@
                                                     {{ $item->formatRupiah('total_amount') }}
                                                 </td> --}}
                                                 <td>
-                                                    {{ !empty($item->tanggalbayar) ? $item->tanggalbayar->format('d F Y') :'' }}
+                                                    {{ !empty($item->tanggalbayar) ? $item->tanggalbayar->format('d F Y') : '' }}
                                                 </td>
                                                 <td>
                                                     <span class="fw-bold">
