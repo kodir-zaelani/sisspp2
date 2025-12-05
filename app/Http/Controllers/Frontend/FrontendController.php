@@ -5,6 +5,7 @@ namespace App\Http\Controllers\Frontend;
 use Midtrans\Snap;
 use App\Models\Donation;
 use Illuminate\Support\Str;
+use App\Models\Tagihansiswa;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 
@@ -70,7 +71,7 @@ class FrontendController extends Controller
 
         //insert donation to database
         $donation = Donation::create([
-            'invoice'   => 'INV-'.Str::upper(Str::random(5)),
+            'invoice'   => 'INV-'.Str::upper(Str::random(9)),
             'name'      => $request->name,
             'email'     => $request->email,
             'amount'    => $request->amount,
@@ -96,7 +97,8 @@ class FrontendController extends Controller
         $donation->save();
 
         if ($donation) {
-            return redirect()->route('listdonasi')->with('success', 'Donation created successfully');
+            return redirect()->route('donasi')->with('success', 'Donation created successfully');
         }
     }
+
 }

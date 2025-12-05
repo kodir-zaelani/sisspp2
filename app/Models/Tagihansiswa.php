@@ -22,8 +22,20 @@ class Tagihansiswa extends Model
             $q->whereHas('pesertadidik', function ($qr) use ($term) {
                 $qr->where('nama', 'LIKE', $term);
             });
-            // $q->orWhereRaw('LOWER(title) LIKE ?', [$term]);
+            $q->orwhereHas('jenistagihan', function ($qr) use ($term) {
+                $qr->where('nama', 'LIKE', $term);
+            });
+            // $q->orWhereRaw('nilai_tagihan', 'LIKE', [$term]);
             // $q->orWhereRaw('LOWER(content) LIKE ?', [$term]);
+        });
+    }
+    public function scopeFilter($query, $filter)
+    {
+        $filter = "%$filter%";
+        $query->where(function ($q) use ($filter) {
+            $q->whereHas('jenistagihan', function ($qr) use ($filter) {
+                $qr->where('nama', 'LIKE', $filter);
+            });
         });
     }
 
@@ -34,7 +46,7 @@ class Tagihansiswa extends Model
      */
     public function pesertadidik(): BelongsTo
     {
-        return $this->belongsTo(Pesertadidik::class, 'pesertadidik_id');
+        return $this->belongsTo(Pesertadidik::class);
     }
 
     /**
@@ -55,5 +67,14 @@ class Tagihansiswa extends Model
     public function semester(): BelongsTo
     {
         return $this->belongsTo(Semester::class);
+    }
+
+     public function getStatusLabelAttribute()
+    {
+        //ADAPUN VALUENYA AKAN MENCETAK HTML BERDASARKAN VALUE DARI FIELD STATUS
+        if ($this->statusbayar == 'belum') {
+            return '<span class="badge badge-danger">Belum Bayar</span>';
+        }
+        return '<span class="badge badge-success">Lunas</span>';
     }
 }

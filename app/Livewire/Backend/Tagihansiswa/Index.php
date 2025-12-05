@@ -1,12 +1,13 @@
 <?php
 
-namespace App\Livewire\Backend\Anggotarombel;
+namespace App\Livewire\Backend\Tagihansiswa;
 
 use Livewire\Component;
 use App\Models\Semester;
 use App\Models\Tahunajaran;
+use App\Models\Jenistagihan;
+use App\Models\Tagihansiswa;
 use Livewire\WithPagination;
-use App\Models\Anggotarombel;
 use App\Models\Rombonganbelajar;
 use App\Models\Tingkatpendidikan;
 
@@ -15,9 +16,11 @@ class Index extends Component
     use WithPagination;
     protected $paginationTheme = 'bootstrap';
 
+
     public $currentPage   = 1;
     public $paginate      = 10;
     public $search        = '';
+    public $filter        = '';
     public $checked       = [];
     public $selectPage    = false;
     public $selectAll     = false;
@@ -86,7 +89,9 @@ class Index extends Component
     public function mount()
     {
         $this->fill(request()->only('search', 'currentPage'));
+        $this->fill(request()->only('filter', 'currentPage'));
         $this->resetSearch();
+        $this->resetFilter();
         $this->headersTable = $this->headerConfig();
         $this->tahunjarans = Tahunajaran::orderBy('nama', 'desc')->get();
 
@@ -102,40 +107,52 @@ class Index extends Component
         $this->resetPage();
     }
 
-    public function getAnggotarombelQueryProperty()
+    public function resetFilter()
     {
-        return Anggotarombel::orderBy($this->sortColumn, $this->sortDirection)
-        ->with('pesertadidik')
+        $this->filter = '';
+    }
+
+    public function updatingFilter()
+    {
+        $this->resetPage();
+    }
+
+    public function getTagihansiswaQueryProperty()
+    {
+        return Tagihansiswa::orderBy($this->sortColumn, $this->sortDirection)
+        ->with('pesertadidik', 'jenistagihan')
         ->where('rombonganbelajar_id', $this->rombonganbelajarId)
         ->where('semester_id', $this->semesterId)
+        // ->filter(trim($this->filter))
         ->search(trim($this->search)); //search menggunakan scopeSearch di model
     }
 
-    public function getAnggotarombelProperty()
+    public function getTagihansiswaProperty()
     {
-        return $this->anggotarombelQuery->paginate($this->paginate);
+        return $this->tagihansiswaQuery->paginate($this->paginate);
     }
 
     public function updatedSelectPage($value)
     {
         if ($value) {
-            $this->checked = $this->anggotarombel->pluck('id')->map(fn ($item) => (string) $item)->toArray();
+            $this->checked = $this->tagihansiswa->pluck('id')->map(fn ($item) => (string) $item)->toArray();
         } else {
             $this->checked = [];
         }
     }
 
+
     public function render()
     {
-        return view('livewire.backend.anggotarombel.index',[
-            // 'tahunajaran'       => Tahunajaran::orderBy('nama', 'desc')->get(),
+        return view('livewire.backend.tagihansiswa.index',[
+            'jenistagihans'          => Jenistagihan::orderBy('nama', 'asc')->get(),
             'semester'          => Semester::where('tahunajaran_id', $this->tahunjaranId)->orderBy('nama', 'desc')->get(),
             'tigkatpendidikan'  => Tingkatpendidikan::where('kode', '<>' , 0)->orderBy('tingkat_pendidikan_id', 'asc')->get(),
             'rombonganbelajar'  => Rombonganbelajar::where('semester_id', $this->semesterId)
-            ->where('tingkatpendidikan_id', $this->tigkatpendidikanId)
-            ->orderBy('nama', 'asc')->get(),
-            'dataanggotarombel' => $this->anggotarombel,
-            'title' => 'Daftar Anggota Rombel'
+                                    ->where('tingkatpendidikan_id', $this->tigkatpendidikanId)
+                                    ->orderBy('nama', 'asc')->get(),
+            'datatagihansiswa' => $this->tagihansiswa,
+            'title' => 'Tagihan Siswa',
         ]);
     }
 }

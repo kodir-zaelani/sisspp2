@@ -26,6 +26,14 @@ class Pesertadidik extends Model
         });
     }
 
+    public function scopeSearchpd($query, $term)
+    {
+        $term = "%$term%";
+        $query->where(function ($query) use ($term) {
+            $query->where('nama', 'like', $term);
+        });
+    }
+
     // mutator
 
     public function setNamaAttribute($value)
@@ -114,6 +122,16 @@ class Pesertadidik extends Model
     public function anggotarombels(): HasMany
     {
         return $this->hasMany(Anggotarombel::class);
+    }
+
+    /**
+     * Get all of the anggotarombels for the Pesertadidik
+     *
+     * @return \Illuminate\Database\Eloquent\Relations\HasMany
+     */
+    public function tagihansiswas(): HasMany
+    {
+        return $this->hasMany(Tagihansiswa::class);
     }
 
     /**

@@ -4,16 +4,27 @@ use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', [App\Http\Controllers\Frontend\FrontendController::class, 'index'])->name('root');
-Route::get('/donasi', [App\Http\Controllers\Frontend\FrontendController::class, 'donasi'])->name('donasi');
-Route::get('/donations', [App\Http\Controllers\Frontend\FrontendController::class, 'listdonasi'])->name('listdonasi');
+Route::get('/donations', [App\Http\Controllers\Frontend\FrontendController::class, 'listdonasi'])->name('donasi');
+// Route::get('/donations', [App\Http\Controllers\Frontend\FrontendController::class, 'listdonasi'])->name('listdonasi');
 Route::get('/donations/create', [App\Http\Controllers\Frontend\FrontendController::class, 'create'])->name('donations.create');
 Route::post('/donations/store', [App\Http\Controllers\Frontend\FrontendController::class, 'store'])->name('donations.store');
+
+Route::get('/payments/create', [App\Http\Controllers\PaymentController::class, 'create'])->name('payments.create');
+Route::post('/payments/store', [App\Http\Controllers\PaymentController::class, 'store'])->name('payments.store');
+Route::post('/payments/callback', [App\Http\Controllers\PaymentController::class, 'callback'])->name('payments.callback');
+Route::get('/payments/success', [App\Http\Controllers\PaymentController::class, 'success'])->name('payments.success');
 
 Route::middleware(['auth', 'verified', 'web'])->group(function () {
     Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');
     Route::patch('/profile', [ProfileController::class, 'update'])->name('profile.update');
     Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
 
+    // Tagihan siswa
+    Route::get('backend/tagihans', [App\Http\Controllers\Backend\TagihansiswaController::class, 'index'])->name('backend.tagihans.index');
+
+    // Transaksi
+    Route::get('backend/transaksi', [App\Http\Controllers\Backend\TaransaksiController::class, 'index'])->name('backend.transaksi.index');
+    Route::get('backend/transaksi/list', [App\Http\Controllers\Backend\TaransaksiController::class, 'list'])->name('backend.transaksi.list');
 
     // Dashboard
     Route::get('backend/home', [App\Http\Controllers\Backend\BackendController::class, 'index'])->name('backend.dashboard');
@@ -165,5 +176,6 @@ Route::middleware(['auth', 'verified', 'web'])->group(function () {
 
 
 });
+
 
 require __DIR__.'/auth.php';

@@ -6,12 +6,10 @@
                 <div class="d-inline-block align-items-center">
                     <nav>
                         <ol class="breadcrumb">
-                            <li class="breadcrumb-item">
-                                <a href="{{ route('backend.dashboard') }}">
-                                    <i class="fa fa-home"><span class="path1"></span><span class="path2"></span></i>
-                                </a>
+                            <li class="breadcrumb-item"><a href="{{ route('backend.dashboard') }}"><i class="fa fa-home">
+                                <span class="path1"></span><span class="path2"></span></i></a>
                             </li>
-                            <li class="breadcrumb-item" aria-current="page">Anggota Rombongan Belajar</li>
+                            <li class="breadcrumb-item" aria-current="page">Tagihan Siswa</li>
                             <li class="breadcrumb-item active" aria-current="page">List</li>
                         </ol>
                     </nav>
@@ -27,9 +25,8 @@
                     <div class="box-header with-border">
                         <div class="row">
                             <div class="mb-2 col-xl-1 col-lg-1 col-md-1 col-12">
-                                <a class="btn btn-sm btn-primary"  href="{{ route('backend.anggotarombel.create')}}" style="pointer='cursor'; width: 100%;">
-                                    {{-- <i class="bi bi-plus fw-bold"></i> --}}
-                                    Add
+                                <a class="btn btn-sm btn-primary"  href="{{ route('backend.transaksi.index')}}" style="pointer='cursor'; width: 100%;">
+                                    Bayar
                                 </a>
                             </div>
                             <div class="mb-2 col-xl-2 col-lg-2 col-md-2 col-12">
@@ -102,12 +99,11 @@
                             </div>
                         </div>
                     </div>
+
                     <div class="box-body">
-                        @if (!empty($rombonganbelajarId))
-                        @if ($dataanggotarombel->count())
                         <div class="row">
                             <div class="mb-2 col-xl-3 col-lg-3 col-md-3 col-12">
-                                <select wire:model.live="paginate" name="" id="" class="w-auto form-control-sm custom-select">
+                                <select wire:model.live="paginate" name="" id="" class="w-auto form-select-sm custom-select">
                                     <option value="5">5</option>
                                     <option value="10">10</option>
                                     <option value="25">25</option>
@@ -116,6 +112,18 @@
                                 </select>
 
                             </div>
+                            {{-- <div class="mb-2 col-xl-3 col-lg-3 col-md-3 col-12">
+                                <div class="form-group">
+                                    <select class="form-select"  wire:model.live='filter'>
+                                        <option value="" holder>Semua Jenis Tagihan</option>
+                                        @foreach ($jenistagihans as $item)
+                                        <option value="{{ $item->nama }}" >
+                                            {{ $item->nama }}
+                                        </option>
+                                        @endforeach
+                                    </select>
+                                </div>
+                            </div> --}}
                             <div class="mb-2 ms-auto col-md-5 col-lg-5 col-12 ">
                                 <div class="form-group">
                                     <div class="input-group">
@@ -126,6 +134,8 @@
                             </div>
                         </div>
                         <hr>
+                        @if (!empty($rombonganbelajarId))
+                        @if ($datatagihansiswa->count())
                         <div class="row">
                             <div class="col-xl-12 col-md-12 col-lg-12 col-12">
                                 <div class="table-responsive">
@@ -134,7 +144,6 @@
                                             <tr>
                                                 <th width="4%" scope="col">#</th>
                                                 <th width="10%" scope="col">NISN</th>
-                                                <th width="10%" scope="col">NIPD</th>
                                                 @foreach ($headersTable as $key => $value)
                                                 <th scope="col" wire:click.prevent="sortBy('{{ $key }}')" style="cursor: pointer">
                                                     {{ $value }}
@@ -143,24 +152,33 @@
                                                     @endif
                                                 </th>
                                                 @endforeach
-                                                <th width="10%" scope="col">Jenis Kelamin</th>
+                                                <th width="5%" scope="col">Jenis Tagihan</th>
+                                                <th scope="col">Periode Bulan</th>
+                                                <th width="5%" scope="col">Besaran</th>
+                                                <th width="5%" scope="col">Status</th>
                                             </tr>
                                         </tbody>
                                         <tbody>
-                                            @foreach ($dataanggotarombel as $no =>  $item)
+                                            @foreach ($datatagihansiswa as $no =>  $item)
                                             <tr>
-                                                <th class="text-right" scope="row">{{ $no + $dataanggotarombel->firstItem() }}</th>
+                                                <th class="text-right" scope="row">{{ $no + $datatagihansiswa->firstItem() }}</th>
                                                 <td>
                                                     {{ $item->pesertadidik->nisn }}
-                                                </td>
-                                                <td>
-                                                    {{ $item->pesertadidik->nipd }}
                                                 </td>
                                                 <td>
                                                     {{ !empty($item->pesertadidik_id) ? $item->pesertadidik->nama:'' }}
                                                 </td>
                                                 <td>
-                                                    {{ $item->pesertadidik->jenis_kelamin }}
+                                                    {{ $item->jenistagihan->nama }}
+                                                </td>
+                                                <td>
+                                                    {{ $item->periode_bulan }}
+                                                </td>
+                                                <td>
+                                                    {{ $item->nilai_tagihan }}
+                                                </td>
+                                                <td>
+                                                    {!! $item->statuslabel !!}
                                                 </td>
                                             </tr>
                                             @endforeach
@@ -170,25 +188,22 @@
                                 </div>
                                 <div class="mt-3 row">
                                     <div class="col-xl-12 col-md-12 col-lg-12 col-12 ">
-                                        @if ($dataanggotarombel->total() > 10)
-                                        {{ $dataanggotarombel->links() }}
+                                        @if ($datatagihansiswa->total() > 10)
+                                        {{ $datatagihansiswa->links() }}
                                         @else
-                                        Page : {{ $dataanggotarombel->currentPage() }} | Show {{ $dataanggotarombel->count() }} data
-                                        of {{ $dataanggotarombel->total() }}
+                                        Page : {{ $datatagihansiswa->currentPage() }} | Show {{ $datatagihansiswa->count() }} data
+                                        of {{ $datatagihansiswa->total() }}
                                         @endif
                                     </div>
-
                                 </div>
                                 @else
                                 <h2 style="color: red" class="text-center">Data not available</h2>
                                 @endif
+                                @endif
+
                             </div>
                         </div>
-                        @endif
                     </div>
                 </div>
-            </div>
+            </section>
         </div>
-    </section>
-
-</div>

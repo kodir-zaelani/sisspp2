@@ -1,108 +1,199 @@
-<?php
+<div>
+    <x-flash-message/>
 
-namespace App\Livewire\Backend\Anggotarombel;
+    <div class="row">
+        <div class="col-lg-12 col-md-12 col-xl-12 col-12">
+            <form enctype="multipart/form-data" method="POST">
+                @csrf
+                <div class="row">
+                    <div class="col-lg-6 col-md-6 col-12">
+                        <div class="form-group @error('tahunjaranId') has-error @enderror">
+                            <h5 >Tahun Ajaran <span class="text-danger">*</span></h5>
+                            <select class="form-select" style="width: 100%;" wire:model.live='tahunjaranId' name="tahunjaranId" id="tahunjaranId">
+                                <option value="" holder>Pilih Tahun Ajaran</option>
+                                @foreach ($tahunajaran as $item)
+                                <option value="{{ $item->id }}" {{ old('tahunjaranId') == $item->id ? 'selected' : '' }}>
+                                    {{ $item->nama }}
+                                </option>
+                                @endforeach
+                            </select>
+                            @error('tahunjaranId')
+                            <div class="form-control-feedback"><small>
+                                <code>{{ $message }}</code> </small>
+                            </div>
+                            @enderror
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-12">
+                        <div class="form-group @error('semesterId') has-error @enderror">
+                            <h5 >Semester <span class="text-danger">*</span></h5>
+                            <select class="form-select" style="width: 100%;" wire:model.live='semesterId' name="semesterId" id="semesterId">
+                                <option value="" holder>Pilih Semester</option>
+                                @foreach ($semester as $item)
+                                <option value="{{ $item->id }}" {{ old('semesterId') == $item->id ? 'selected' : '' }}>
+                                    {{ $item->nama }}
+                                </option>
+                                @endforeach
+                            </select>
+                            @error('semesterId')
+                            <div class="form-control-feedback"><small>
+                                <code>{{ $message }}</code> </small>
+                            </div>
+                            @enderror
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-6 col-md-6 col-12">
+                        <div class="form-group @error('rombonganbelajarId') has-error @enderror">
+                            <h5 >Nama Rombongan Belajar <span class="text-danger">*</span></h5>
+                            <select class="form-select" style="width: 100%;" wire:model.live='rombonganbelajarId' name="rombonganbelajarId" id="rombonganbelajarId" >
+                                <option value="" holder>Pilih Rombongan Belajar</option>
+                                @foreach ($rombonganbelajar as $item)
+                                <option value="{{ $item->id }}" {{ old('rombonganbelajarId') == $item->id ? 'selected' : '' }}>
+                                    {{ $item->nama }}
+                                </option>
+                                @endforeach
+                            </select>
+                            @error('rombonganbelajarId')
+                            <div class="form-control-feedback"><small>
+                                <code>{{ $message }}</code> </small>
+                            </div>
+                            @enderror
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-12">
+                        <div class="form-group @error('jenispendaftaranId') has-error @enderror">
+                            <h5 >Nama Jenis Pendaftaran <span class="text-danger">*</span></h5>
+                            <select class="form-select" style="width: 100%;" wire:model.live='jenispendaftaranId' name="rombonganbelajar_id" id="rombonganbelajar_id" >
+                                <option value="" holder>Pilih Jenis Pendaftaran</option>
+                                @foreach ($jenispendaftaran as $item)
+                                <option value="{{ $item->id }}" {{ old('jenispendaftaranId') == $item->id ? 'selected' : '' }}>
+                                    {{ $item->nama }}
+                                </option>
+                                @endforeach
+                            </select>
+                            @error('jenispendaftaranId')
+                            <div class="form-control-feedback"><small>
+                                <code>{{ $message }}</code> </small>
+                            </div>
+                            @enderror
+                        </div>
+                    </div>
+                </div>
 
-use Livewire\Component;
-use App\Models\Semester;
-use App\Models\Permission;
-use App\Models\Tahunajaran;
-use Livewire\Attributes\On;
-use App\Models\Jenistagihan;
-use App\Models\Pesertadidik;
-use App\Models\Tagihansiswa;
-use App\Models\Anggotarombel;
-use App\Models\Jenispendaftaran;
-use App\Models\Rombonganbelajar;
+                @if ($jenispendaftaranId)
+                <div class="row">
+                    <div class="col-lg-12 col-md-12 col-12">
+                        <div class="form-group @error('pesertadidik_id') has-error @enderror">
+                            <h5 >Nama Peserta Didik <span class="text-danger">*</span></h5>
+                            <select class="form-select" style="width: 100%;" wire:model='pesertadidikId' name="pesertadidik_id" id="pesertadidik_id" >
+                                <option value="" holder>Pilih Peserta Didik</option>
+                                @if (!empty($pesertadidik))
+                                @forelse ($pesertadidik as $item)
+                                <option value="{{ $item->id }}" {{ old('pesertadidik_id') == $item->id ? 'selected' : '' }}>
+                                    {{ $item->tahunajaran->tahun_ajaran_id }} | {{ $item->nama }}
+                                </option>
+                                @empty
+                                <option value="" disabled >Pilih Peserta Didik</option>
+                                @endforelse
+                                @endif
+                            </select>
+                            @error('pesertadidik_id')
+                            <div class="form-control-feedback"><small>
+                                <code>{{ $message }}</code> </small>
+                            </div>
+                            @enderror
+                        </div>
+                    </div>
+                </div>
+                @endif
+                <button class="btn btn-sm btn-primary"  wire:click.prevent="store">
+                    <i class="fa fa-save me-2" aria-hidden="true"></i> Save
+                </button>
+            </form>
+            <div class="row">
+                <div class="col">
+                    <div class="mt-4 box box-bordered border-primary">
+                        <div class="box-header with-border">
+                            Daftar Anggota Rombel
+                        </div>
+                        <div class="box-body">
+                            <div class="row">
+                                <div class="mb-2 col-xl-3 col-lg-3 col-md-3 col-12">
+                                    <select wire:model.live="paginate" name="" id="" class="w-auto form-control-sm custom-select">
+                                        <option value="5">5</option>
+                                        <option value="10">10</option>
+                                        <option value="25">25</option>
+                                        <option value="50">50</option>
+                                        <option value="100">100</option>
+                                    </select>
 
-class Create extends Component
-{
-    public $tahunjaranId;
-    public $semesterId;
-    public $rombonganbelajarId;
-    public $pesertadidikId;
-    public $pesertadidiks;
-    public $jenispendaftaranId;
-    public $jenistagihanId;
+                                </div>
+                                <div class="mb-2 ms-auto col-md-5 col-lg-5 col-12 ">
+                                    <div class="form-group">
+                                        <div class="input-group">
+                                            <input type="search" wire:model.live.debounce.500ms="search" class="form-control" wire:keydown.escape="resetSearch" wire:keydown.tab="resetSearch" class="float-right form-control" placeholder="Search by ...">
+                                            <span class="input-group-text"><i class="ti-search"></i></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-xl-12 col-md-12 col-lg-12 col-12">
+                                    @if ($listanggotarombel->count())
+                                    <div class="table-responsive">
+                                        <table class="table mb-0 table-hover">
+                                            <tbody>
+                                                <tr>
+                                                    <th width="4%" scope="col">No</th>
+                                                    <th width="10%" scope="col">NISN</th>
+                                                    @foreach ($headersTable as $key => $value)
+                                                    <th scope="col" wire:click.prevent="sortBy('{{ $key }}')" style="cursor: pointer">
+                                                        {{ $value }}
+                                                        @if ($sortColumn == $key)
+                                                        <span>{!! $sortDirection == 'asc' ? '&#8659':'&#8657' !!}</span>
+                                                        @endif
+                                                    </th>
+                                                    @endforeach
+                                                </tr>
+                                            </tbody>
+                                            <tbody>
+                                                @foreach ($listanggotarombel as $no =>  $item)
+                                                <tr>
+                                                    <th class="text-right" scope="row">{{ $no + $listanggotarombel->firstItem() }}</th>
+                                                    <td>
+                                                        {{ !empty($item->pesertadidik_id) ? $item->pesertadidik->nisn:'' }}
+                                                    </td>
+                                                    <td>
+                                                        {{ !empty($item->pesertadidik_id) ? $item->pesertadidik->nama:'' }}
+                                                    </td>
+                                                </tr>
+                                                @endforeach
 
-    public function updatedTahunajaran(){
-        $this->semesterId         = null;
-        $this->rombonganbelajarId = null;
-        $this->pesertadidikId     = null;
-    }
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                    <div class="mt-3 row">
+                                        <div class="col-xl-12 col-md-12 col-lg-12 col-12 ">
+                                            @if ($listanggotarombel->total() > 10)
+                                            {{ $listanggotarombel->links() }}
+                                            @else
+                                            Page : {{ $listanggotarombel->currentPage() }} | Show {{ $listanggotarombel->count() }} data
+                                            of {{ $listanggotarombel->total() }}
+                                            @endif
+                                        </div>
 
-    public function updatedSemester(){
-        $this->rombonganbelajarId = null;
-        $this->pesertadidikId = null;
-    }
-
-    #[On('refresh-the-component')]
-    public function refreshTheComponent()
-    {
-        // need to do Refresh this component after listen
-    }
-
-    public function store()
-    {
-
-        $validateData = [
-            'tahunjaranId'       => 'required',
-            'rombonganbelajarId' => 'required',
-            'pesertadidikId'     => 'required',
-            'semesterId'         => 'required',
-            'jenispendaftaranId' => 'required',
-        ];
-
-        // Default data
-        $data = [
-            'rombonganbelajar_id' => $this->rombonganbelajarId,
-            'semester_id'         => $this->semesterId,
-            'pesertadidik_id'     => $this->pesertadidikId,
-            'jenispendaftaran_id' => $this->jenispendaftaranId,
-        ];
-
-        $this->validate($validateData);
-
-        $anggotarombel = Anggotarombel::create($data);
-
-        $nilaitagihan = Jenistagihan::where('tahunajaran_id', $this->tahunjaranId)->where('jenis_periodik', 'bulan')->get();
-
-        foreach ($nilaitagihan as $item) {
-            for ($i=1; $i <= 12 ; $i++) {
-                $tagihansiswa = Tagihansiswa::create([
-                    'rombonganbelajar_id' => $this->rombonganbelajarId,
-                    'semester_id'         => $this->semesterId,
-                    'pesertadidik_id'     => $this->pesertadidikId,
-                    'jenistagihan_id'     => $item->id,
-                    'periode_bulan'       => $i,
-                    'nilai_tagihan'       => $item->besaran,
-                ]);
-            }
-        }
-
-
-        // This is to reset our public variables
-        $this->cleanVars();
-        // $this->dispatch('refresh-the-component');
-        session()->flash('success', 'Create Anggota rombel [ ' . $anggotarombel->pesertadidik['nama'] . ' ] Successfully');
-    }
-
-    private function cleanVars()
-    {
-        // Kosongkan field input
-        $this->pesertadidikId        = null;
-        // $this->description = null;
-        // $this->guard_name = null;
-    }
-
-    public function render()
-    {
-        return view('livewire.backend.anggotarombel.create',[
-            'tahunajaran'      => Tahunajaran::orderBy('nama', 'desc')->get(),
-            'semester'         => Semester::where('tahunajaran_id', $this->tahunjaranId)->orderBy('nama', 'desc')->get(),
-            'rombonganbelajar' => Rombonganbelajar::where('semester_id', $this->semesterId)->orderBy('nama', 'asc')->get(),
-            'jenispendaftaran' => Jenispendaftaran::orderBy('jenis_pendaftaran_id', 'asc')->where('daftar_rombel', 1)->get(),
-            'pesertadidik'     => Pesertadidik::where('tahunajaran_id', $this->tahunjaranId)->orderBy('nama', 'asc')->get(),
-            'title'            => 'Tambah Anggota Rombel'
-        ]);
-    }
-}
+                                    </div>
+                                    @else
+                                    <h2 style="color: red" class="text-center">Data not available</h2>
+                                    @endif
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

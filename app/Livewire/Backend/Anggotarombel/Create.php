@@ -13,26 +13,31 @@ use Livewire\WithPagination;
 use App\Models\Anggotarombel;
 use App\Models\Jenispendaftaran;
 use App\Models\Rombonganbelajar;
+use App\Models\Tingkatpendidikan;
 use Illuminate\Support\Facades\Auth;
 
 class Create extends Component
 {
     use WithPagination;
-    protected $paginationTheme = 'bootstrap';
+    protected $paginationTheme = 'simple-bootstrap';
 
-    public $currentPage   = 1;
-    public $paginate      = 10;
-    public $search        = '';
-    public $checked       = [];
-    public $selectPage    = false;
-    public $selectAll     = false;
+    public $currentPage = 1;
+    public $paginate    = 10;
+    public $paginatepd  = 20;
+    public $search      = '';
+    public $searchpd      = '';
+    public $checked     = [];
+    public $selectPage  = false;
+    public $selectAll   = false;
 
-    public $tahunjaranId;
-    public $semesterId;
-    public $rombonganbelajarId;
+    public $tahunjarans;
+    public $tahunjaranId = NULL;
+    public $semesterId = NULL;
+    public $rombonganbelajarId = NULL;
+    public $tigkatpendidikanId = NULL;
+    public $jenispendaftaranId = NULL;
     public $pesertadidikId;
     public $pesertadidiks;
-    public $jenispendaftaranId;
     public $jenistagihanId;
 
     public $sortDirection = 'asc';
@@ -70,12 +75,17 @@ class Create extends Component
         $this->fill(request()->only('search', 'currentPage'));
         $this->resetSearch();
         $this->headersTable = $this->headerConfig();
+        $this->tahunjarans = Tahunajaran::orderBy('nama', 'desc')->get();
 
     }
 
     public function resetSearch()
     {
         $this->search = '';
+    }
+    public function resetSearchpd()
+    {
+        $this->searchpd = '';
     }
 
     public function updatingSearch()
@@ -106,15 +116,33 @@ class Create extends Component
         }
     }
 
-    public function updatedTahunajaran(){
-        $this->semesterId         = null;
-        $this->rombonganbelajarId = null;
-        $this->pesertadidikId     = null;
+    public function updatedSemesterId(){
+        $this->rombonganbelajarId = NULL;
+        $this->jenispendaftaranId = NULL;
+    }
+    public function updatedTigkatpendidikanId(){
+        $this->rombonganbelajarId = NULL;
+    }
+    public function updatedJenispendaftaranId(){
+        $this->rombonganbelajarId = NULL;
+        $this->tigkatpendidikanId = NULL;
     }
 
-    public function updatedSemester(){
-        $this->rombonganbelajarId = null;
-        $this->pesertadidikId = null;
+    /**
+
+    * Write code on Method
+
+    *
+
+    * @return response()
+
+    */
+    public function updatedtahunjaranId($value)
+    {
+        $this->semesterId         = NULL;
+        $this->rombonganbelajarId = NULL;
+        $this->tigkatpendidikanId = NULL;
+
     }
 
     #[On('refresh-the-component')]
@@ -123,13 +151,13 @@ class Create extends Component
         // need to do Refresh this component after listen
     }
 
-    public function store()
+    public function store($itemId)
     {
-
+        $this->pesertadidikId = $itemId;
         $validateData = [
             'tahunjaranId'       => 'required',
             'rombonganbelajarId' => 'required',
-            'pesertadidikId'     => 'required',
+            // 'pesertadidikId'     => 'required',
             'semesterId'         => 'required',
             'jenispendaftaranId' => 'required',
         ];
@@ -143,6 +171,7 @@ class Create extends Component
             'created_by'          => Auth::id(),
         ];
 
+
         $this->validate($validateData);
 
         $anggotarombel = Anggotarombel::create($data);
@@ -154,6 +183,7 @@ class Create extends Component
                 $tagihansiswa = Tagihansiswa::create([
                     'rombonganbelajar_id' => $this->rombonganbelajarId,
                     'semester_id'         => $this->semesterId,
+                    'anggotarombel_id'    => $anggotarombel->id,
                     'pesertadidik_id'     => $this->pesertadidikId,
                     'jenistagihan_id'     => $item->id,
                     'periode_bulan'       => $i,
@@ -178,14 +208,45 @@ class Create extends Component
         // $this->guard_name = null;
     }
 
+    public function selectItem($itemId, $action)
+    {
+        $this->selectedItem = $itemId;
+        if ($action == 'addanggota') {
+            // This will show the modal in the frontend
+            // dd('tambah anggota rombel : ', $this->store);
+            $this->store($itemId);
+        } elseif ($action == 'delete') {
+            $this->dispatch('openDeleteModal');
+        }
+
+    }
+
+    // Delete Single Record
+    public function delete()
+    {
+
+        $anggotarombel = Anggotarombel::find($this->selectedItem);
+
+        $tagihansiswa = Tagihansiswa::where('anggotarombel_id', $anggotarombel->id)->delete();
+
+        Anggotarombel::destroy($this->selectedItem);
+
+        $this->dispatch('closeDeleteModal');
+
+        session()->flash('danger', 'Delete Anggota rombel Successfully');
+
+    }
+
     public function render()
     {
         return view('livewire.backend.anggotarombel.create',[
-            'tahunajaran'       => Tahunajaran::orderBy('nama', 'desc')->get(),
             'semester'          => Semester::where('tahunajaran_id', $this->tahunjaranId)->orderBy('nama', 'desc')->get(),
-            'rombonganbelajar'  => Rombonganbelajar::where('semester_id', $this->semesterId)->orderBy('nama', 'asc')->get(),
+            'tigkatpendidikan'  => Tingkatpendidikan::where('kode', '<>' , 0)->orderBy('tingkat_pendidikan_id', 'asc')->get(),
+            'rombonganbelajar'  => Rombonganbelajar::where('semester_id', $this->semesterId)
+            ->where('tingkatpendidikan_id', $this->tigkatpendidikanId)
+            ->orderBy('nama', 'asc')->get(),
             'jenispendaftaran'  => Jenispendaftaran::orderBy('jenis_pendaftaran_id', 'asc')->where('daftar_rombel', 1)->get(),
-            'pesertadidik'      => Pesertadidik::where('tahunajaran_id', $this->tahunjaranId)->orderBy('nama', 'asc')->get(),
+            'pesertadidik'      => Pesertadidik::where('tahunajaran_id', $this->tahunjaranId)->orderBy('nama', 'asc')->searchpd(trim($this->searchpd))->paginate($this->paginatepd),
             'listanggotarombel' => $this->anggotarombel,
             'title'             => 'Tambah Anggota Rombel'
         ]);

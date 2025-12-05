@@ -62,4 +62,14 @@ class Jenistagihan extends Model
         }
         return '<span class="fw-bold">Tahun Ajaran</span>';
     }
+
+    /**
+     * Get all of the tagihansiswas for the Jenistagihan
+     *
+     * @return \Illuminate\Database\Eloquent\Relations\HasMany
+     */
+    public function tagihansiswas(): HasMany
+    {
+        return $this->hasMany(Tagihansiswa::class);
+    }
 }

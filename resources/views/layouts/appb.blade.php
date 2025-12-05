@@ -9,29 +9,29 @@
     <meta name="author" content="">
     @if ($global_option != '0')
 
-        @if ($global_option->meta_description)
-            <meta name="description" content="{{ $global_option->meta_description }}">
-        @else
-            <meta name="description"
-                content="Digital Nusantara, Digital Nusantara Borneo, Borneo, Digital, Nusantara, Kaltim">
-        @endif
+    @if ($global_option->meta_description)
+    <meta name="description" content="{{ $global_option->meta_description }}">
+    @else
+    <meta name="description"
+    content="Digital Nusantara, Digital Nusantara Borneo, Borneo, Digital, Nusantara, Kaltim">
+    @endif
 
-        @if ($global_option->meta_keywords)
-            <meta name="keywords" content="{{ $global_option->meta_keywords }}">
-        @else
-            <meta name="keywords"
-                content="Digital Nusantara, Digital Nusantara Borneo, Borneo, Digital, Nusantara, Kaltim">
-        @endif
-        @if ($global_option->favicon)
-            <link rel="icon" href="{{ asset('') }}uploads/images/logo/{{ $global_option->favicon }}">
-        @else
-            <link rel="icon" href="{{ asset('') }}uploads/images/logo/favicon.png">
-        @endif
+    @if ($global_option->meta_keywords)
+    <meta name="keywords" content="{{ $global_option->meta_keywords }}">
+    @else
+    <meta name="keywords"
+    content="Digital Nusantara, Digital Nusantara Borneo, Borneo, Digital, Nusantara, Kaltim">
+    @endif
+    @if ($global_option->favicon)
+    <link rel="icon" href="{{ asset('') }}uploads/images/logo/{{ $global_option->favicon }}">
+    @else
+    <link rel="icon" href="{{ asset('') }}uploads/images/logo/favicon.png">
+    @endif
     @elseif ($global_option == '0')
-        <meta name="description"
-            content="Digital Nusantara, Digital Nusantara Borneo, Borneo, Digital, Nusantara, Kaltim">
-        <meta name="keywords" content="Kodir Zaelani, digitan nusantara, digtal ">
-        <link rel="icon" href="{{ asset('') }}uploads/images/logo/favicon.png">
+    <meta name="description"
+    content="Digital Nusantara, Digital Nusantara Borneo, Borneo, Digital, Nusantara, Kaltim">
+    <meta name="keywords" content="Kodir Zaelani, digitan nusantara, digtal ">
+    <link rel="icon" href="{{ asset('') }}uploads/images/logo/favicon.png">
     @endif
 
     <title>{{ $title ?? config('app.name', 'Teras Petani') }}</title>
@@ -69,8 +69,13 @@
         window.addEventListener('closeDeleteModal', event => {
             $("#modalFormDelete").modal('hide');
         });
+        window.addEventListener('openCheckoutModal', event => {
+            $("#modalCheckout").modal('show');
+        });
 
-
+        window.addEventListener('closeCheckoutModal', event => {
+            $("#modalCheckout").modal('hide');
+        });
 
         window.addEventListener('closeDeleteModalAll', event => {
             $("#modalFormDeleteAll").modal('hide');
@@ -86,6 +91,7 @@
             $('#post-form').submit();
         });
     </script>
+
     @livewireScripts
 </body>
 

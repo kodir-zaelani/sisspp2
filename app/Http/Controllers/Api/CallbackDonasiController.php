@@ -2,12 +2,11 @@
 
 namespace App\Http\Controllers\Api;
 
-use App\Models\Invoice;
 use App\Models\Donation;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 
-class CallbackController extends Controller
+class CallbackDonasiController extends Controller
 {
     /**
      * __construct
@@ -46,7 +45,7 @@ class CallbackController extends Controller
         $fraud        = $notification->fraud_status;
 
         //data donation
-        $datai_nvoice = Invoice::where('invoice', $orderId)->first();
+        $data_donation = Donation::where('invoice', $orderId)->first();
 
         if ($transaction == 'capture') {
 
@@ -58,7 +57,7 @@ class CallbackController extends Controller
                 /**
                 *   update invoice to pending
                 */
-                $datai_nvoice->update([
+                $data_donation->update([
                     'status' => 'PENDING'
                 ]);
 
@@ -67,7 +66,7 @@ class CallbackController extends Controller
                 /**
                 *   update invoice to success
                 */
-                $datai_nvoice->update([
+                $data_donation->update([
                     'status' => 'SUCCESS'
                 ]);
 
@@ -80,7 +79,7 @@ class CallbackController extends Controller
             /**
             *   update invoice to success
             */
-            $datai_nvoice->update([
+            $data_donation->update([
                 'status' => 'SUCCESS'
             ]);
 
@@ -91,7 +90,7 @@ class CallbackController extends Controller
             /**
             *   update invoice to pending
             */
-            $datai_nvoice->update([
+            $data_donation->update([
                 'status' => 'PENDING'
             ]);
 
@@ -102,7 +101,7 @@ class CallbackController extends Controller
             /**
             *   update invoice to failed
             */
-            $datai_nvoice->update([
+            $data_donation->update([
                 'status' => 'FAILED'
             ]);
 
@@ -113,7 +112,7 @@ class CallbackController extends Controller
             /**
             *   update invoice to expired
             */
-            $datai_nvoice->update([
+            $data_donation->update([
                 'status' => 'EXPIRED'
             ]);
 
@@ -123,7 +122,7 @@ class CallbackController extends Controller
             /**
             *   update invoice to failed
             */
-            $datai_nvoice->update([
+            $data_donation->update([
                 'status' => 'FAILED'
             ]);
 
