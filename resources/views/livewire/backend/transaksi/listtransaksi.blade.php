@@ -82,6 +82,12 @@
                                                     {{ $item->formatRupiah('total_amount') }}
                                                 </td>
                                                 <td>
+                                                    {{ $item->created_at->format('d F Y') }}
+                                                </td>
+                                                <td>
+                                                    {{ $item->updated_at->format('d F Y') }}
+                                                </td>
+                                                <td>
                                                     {{ $item->status }}
                                                 </td>
                                                 <td>
