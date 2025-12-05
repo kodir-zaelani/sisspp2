@@ -5,6 +5,7 @@ namespace App\Http\Controllers\Api;
 use App\Models\Invoice;
 use App\Models\Donation;
 use Illuminate\Http\Request;
+use App\Models\Detailinvoice;
 use App\Http\Controllers\Controller;
 
 class CallbackController extends Controller
@@ -45,8 +46,8 @@ class CallbackController extends Controller
         $orderId      = $notification->order_id;
         $fraud        = $notification->fraud_status;
 
-        //data donation
-        $datai_nvoice = Invoice::where('invoice', $orderId)->first();
+        //data invoice
+        $data_invoice = Invoice::where('invoice', $orderId)->first();
 
         if ($transaction == 'capture') {
 
@@ -58,7 +59,7 @@ class CallbackController extends Controller
                 /**
                 *   update invoice to pending
                 */
-                $datai_nvoice->update([
+                $data_invoice->update([
                     'status' => 'PENDING'
                 ]);
 
@@ -67,7 +68,7 @@ class CallbackController extends Controller
                 /**
                 *   update invoice to success
                 */
-                $datai_nvoice->update([
+                $data_invoice->update([
                     'status' => 'SUCCESS'
                 ]);
 
@@ -80,7 +81,7 @@ class CallbackController extends Controller
             /**
             *   update invoice to success
             */
-            $datai_nvoice->update([
+            $data_invoice->update([
                 'status' => 'SUCCESS'
             ]);
 
@@ -91,7 +92,7 @@ class CallbackController extends Controller
             /**
             *   update invoice to pending
             */
-            $datai_nvoice->update([
+            $data_invoice->update([
                 'status' => 'PENDING'
             ]);
 
@@ -102,7 +103,7 @@ class CallbackController extends Controller
             /**
             *   update invoice to failed
             */
-            $datai_nvoice->update([
+            $data_invoice->update([
                 'status' => 'FAILED'
             ]);
 
@@ -113,7 +114,7 @@ class CallbackController extends Controller
             /**
             *   update invoice to expired
             */
-            $datai_nvoice->update([
+            $data_invoice->update([
                 'status' => 'EXPIRED'
             ]);
 
@@ -123,10 +124,18 @@ class CallbackController extends Controller
             /**
             *   update invoice to failed
             */
-            $datai_nvoice->update([
+            $data_invoice->update([
                 'status' => 'FAILED'
             ]);
 
+        }
+
+        $data_invoiceupdate = Invoice::where('invoice', $orderId)->where('status', 'SUCCESS')->first();
+
+        $detailinvoices = Detailinvoice::where('invoice_id', $data_invoiceupdate->id)->get();
+
+        foreach ($detailinvoices as $item) {
+            $item->tagihansiswa()->statusbayar->update(['statusbayar' => 'Lunas']);
         }
 
     }
