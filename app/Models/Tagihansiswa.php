@@ -72,7 +72,7 @@ class Tagihansiswa extends Model
      public function getStatusLabelAttribute()
     {
         //ADAPUN VALUENYA AKAN MENCETAK HTML BERDASARKAN VALUE DARI FIELD STATUS
-        if ($this->statusbayar == 'belum') {
+        if ($this->statusbayar == 'Belum') {
             return '<span class="badge badge-danger">Belum Bayar</span>';
         }
         return '<span class="badge badge-success">Lunas</span>';
