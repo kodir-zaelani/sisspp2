@@ -78,15 +78,15 @@
                                                     {{ !empty($item->pesertadidik_id) ? $item->pesertadidik->nama :'' }}<br/>
                                                     {{ $item->pesertadidik->nisn }}
                                                 </td>
-                                                {{-- <td>
-                                                    {{ $item->formatRupiah('total_amount') }}
-                                                </td> --}}
+                                                <td>
+                                                    {{ !empty($item->total_amount) ? $item->formatRupiah('total_amount') :'' }}
+                                                </td>
                                                 <td>
                                                     {{ $item->tanggalbayar}}
                                                 </td>
                                                 <td>
                                                     <span class="fw-bold">
-                                                    {{ !empty($item->status) ? $item->status :'' }}
+                                                        {{ !empty($item->status) ? $item->status :'' }}
                                                     </span>
                                                 </td>
                                                 <td>
@@ -97,6 +97,11 @@
                                                     <button  class="border-0 shadow-sm btn btn-sm btn-info fw-bold" title="Pembayaran Tunai">Tunai</button>
                                                     <button onclick="payment('{{ $item->snap_token }}');" class="border-0 shadow-sm btn btn-sm btn-success fw-bold" title="Via Midtrans">Midtrans</button>
                                                     @endif
+                                                    @can('delete Invoice')
+                                                    <button wire:click="selectItem('{{ $item->id }}' , 'delete')" class="mx-1 my-1 btn btn-xs btn-danger" title="Send to Trash">
+                                                        <i class="fa fa-trash"></i>
+                                                    </button>
+                                                    @endcan
                                                 </td>
                                             </tr>
                                             <tr>

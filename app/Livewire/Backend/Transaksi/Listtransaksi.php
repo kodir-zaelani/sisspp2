@@ -37,9 +37,9 @@ class Listtransaksi extends Component
         return [
             'invoice'         => 'NO Invoice',
             'pesertadidik_id' => 'Nama',
-              // 'total_amount'    => 'Total',
-            'tanggalbayar' => 'Tanggal Bayar',
-            'status'       => 'Status',
+            'total_amount'    => 'Total',
+            'tanggalbayar'    => 'Tanggal Bayar',
+            'status'          => 'Status',
         ];
     }
 
