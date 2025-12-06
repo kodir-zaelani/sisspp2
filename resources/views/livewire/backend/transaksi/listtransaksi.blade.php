@@ -97,7 +97,7 @@
                                                     <button  class="border-0 shadow-sm btn btn-sm btn-info fw-bold" title="Pembayaran Tunai">Tunai</button>
                                                     <button onclick="payment('{{ $item->snap_token }}');" class="border-0 shadow-sm btn btn-sm btn-success fw-bold" title="Via Midtrans">Midtrans</button>
                                                     @endif
-                                                    @can('delete Invoice  hahaha')
+                                                    @can('delete Invoice')
                                                     <button wire:click="selectItem('{{ $item->id }}' , 'delete')" class="mx-1 my-1 btn btn-xs btn-danger" title="Send to Trash">
                                                         <i class="fa fa-trash"></i>
                                                     </button>
