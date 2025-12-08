@@ -245,7 +245,7 @@ class Index extends Component
         } else {
 
             // Update posts yang user_id dihapus ke user_id master
-            Post::where('author_id', $user->id)->update(['author_id' => $masteruser->id]);
+            // Post::where('author_id', $user->id)->update(['author_id' => $masteruser->id]);
 
             User::destroy($this->selectedItem);
 
