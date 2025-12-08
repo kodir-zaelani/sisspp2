@@ -18,7 +18,7 @@ class User extends Authenticatable
     /** @use HasFactory<\Database\Factories\UserFactory> */
     use HasFactory, Notifiable;
     use HasUuids;
-    use SoftDeletes;
+    // use SoftDeletes;
     use HasRoles;
     use HasApiTokens;
 
