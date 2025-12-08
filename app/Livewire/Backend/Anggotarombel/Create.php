@@ -23,8 +23,8 @@ class Create extends Component
     protected $paginationTheme = 'simple-bootstrap';
 
     public $currentPage = 1;
-    public $paginate    = 20;
-    public $paginatepd  = 20;
+    public $paginate    = 10;
+    public $paginatepd  = 10;
     public $search      = '';
     public $searchpd      = '';
     public $checked     = [];
