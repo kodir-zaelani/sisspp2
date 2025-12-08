@@ -4,7 +4,25 @@
             <form enctype="multipart/form-data" method="POST">
                 @csrf
                 <div class="row">
-                    <div class="col-lg-6 col-md-6 col-12">
+                    <div class="col-lg-4 col-md-4 col-12">
+                        <div class="form-group @error('sekolahId') has-error @enderror">
+                            <h5 >Sekolah <span class="text-danger">*</span></h5>
+                            <select class="form-select" style="width: 100%;" wire:model.live='sekolahId' name="sekolahId" id="sekolahId">
+                                <option value="" holder>Pilih Sekolah</option>
+                                @foreach ($sekolahs as $item)
+                                <option value="{{ $item->id }}" {{ old('sekolahId') == $item->id ? 'selected' : '' }}>
+                                    {{ $item->nama }}
+                                </option>
+                                @endforeach
+                            </select>
+                            @error('sekolahId')
+                            <div class="form-control-feedback"><small>
+                                <code>{{ $message }}</code> </small>
+                            </div>
+                            @enderror
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-12">
                         <div class="form-group @error('tahunjaranId') has-error @enderror">
                             <h5 >Tahun Ajaran <span class="text-danger">*</span></h5>
                             <select class="form-select" style="width: 100%;" wire:model.live='tahunjaranId' name="tahunjaranId" id="tahunjaranId">
@@ -22,7 +40,7 @@
                             @enderror
                         </div>
                     </div>
-                    <div class="col-lg-6 col-md-6 col-12">
+                    <div class="col-lg-4 col-md-4 col-12">
                         <div class="form-group @error('semesterId') has-error @enderror">
                             <h5 >Semester <span class="text-danger">*</span></h5>
                             <select class="form-select" style="width: 100%;" wire:model.live='semesterId' name="semesterId" id="semesterId">

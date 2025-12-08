@@ -8,7 +8,6 @@
         <a href="#" class="mx-10 bg-transparent waves-effect waves-light nav-link d-none d-md-inline-block push-btn" data-toggle="push-menu" role="button">
             <span class="icon-Align-left"><span class="path1"></span><span class="path2"></span><span class="path3"></span></span>
         </a>
-        <!-- Logo -->
         <a href="{{ route('backend.dashboard') }}" class="pt-2 logo d-none d-lg-block">
             <div class="logo-lg">
                 @if ($global_option != '0')
@@ -20,13 +19,10 @@
                 <span class="dark-logo"><img src="{{ asset('') }}uploads/default/logobpic.png" alt="{{ config('app.name', 'App Web') }}" style="max-width: 70%"/></span>
                 @endif
                 @endif
-                <!-- logo-->
             </div>
         </a>
     </div>
-    <!-- Header Navbar -->
-    <nav class="navbar navbar-static-top ">
-        <!-- Sidebar toggle button-->
+    <nav class="navbar navbar-static-top">
         <div class="app-menu">
             <ul class="header-megamenu nav">
                 <li class="btn-group nav-item d-md-none">
@@ -46,7 +42,6 @@
                     </a>
                 </li>
 
-                <!-- User Account-->
                 <li class="dropdown user user-menu">
 
                     <a href="#" class="waves-effect waves-light dropdown-toggle" data-bs-toggle="dropdown" title="{{ $currentUser->name }}">

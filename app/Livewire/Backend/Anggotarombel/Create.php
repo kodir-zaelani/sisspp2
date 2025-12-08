@@ -2,6 +2,7 @@
 
 namespace App\Livewire\Backend\Anggotarombel;
 
+use App\Models\Sekolah;
 use Livewire\Component;
 use App\Models\Semester;
 use App\Models\Tahunajaran;
@@ -22,7 +23,7 @@ class Create extends Component
     protected $paginationTheme = 'simple-bootstrap';
 
     public $currentPage = 1;
-    public $paginate    = 10;
+    public $paginate    = 20;
     public $paginatepd  = 20;
     public $search      = '';
     public $searchpd      = '';
@@ -30,6 +31,7 @@ class Create extends Component
     public $selectPage  = false;
     public $selectAll   = false;
 
+    public $sekolahs;
     public $tahunjarans;
     public $tahunjaranId = NULL;
     public $semesterId = NULL;
@@ -39,6 +41,7 @@ class Create extends Component
     public $pesertadidikId;
     public $pesertadidiks;
     public $jenistagihanId;
+    public $sekolahId;
 
     public $sortDirection = 'asc';
     public $sortColumn    = 'pesertadidik_id';
@@ -75,6 +78,7 @@ class Create extends Component
         $this->fill(request()->only('search', 'currentPage'));
         $this->resetSearch();
         $this->headersTable = $this->headerConfig();
+        $this->sekolahs = Sekolah::orderBy('nama', 'asc')->get();
         $this->tahunjarans = Tahunajaran::orderBy('nama', 'desc')->get();
 
     }
@@ -116,27 +120,15 @@ class Create extends Component
         }
     }
 
-    public function updatedSemesterId(){
-        $this->rombonganbelajarId = NULL;
-        $this->jenispendaftaranId = NULL;
-    }
-    public function updatedTigkatpendidikanId(){
-        $this->rombonganbelajarId = NULL;
-    }
-    public function updatedJenispendaftaranId(){
+    public function updatedSekolahId($value)
+    {
+        $this->tahunjaranId       = NULL;
+        $this->semesterId         = NULL;
         $this->rombonganbelajarId = NULL;
         $this->tigkatpendidikanId = NULL;
+
     }
 
-    /**
-
-    * Write code on Method
-
-    *
-
-    * @return response()
-
-    */
     public function updatedtahunjaranId($value)
     {
         $this->semesterId         = NULL;
@@ -144,6 +136,18 @@ class Create extends Component
         $this->tigkatpendidikanId = NULL;
 
     }
+    public function updatedSemesterId(){
+        $this->rombonganbelajarId = NULL;
+        $this->jenispendaftaranId = NULL;
+    }
+    public function updatedJenispendaftaranId(){
+        $this->rombonganbelajarId = NULL;
+        $this->tigkatpendidikanId = NULL;
+    }
+    public function updatedTigkatpendidikanId(){
+        $this->rombonganbelajarId = NULL;
+    }
+
 
     #[On('refresh-the-component')]
     public function refreshTheComponent()
@@ -155,6 +159,7 @@ class Create extends Component
     {
         $this->pesertadidikId = $itemId;
         $validateData = [
+            'sekolahId'       => 'required',
             'tahunjaranId'       => 'required',
             'rombonganbelajarId' => 'required',
             // 'pesertadidikId'     => 'required',
@@ -164,6 +169,7 @@ class Create extends Component
 
         // Default data
         $data = [
+            'sekolah_id'          => $this->sekolahId,
             'rombonganbelajar_id' => $this->rombonganbelajarId,
             'semester_id'         => $this->semesterId,
             'pesertadidik_id'     => $this->pesertadidikId,
@@ -181,6 +187,7 @@ class Create extends Component
         foreach ($nilaitagihan as $item) {
             for ($i=1; $i <= 12 ; $i++) {
                 $tagihansiswa = Tagihansiswa::create([
+                    'sekolah_id'          => $this->sekolahId,
                     'rombonganbelajar_id' => $this->rombonganbelajarId,
                     'semester_id'         => $this->semesterId,
                     'anggotarombel_id'    => $anggotarombel->id,

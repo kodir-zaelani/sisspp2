@@ -23,7 +23,7 @@
     </div>
 </div>
 <section class="content">
-    <div class="box">
+    <div class="box-bordered box border-warning">
         <div class="box-header">
             <h4>Tambah Anggota Rombongan Belajar</h4>
         </div>

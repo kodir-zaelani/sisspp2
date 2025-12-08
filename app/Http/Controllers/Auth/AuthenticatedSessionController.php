@@ -28,7 +28,13 @@ class AuthenticatedSessionController extends Controller
 
         $request->session()->regenerate();
 
-        return redirect()->intended(route('backend.dashboard', absolute: false));
+        if (Auth::user()->hasRole('superadmin-web')) {
+            return redirect()->intended(route('backend.dashboard', absolute: false));
+        } else if (Auth::user()->hasRole('wali-web')) {
+            return redirect()->intended(route('wali.dashboard', absolute: false));
+        }
+
+        // return redirect()->intended(route('backend.dashboard', absolute: false));
     }
 
     /**

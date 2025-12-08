@@ -14,6 +14,7 @@ return new class extends Migration
     {
         Schema::create('tagihansiswas', function (Blueprint $table) {
             $table->uuid('id')->primary();
+            $table->foreignUuid('sekolah_id')->constrained('sekolahs')->cascadeOnDelete();
             $table->foreignUuid('rombonganbelajar_id')->constrained('rombonganbelajars')->cascadeOnDelete();
             $table->foreignUuid('anggotarombel_id')->constrained('anggotarombels')->cascadeOnDelete();
             $table->foreignUuid('pesertadidik_id')->constrained('pesertadidiks')->cascadeOnDelete();

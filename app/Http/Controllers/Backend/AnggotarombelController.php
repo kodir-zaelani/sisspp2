@@ -32,7 +32,7 @@ class AnggotarombelController extends Controller
     public function create()
     {
         return view('backend.anggotarombel.create', [
-            'title' => 'Daftar Rombongan Belajar'
+            'title' => 'Anggota Rombongan Belajar'
         ]);
 
     }

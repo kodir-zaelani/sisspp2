@@ -9,6 +9,7 @@ use Spatie\Permission\Traits\HasRoles;
 use Illuminate\Notifications\Notifiable;
 use Illuminate\Database\Eloquent\SoftDeletes;
 use Illuminate\Database\Eloquent\Concerns\HasUuids;
+use Illuminate\Database\Eloquent\Relations\HasMany;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Foundation\Auth\User as Authenticatable;
 
@@ -87,6 +88,7 @@ class User extends Authenticatable
 
         return $imageThumbUrl;
     }
+
     public function getStatusLabelAttribute()
     {
         //ADAPUN VALUENYA AKAN MENCETAK HTML BERDASARKAN VALUE DARI FIELD STATUS
@@ -115,4 +117,16 @@ class User extends Authenticatable
         $this->attributes['name'] = $value;
         $this->attributes['slug'] = $this->generateSlug($value);
     }
+
+    /**
+     * Get all of the walimuridsekolahs for the User
+     *
+     * @return \Illuminate\Database\Eloquent\Relations\HasMany
+     */
+    public function walimuridsekolahs(): HasMany
+    {
+        return $this->hasMany(Walimuridsekolah::class);
+    }
+
+
 }

@@ -198,12 +198,17 @@ class Index extends Component
     // Delete Single Record
     public function delete()
     {
+        $tempinvoice = Detailtempinvoice::where('id', $this->selectedItem)->first();
+
+        $tagihansiswa = Tagihansiswa::where('id', $tempinvoice->tagihansiswa_id)->first();
+
+        $tagihansiswa->update(['statusbayar' => 'Belum']);
 
         Detailtempinvoice::destroy($this->selectedItem);
 
         $this->dispatch('closeDeleteModal');
 
-        session()->flash('danger', 'Delete Itam transaksi tagihan Successfully');
+        session()->flash('danger', 'Delete Item transaksi tagihan Successfully');
 
     }
 
@@ -267,7 +272,8 @@ class Index extends Component
             $invoice->save();
 
             DB::statement('SET FOREIGN_KEY_CHECKS=0;');
-            Detailtempinvoice::truncate();
+            Detailtempinvoice::where('pesertadidik_id', $this->pesertadidikId)->delete();
+            // Detailtempinvoice::truncate();
             DB::statement('SET FOREIGN_KEY_CHECKS=1;');
 
             $this->dispatch('closeCheckoutModal');

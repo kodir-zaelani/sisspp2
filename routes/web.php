@@ -14,7 +14,7 @@ Route::post('/payments/store', [App\Http\Controllers\PaymentController::class, '
 Route::post('/payments/callback', [App\Http\Controllers\PaymentController::class, 'callback'])->name('payments.callback');
 Route::get('/payments/success', [App\Http\Controllers\PaymentController::class, 'success'])->name('payments.success');
 
-Route::middleware(['auth', 'verified', 'web'])->group(function () {
+Route::middleware(['auth', 'verified', 'web', 'role:superadmin-web'])->group(function () {
     Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');
     Route::patch('/profile', [ProfileController::class, 'update'])->name('profile.update');
     Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
@@ -27,7 +27,7 @@ Route::middleware(['auth', 'verified', 'web'])->group(function () {
     Route::get('backend/transaksi/list', [App\Http\Controllers\Backend\TaransaksiController::class, 'list'])->name('backend.transaksi.list');
 
     // Dashboard
-    Route::get('backend/home', [App\Http\Controllers\Backend\BackendController::class, 'index'])->name('backend.dashboard');
+    Route::get('backend/dashboard', [App\Http\Controllers\Backend\BackendController::class, 'index'])->name('backend.dashboard');
 
     // User
     Route::get('backend/users/index', [App\Http\Controllers\Backend\UserController::class, 'index'])->name('backend.users.index');
@@ -179,3 +179,4 @@ Route::middleware(['auth', 'verified', 'web'])->group(function () {
 
 
 require __DIR__.'/auth.php';
+require __DIR__.'/wali.php';
