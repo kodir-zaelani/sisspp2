@@ -4,7 +4,7 @@
 <section class="content">
     <div class="row align-items-end">
         <div class="col-xl-12 col-12">
-            <div class="box bg-primary pull-up">
+            <div class="box bg-primary">
                 <div class="box-body p-xl-0">
                     <div class="row align-items-center">
                         <div class="col-12 col-lg-3"><img src="{{asset('')}}assets/images/svg-icon/color-svg/custom-14.svg" alt=""></div>
