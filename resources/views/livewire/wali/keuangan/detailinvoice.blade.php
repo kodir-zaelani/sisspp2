@@ -30,7 +30,6 @@
                 <div class="page-header">
                     <h2 class="d-inline"><span class="fs-30">Invoice</span></h2>
                     <div class="pull-right text-end">
-                        {{-- <h3>{{$invoice->tanggalbayar}}</h3> --}}
                     </div>
                 </div>
             </div>

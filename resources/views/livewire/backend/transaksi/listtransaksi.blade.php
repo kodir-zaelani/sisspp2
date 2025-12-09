@@ -76,7 +76,8 @@
                                                 </td>
                                                 <td>
                                                     {{ !empty($item->pesertadidik_id) ? $item->pesertadidik->nama :'' }}<br/>
-                                                    {{ $item->pesertadidik->nisn }}
+                                                    {{ $item->pesertadidik->nisn }} | {{ $item->semester->nama }} <br/>
+                                                    {{$item->rombonganbelajar->tingkatpendidikan->nama}} / {{$item->rombonganbelajar->nama}}
                                                 </td>
                                                 <td>
                                                     {{ !empty($item->total_amount) ? $item->formatRupiah('total_amount') :'' }}
