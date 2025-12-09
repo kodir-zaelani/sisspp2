@@ -48,6 +48,12 @@ class FrontendController extends Controller
      *
      * @return void
      */
+    public function dokumentasi()
+    {
+        //render view
+        return view('frontend.dokumentasi.index');
+    }
+
     public function create()
     {
         //render view

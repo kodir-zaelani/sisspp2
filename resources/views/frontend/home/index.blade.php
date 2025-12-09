@@ -22,7 +22,7 @@
                 @guest
                 @if (Route::has('login'))
                 <a href="{{ route('login')}}" class="px-4 btn btn-primary btn-lg me-md-2">
-                    Login
+                    Masuk
                 </a>
                 @endif
                 @else

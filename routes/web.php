@@ -4,6 +4,7 @@ use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', [App\Http\Controllers\Frontend\FrontendController::class, 'index'])->name('root');
+Route::get('/dokumentasi', [App\Http\Controllers\Frontend\FrontendController::class, 'dokumentasi'])->name('dokumentasi');
 Route::get('/donations', [App\Http\Controllers\Frontend\FrontendController::class, 'listdonasi'])->name('donasi');
 // Route::get('/donations', [App\Http\Controllers\Frontend\FrontendController::class, 'listdonasi'])->name('listdonasi');
 Route::get('/donations/create', [App\Http\Controllers\Frontend\FrontendController::class, 'create'])->name('donations.create');
