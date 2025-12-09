@@ -9,11 +9,6 @@ Route::get('/donations', [App\Http\Controllers\Frontend\FrontendController::clas
 Route::get('/donations/create', [App\Http\Controllers\Frontend\FrontendController::class, 'create'])->name('donations.create');
 Route::post('/donations/store', [App\Http\Controllers\Frontend\FrontendController::class, 'store'])->name('donations.store');
 
-Route::get('/payments/create', [App\Http\Controllers\PaymentController::class, 'create'])->name('payments.create');
-Route::post('/payments/store', [App\Http\Controllers\PaymentController::class, 'store'])->name('payments.store');
-Route::post('/payments/callback', [App\Http\Controllers\PaymentController::class, 'callback'])->name('payments.callback');
-Route::get('/payments/success', [App\Http\Controllers\PaymentController::class, 'success'])->name('payments.success');
-
 Route::middleware(['auth', 'verified', 'web', 'role:superadmin-web'])->group(function () {
     Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');
     Route::patch('/profile', [ProfileController::class, 'update'])->name('profile.update');
