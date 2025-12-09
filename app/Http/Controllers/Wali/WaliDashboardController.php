@@ -25,4 +25,18 @@ class WaliDashboardController extends Controller
             'title' => 'Wali Dashboard'
         ]);
     }
+    /**
+    * Show the application dashboard.
+    *
+    * @return \Illuminate\Contracts\Support\Renderable
+    */
+    public function commingsoon()
+    {
+        $user = Auth::id();
+        $wali = Walimuridsekolah::where('user_id', $user)->first();
+        return view('wali.home.commingsoon', [
+            'datapeseradidik' => $wali,
+            'title' => 'Pengembangan'
+        ]);
+    }
 }

@@ -14,6 +14,7 @@ Route::middleware(['auth', 'web', 'role:wali-web'])->group(function () {
 
     // Dashboard
     Route::get('wali/dashboard', [App\Http\Controllers\Wali\WaliDashboardController::class, 'index'])->name('wali.dashboard');
+    Route::get('wali/pengembangan', [App\Http\Controllers\Wali\WaliDashboardController::class, 'commingsoon'])->name('wali.pengembangan');
     Route::get('wali/keuangan', [App\Http\Controllers\Wali\WaliKeuanganController::class, 'index'])->name('wali.keuangan');
     Route::get('wali/keranjang', [App\Http\Controllers\Wali\WaliKeuanganController::class, 'orderbayar'])->name('wali.keranjang');
     Route::get('keuangan/pembayaran', [App\Http\Controllers\Wali\WaliKeuanganController::class, 'pembayaran'])->name('wali.pembayaran');

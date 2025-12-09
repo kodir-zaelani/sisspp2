@@ -1,6 +1,7 @@
  @auth
  @php
- $currentUser = Auth::user()
+ $currentUser = Auth::user();
+ $wali = \App\Models\Walimuridsekolah::where('user_id', $currentUser->id)->first();
  @endphp
  @endauth
  <header class="main-header">
@@ -22,7 +23,7 @@
         </div>
         <nav class="navbar navbar-static-top">
             <div class="app-menu">
-                {{-- <h3>{{strtoupper($datapeseradidik_global->nama)}} | {{$datapeseradidik_global->nisn}}</h3> --}}
+                <h3>{{strtoupper($wali->pesertadidik->nama)}} | {{$wali->pesertadidik->nisn}}</h3>
                 <ul class="header-megamenu nav">
 
                 </ul>
@@ -69,17 +70,31 @@
         <li>
             <a href="{{ route('wali.dashboard') }}"><i class="icon-Layout-4-blocks"><span class="path1"></span><span class="path2"></span></i>Dashboard</a>
         </li>
+        <li><a href="#"><i span class="icon-Layout-grid"><span class="path1"></span><span class="path2"></span></i>Master Data</a>
+			<ul>
+				<li><a href="{{route('wali.pesertadidik')}}"><i class="icon-Commit"><span class="path1"></span><span class="path2"></span></i>Pesertadidik</a></li>
+				<li><a href="{{route('wali.pengembangan')}}"><i class="icon-Commit"><span class="path1"></span><span class="path2"></span></i>Riawayat Kelas</a></li>
+				<li><a href="{{route('wali.pengembangan')}}"><i class="icon-Commit"><span class="path1"></span><span class="path2"></span></i>Prestasi</a></li>
+			</ul>
+		</li>
+        <li><a href="#"><i span class="icon-Layout-grid"><span class="path1"></span><span class="path2"></span></i>Keuangan</a>
+			<ul>
+				<li><a href="{{route('wali.keuangan')}}"><i class="icon-Commit"><span class="path1"></span><span class="path2"></span></i>Daftar Tagihan</a></li>
+				<li><a href="{{route('wali.keranjang')}}"><i class="icon-Commit"><span class="path1"></span><span class="path2"></span></i>Order Bayar</a></li>
+				<li><a href="{{route('wali.pembayaran')}}"><i class="icon-Commit"><span class="path1"></span><span class="path2"></span></i>Daftar Pembayaran</a></li>
+			</ul>
+		</li>
         <li>
-            <a href="{{route('wali.keuangan')}}"><i span class="icon-Layout-grid"><span class="path1"></span><span class="path2"></span></i>Tagihan</a>
+            <a href="{{route('wali.pengembangan')}}"><i span class="icon-Layout-grid"><span class="path1"></span><span class="path2"></span></i>Pengaduan</a>
         </li>
         <li>
-            <a href="{{route('wali.keranjang')}}"><i span class="icon-Layout-grid"><span class="path1"></span><span class="path2"></span></i>Order Bayar</a>
+            <a href="{{route('wali.pengembangan')}}"><i span class="icon-Layout-grid"><span class="path1"></span><span class="path2"></span></i>Presensi Kehadiran</a>
         </li>
         <li>
-            <a href="{{route('wali.pembayaran')}}"><i span class="icon-Layout-grid"><span class="path1"></span><span class="path2"></span></i>Pembayaran</a>
+            <a href="{{route('wali.pengembangan')}}"><i span class="icon-Layout-grid"><span class="path1"></span><span class="path2"></span></i>Perpusatakaan</a>
         </li>
         <li>
-            <a href="{{route('wali.pesertadidik')}}"><i span class="icon-Layout-grid"><span class="path1"></span><span class="path2"></span></i>Pesertadidik</a>
+            <a href="{{route('wali.pengembangan')}}"><i span class="icon-Layout-grid"><span class="path1"></span><span class="path2"></span></i>LMS</a>
         </li>
 
     </ul>

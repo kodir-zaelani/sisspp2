@@ -9,7 +9,7 @@
                     <div class="row align-items-center">
                         <div class="col-12 col-lg-3"><img src="{{asset('')}}assets/images/svg-icon/color-svg/custom-14.svg" alt=""></div>
                         <div class="col-12 col-lg-9">
-                            <h2>Halo, Selamat datang Orang Tua / Wali!</h2>
+                            <h2>Fitur ini Dalam Pengembangan</h2>
                             <p class="mb-0 text-white-80 fs-16">
                                 Sistem pengelolaan layanan pendidikan Yayasan Baitul Muttaqin
                             </p>
@@ -26,14 +26,9 @@
                     <h4 class="box-title">Peserta Didik</h4>
                 </div>
                 <div class="box-body">
-                <h3>{{$datapeseradidik->nama}} | {{$datapeseradidik->nisn}}</h3>
+                <h3>{{strtoupper($datapeseradidik->pesertadidik->nama)}} | {{$datapeseradidik->pesertadidik->nisn}}</h3>
                     <p>{{$datapeseradidik->sekolah->nama}}</p>
                 </div>
-                <!-- /.box-body -->
-                <div class="box-footer">
-                    Footer
-                </div>
-                <!-- /.box-footer-->
             </div>
         </div>
     </div>
