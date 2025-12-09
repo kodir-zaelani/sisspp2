@@ -22,7 +22,7 @@
         </div>
         <nav class="navbar navbar-static-top">
             <div class="app-menu">
-                <h3>{{strtoupper($datapeseradidik_global->nama)}} | {{$datapeseradidik_global->nisn}}</h3>
+                {{-- <h3>{{strtoupper($datapeseradidik_global->nama)}} | {{$datapeseradidik_global->nisn}}</h3> --}}
                 <ul class="header-megamenu nav">
 
                 </ul>
