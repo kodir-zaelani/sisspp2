@@ -18,15 +18,16 @@ class WaliPesertadidikController extends Controller
     */
     public function index(): View
     {
-        // $user = Auth::id();
-        // $wali = Walimuridsekolah::where('user_id', $user)->first();
-        // $datapeseradidik = Pesertadidik::where('id', $wali->pesertadidik_id)
-        // ->with('agama', 'sekolah','tahunajaran', 'jenistinggal', 'kebutuhankhusus', 'jenispendaftaran',
-        // 'semester', 'tingkatpendidikan', 'alattransportasi', 'jenjangpendidikan_ayah',
-        // 'pekerjaan_ayah', 'penghasilan_ayah', 'jenjangpendidikan_ibu', 'pekerjaan_ibu',
-        // 'penghasilan_ibu', 'jenjangpendidikan_wali', 'pekerjaan_wali', 'penghasilan_wali',
-        // 'statuspotonganspp')->first();
+        $user = Auth::id();
+        $wali = Walimuridsekolah::where('user_id', $user)->first();
+        $datapeseradidik = Pesertadidik::where('id', $wali->pesertadidik_id)
+        ->with('agama', 'sekolah','tahunajaran', 'jenistinggal', 'kebutuhankhusus', 'jenispendaftaran',
+        'semester', 'tingkatpendidikan', 'alattransportasi', 'jenjangpendidikan_ayah',
+        'pekerjaan_ayah', 'penghasilan_ayah', 'jenjangpendidikan_ibu', 'pekerjaan_ibu',
+        'penghasilan_ibu', 'jenjangpendidikan_wali', 'pekerjaan_wali', 'penghasilan_wali',
+        'statuspotonganspp')->first();
         return view('wali.pesertadidik.index', [
+            'datapeseradidik' => $datapeseradidik,
             'title' => 'Peserta Didik'
         ]);
     }
