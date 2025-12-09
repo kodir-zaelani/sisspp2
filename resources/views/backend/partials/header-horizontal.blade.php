@@ -61,7 +61,7 @@
 
     <input id="main-menu-state" type="checkbox" />
     <label class="main-menu-btn" for="main-menu-state">
-        <span class="main-menu-btn-icon"></span> Toggle main menu visibility
+        <span class="main-menu-btn-icon"></span>
     </label>
 
     <ul id="main-menu" class="sm sm-blue">
@@ -76,6 +76,9 @@
         </li>
         <li>
             <a href="{{route('wali.pembayaran')}}"><i span class="icon-Layout-grid"><span class="path1"></span><span class="path2"></span></i>Pembayaran</a>
+        </li>
+        <li>
+            <a href="{{route('wali.pesertadidik')}}"><i span class="icon-Layout-grid"><span class="path1"></span><span class="path2"></span></i>Pesertadidik</a>
         </li>
 
     </ul>

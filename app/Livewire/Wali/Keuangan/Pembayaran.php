@@ -5,6 +5,8 @@ namespace App\Livewire\Wali\Keuangan;
 use App\Models\Invoice;
 use Livewire\Component;
 use Livewire\WithPagination;
+use App\Models\Walimuridsekolah;
+use Illuminate\Support\Facades\Auth;
 
 class Pembayaran extends Component
 {
@@ -24,6 +26,7 @@ class Pembayaran extends Component
     public $headersTable;
     public $action;
     public $selectedItem;
+    public $pesertadidikId;
 
     protected $queryString = [
         // Keeping A Clean Query String https://laravel-livewire.com/docs/2.x/query-string#clean-query-string
@@ -78,8 +81,13 @@ class Pembayaran extends Component
 
     public function getInvoiceQueryProperty()
     {
+        $user = Auth::user()->id;
+        $wali = Walimuridsekolah::where('user_id', $user)->first();
+        $this->uppesertadidikId  = $wali->pesertadidik_id;
+
         return Invoice::orderBy($this->sortColumn, $this->sortDirection)
         ->with('pesertadidik')
+        ->where('pesertadidik_id', $this->pesertadidikId)
         ->search(trim($this->search)); //search menggunakan scopeSearch di model
     }
 
