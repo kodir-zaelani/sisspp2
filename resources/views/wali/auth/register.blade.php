@@ -49,6 +49,7 @@
                 <div class="mb-3 form-group @error('password') is-invalid @enderror">
                     <label class="form-label">Password <span class="text-danger">*</span></label>
                     <input type="password" class="form-control py-2 @error('password') is-invalid @enderror"  required name="password" value="{{ old('password') }}"  placeholder="Password" autocomplete="current-password" aria-label="email" aria-describedby="basic-addon1">
+                    <small class="text-muted fs-8">Min 8 Caracter: Min 1 Uppercase, min 1 Symbol, min 1 Number </small>
                     @error('password')
                     <div class="form-control-feedback"><small>
                         <code>{{ $message }}</code> </small>
