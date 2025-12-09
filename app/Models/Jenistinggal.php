@@ -4,6 +4,7 @@ namespace App\Models;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Concerns\HasUuids;
+use Illuminate\Database\Eloquent\Relations\HasMany;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 
 class Jenistinggal extends Model
@@ -19,5 +20,15 @@ class Jenistinggal extends Model
         $query->where(function ($query) use ($term) {
             $query->where('nama', 'like', $term);
         });
+    }
+
+    /**
+     * Get all of the users for the Jenistinggal
+     *
+     * @return \Illuminate\Database\Eloquent\Relations\HasMany
+     */
+    public function pesertadidiks(): HasMany
+    {
+        return $this->hasMany(Pesertadidik::class);
     }
 }

@@ -3,17 +3,15 @@
 namespace App\Models;
 
 use Illuminate\Database\Eloquent\Model;
-use Illuminate\Database\Eloquent\SoftDeletes;
 use Illuminate\Database\Eloquent\Concerns\HasUuids;
 use Illuminate\Database\Eloquent\Relations\HasMany;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 
-class Agama extends Model
+class Statuspotonganspp extends Model
 {
-    use HasFactory, HasUuids, SoftDeletes;
+    use HasFactory;
+    use HasUuids;
 
-    protected $table        = 'agama';
-    protected $guarded    = [];
     protected $primaryKey = 'id';
 
     public function scopeSearch($query, $term)
@@ -25,13 +23,12 @@ class Agama extends Model
     }
 
     /**
-     * Get all of the pesertadidiks for the Agama
-     *
-     * @return \Illuminate\Database\Eloquent\Relations\HasMany
-     */
+    * Get all of the users for the Jenistinggal
+    *
+    * @return \Illuminate\Database\Eloquent\Relations\HasMany
+    */
     public function pesertadidiks(): HasMany
     {
-        return $this->hasMany(Pesertadidik::class, 'agama_id');
+        return $this->hasMany(Pesertadidik::class);
     }
-
 }

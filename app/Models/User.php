@@ -10,6 +10,7 @@ use Illuminate\Notifications\Notifiable;
 use Illuminate\Database\Eloquent\SoftDeletes;
 use Illuminate\Database\Eloquent\Concerns\HasUuids;
 use Illuminate\Database\Eloquent\Relations\HasMany;
+use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Foundation\Auth\User as Authenticatable;
 
@@ -41,20 +42,20 @@ class User extends Authenticatable
     }
 
     /**
-     * The attributes that should be hidden for serialization.
-     *
-     * @var list<string>
-     */
+    * The attributes that should be hidden for serialization.
+    *
+    * @var list<string>
+    */
     protected $hidden = [
         'password',
         'remember_token',
     ];
 
     /**
-     * Get the attributes that should be cast.
-     *
-     * @return array<string, string>
-     */
+    * Get the attributes that should be cast.
+    *
+    * @return array<string, string>
+    */
     protected function casts(): array
     {
         return [
@@ -119,14 +120,13 @@ class User extends Authenticatable
     }
 
     /**
-     * Get all of the walimuridsekolahs for the User
-     *
-     * @return \Illuminate\Database\Eloquent\Relations\HasMany
-     */
+    * Get all of the walimuridsekolahs for the User
+    *
+    * @return \Illuminate\Database\Eloquent\Relations\HasMany
+    */
     public function walimuridsekolahs(): HasMany
     {
         return $this->hasMany(Walimuridsekolah::class);
     }
-
 
 }

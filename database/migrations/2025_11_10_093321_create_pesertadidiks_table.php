@@ -120,6 +120,7 @@ return new class extends Migration
             $table->foreign('negara_id')->references('id')->on('negara')->onUpdate('cascade')->onDelete('restrict');
             $table->foreign('sekolah_id')->references('id')->on('sekolahs')->onUpdate('CASCADE')->onDelete('CASCADE');
             $table->foreign('tahunajaran_id')->references('id')->on('tahunajarans')->onUpdate('CASCADE')->onDelete('CASCADE');
+            $table->foreign('statuspotonganspp_id')->references('id')->on('statuspotonganspps')->onUpdate('CASCADE')->onDelete('CASCADE');
 
             $table->foreign('province_code')
             ->references('code')
