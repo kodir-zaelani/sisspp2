@@ -106,7 +106,7 @@
                                                     @endcan
                                                      @if($item->status == 'SUCCESS')
                                                     <div class="list-icons d-inline-flex">
-                                                        <a href="{{ route('backend.detailinvoice', $item->id)}}" class="list-icons-item me-10" title="show"><i class="fa fa-eye"></i></a>
+                                                        {{-- <a href="{{ route('backend.detailinvoice', $item->id)}}" class="list-icons-item me-10" title="show"><i class="fa fa-eye"></i></a> --}}
                                                         <div class="list-icons-item dropdown">
                                                             <a href="{{ route('backend.detailinvoice-pdf', $item->id)}}" target="_blank" class="list-icons-item dropdown-toggle" data-bs-toggle="dropdown" title="Invoice"><i class="fa fa-file-text"></i></a>
                                                             <div class="dropdown-menu dropdown-menu-end">
