@@ -2,8 +2,10 @@
 
 namespace App\Http\Controllers\Backend;
 
-use App\Http\Controllers\Controller;
+use Mpdf\Mpdf;
+use App\Models\Invoice;
 use Illuminate\Http\Request;
+use App\Http\Controllers\Controller;
 
 class InvoiceDetailController extends Controller
 {
