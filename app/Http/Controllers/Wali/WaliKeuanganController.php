@@ -2,9 +2,12 @@
 
 namespace App\Http\Controllers\Wali;
 
+use Mpdf\Mpdf;
+use App\Models\Invoice;
 use Illuminate\View\View;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
+use SimpleSoftwareIO\QrCode\Facades\QrCode;
 
 class WaliKeuanganController extends Controller
 {
@@ -40,5 +43,40 @@ class WaliKeuanganController extends Controller
         return view('wali.keuangan.pembayaran', [
             'title' => 'Pembayaran'
         ]);
+    }
+    /**
+    * Show the application dashboard.
+    *
+    * @return \Illuminate\Contracts\Support\Renderable
+    */
+    public function detailinvoice(Request $request): View
+    {
+        return view('wali.keuangan.detailinvoice', [
+            'invoice' => Invoice::where('id', $request->segment(3))->first(),
+            'title' => 'Invoice'
+        ]);
+    }
+
+    public function detailinvoice_pdf(Request $request)
+    {
+        $invoice = Invoice::where('id', $request->segment(3))->first();
+        $qrcodeid = QrCode::format('png')->size(50)->generate($invoice->id);
+
+        $mpdf = new Mpdf();
+        $mpdf->WriteHTML(view('wali.keuangan.detailinvoice-pdf', [
+            'invoice' => $invoice,
+            'qrcode' => $qrcodeid,
+            'title' => 'Invoice PDF'
+        ]));
+        $mpdf->Output();
+    }
+    public function detailinvoice_pdf_download(Request $request)
+    {
+        $mpdf = new Mpdf();
+        $mpdf->WriteHTML(view('wali.keuangan.detailinvoice-pdf', [
+            'invoice' => Invoice::where('id', $request->segment(3))->first(),
+            'title' => 'Invoice PDF'
+        ]));
+        $mpdf->Output('Invoice-pdf.pdf', 'D');
     }
 }
