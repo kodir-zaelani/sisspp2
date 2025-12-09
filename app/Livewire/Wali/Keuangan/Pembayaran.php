@@ -81,9 +81,9 @@ class Pembayaran extends Component
 
     public function getInvoiceQueryProperty()
     {
-        $user = Auth::user()->id;
+        $user = Auth::id();
         $wali = Walimuridsekolah::where('user_id', $user)->first();
-        $this->uppesertadidikId  = $wali->pesertadidik_id;
+        $this->pesertadidikId  = $wali->pesertadidik_id;
 
         return Invoice::orderBy($this->sortColumn, $this->sortDirection)
         ->with('pesertadidik')
