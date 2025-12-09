@@ -104,6 +104,18 @@
                                                         <i class="fa fa-trash"></i>
                                                     </button>
                                                     @endcan
+                                                     @if($item->status == 'SUCCESS')
+                                                    <div class="list-icons d-inline-flex">
+                                                        <div class="list-icons-item dropdown">
+                                                            <a href="{{ route('wali.detailinvoice-pdf', $item->id)}}" target="_blank" class="list-icons-item dropdown-toggle" data-bs-toggle="dropdown" title="Invoice"><i class="fa fa-file-text"></i></a>
+                                                            <div class="dropdown-menu dropdown-menu-end">
+                                                                <a href="{{ route('wali.detailinvoice.download', $item->id)}}" class="dropdown-item"><i class="fa fa-eye"></i> Show PDF</a>
+                                                                <div class="dropdown-divider"></div>
+                                                                <a href="#" class="dropdown-item"><i class="fa fa-download"></i> Download</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    @endif
                                                 </td>
                                             </tr>
                                             <tr>
