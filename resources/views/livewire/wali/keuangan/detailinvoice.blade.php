@@ -55,7 +55,8 @@
                 <div class="invoice-details row no-margin">
                     <div class="col-md-6 col-lg-3"><b>Invoice: </b>#{{$invoice->invoice}}</div>
                     <div class="col-md-6 col-lg-3"><b>Tanggal Bayar:</b> {{$invoice->tanggalbayar}}</div>
-                    <div class="col-md-6 col-lg-6"><b>ID:</b> {{$invoice->id}}</div>
+                    <div class="col-md-6 col-lg-4"><b>ID:</b> {{$invoice->id}}</div>
+                    <div class="col-md-6 col-lg-2"><b>Metode:</b> {{$invoice->metodepembayaran}}</div>
                 </div>
             </div>
         </div>
