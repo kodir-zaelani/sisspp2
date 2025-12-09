@@ -23,7 +23,8 @@
         </div>
         <nav class="navbar navbar-static-top">
             <div class="app-menu">
-                <h3>{{strtoupper($wali->pesertadidik->nama)}} | {{$wali->pesertadidik->nisn}}</h3>
+                <h3 class="d-lg-block d-none">{{strtoupper($wali->pesertadidik->nama)}} | {{$wali->pesertadidik->nisn}}</h3>
+                <span class="d-lg-none d-block">{{strtoupper($wali->pesertadidik->nama)}} | {{$wali->pesertadidik->nisn}}</span>
                 <ul class="header-megamenu nav">
 
                 </ul>
