@@ -25,7 +25,7 @@
                 <div class="bb-1 clearFix">
                     <div class="text-end pb-15">
                         <a href="{{ route('wali.detailinvoice-pdf', $invoice->id)}}" target="_blank" class="btn btn-success" type="button"> <span><i class="fa fa-eye"></i> View</span> </a>
-                        <a href="{{ route('wali.detailinvoice.download', $invoice->id)}}" id="print2" class="btn btn-warning" type="button"> <span><i class="fa fa-download"></i> Download</span> </a>
+                        <a href="{{ route('wali.detailinvoice.download', $invoice->id)}}" target="_blank"  class="btn btn-warning" type="button"> <span><i class="fa fa-download"></i> Download</span> </a>
                     </div>
                 </div>
             </div>
