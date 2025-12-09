@@ -1,7 +1,6 @@
-@extends('layouts.appwali')
+@extends('layouts.appb')
 
 @section('content')
-{{-- @livewire('wali.keuangan.detailinvoice') --}}
  <div class="content-header">
         <div class="d-flex align-items-center">
             <div class="me-auto">
