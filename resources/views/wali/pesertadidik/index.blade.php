@@ -4,12 +4,12 @@
 <div class="content-header">
     <div class="d-flex align-items-center">
         <div class="me-auto">
-            <h3 class="page-title">Peseradidik</h3>
+            <h3 class="page-title">Peserta Didik</h3>
             <div class="d-inline-block align-items-center">
                 <nav>
                     <ol class="breadcrumb">
                         <li class="breadcrumb-item"><a href="{{route('wali.dashboard')}}"><i class="mdi mdi-home-outline"></i></a></li>
-                        <li class="breadcrumb-item" aria-current="page">Peseradidik</li>
+                        <li class="breadcrumb-item" aria-current="page">Peserta Didik</li>
                         <li class="breadcrumb-item active" aria-current="page">List</li>
                     </ol>
                 </nav>
