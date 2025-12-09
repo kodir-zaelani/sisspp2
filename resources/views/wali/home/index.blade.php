@@ -26,7 +26,7 @@
                     <h4 class="box-title">Peserta Didik</h4>
                 </div>
                 <div class="box-body">
-                {{-- <h3>{{$datapeseradidik_global->nama}} | {{$datapeseradidik_global->nisn}}</h3> --}}
+                <h3>{{$datapeseradidik->nama}} | {{$datapeseradidik->nisn}}</h3>
                     <p>{{$datapeseradidik->sekolah->nama}}</p>
                 </div>
                 <!-- /.box-body -->
