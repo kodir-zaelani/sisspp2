@@ -109,10 +109,10 @@
             </a>
         </li>
         <li class="nav-item">
-            <a href="#" class="nav-link">
+            <a href="{{asset('')}}uploads/files/doc/panduan.pdf" target="_blank" class="nav-link">
                 <span class="d-flex flex-column">
                     <i class="bi bi-search"></i>
-                    <small>Cari</small>
+                    <small>Dokumentasi</small>
                 </span>
             </a>
         </li>
@@ -132,14 +132,28 @@
                 </span>
             </a>
         </li>
+        @guest
+        @if (Route::has('login'))
         <li class="nav-item">
-            <a href="#" class="nav-link">
+            <a class="nav-link" href="{{ route('login') }}">
                 <span class="d-flex flex-column">
                     <i class="bi bi-person-circle"></i>
-                    <small>Profile</small>
+                    <small>Masuk</small>
                 </span>
             </a>
         </li>
+        @endif
+        @else
+        <li>
+            <a class="dropdown-item" href="{{ route('logout') }}" onclick="event.preventDefault(); document.getElementById('logout-form').submit();">
+                <i class="fa fa-sign-out me-2" aria-hidden="true"></i>{{ __('Logout') }}
+            </a>
+
+            <form id="logout-form" action="{{ route('logout') }}" method="POST" class="d-none">
+                @csrf
+            </form>
+        </li>
+        @endguest
     </ul>
 
 </nav>

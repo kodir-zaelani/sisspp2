@@ -19,6 +19,7 @@
                 extensive prebuilt components, and powerful JavaScript plugins.
             </p>
             <div class="gap-2 d-grid d-md-flex justify-content-md-start">
+                <a href="{{asset('')}}uploads/files/doc/panduan.pdf" target="_blank" class="btn btn-lg btn-success">Dokumentasi</a>
                 @guest
                 @if (Route::has('login'))
                 <a href="{{ route('login')}}" class="px-4 btn btn-primary btn-lg me-md-2">
