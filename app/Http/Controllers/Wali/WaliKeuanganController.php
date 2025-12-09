@@ -61,7 +61,7 @@ class WaliKeuanganController extends Controller
     {
         $mpdf = new Mpdf();
         $invoice = Invoice::where('id', $request->segment(3))->first();
-        $qrcodeid = QrCode::format('png')->size(50)->generate($invoice->id);
+        $qrcodeid = QrCode::size(50)->generate($invoice->id);
         $mpdf->WriteHTML(view('wali.keuangan.detailinvoice-pdf', [
             'invoice' => $invoice,
             'qrcode' => $qrcodeid,
@@ -73,9 +73,9 @@ class WaliKeuanganController extends Controller
     {
         $mpdf = new Mpdf();
         $invoice = Invoice::where('id', $request->segment(3))->first();
-        $qrcodeid = QrCode::format('png')->size(50)->generate($invoice->id);
+        $qrcodeid = QrCode::size(50)->generate($invoice->id);
         $mpdf->WriteHTML(view('wali.keuangan.detailinvoice-pdf', [
-            'invoice' => Invoice::where('id', $request->segment(3))->first(),
+            'invoice' => $invoice,
             'qrcode' => $qrcodeid,
             'title' => 'Invoice PDF'
         ]));
