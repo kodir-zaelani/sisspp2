@@ -88,7 +88,7 @@
                                                     <span class="fw-bold">
                                                         {{ !empty($item->status) ? $item->status :'' }} <br/>
                                                     </span>
-                                                        <small class="fw-italic">{{ !empty($item->metodepembayaran) ? $item->metodepembayaran :'' }}</small>
+                                                        <small class="fst-italic">{{ !empty($item->metodepembayaran) ? $item->metodepembayaran :'' }}</small>
                                                 </td>
                                                 <td>
                                                     @if($item->status == 'PENDING')
