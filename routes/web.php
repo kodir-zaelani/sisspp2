@@ -25,7 +25,9 @@ Route::middleware(['auth', 'verified', 'web', 'role:superadmin-web'])->group(fun
     // Transaksi
     Route::get('backend/transaksi', [App\Http\Controllers\Backend\TaransaksiController::class, 'index'])->name('backend.transaksi.index');
     Route::get('backend/transaksi/list', [App\Http\Controllers\Backend\TaransaksiController::class, 'list'])->name('backend.transaksi.list');
-
+    Route::get('keuangan/detailinvoice/{invoice}', [App\Http\Controllers\Wali\TaransaksiController::class, 'detailinvoice'])->name('backend.detailinvoice');
+    Route::get('keuangan/detailinvoice/{invoice}/view/pdf', [App\Http\Controllers\Wali\TaransaksiController::class, 'detailinvoice_pdf'])->name('backend.detailinvoice-pdf');
+    Route::get('keuangan/detailinvoice/{invoice}/download/pdf', [App\Http\Controllers\Wali\TaransaksiController::class, 'detailinvoice_pdf_download'])->name('backend.detailinvoice.download');
     // Dashboard
     Route::get('backend/dashboard', [App\Http\Controllers\Backend\BackendController::class, 'index'])->name('backend.dashboard');
 
@@ -44,7 +46,7 @@ Route::middleware(['auth', 'verified', 'web', 'role:superadmin-web'])->group(fun
     Route::get('backend/settings/{setting}/edit', [App\Http\Controllers\Backend\SettingController::class, 'editsetting'])->name('backend.settings.edit');
     Route::put('backend/settings/{setting}/update', [App\Http\Controllers\Backend\SettingController::class, 'updatesetting'])->name('backend.settings.update');
 
- // Yayasan
+    // Yayasan
     Route::get('backend/yayasan', [App\Http\Controllers\Backend\YayasanController::class, 'index'])->name('backend.yayasan.index');
     Route::get('backend/yayasan/create', [App\Http\Controllers\Backend\YayasanController::class, 'create'])->name('backend.yayasan.create');
     Route::post('backend/yayasan/store', [App\Http\Controllers\Backend\YayasanController::class, 'store'])->name('backend.yayasan.store');
@@ -106,7 +108,7 @@ Route::middleware(['auth', 'verified', 'web', 'role:superadmin-web'])->group(fun
     Route::get('backend/anggotarombel/{anggotarombel}/edit', [App\Http\Controllers\Backend\AnggotarombelController::class, 'edit'])->name('backend.anggotarombel.edit');
     Route::put('backend/anggotarombel/{anggotarombel}/update', [App\Http\Controllers\Backend\AnggotarombelController::class, 'update'])->name('backend.anggotarombel.update');
 
-     // SemesterController
+    // SemesterController
     Route::get('backend/jenistagihan', [App\Http\Controllers\Backend\JenistagihanController::class, 'index'])->name('backend.jenistagihan.index');
     Route::get('backend/jenistagihan/create', [App\Http\Controllers\Backend\JenistagihanController::class, 'create'])->name('backend.jenistagihan.create');
     Route::post('backend/jenistagihan/store', [App\Http\Controllers\Backend\JenistagihanController::class, 'store'])->name('backend.jenistagihan.store');
