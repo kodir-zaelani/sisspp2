@@ -33,12 +33,11 @@
                                 </select>
 
                             </div>
-                            {{-- Nama siswa : {{$nama_pd}} --}}
                             @if ($ordertagihans->count() >= 1)
 
-                            <div class="mb-2 col-xl-3 col-lg-3 col-md-3 col-12">
+                            <div class="mb-2 col-xl-4 col-lg-4 col-md-4 col-12">
                                 <div class="form-group">
-                                    <h5>Jumlah order bayar : {{$ordertagihans->count()}}  <a href=""></a></h5>
+                                    <h5>  <a href="{{route('wali.keranjang')}}" class="btn btn-sm btn-success">{{$ordertagihans->count()}} (item) Bayar Sekarang</a></h5>
                                 </div>
                             </div>
                             @endif
