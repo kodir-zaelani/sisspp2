@@ -25,9 +25,9 @@
             <div class="app-menu">
                 <h3 class="d-lg-block d-none">{{strtoupper($wali->pesertadidik->nama)}} | {{$wali->pesertadidik->nisn}}</h3>
                 <ul class="header-megamenu nav">
-                    <li>
+                    {{-- <li>
                     <span class="d-lg-none d-block">{{strtoupper($wali->pesertadidik->nama)}}</span>
-                    </li>
+                    </li> --}}
                 </ul>
             </div>
 
