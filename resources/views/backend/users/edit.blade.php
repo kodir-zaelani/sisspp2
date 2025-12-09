@@ -74,12 +74,12 @@
                         </div>
                         <div class="col-md-6">
                             <div class="form-group">
-                                <label for="celuller_no">Whatapps</label>
-                                <input name="celuller_no" type="text"
-                                value="{{ old('celuller_no') ?? $user->celuller_no }}"
+                                <label for="phone">Whatapps</label>
+                                <input name="phone" type="text"
+                                value="{{ old('phone') ?? $user->phone }}"
                                 class="form-control @error('celuller_no') is-invalid @enderror"
                                 placeholder="Enter a Whatapps">
-                                @error('celuller_no')
+                                @error('phone')
                                 <div class="form-control-feedback"><small> <code>{{ $message }}</code> </small>
                                 </div>
                                 @enderror
