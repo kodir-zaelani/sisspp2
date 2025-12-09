@@ -58,7 +58,7 @@ class Invoice extends Model
      */
     public function semester(): BelongsTo
     {
-        return $this->belongsTo(semester::class);
+        return $this->belongsTo(Semester::class);
     }
 
     /**
