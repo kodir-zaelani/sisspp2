@@ -4,6 +4,7 @@ namespace App\Http\Controllers\Backend;
 
 use Mpdf\Mpdf;
 use App\Models\Invoice;
+use Illuminate\View\View;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 
