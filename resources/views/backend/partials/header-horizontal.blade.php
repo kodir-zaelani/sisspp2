@@ -69,7 +69,7 @@
             <a href="{{ route('wali.dashboard') }}"><i class="icon-Layout-4-blocks"><span class="path1"></span><span class="path2"></span></i>Dashboard</a>
         </li>
         <li>
-            <a href="{{route('wali.keuangan')}}"><i span class="icon-Layout-grid"><span class="path1"></span><span class="path2"></span></i>Keuangan</a>
+            <a href="{{route('wali.keuangan')}}"><i span class="icon-Layout-grid"><span class="path1"></span><span class="path2"></span></i>Tagihan</a>
         </li>
         <li>
             <a href="{{route('wali.keranjang')}}"><i span class="icon-Layout-grid"><span class="path1"></span><span class="path2"></span></i>Order Bayar</a>
