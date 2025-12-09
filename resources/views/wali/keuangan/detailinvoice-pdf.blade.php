@@ -7,7 +7,7 @@
             <div class="page-header">
                 <h2 class="d-inline"><span class="fs-30">Invoice</span></h2>
                 <p>#{{$invoice->invoice}}</p>
-                <span><b>Tanggal Bayar:</b> {{$invoice->tanggalbayar}} | <b>ID:</b> {{$invoice->id}}</span>
+                <span><b>Tanggal Bayar:</b> {{$invoice->tanggalbayar}} | <b>ID:</b> {{$invoice->id}} | <b>Metode:</b> {{$invoice->metodepembayaran}}</span>
                 <div class="pull-right text-end">
                 </div>
             </div>
