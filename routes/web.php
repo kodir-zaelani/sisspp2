@@ -20,9 +20,11 @@ Route::middleware(['auth', 'verified', 'web', 'role:superadmin-web'])->group(fun
     // Transaksi
     Route::get('backend/transaksi', [App\Http\Controllers\Backend\TaransaksiController::class, 'index'])->name('backend.transaksi.index');
     Route::get('backend/transaksi/list', [App\Http\Controllers\Backend\TaransaksiController::class, 'list'])->name('backend.transaksi.list');
-    Route::get('backend/detailinvoice/{invoice}', [App\Http\Controllers\Backend\TaransaksiController::class, 'detailinvoice'])->name('backend.detailinvoice');
-    Route::get('backend/detailinvoice/{invoice}/view/pdf', [App\Http\Controllers\Backend\TaransaksiController::class, 'detailinvoice_pdf'])->name('backend.detailinvoice-pdf');
-    Route::get('backend/detailinvoice/{invoice}/download/pdf', [App\Http\Controllers\Backend\TaransaksiController::class, 'detailinvoice_pdf_download'])->name('backend.detailinvoice.download');
+
+    Route::get('backend/detailinvoice/{invoice}', [App\Http\Controllers\Backend\InvoiceDetailController::class, 'detailinvoice'])->name('backend.transaksi.detailinvoice');
+    Route::get('backend/detailinvoice/{invoice}/view/pdf', [App\Http\Controllers\Backend\InvoiceDetailController::class, 'detailinvoice_pdf'])->name('backend.transaksi.invoice-pdf');
+    Route::get('backend/detailinvoice/{invoice}/download/pdf', [App\Http\Controllers\Backend\InvoiceDetailController::class, 'detailinvoice_pdf_download'])->name('backend.transaksi.download-pdf');
+
     // Dashboard
     Route::get('backend/dashboard', [App\Http\Controllers\Backend\BackendController::class, 'index'])->name('backend.dashboard');
 
