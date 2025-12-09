@@ -18,9 +18,9 @@
                 <li class="nav-item">
                     <a class="nav-link " aria-current="page" href="{{route('root')}}">Beranda</a>
                 </li>
-                {{-- <li class="nav-item">
-                    <a class="nav-link" aria-current="page" href="#">Dokumentasi</a>
-                </li> --}}
+                <li class="nav-item">
+                    <a class="nav-link"  href="{{asset('')}}uploads/files/doc/panduan.pdf" target="_blank">Dokumentasi</a>
+                </li>
 
                 @guest
                 @if (Route::has('login'))
