@@ -11,10 +11,7 @@
                 Sistem Informasi Layanan Pendidikan
             </h5>
             <p class="col-lg-10 fs-4 d-none d-lg-block d-md-block d-xl-block">
-                Below is an example form built entirely with Bootstrap’s form
-                controls. Each required form group has a validation state that can
-                be triggered by attempting to submit the form without completing
-                it.
+                Sistem pengelolaan layanan pendidikan Yayasan Baitul Muttaqin
             </p>
         </div>
         <div class="mx-auto col-md-10 col-lg-6">
