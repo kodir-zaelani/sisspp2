@@ -154,6 +154,9 @@ class Orderbayar extends Component
             $snapToken = Snap::getSnapToken($payload);
             $invoice->snap_token = $snapToken;
             $invoice->save();
+             $bayar =  $invoice->invoice;
+
+
 
             DB::statement('SET FOREIGN_KEY_CHECKS=0;');
 
@@ -164,6 +167,8 @@ class Orderbayar extends Component
             $this->dispatch('closeCheckoutModal');
 
             session()->flash('warning', 'Checkout Transaksi pembayaran tagihan Berhasil');
+//  dd($bayar);
+
 
         }
 
