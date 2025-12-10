@@ -171,6 +171,7 @@
 
 
     <script src="{{ asset('') }}assets/frontend/dist/js/bootstrap.bundle.min.js" class="astro-vvvwv3sm"></script>
+    @stack('scripts')
     <script src="//cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
     <script>
         //message with toastr

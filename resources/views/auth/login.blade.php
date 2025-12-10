@@ -29,14 +29,18 @@
                     @enderror
                 </div>
                 <div class="mb-3 input-group">
-                    <span class="input-group-text" ><i class="bi bi-file-lock2"></i></span>
-                    <input type="password" class="form-control py-2 @error('password') is-invalid @enderror"  name="password" value="{{ old('password') }}" required  placeholder="Password" autocomplete="current-password" aria-label="email" aria-describedby="basic-addon1">
+                    <span class="input-group-text" >
+                         <input class="form-check-input" type="checkbox" onclick="showHide()">
+                        {{-- <i class="bi bi-file-lock2"></i> --}}
+                    </span>
+                    <input type="password" class="form-control py-2 @error('password') is-invalid @enderror"  name="password" value="{{ old('password') }}" id="passwordKu" required  placeholder="Password" autocomplete="current-password" aria-label="email" aria-describedby="basic-addon1">
                     @error('password')
                     <span class="invalid-feedback" role="alert">
                         <strong>{{ $message }}</strong>
                     </span>
                     @enderror
                 </div>
+
                 <div class="mb-3 checkbox">
                     <input class="form-check-input" type="checkbox" name="remember" id="remember" {{ old('remember') ? 'checked' : '' }}>
 
@@ -54,3 +58,15 @@
     </div>
 </div>
 @endsection
+@push('scripts')
+<script>
+function showHide() {
+  var inputan = document.getElementById("passwordKu");
+  if (inputan.type === "password") {
+    inputan.type = "text";
+  } else {
+    inputan.type = "password";
+  }
+}
+</script>
+@endpush

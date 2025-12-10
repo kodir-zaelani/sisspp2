@@ -4,14 +4,11 @@
 <div class="container px-4 py-5 col-xl-12 col-xxl-10">
     <div class="py-5 row align-items-center g-lg-5">
         <div class="text-center col-lg-6 text-lg-start">
-            <h1 class="mb-3 display-4 fw-bold lh-1 text-body-emphasis">
-                Vertically centered hero sign-up form
-            </h1>
-            <p class="col-lg-10 fs-4">
-                Below is an example form built entirely with Bootstrap’s form
-                controls. Each required form group has a validation state that can
-                be triggered by attempting to submit the form without completing
-                it.
+           <h3 class="mb-3 fw-bold lh-1 text-body-emphasis">
+                Sistem Informasi Layanan Pendidikan
+            </h3>
+           <p class="col-lg-10 fs-4">
+                Sistem pengelolaan layanan pendidikan Yayasan Baitul Muttaqin
             </p>
         </div>
         <div class="mx-auto col-md-10 col-lg-6">
@@ -48,7 +45,7 @@
                 </div>
                 <div class="mb-3 form-group @error('password') is-invalid @enderror">
                     <label class="form-label">Password <span class="text-danger">*</span></label>
-                    <input type="password" class="form-control py-2 @error('password') is-invalid @enderror"  required name="password" value="{{ old('password') }}"  placeholder="Password" autocomplete="current-password" aria-label="email" aria-describedby="basic-addon1">
+                    <input type="password" class="form-control py-2 @error('password') is-invalid @enderror"  required name="password" value="{{ old('password') }}" id="passwordKu" placeholder="Password" autocomplete="current-password" aria-label="email" aria-describedby="basic-addon1">
                     <small class="text-muted fs-8">Min 8 Caracter: Min 1 Uppercase, min 1 Symbol, min 1 Number </small>
                     @error('password')
                     <div class="form-control-feedback"><small>
@@ -56,16 +53,29 @@
                     </div>
                     @enderror
                 </div>
+                <div class="mb-3 checkbox">
+                    <input class="form-check-input" type="checkbox" onclick="showHide()">
+
+                    <label class="form-check-label" for="remember">
+                        {{ __('Tampilkan Password') }}
+                    </label>
+                </div>
                 <div class="mb-3 form-group @error('password_confirmation') is-invalid @enderror">
                     <label class="form-label">Konfirmasi Password <span class="text-danger">*</span></label>
-                    <input type="password" class="form-control py-2 @error('password_confirmation') is-invalid @enderror"  required name="password_confirmation" value="{{ old('password_confirmation') }}"  placeholder="Konfirmasi Password" autocomplete="current-password_confirmation" aria-label="email" aria-describedby="basic-addon1">
+                    <input type="password" class="form-control py-2 @error('password_confirmation') is-invalid @enderror"  required name="password_confirmation" value="{{ old('password_confirmation') }}" id="passwordKonfirmasi"  placeholder="Konfirmasi Password" autocomplete="current-password_confirmation" aria-label="email" aria-describedby="basic-addon1">
                     @error('password_confirmation')
                     <div class="form-control-feedback"><small>
                         <code>{{ $message }}</code> </small>
                     </div>
                     @enderror
                 </div>
+                <div class="mb-3 checkbox">
+                    <input class="form-check-input" type="checkbox" onclick="showHidekonfirmasi()">
 
+                    <label class="form-check-label" for="remember">
+                        {{ __('Tampilkan Konfirmasi Password') }}
+                    </label>
+                </div>
                 <button class="w-100 btn btn-lg btn-primary" type="submit">
                     Daftar
                 </button>
@@ -76,3 +86,23 @@
     </div>
 </div>
 @endsection
+@push('scripts')
+<script>
+function showHide() {
+  var inputan = document.getElementById("passwordKu");
+  if (inputan.type === "password") {
+    inputan.type = "text";
+  } else {
+    inputan.type = "password";
+  }
+};
+function showHidekonfirmasi() {
+  var inputan = document.getElementById("passwordKonfirmasi");
+  if (inputan.type === "password") {
+    inputan.type = "text";
+  } else {
+    inputan.type = "password";
+  }
+};
+</script>
+@endpush

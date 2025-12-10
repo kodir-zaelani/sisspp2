@@ -44,7 +44,7 @@
                 </div>
                 <div class="mb-3 form-group @error('password') is-invalid @enderror">
                     <label class="form-label">Password <span class="text-danger">*</span></label>
-                    <input type="password" class="form-control py-2 @error('password') is-invalid @enderror"  required name="password" value="{{ old('password') }}"  placeholder="Password" autocomplete="current-password" aria-label="email" aria-describedby="basic-addon1">
+                    <input type="password" class="form-control py-2 @error('password') is-invalid @enderror"  required name="password" value="{{ old('password') }}" id="passwordKu" placeholder="Password" autocomplete="current-password" aria-label="email" aria-describedby="basic-addon1">
                     <small class="text-muted fs-8">Min 8 Caracter: Min 1 Uppercase, min 1 Symbol, min 1 Number </small>
                     @error('password')
                     <div class="form-control-feedback"><small>
@@ -52,16 +52,29 @@
                     </div>
                     @enderror
                 </div>
+                <div class="mb-3 checkbox">
+                    <input class="form-check-input" type="checkbox" onclick="showHide()">
+
+                    <label class="form-check-label" for="remember">
+                        {{ __('Tampilkan Password') }}
+                    </label>
+                </div>
                 <div class="mb-3 form-group @error('password_confirmation') is-invalid @enderror">
                     <label class="form-label">Konfirmasi Password <span class="text-danger">*</span></label>
-                    <input type="password" class="form-control py-2 @error('password_confirmation') is-invalid @enderror"  required name="password_confirmation" value="{{ old('password_confirmation') }}"  placeholder="Konfirmasi Password" autocomplete="current-password_confirmation" aria-label="email" aria-describedby="basic-addon1">
+                    <input type="password" class="form-control py-2 @error('password_confirmation') is-invalid @enderror"  required name="password_confirmation" value="{{ old('password_confirmation') }}" id="passwordKonfirmasi"  placeholder="Konfirmasi Password" autocomplete="current-password_confirmation" aria-label="email" aria-describedby="basic-addon1">
                     @error('password_confirmation')
                     <div class="form-control-feedback"><small>
                         <code>{{ $message }}</code> </small>
                     </div>
                     @enderror
                 </div>
+                <div class="mb-3 checkbox">
+                    <input class="form-check-input" type="checkbox" onclick="showHidekonfirmasi()">
 
+                    <label class="form-check-label" for="remember">
+                        {{ __('Tampilkan Konfirmasi Password') }}
+                    </label>
+                </div>
                 <button class="w-100 btn btn-lg btn-primary" type="submit">
                     Daftar
                 </button>
@@ -72,3 +85,23 @@
     </div>
 </div>
 @endsection
+@push('scripts')
+<script>
+function showHide() {
+  var inputan = document.getElementById("passwordKu");
+  if (inputan.type === "password") {
+    inputan.type = "text";
+  } else {
+    inputan.type = "password";
+  }
+};
+function showHidekonfirmasi() {
+  var inputan = document.getElementById("passwordKonfirmasi");
+  if (inputan.type === "password") {
+    inputan.type = "text";
+  } else {
+    inputan.type = "password";
+  }
+};
+</script>
+@endpush
