@@ -26,7 +26,7 @@
                 <h3 class="d-lg-block d-none">{{strtoupper($wali->pesertadidik->nama)}} | {{$wali->pesertadidik->nisn}}</h3>
                 <ul class="header-megamenu nav">
                     {{-- <li>
-                    <span class="d-lg-none d-block">{{strtoupper($wali->pesertadidik->nama)}}</span>
+                        <span class="d-lg-none d-block">{{strtoupper($wali->pesertadidik->nama)}}</span>
                     </li> --}}
                 </ul>
             </div>
@@ -73,19 +73,15 @@
             <a href="{{ route('wali.dashboard') }}"><i class="icon-Layout-4-blocks"><span class="path1"></span><span class="path2"></span></i>Dashboard</a>
         </li>
         <li><a href="#"><i span class="icon-Layout-grid"><span class="path1"></span><span class="path2"></span></i>Master Data</a>
-			<ul>
-				<li><a href="{{route('wali.pesertadidik')}}"><i class="icon-Commit"><span class="path1"></span><span class="path2"></span></i>Pesertadidik</a></li>
-				<li><a href="{{route('wali.pengembangan')}}"><i class="icon-Commit"><span class="path1"></span><span class="path2"></span></i>Riawayat Kelas</a></li>
-				<li><a href="{{route('wali.pengembangan')}}"><i class="icon-Commit"><span class="path1"></span><span class="path2"></span></i>Prestasi</a></li>
-			</ul>
-		</li>
-        <li><a href="#"><i span class="icon-Layout-grid"><span class="path1"></span><span class="path2"></span></i>Keuangan</a>
-			<ul>
-				<li><a href="{{route('wali.keuangan')}}"><i class="icon-Commit"><span class="path1"></span><span class="path2"></span></i>Daftar Tagihan</a></li>
-				<li><a href="{{route('wali.keranjang')}}"><i class="icon-Commit"><span class="path1"></span><span class="path2"></span></i>Order Bayar</a></li>
-				<li><a href="{{route('wali.pembayaran')}}"><i class="icon-Commit"><span class="path1"></span><span class="path2"></span></i>Daftar Pembayaran</a></li>
-			</ul>
-		</li>
+            <ul>
+                <li><a href="{{route('wali.pesertadidik')}}"><i class="icon-Commit"><span class="path1"></span><span class="path2"></span></i>Pesertadidik</a></li>
+                <li><a href="{{route('wali.pengembangan')}}"><i class="icon-Commit"><span class="path1"></span><span class="path2"></span></i>Riawayat Kelas</a></li>
+                <li><a href="{{route('wali.pengembangan')}}"><i class="icon-Commit"><span class="path1"></span><span class="path2"></span></i>Prestasi</a></li>
+            </ul>
+        </li>
+        <li><a href="{{route('wali.keuangan')}}"><i class="icon-Commit"><span class="path1"></span><span class="path2"></span></i>Daftar Tagihan</a></li>
+        <li><a href="{{route('wali.keranjang')}}"><i class="icon-Commit"><span class="path1"></span><span class="path2"></span></i>Order Bayar</a></li>
+        <li><a href="{{route('wali.pembayaran')}}"><i class="icon-Commit"><span class="path1"></span><span class="path2"></span></i>Daftar Pembayaran</a></li>
         <li>
             <a href="{{route('wali.pengembangan')}}"><i span class="icon-Layout-grid"><span class="path1"></span><span class="path2"></span></i>Pengaduan</a>
         </li>
