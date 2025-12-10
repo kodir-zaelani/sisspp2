@@ -21,6 +21,9 @@
                 <li class="nav-item">
                     <a class="nav-link"  href="{{asset('')}}uploads/files/doc/panduan.pdf" target="_blank">Dokumentasi</a>
                 </li>
+                <li class="nav-item">
+                    <a class="nav-link"  href="{{ route('dokumentasi')}}">Panduan</a>
+                </li>
 
                 @guest
                 @if (Route::has('login'))
@@ -55,8 +58,9 @@
                 </li>
                 @endguest
             </ul>
-
+            <button class="btn btn-success d-none d-md-block d-lg-block d-xl-block me-2" >v{{ config('app.version', '1.0') }}</button>
             @guest
+
             @if (Route::has('login'))
             <a class="btn btn-outline-primary d-none d-md-block d-lg-block d-xl-block" href="{{ route('login') }}">{{ __('Masuk') }}</a>
             @endif

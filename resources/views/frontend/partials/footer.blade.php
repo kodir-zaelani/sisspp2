@@ -1,4 +1,4 @@
- <div class="container">
+ <div class="container d-none d-lg-block d-md-block d-xl-block">
         <footer class="flex-wrap py-3 my-4 d-flex justify-content-between align-items-center border-top">
             <div class="col-md-6 d-flex align-items-center">
                 {{-- <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1" aria-label="Bootstrap">
