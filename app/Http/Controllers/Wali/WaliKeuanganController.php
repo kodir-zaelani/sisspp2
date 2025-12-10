@@ -49,6 +49,20 @@ class WaliKeuanganController extends Controller
     *
     * @return \Illuminate\Contracts\Support\Renderable
     */
+    public function bayartagihan(Invoice $invoice): View
+    {
+        // $bayarmidtrans = $invoice;
+
+        return view('wali.keuangan.bayartagihan', [
+            $bayarmidtrans => $invoice,
+            'title' => 'Bayar Tagihan'
+        ]);
+    }
+    /**
+    * Show the application dashboard.
+    *
+    * @return \Illuminate\Contracts\Support\Renderable
+    */
     public function detailinvoice(Request $request): View
     {
         return view('wali.keuangan.detailinvoice', [
