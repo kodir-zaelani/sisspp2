@@ -5,7 +5,7 @@
 
 <div class="container px-4 py-5 col-xxl-8">
     <div class="py-2 row flex-lg-row-reverse align-items-center g-5">
-        <div class="col-10 col-sm-8 col-lg-6">
+        <div class="col-12 col-sm-8 col-lg-6">
             <img src="{{ asset('') }}uploads/images/features/features-6.webp" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy"/>
         </div>
         <div class="col-lg-6">
