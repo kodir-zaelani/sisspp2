@@ -3,11 +3,14 @@
 @section('content')
 <div class="container px-4 py-5 col-xl-12 col-xxl-10">
     <div class="py-5 row align-items-center g-lg-5">
-        <div class="text-center col-lg-6 text-lg-start">
-            <h1 class="mb-3 display-4 fw-bold lh-1 text-body-emphasis">
-                Vertically centered hero sign-up form
+        <div class="text-center col-lg-6 text-lg-start k">
+            <h1 class="mb-3 display-4 fw-bold lh-1 text-body-emphasis d-none d-lg-block d-md-block d-xl-block">
+                Sistem Informasi Layanan Pendidikan
             </h1>
-            <p class="col-lg-10 fs-4">
+            <h5 class="mb-3 display-4 fw-bold lh-1 text-body-emphasis d-block d-lg-none d-md-none d-xl-none">
+                Sistem Informasi Layanan Pendidikan
+            </h5>
+            <p class="col-lg-10 fs-4 d-none d-lg-block d-md-block d-xl-block">
                 Below is an example form built entirely with Bootstrap’s form
                 controls. Each required form group has a validation state that can
                 be triggered by attempting to submit the form without completing
