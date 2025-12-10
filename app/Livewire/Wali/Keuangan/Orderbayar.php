@@ -166,7 +166,7 @@ class Orderbayar extends Component
 
             // session()->flash('warning', 'Checkout Transaksi pembayaran tagihan Berhasil');
 
-            return Redirect::route('wali.bayar',$bayarid)->with('warning', 'Checkout Transaksi pembayaran tagihan Berhasil');
+            return Redirect::route('wali.pembayaran')->with('warning', 'Silahkan lakukan pembayran tagihan Anda!');
 
             // dd($bayar);
 

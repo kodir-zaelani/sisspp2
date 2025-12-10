@@ -93,7 +93,7 @@
                                                 </td>
                                                 <td>
                                                     @if($item->status == 'PENDING')
-                                                    <button onclick="payment('{{ $item->snap_token }}');" class="border-0 shadow-sm btn btn-sm btn-success fw-bold" title="Via Midtrans">Midtrans</button>
+                                                    <button onclick="payment('{{ $item->snap_token }}');" class="border-0 shadow-sm btn btn-sm btn-success fw-bold" title="Via Midtrans">Bayar Tagihan</button>
                                                     @endif
                                                     @can('delete Invoice')
                                                     <button wire:click="selectItem('{{ $item->id }}' , 'delete')" class="mx-1 my-1 btn btn-xs btn-danger" title="Send to Trash">
