@@ -12,6 +12,7 @@ use App\Models\Walimuridsekolah;
 use App\Models\Detailtempinvoice;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\Redirect;
 
 class Orderbayar extends Component
 {
@@ -166,7 +167,8 @@ class Orderbayar extends Component
 
             // session()->flash('warning', 'Checkout Transaksi pembayaran tagihan Berhasil');
 
-            return Redirect::route('wali.pembayaran')->with('warning', 'Silahkan lakukan pembayran tagihan Anda!');
+            return Redirect::route('wali.pembayaran')->with('warning', 'Silahkan lakukan pembayaran tagihan Anda!');
+            // return redirect()->route('wali.pembayaran')->with('warning', 'Silahkan lakukan pembayaran tagihan Anda!');
 
             // dd($bayar);
 
