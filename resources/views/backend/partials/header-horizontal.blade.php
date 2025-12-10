@@ -79,9 +79,9 @@
                 <li><a href="{{route('wali.pengembangan')}}"><i class="icon-Commit"><span class="path1"></span><span class="path2"></span></i>Prestasi</a></li>
             </ul>
         </li>
-        <li><a href="{{route('wali.keuangan')}}"><i class="icon-Commit"><span class="path1"></span><span class="path2"></span></i>Daftar Tagihan</a></li>
-        <li><a href="{{route('wali.keranjang')}}"><i class="icon-Commit"><span class="path1"></span><span class="path2"></span></i>Order Bayar</a></li>
-        <li><a href="{{route('wali.pembayaran')}}"><i class="icon-Commit"><span class="path1"></span><span class="path2"></span></i>Daftar Pembayaran</a></li>
+        <li><a href="{{route('wali.keuangan')}}"><i span class="icon-Layout-grid"><span class="path1"></span><span class="path2"></span></i>Daftar Tagihan</a></li>
+        <li><a href="{{route('wali.keranjang')}}"><i span class="icon-Layout-grid"><span class="path1"></span><span class="path2"></span></i>Order Bayar</a></li>
+        <li><a href="{{route('wali.pembayaran')}}"><i span class="icon-Layout-grid"><span class="path1"></span><span class="path2"></span></i>Daftar Pembayaran</a></li>
         <li>
             <a href="{{route('wali.pengembangan')}}"><i span class="icon-Layout-grid"><span class="path1"></span><span class="path2"></span></i>Pengaduan</a>
         </li>
