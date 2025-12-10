@@ -167,10 +167,10 @@ class Index extends Component
         $wali = Walimuridsekolah::where('user_id', $user)->first();
         $nama_sekolah = $wali->sekolah->nama;
         $nama_pd = $wali->pesertadidik->nama;
-        // $this->pesertadidikId  = $wali->pesertadidik_id;
+        $this->pesertadidikId  = $wali->pesertadidik_id;
         return view('livewire.wali.keuangan.index',[
             'ordertagihans'          => Tagihansiswa::with('pesertadidik', 'jenistagihan')
-            ->where('pesertadidik_id', $wali->pesertadidik_id )
+            ->where('pesertadidik_id', $this->pesertadidikId )
             ->where('statusbayar', 'PENDING')->get(),
 
             'semester'          => Semester::where('tahunajaran_id', $this->tahunjaranId)->orderBy('nama', 'desc')->get(),
