@@ -6,6 +6,7 @@ use App\Models\Sekolah;
 use App\Models\Semester;
 use Illuminate\View\View;
 use App\Models\Tahunajaran;
+use App\Models\Pesertadidik;
 use Illuminate\Http\Request;
 use App\Models\Jenispendaftaran;
 use App\Models\Tingkatpendidikan;
