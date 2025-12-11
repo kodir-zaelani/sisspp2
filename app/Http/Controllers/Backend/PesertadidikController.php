@@ -140,6 +140,7 @@ class PesertadidikController extends Controller
     public function show(Pesertadidik $pesertadidik): View
     {
         return view('backend.pesertadidik.show',[
+            'datapeseradidik' => $pesertadidik,
             'title' => 'Peserta Didik'
         ]);
 
