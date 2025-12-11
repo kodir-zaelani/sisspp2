@@ -129,7 +129,7 @@
                                             <tr>
                                                 <th class="text-right" scope="row">{{ $no + $datapesertadidik->firstItem() }}</th>
                                                 <td>
-                                                    <a href="#" class="btn btn-xs btn-primary"><i class="bi bi-search"></i></a>
+                                                    <a href="{{route('backend.pesertadidik.show',$item->id)}}" class="btn btn-xs btn-primary"><i class="bi bi-search"></i></a>
                                                 </td>
                                                 <td>
                                                     {{ Str::title(!empty($item->nama) ? $item->nama:'') }}

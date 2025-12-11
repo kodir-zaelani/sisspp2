@@ -4,6 +4,7 @@ namespace App\Http\Controllers\Backend;
 
 use App\Models\Sekolah;
 use App\Models\Semester;
+use Illuminate\View\View;
 use App\Models\Tahunajaran;
 use Illuminate\Http\Request;
 use App\Models\Jenispendaftaran;
@@ -132,6 +133,14 @@ class PesertadidikController extends Controller
             Storage::delete($file);
         }
         // return redirect()->route('backend.pesertadidik.create');
+
+    }
+
+    public function show(Pesertadidik $pesertadidik): View
+    {
+        return view('backend.pesertadidik.show',[
+            'title' => 'Peserta Didik'
+        ]);
 
     }
 

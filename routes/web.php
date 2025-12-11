@@ -93,6 +93,7 @@ Route::middleware(['auth', 'verified', 'web', 'role:superadmin-web'])->group(fun
     // Pesertadidik
     Route::get('backend/pesertadidik', [App\Http\Controllers\Backend\PesertadidikController::class, 'index'])->name('backend.pesertadidik.index');
     Route::get('backend/pesertadidik/create', [App\Http\Controllers\Backend\PesertadidikController::class, 'create'])->name('backend.pesertadidik.create');
+    Route::get('backend/pesertadidik/show/{pesertadidik}', [App\Http\Controllers\Backend\PesertadidikController::class, 'show'])->name('backend.pesertadidik.show');
     Route::post('backend/pesertadidik/store', [App\Http\Controllers\Backend\PesertadidikController::class, 'store'])->name('backend.pesertadidik.store');
     Route::get('backend/pesertadidik/{pesertadidik}/edit', [App\Http\Controllers\Backend\PesertadidikController::class, 'edit'])->name('backend.pesertadidik.edit');
     Route::put('backend/pesertadidik/{pesertadidik}/update', [App\Http\Controllers\Backend\PesertadidikController::class, 'update'])->name('backend.pesertadidik.update');
